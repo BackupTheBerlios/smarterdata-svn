@@ -5,6 +5,7 @@
  */
 class DataConnect
 {
+	private static $DatabaseConnection;
 	protected function __construct()
 	{
 	}
@@ -24,23 +25,23 @@ class DataConnect
 	public static function & Connect($DatabaseHost, $DatabasePort, $DatabaseName, $DatabaseUserName, $DatabaseUserPassword)
 	{
 		$ConnectionString= self :: CreateConnectionstring($DatabaseHost, $DatabasePort, $DatabaseName, $DatabaseUserName, $DatabaseUserPassword);
-		if (!isset (self :: $Db[$ConnectionString]))
+		if (!isset (self :: $DatabaseConnection[$ConnectionString]))
 		{
 			try
 			{
-				self :: $Db[$ConnectionString]= new Pdo($ConnectionString, $DatabaseUserName, $DatabaseUserPassword);
+				self :: $DatabaseConnection[$ConnectionString]= new Pdo($ConnectionString, $DatabaseUserName, $DatabaseUserPassword);
 			}
 			catch (exception $Exception)
 			{
 				throw new exception('Error while connecting to database in DataCore. ' . $Exception->GetMessage());
 			}
 		}
-		return self :: $Db[$ConnectionString];
+		return self :: $DatabaseConnection[$ConnectionString];
 	}
 	public static function Disconnect($DatabaseHost, $DatabasePort, $DatabaseName, $DatabaseUserName, $DatabaseUserPassword)
 	{
 		$ConnectionString= self :: CreateConnectionstring($DatabaseHost, $DatabasePort, $DatabaseName, $DatabaseUserName, $DatabaseUserPassword);
-		self :: $Db[$ConnectionString]= null;
+		self :: $DatabaseConnection[$ConnectionString]= null;
 	}
 	private static function CreateConnectionstring($DatabaseHost, $DatabasePort, $DatabaseName, $DatabaseUserName, $DatabaseUserPassword)
 	{
