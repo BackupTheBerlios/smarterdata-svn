@@ -1,5 +1,5 @@
 <?php
-class DbCounter extends DbConnect
+class DbCounter
 {
 	private $Db;
 	private $Prefix;
