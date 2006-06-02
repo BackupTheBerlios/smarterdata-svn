@@ -1,5 +1,5 @@
 <?php
-class DataDefault extends DataCore implements iData
+class DataDefault extends DataCore
 {
 }
 ?>
