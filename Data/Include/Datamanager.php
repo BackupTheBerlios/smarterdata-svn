@@ -7,12 +7,38 @@ class Data
 	public static function ResetAll()
 	{
 	}
-	public static function NewData($DataType)
+	public static function & NewData($DataType)
 	{
-		$NewId= self :: NewId();
+		$DataId= self :: NewId();
+		$QueryData= array ();
+		$Query= 'INSERT INTO `td_data` SET ';
+		$Query .= ' `data_id`=?';
+		$QueryData[]= $DataId;
+		$Query .= ' , `data_type`=?';
+		$QueryData[]= $DataType;
+		$Pdo= self :: $Db->Prepare($Query);
+		$Pdo->Execute($QueryData);
+		return self :: GetData($DataId);
 	}
 	public static function RemoveData($DataId)
 	{
+	}
+	public static function GetData($DataId)
+	{
+		$QueryData=array();
+		$QueryData[] = $DataId;
+		$Query = 'SELECT * FROM `td_data` WHERE data_id=?';
+		$Pdo = self::$Db->Prepare($Query);
+		$Pdo->Execute($QueryData);
+		$DataCommon = $Pdo->FetchAll();
+		$Query = 'SELECT * FROM `td_data_attribute` WHERE data_id=?';
+		$Pdo = self::$Db->Prepare($Query);
+		$Pdo->Execute($QueryData);
+		$DataAttributes = $Pdo->FetchAll();
+		$Query = 'SELECT * FROM `td_data_value` WHERE data_id=?';
+		$Pdo = self::$Db->Prepare($Query);
+		$Pdo->Execute($QueryData);
+		$DataValues = $Pdo->FetchAll();
 	}
 	private static function NewId($Group= 'default')
 	{
