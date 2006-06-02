@@ -4,21 +4,17 @@ class Data
 	protected static $Init= false;
 	protected static $Id= array ();
 	protected static $Item= array ();
-	public function __construct($DataId= 0)
+	public static function ResetAll()
 	{
 	}
-	public function __destruct()
+	public static function NewData($DataType)
+	{
+		$NewId= self :: NewId();
+	}
+	public static function RemoveData($DataId)
 	{
 	}
-	public function SortChildren($Sorting= array (
-		'position' => 'ASC'
-	))
-	{
-	}
-	public static function NewData($DataType, $DataAttributes= null, $DataValues= null)
-	{
-	}
-	protected static function NewId($Group= 'item')
+	private static function NewId($Group= 'default')
 	{
 	}
 	private static function ResetTableValues()
@@ -45,6 +41,7 @@ class Data
 		$Query= 'CREATE TABLE IF NOT EXISTS `td_data` ';
 		$Query .= ' ( ';
 		$Query .= ' `data_id` BIGINT(20) NOT NULL ';
+		$Query .= ' ,`data_type` CHAR(255) NOT NULL ';
 		$Query .= ' ,`data_parent_id` BIGINT(20) NOT NULL ';
 		$Query .= ' ,`data_position` BIGINT(20) NOT NULL ';
 		$Query .= ' ,`data_date` CHAR(20) NOT NULL ';
