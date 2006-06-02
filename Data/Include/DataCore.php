@@ -1,24 +1,88 @@
 <?php
 class DataCore extends Datamanager
 {
-	protected $DataId= null;
-	protected $DataParentId= null;
-	protected $DataParentIdChanged= false;
-	protected $DataPosition= null;
-	protected $DataPositionChanged= false;
-	protected $DataDate= null;
-	protected $DataAttributes= array ();
-	protected $DataAttributesChanged= array ();
-	protected $DataValues= array ();
-	protected $DataValuesChanged= array ();
-	protected $Sorting= array (
+	private $DataId= null;
+	private $DataParentId= null;
+	private $DataParentIdChanged= false;
+	private $DataPosition= null;
+	private $DataPositionChanged= false;
+	private $DataDate= null;
+	private $DataAttributes= array ();
+	private $DataAttributesChanged= array ();
+	private $DataValues= array ();
+	private $DataValuesChanged= array ();
+	private $Sorting= array (
 		'position' => 'ASC'
 	);
-	public function __construct($DataId= 0)
+	public function __construct($DataId)
 	{
+		$this->DataId= $DataId;
+		$this->GetData();
 	}
 	public function __destruct()
 	{
+	}
+	private function Load()
+	{
+		$this->LoadMain();
+		$this->LoadAttributes();
+		$this->LoadValues();
+	}
+	private function LoadMain()
+	{
+		$QueryData= array ();
+		$QueryData[]= $this->DataId;
+		$Query= 'SELECT * FROM `td_data` WHERE data_id=?';
+		$Pdo= self :: $Db->Prepare($Query);
+		$Pdo->Execute($QueryData);
+		$DataCommon= $Pdo->Fetch();
+		$this->DataParentId= stripslashes($DataCommon['data_parent_id']);
+		$this->DataPosition= stripslashes($DataCommon['data_position']);
+		$this->DataDate= stripslashes($DataCommon['data_date']);
+	}
+	private function LoadAttributes()
+	{
+		$QueryData= array ();
+		$QueryData[]= $this->DataId;
+		$Query= 'SELECT * FROM `td_data_attribute` WHERE data_id=?';
+		$Pdo= self :: $Db->Prepare($Query);
+		$Pdo->Execute($QueryData);
+		$DataAttributes= $Pdo->FetchAll();
+		foreach ($DataAttributes as $Attribute)
+		{
+			$this->DataAttributes[$Attribute['attribute_name']]['date']= stripslashes($Attribute['attribute_type']);
+			$this->DataAttributes[$Attribute['attribute_name']]['type']= stripslashes($Attribute['attribute_type']);
+			if ($this->DataAttributes[$Attribute['attribute_name']]['type'] === 'text')
+			{
+				$this->DataAttributes[$Attribute['attribute_name']]['content']= stripslashes($Attribute['attribute_content_text']);
+			}
+			else
+			{
+				$this->DataAttributes[$Attribute['attribute_name']]['content']= stripslashes($Attribute['attribute_content_binary']);
+			}
+		}
+	}
+	private function LoadValues()
+	{
+		$QueryData= array ();
+		$QueryData[]= $this->DataId;
+		$Query= 'SELECT * FROM `td_data_value` WHERE data_id=?';
+		$Pdo= self :: $Db->Prepare($Query);
+		$Pdo->Execute($QueryData);
+		$DataValues= $Pdo->FetchAll();
+		foreach ($DataValues as $Value)
+		{
+			$this->DataValues[$Value['value_name']]['date']= stripslashes($Value['value_type']);
+			$this->DataValues[$Value['value_name']]['type']= stripslashes($Value['value_type']);
+			if ($this->DataValues[$Value['value_name']]['type'] === 'text')
+			{
+				$this->DataValues[$Value['value_name']]['content']= stripslashes($Value['value_content_text']);
+			}
+			else
+			{
+				$this->DataValues[$Value['value_name']]['content']= stripslashes($Value['value_content_binary']);
+			}
+		}
 	}
 	public function SortChildren($Sorting= array (
 		'position' => 'ASC'
