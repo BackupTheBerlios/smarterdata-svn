@@ -9,6 +9,9 @@ class Data
 	}
 	public static function & NewData($DataType)
 	{
+		$DataParentId= 0;
+		$DataPosition= 0;
+		$DataDate= time();
 		$DataId= self :: NewId();
 		$QueryData= array ();
 		$Query= 'INSERT INTO `td_data` SET ';
@@ -16,9 +19,41 @@ class Data
 		$QueryData[]= $DataId;
 		$Query .= ' , `data_type`=?';
 		$QueryData[]= $DataType;
+		$Query .= ' `data_parent_id`=?';
+		$QueryData[]= $DataParentId;
+		$Query .= ' `data_position`=?';
+		$QueryData[]= $DataPosition;
+		$Query .= ' `data_date`=?';
+		$QueryData[]= $DataDate;
 		$Pdo= self :: $Db->Prepare($Query);
 		$Pdo->Execute($QueryData);
+		self :: _CheckNewData($DataId, $DataType, $DataParentId, $DataPosition, $DataDate);
 		return self :: GetData($DataId);
+	}
+	private static function _CheckNewData($DataId, $DataType, $DataParentId, $DataPosition, $DataDate)
+	{
+		$QueryData= array ();
+		$Query= 'SELECT COUNT(*) as total FROM `td_data` WHERE ';
+		$Query .= ' `data_id`=?';
+		$QueryData[]= $DataId;
+		$Query .= ' `data_type`=?';
+		$QueryData[]= $DataType;
+		$Query .= ' `data_parent_id`=?';
+		$QueryData[]= $DataParentId;
+		$Query .= ' `data_position`=?';
+		$QueryData[]= $DataPosition;
+		$Query .= ' `data_date`=?';
+		$QueryData[]= $DataDate;
+		$Pdo= self :: $Db->Prepare($Query);
+		$Pdo->Execute($QueryData);
+		if (!($Result= $Pdo->Fetch()))
+		{
+			throw new exception('NewData is wrong!');
+		}
+		if ($Result['total'] !== 1)
+		{
+			throw new exception('NewData exists more than one time!');
+		}
 	}
 	public static function RemoveData($DataId)
 	{
@@ -63,15 +98,15 @@ class Data
 		$Query= 'SELECT * FROM `td_index_id` WHERE id_group=?';
 		$Pdo->Prepare($Query);
 		$Pdo->Execute();
-		if(!($Counter=$Pdo->Fetch()))
+		if (!($Counter= $Pdo->Fetch()))
 		{
-			$Counter['id_value'] = 1;
+			$Counter['id_value']= 1;
 		}
 		else
 		{
 			$Counter['id_value']++;
 		}
-		$Query = 'REPLACE INTO `td_index_id` SET ';
+		$Query= 'REPLACE INTO `td_index_id` SET ';
 		$Query .= ' id_value';
 	}
 	private static function ResetTableValues()
