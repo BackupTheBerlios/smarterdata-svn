@@ -30,7 +30,7 @@ class Data
 		self :: _CheckNewData($DataId, $DataType, $DataParentId, $DataPosition, $DataDate);
 		return self :: GetData($DataId);
 	}
-	private static function _CheckNewData($DataId, $DataType, $DataParentId, $DataPosition, $DataDate)
+	protected static function _CheckStoredMain($DataId, $DataType, $DataParentId, $DataPosition, $DataDate)
 	{
 		$QueryData= array ();
 		$Query= 'SELECT COUNT(*) as total FROM `td_data` WHERE ';
