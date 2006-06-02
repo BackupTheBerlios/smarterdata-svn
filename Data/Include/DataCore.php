@@ -17,7 +17,7 @@ class DataCore extends Datamanager
 	public function __construct($DataId)
 	{
 		$this->DataId = $DataId;
-		$this->GetData();
+		$this->Load();
 	}
 	public function __destruct()
 	{
@@ -36,6 +36,8 @@ class DataCore extends Datamanager
 		$Pdo = self :: $Db->Prepare($Query);
 		$Pdo->Execute($QueryData);
 		$DataCommon = $Pdo->Fetch();
+		$Pdo=null;
+		$this->DataType = stripslashes($DataCommon['data_type']);
 		$this->DataParentId = stripslashes($DataCommon['data_parent_id']);
 		$this->DataPosition = stripslashes($DataCommon['data_position']);
 		$this->DataDate = stripslashes($DataCommon['data_date']);
@@ -48,6 +50,7 @@ class DataCore extends Datamanager
 		$Pdo = self :: $Db->Prepare($Query);
 		$Pdo->Execute($QueryData);
 		$DataAttributes = $Pdo->FetchAll();
+		$Pdo=null;
 		foreach ($DataAttributes as $Attribute)
 		{
 			$this->DataAttributes[$Attribute['attribute_name']]['date'] = stripslashes($Attribute['attribute_type']);
@@ -70,6 +73,7 @@ class DataCore extends Datamanager
 		$Pdo = self :: $Db->Prepare($Query);
 		$Pdo->Execute($QueryData);
 		$DataValues = $Pdo->FetchAll();
+		$Pdo=null;
 		foreach ($DataValues as $Value)
 		{
 			$this->DataValues[$Value['value_name']]['date'] = stripslashes($Value['value_type']);
@@ -175,7 +179,7 @@ class DataCore extends Datamanager
 		$QueryData = array ();
 		$Query = 'DELETE FROM `td_data` WHERE data_id = ?';
 		$QueryData[] = $this->DataId;
-		$Pdo = $this->Query($Query);
+		$Pdo = self::$Db->Query($Query);
 		$Pdo->Execute($QueryData);
 	}
 	private function RemoveAttributes()
@@ -183,7 +187,7 @@ class DataCore extends Datamanager
 		$QueryData = array ();
 		$Query = 'DELETE FROM `td_data_attribute` WHERE data_id = ?';
 		$QueryData[] = $this->DataId;
-		$Pdo = $this->Query($Query);
+		$Pdo = self::$Db->Query($Query);
 		$Pdo->Execute($QueryData);
 	}
 	private function RemoveValues()
@@ -191,7 +195,7 @@ class DataCore extends Datamanager
 		$QueryData = array ();
 		$Query = 'DELETE FROM `td_data_value` WHERE data_id = ?';
 		$QueryData[] = $this->DataId;
-		$Pdo = $this->Query($Query);
+		$Pdo = self::$Db->Query($Query);
 		$Pdo->Execute($QueryData);
 	}
 	public function Store()
@@ -229,8 +233,10 @@ class DataCore extends Datamanager
 		$QueryData[] = $this->DataId;
 		$Pdo = self :: $Db->Prepare($Query);
 		$Pdo->Execute($QueryData);
+		$Pdo=null;
 		$this->DataParentIdChanged = false;
 		$this->DataPositionChanged = false;
+		$this->DataDate=$UpdateMain['data_date'];
 		self :: _CheckStoredMain($this->DataId, $this->DataType, $this->DataParentId, $this->DataPosition, $this->DataDate);
 	}
 	private function StoreAttributes()
@@ -243,30 +249,31 @@ class DataCore extends Datamanager
 		{
 			$Value = $this->DataAttributes[$Key];
 			$QueryData = array ();
-			$Query = 'REPLACE `td_data_attribute` SET ';
-			$Query .= ' `data_id` = ?';
+			$Query = 'REPLACE INTO `td_data_attribute` SET ';
+			$Query .= ' data_id=?';
 			$QueryData[] = $this->DataId;
-			$Query .= ' `attribute_name` = ?';
+			$Query .= ' , attribute_name=?';
 			$QueryData[] = $Key;
-			$Query .= ' ,`attribute_type` = ?';
+			$Query .= ' , attribute_type=?';
 			$QueryData[] = $Value['type'];
-			$Query .= ' ,`attribute_date` = ?';
+			$Query .= ' , attribute_date=?';
 			$QueryData[] = time();
 			if ($Value['type'] === 'text')
 			{
-				$Query .= ' ,`attribute_content_text` = ?';
+				$Query .= ' , attribute_content_text=?';
 				$QueryData[] = $Value['content'];
-				$Query .= ' ,`attribute_content_binary` = ?';
+				$Query .= ' , attribute_content_binary=?';
 				$QueryData[] = '';
 			}
 			else
 			{
-				$Query .= ' ,`attribute_content_text` = ?';
+				$Query .= ' , attribute_content_text=?';
 				$QueryData[] = '';
-				$Query .= ' ,`attribute_content_binary` = ?';
+				$Query .= ' , attribute_content_binary=?';
 				$QueryData[] = $Value['content'];
 			}
-			$Pdo = $this->Query($Query);
+			echo $Query;
+			$Pdo = self::$Db->Query($Query);
 			$Pdo->Execute($QueryData);
 			unset ($this->DataAttributesChanged[$Key]);
 		}
@@ -274,27 +281,27 @@ class DataCore extends Datamanager
 	private function _CheckStoredAttribute($AttributeName, $AttributeType, $AttributeDate, $AttributeContentText, $AttributeContentBinary)
 	{
 		$Query = 'SELECT COUNT(*) AS total FROM `td_data_attribute` WHERE ';
-		$Query .= ' , `data_id`=?';
+		$Query .= ' `data_id`=?';
 		$QueryData[] = $this->DataId;
-		$Query .= ' , `attribute_name`=?';
+		$Query .= ' && `attribute_name`=?';
 		$QueryData[] = $AttributeName;
-		$Query .= ' , `attribute_type`=?';
+		$Query .= ' && `attribute_type`=?';
 		$QueryData[] = $AttributeType;
-		$Query .= ' , `attribute_date`=?';
+		$Query .= ' && `attribute_date`=?';
 		$QueryData[] = $AttributeDate;
-		$Query .= ' , `attribute_content_text`=?';
+		$Query .= ' && `attribute_content_text`=?';
 		$QueryData[] = $AttributeContentText;
-		$Query .= ' , `attribute_content_binary`=?';
+		$Query .= ' && `attribute_content_binary`=?';
 		$QueryData[] = $AttributeContentBinary;
-		$Pdo = $this->Query($Query);
+		$Pdo = self::$Db->Query($Query);
 		$Pdo->Execute($QueryData);
 		if (!($Value = $Pdo->Fetch()))
 		{
-			throw new exception('Attribute wrong!');
+			throw new exception('Attribute wrong! 1');
 		}
 		if ($Value['total'] != 1)
 		{
-			throw new exception('Attribute exists more than one time!');
+			throw new exception('Attribute wrong! 2');
 		}
 	}
 	private function StoreValues()
@@ -331,7 +338,7 @@ class DataCore extends Datamanager
 			$QueryData[] = $Value['content_text'];
 			$Query .= ' ,`value_content_binary` = ?';
 			$QueryData[] = $Value['content_binary'];
-			$Pdo = $this->Query($Query);
+			$Pdo = self::$Db->Query($Query);
 			$Pdo->Execute($QueryData);
 			$this->_CheckStoredValue($Key, $Value['type'], $Time, $Value['content_text'], $Value['content_binary']);
 			unset ($this->DataValuesChanged[$Key]);
@@ -340,19 +347,19 @@ class DataCore extends Datamanager
 	private function _CheckStoredValue($ValueName, $ValueType, $ValueDate, $ValueContentText, $ValueContentBinary)
 	{
 		$Query = 'SELECT COUNT(*) AS total FROM `td_data_value` WHERE ';
-		$Query .= ' , `data_id`=?';
+		$Query .= ' `data_id`=?';
 		$QueryData[] = $this->DataId;
-		$Query .= ' , `value_name`=?';
+		$Query .= ' && `value_name`=?';
 		$QueryData[] = $ValueName;
-		$Query .= ' , `value_type`=?';
+		$Query .= ' && `value_type`=?';
 		$QueryData[] = $ValueType;
-		$Query .= ' , `value_date`=?';
+		$Query .= ' && `value_date`=?';
 		$QueryData[] = $ValueDate;
-		$Query .= ' , `value_content_text`=?';
+		$Query .= ' && `value_content_text`=?';
 		$QueryData[] = $ValueContentText;
-		$Query .= ' , `value_content_binary`=?';
+		$Query .= ' && `value_content_binary`=?';
 		$QueryData[] = $ValueContentBinary;
-		$Pdo = $this->Query($Query);
+		$Pdo = self::$Db->Query($Query);
 		$Pdo->Execute($QueryData);
 		if (!($Value = $Pdo->Fetch()))
 		{
