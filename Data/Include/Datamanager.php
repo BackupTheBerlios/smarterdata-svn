@@ -206,7 +206,7 @@ class Datamanager
 		$Query .= ' ,`attribute_date` CHAR(20) NOT NULL ';
 		$Query .= ' ,`attribute_content_text` TEXT NOT NULL ';
 		$Query .= ' ,`attribute_content_binary` BLOB NOT NULL ';
-		$Query .= ' , index(`data_id`,`attribute_name`) ';
+		$Query .= ' , unique(`data_id`,`attribute_name`) ';
 		$Query .= ' ) ';
 		$Pdo = self :: $Db->Prepare($Query);
 		$Pdo->Execute();
@@ -225,11 +225,12 @@ class Datamanager
 		$Query = 'CREATE TABLE IF NOT EXISTS `td_data_value` ';
 		$Query .= ' ( ';
 		$Query .= ' `data_id` BIGINT(20) NOT NULL ';
+		$Query .= ' ,`value_name` CHAR(255) NOT NULL ';
 		$Query .= ' ,`value_type` CHAR(255) NOT NULL ';
 		$Query .= ' ,`value_date` CHAR(20) NOT NULL ';
 		$Query .= ' ,`value_content_text` TEXT NOT NULL ';
 		$Query .= ' ,`value_content_binary` BLOB NOT NULL ';
-		$Query .= ' , index(`data_id`,`value_type`) ';
+		$Query .= ' , unique(`data_id`,`value_name`) ';
 		$Query .= ' ) ';
 		$Pdo = self :: $Db->Prepare($Query);
 		$Pdo->Execute();

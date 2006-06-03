@@ -272,8 +272,7 @@ class DataCore extends Datamanager
 				$Query .= ' , attribute_content_binary=?';
 				$QueryData[] = $Value['content'];
 			}
-			echo $Query;
-			$Pdo = self::$Db->Query($Query);
+			$Pdo = self::$Db->Prepare($Query);
 			$Pdo->Execute($QueryData);
 			unset ($this->DataAttributesChanged[$Key]);
 		}
