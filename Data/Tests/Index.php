@@ -9,9 +9,9 @@ Datamanager::ResetTableValues();
 #$Data = Datamanager :: NewData('default');
 $Data = Datamanager :: GetData(1);
 $Data->SetParentId(1);
-$Data->SetAttribute('Uno', 'AndereUno :)');
-$Data->SetAttribute('Doso', 'AndereDoso:)');
-$Data->SetAttribute('Uno', '!AndereUno :D');
+$Data->SetAttribute('First entry', 'First text');
+$Data->SetAttribute('Second entry', 'Second text');
+$Data->SetAttribute('First entry', 'Third text');
 $Data->Store();
 echo '<pre>' . print_r ($Data, 1) . '</pre>';
 ?>
