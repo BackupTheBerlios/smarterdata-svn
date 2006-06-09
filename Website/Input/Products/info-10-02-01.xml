@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+  <id>info-10-02-01</id>
+  <date>2006-01-01</date>
+  <category>10-02-01</category>
+  <position>1</position>
+  <icon>
+    <deutsch>info.small.png</deutsch>
+    <english>info.small.png</english>
+    <français>info.small.png</français>
+  </icon>
+  <image>
+    <deutsch />
+    <english />
+    <français />
+  </image>
+  <name>
+    <deutsch>Info</deutsch>
+    <english>Info</english>
+    <français>Info</français>
+  </name>
+  <headline>
+    <deutsch>Allgemeine Beschreibung ER-107/217/145</deutsch>
+    <english>General description ER-107/217/145</english>
+    <français>Description générale ER-107/217/145</français>
+  </headline>
+  <description>
+    <deutsch>-</deutsch>
+    <english>-</english>
+    <français>-</français>
+  </description>
+  <datasheet>
+    <deutsch>
+      <name>Datenblatt</name>
+      <path>10/10-02-01-E-elektrodenrelais_whg_er-107b.pdf</path>
+    </deutsch>
+    <english>
+      <name>Datasheet</name>
+      <path>10/10-02-01-E-elektrodenrelais_whg_er-107b.pdf</path>
+    </english>
+    <français>
+      <name>Fiche de données</name>
+      <path>10/10-02-01-F-elektrodenrelais_whg_er-107b.pdf</path>
+    </français>
+  </datasheet>
+</item>

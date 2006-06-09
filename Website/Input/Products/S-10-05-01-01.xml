@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+  <id>S-10</id>
+  <date>2006-01-01</date>
+  <category>05-01-01</category>
+  <position>1</position>
+  <icon>
+    <deutsch>s-10.small.png</deutsch>
+    <english>s-10.small.png</english>
+    <français>s-10.small.png</français>
+  </icon>
+  <image>
+    <deutsch>s-10.png</deutsch>
+    <english>s-10.png</english>
+    <français>s-10.png</français>
+  </image>
+  <name>
+    <deutsch>S-10</deutsch>
+    <english>S-10</english>
+    <français>S-10</français>
+  </name>
+  <headline>
+    <deutsch>Schwimmschalter Kunststoff</deutsch>
+    <english>Float type switches made of plastic material</english>
+    <français>Interrupteur à flotteur en plastique</français>
+  </headline>
+  <description>
+    <deutsch>Einfache kostenguenstige Fuellstandsmessung mit ueberzeugendem Preis / Leistungsverhaeltnis
+				Schwimmer aus den Materialien: PE, PPH oder PVC
+				Spezialkabel aus: TPK (PVC), Silikon und FEP (Teflon)
+				2-Punkt-Regelung mit einem einzelnen Schwimmer
+				Alle Schwimmschalter erhalten Sie in allen Groessen auch quecksilberfrei</deutsch>
+    <english>Simple, cost-efficient level measuring with a convincing price / performance ratio
+				Float made of the materials: PE, PPH or PVC
+				Special cable made of : TPK (PVC), silicone and  FEP (Teflon)
+				2-point control with one simple float
+				All float type switches are available in any size also mercury-free</english>
+    <français>Mesure de niveau simple à un prix avantageux d´un rapport prix/performance convaincant
+				Flotteur des matériaux: PE, PPH ou PVC
+				Câble spécial en: TPK (PVC), silicone et FEP (téflon)
+				Régulation à deux positions avec un seul flotteur
+				Tous les types d´interrupteurs sont livrables dans toutes les dimensions, également sans mercure</français>
+  </description>
+  <datasheet>
+    <deutsch>
+      <name>Datenblatt</name>
+      <path>05/05-01-01-E-s-10_s-11_s-12.pdf</path>
+    </deutsch>
+    <english>
+      <name>Datasheet</name>
+      <path>05/05-01-01-E-s-10_s-11_s-12.pdf</path>
+    </english>
+    <français>
+      <name>Fiche de données</name>
+      <path>05/05-01-01-F-s-10_s-11_s-12.pdf</path>
+    </français>
+  </datasheet>
+</item>

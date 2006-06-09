@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+  <id>info-06-03-01</id>
+  <date>2006-01-01</date>
+  <category>06-03-01</category>
+  <position>1</position>
+  <icon>
+    <deutsch>info-ex.small.png</deutsch>
+    <english>info-ex.small.png</english>
+    <français>info-ex.small.png</français>
+  </icon>
+  <image>
+    <deutsch />
+    <english />
+    <français />
+  </image>
+  <name>
+    <deutsch>Info</deutsch>
+    <english>Info</english>
+    <français>Info</français>
+  </name>
+  <headline>
+    <deutsch>Allgemeine Beschreibung 1 fuer EX-Bereich Kategorie 1 (Zone 0)</deutsch>
+    <english>General description 1 for ex area category 1 (zone 0)</english>
+    <français>Description générale 1 pour des zones à risque d´explosion catégorie 1 (Zone 0)</français>
+  </headline>
+  <description>
+    <deutsch>-</deutsch>
+    <english>-</english>
+    <français>-</français>
+  </description>
+  <datasheet>
+    <deutsch>
+      <name>Datenblatt</name>
+      <path>06/06-03-01-E-T20x_EX_allg_daten_1.pdf</path>
+    </deutsch>
+    <english>
+      <name>Datasheet</name>
+      <path>06/06-03-01-E-T20x_EX_allg_daten_1.pdf</path>
+    </english>
+    <français>
+      <name>Fiche de données</name>
+      <path>06/06-03-01-F-T20x_EX_allg_daten_1.pdf</path>
+    </français>
+  </datasheet>
+</item>

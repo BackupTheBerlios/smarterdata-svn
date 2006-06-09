@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+  <id>TK-307-VA</id>
+  <date>2006-01-01</date>
+  <category>11-01-03</category>
+  <position>1</position>
+  <icon>
+    <deutsch>tk-307_edelstahl.small.png</deutsch>
+    <english>tk-307_edelstahl.small.png</english>
+    <français>tk-307_edelstahl.small.png</français>
+  </icon>
+  <image>
+    <deutsch>tk-307_edelstahl.png</deutsch>
+    <english>tk-307_edelstahl.png</english>
+    <français>tk-307_edelstahl.png</français>
+  </image>
+  <name>
+    <deutsch>TK-307</deutsch>
+    <english>TK-307</english>
+    <français>TK-307</français>
+  </name>
+  <headline>
+    <deutsch>Niveaumesswertgeber Edelstahl</deutsch>
+    <english>Level transducer made of special steel</english>
+    <français>Transmetteur de mesure de niveau en acier inox</français>
+  </headline>
+  <description>
+    <deutsch>Zur Montage an Bypass
+				Fuellhoehenanzeige unabhaengig von: Temperatur, Druck und Medium
+				Preisguenstige Ausfuehrung mit Kabelanschluss
+				Komplett aus Edelstahl 1.4571
+				Aufloesungen 7,5/10/15/20mm moeglich
+				Ausgangssignal (2-,3- Leiter Widerstand) zur einfachen preiswerten Signalauswertung
+				Grosser Betriebstemperaturbereich
+				Sonderausfuehrungen nach Kundenspezifikation.</deutsch>
+    <english>To be mounted to the bypass
+				Display of filling height independent of temperature, pressure and medium
+				Cost-efficient design with cable connection
+				Completely made of special steel 1.4571
+				Possible resolutions 17,5/10/15/20mm 
+				Output signal (2-, 3-conductor resistance) for simple cost-efficient signal evaluation
+				Large range of operating temperature
+				Special design according to customer specification.</english>
+    <français>A monter en dérivation
+				Indication de l´hauteur de remplissage indépendant de la température, de la pression et du medium
+				Type à un prix avantageux avec raccord de câble
+				Complètement en acier inox 1.4571
+				Résolution 7,5/10/15/20mm disponible
+				Signal de sortie (2,3 conducteurs résistance) pour une évaluation de signaux simple et à un prix avantageux
+				Gamme de température de service étendue
+				Modèles spécifiques fabriqués sur mesure pour le client</français>
+  </description>
+  <datasheet>
+    <deutsch>
+      <name>Datenblatt</name>
+      <path>11/11-01-03-E-tk-307_tk-308.pdf</path>
+    </deutsch>
+    <english>
+      <name>Datasheet</name>
+      <path>11/11-01-03-E-tk-307_tk-308.pdf</path>
+    </english>
+    <français>
+      <name>Fiche de données</name>
+      <path>11/11-01-03-F-tk-307_tk-308.pdf</path>
+    </français>
+  </datasheet>
+</item>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+  <id>TK-321</id>
+  <date>2006-01-01</date>
+  <category>14-03-01</category>
+  <position>1</position>
+  <icon>
+    <deutsch>nopic.small.png</deutsch>
+    <english>nopic.small.png</english>
+    <français>nopic.small.png</français>
+  </icon>
+  <image>
+    <deutsch>nopic.png</deutsch>
+    <english>nopic.png</english>
+    <français>nopic.png</français>
+  </image>
+  <name>
+    <deutsch>TK-321</deutsch>
+    <english>TK-321</english>
+    <français>TK-321</français>
+  </name>
+  <headline>
+    <deutsch>Leuchtbandanzeige</deutsch>
+    <english>Luminous band display</english>
+    <français>Affichage lumineux</français>
+  </headline>
+  <description>
+    <deutsch>-</deutsch>
+    <english>-</english>
+    <français>-</français>
+  </description>
+  <datasheet>
+    <deutsch>
+      <name>Datenblatt</name>
+      <path>14/14-03-01-E-tk-320.pdf</path>
+    </deutsch>
+    <english>
+      <name>Datasheet</name>
+      <path>14/14-03-01-E-tk-320.pdf</path>
+    </english>
+    <français>
+      <name>Fiche de données</name>
+      <path />
+    </français>
+  </datasheet>
+</item>

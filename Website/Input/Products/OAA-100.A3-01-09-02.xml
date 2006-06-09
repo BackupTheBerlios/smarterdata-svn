@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+  <id>OAA-100.A3</id>
+  <date>2006-01-01</date>
+  <category>01-09-02</category>
+  <position>1</position>
+  <icon>
+    <deutsch>oaa-100.a3.small.png</deutsch>
+    <english>oaa-100.a3.small.png</english>
+    <français>oaa-100.a3.small.png</français>
+  </icon>
+  <image>
+    <deutsch>oaa-100.a3.png</deutsch>
+    <english>oaa-100.a3.png</english>
+    <français>oaa-100.a3.png</français>
+  </image>
+  <name>
+    <deutsch>OAA-100.A3</deutsch>
+    <english>OAA-100.A3</english>
+    <français>OAA-100.A3</français>
+  </name>
+  <headline>
+    <deutsch>Alarmmelder (Messumformer)</deutsch>
+    <english>Alarm indicator (measuring transducer)</english>
+    <français>Avertisseur (transducteur de mesure)</français>
+  </headline>
+  <description>
+    <deutsch>Meldeeinrichtung zur Alarmanzeige
+				Separater Ausgang zur Ansteuerung von Absperr-ventilen oder zur Weitermeldung an Leitwarten etc.</deutsch>
+    <english>Messaging equipment for alarm display
+				Separate outputs to control the stop-valves or for further notice to the control rooms, etc.</english>
+    <français>Unité de signalisation pour le signal d´alarme
+				Sortie séparée pour exciter des soupapes d&apos;arrêt ou pour retransmettre à la salle de contrôle, etc.</français>
+  </description>
+  <datasheet>
+    <deutsch>
+      <name>Datenblatt</name>
+      <path>01/01-09-02-E-OAA.A3.pdf</path>
+    </deutsch>
+    <english>
+      <name>Datasheet</name>
+      <path>01/01-09-02-E-OAA.A3.pdf</path>
+    </english>
+    <français>
+      <name>Fiche de données</name>
+      <path>01/01-09-02-F-OAA.A3.pdf</path>
+    </français>
+  </datasheet>
+  <manual>
+    <deutsch>
+      <name>Betriebsanleitung</name>
+      <path>M-D-oaa-100_a3.pdf</path>
+    </deutsch>
+    <english>
+      <name>Operating instruction</name>
+      <path>M-D-oaa-100_a3.pdf</path>
+    </english>
+    <français>
+      <name>Mode d´emploi</name>
+      <path>M-D-oaa-100_a3.pdf</path>
+    </français>
+  </manual>
+</item>

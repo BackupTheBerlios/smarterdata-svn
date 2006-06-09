@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+  <id>E-2...5fach-04-01-04</id>
+  <date>2006-01-01</date>
+  <category>04-01-04</category>
+  <position>1</position>
+  <linkto>ET-4xx-01-02-02</linkto>
+  <linkto>ET-4xx-04-01-04</linkto>
+  <icon>
+    <deutsch>e-2___5fach.small.png</deutsch>
+    <english>e-2___5fach.small.png</english>
+    <français>e-2___5fach.small.png</français>
+  </icon>
+  <image>
+    <deutsch>e-2___5fach.png</deutsch>
+    <english>e-2___5fach.png</english>
+    <français>e-2___5fach.png</français>
+  </image>
+  <name>
+    <deutsch>E-2...5fach</deutsch>
+    <english>E-2...5fach</english>
+    <français>E-2...5fach</français>
+  </name>
+  <headline>
+    <deutsch>Elektrode mehrfach 24V Direktanschluss</deutsch>
+    <english>Electrode multiple 24V direct connection</english>
+    <français>Electrode multiple 24V raccordement direct</français>
+  </headline>
+  <description>
+    <deutsch>Geeignet fuer alle leitfaehigen, aggressiven Medien (z.B. Saeuren, Laugen), waessrige Loesungen, 
+				Wasser, Abwasser oder andere leitfaehige Fluessigkeiten
+				Gewindeanschluesse und Gehaeuse aus: PE, PPH, PVC, PTFE und PVDF
+				Fuehlerstaebe aus: Edelstahl, Hastelloy B und C, Titan und Tantal
+				Bis zu 4 Schaltpunkte mit einer Elektrode
+				Sonderausfuehrungen und spezielle Elektroden nach Kundenwuenschen
+				Fuer Elektronik im Anschlusskopf vorbereitet</deutsch>
+    <english>Appropriate for all conductive, aggressive media (e.g. acids, bases), aqueous solutions, 
+				water, sewage or other conductive liquids
+				Threaded connections and housings made of : PE, PPH, PVC, PTFE and PVDF 
+				Detector bar made of : special steel, Hastelloy B and C, titanium and tanalium
+				Up to 4 shifting points with one electrode
+				Special types and special electrodes upon customer requests
+				Prepared for electronics in the connection head</english>
+    <français>Approprié pour tous les media conductibles, agressifs (p.ex. acides, lessives alcalines), 
+				solutions aqueuses, eau, eaux usées ou d´autres liquides conductibles
+				Raccords filetés et boîtier en: PE, PPH, PVC, PTFE  etPVDF
+				Détecteurs en baguette: acier inox, hastelloy B et C, titane et tantale
+				Jusqu´à 4 points de commutation avec une électrode
+				Construction spéciale et électrodes spéciales sur demande du client
+				Préparé pour l´électronique dans la tête de connexion</français>
+  </description>
+  <datasheet>
+    <deutsch>
+      <name>Datenblatt</name>
+      <path>04/04-01-04-E-e-2-5_et-4.pdf</path>
+    </deutsch>
+    <english>
+      <name>Datasheet</name>
+      <path>04/04-01-04-E-e-2-5_et-4.pdf</path>
+    </english>
+    <français>
+      <name>Fiche de données</name>
+      <path>04/04-01-04-F-e-2-5_et-4.pdf</path>
+    </français>
+  </datasheet>
+</item>

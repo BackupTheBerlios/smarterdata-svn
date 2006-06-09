@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+  <id>KR-163-B</id>
+  <date>2006-01-01</date>
+  <category>10-05-01</category>
+  <position>1</position>
+  <linkto>T-200.F-01-01-01</linkto>
+  <icon>
+    <deutsch>kr-163_b.small.png</deutsch>
+    <english>kr-163_b.small.png</english>
+    <français>kr-163_b.small.png</français>
+  </icon>
+  <image>
+    <deutsch>kr-163_b.png</deutsch>
+    <english>kr-163_b.png</english>
+    <français>kr-163_b.png</français>
+  </image>
+  <name>
+    <deutsch>KR-163/B</deutsch>
+    <english>KR-163/B</english>
+    <français>KR-163/B</français>
+  </name>
+  <headline>
+    <deutsch>Kontaktschutzrelais 1-Kanal</deutsch>
+    <english>Contact protection relay 1-channel</english>
+    <français>Relais de protection de contact 1 canal</français>
+  </headline>
+  <description>
+    <deutsch>Universelle Messumformer die die Eingangssignale (Widerstandswerte) mit &quot;NAMUR&quot;-Spezifikation (DIN EN 60947) 
+				in Schaltsignale umsetzen
+				Als Teil einer Ueberfuell- bzw. Leckagesicherung zugelassen. Z-65.11-1, Z-65.40-153, T-65.11-404</deutsch>
+    <english>Universal measuring transducer which convert the input signals (resistance values) 
+				with &quot;NAMUR&quot; specifications (DIN EN 60947) to switching signals
+				Admitted as a part of an overfill and leakage protection. Z-65.11-1, Z-65.40-153, T-65.11-404</english>
+    <français>Transducteur de mesure universel qui convertit les signaux d´entrée 
+				(valeurs de la résistance) en signaux de commutation par la spécification &quot;NAMUR&quot; (DIN EN 60947)
+				Admissible comme partie d´une protection de trop-plein et de fuites. Z-65.11-1, Z-65.40-153, T-65.11-404</français>
+  </description>
+  <datasheet>
+    <deutsch>
+      <name>Datenblatt</name>
+      <path>10/10-05-01-E-kr_allgemein_kr-163_1-kanal.pdf</path>
+    </deutsch>
+    <english>
+      <name>Datasheet</name>
+      <path>10/10-05-01-E-kr_allgemein_kr-163_1-kanal.pdf</path>
+    </english>
+    <français>
+      <name>Fiche de données</name>
+      <path>10/10-05-01-F-kr_allgemein_kr-163_1-kanal.pdf</path>
+    </français>
+  </datasheet>
+  <otherdoc>
+    <deutsch>
+      <name>Zulassung (Z-65.40-153)</name>
+      <path>TestReport/Z-65.40-153-D-T-200.L.pdf</path>
+    </deutsch>
+    <english>
+      <name>Approval (Z-65.40-153)</name>
+      <path>TestReport/Z-65.40-153-D-T-200.L.pdf</path>
+    </english>
+    <français>
+      <name>Admission (Z-65.40-153)</name>
+      <path>TestReport/Z-65.40-153-D-T-200.L.pdf</path>
+    </français>
+  </otherdoc>
+  <otherdoc>
+    <deutsch>
+      <name>Zulassung (Z-65.1-404)</name>
+      <path>TestReport/Z-65.11-404.pdf</path>
+    </deutsch>
+    <english>
+      <name>Approval (Z-65.1-404)</name>
+      <path>TestReport/Z-65.11-404.pdf</path>
+    </english>
+    <français>
+      <name>Admission (Z-65.1-404)</name>
+      <path>TestReport/Z-65.11-404.pdf</path>
+    </français>
+  </otherdoc>
+  <otherdoc>
+    <deutsch>
+      <name>Zulassung alt (Z-65.11-1)</name>
+      <path>TestReport/Z-65.11-1-D-T-20.F.pdf</path>
+    </deutsch>
+    <english>
+      <name>Ancient approval (Z-65.11-1)</name>
+      <path>TestReport/Z-65.11-1-D-T-20.F.pdf</path>
+    </english>
+    <français>
+      <name>Ancienne admission (Z-65.11-1)</name>
+      <path>TestReport/Z-65.11-1-D-T-20.F.pdf</path>
+    </français>
+  </otherdoc>
+</item>

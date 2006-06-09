@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+ 	<title>
+	    <deutsch>Belgien</deutsch>
+    	<english>Belgium</english>
+	    <français>Belgique</français>
+	</title>
+   	<name>Bintz technics N.V., Herr Goossens</name>
+	<street>Brixtonlaan 25</street>
+	<country>B</country>
+	<citycode>01930</citycode>
+	<city>Zaventem</city>
+	<prenumber>0032</prenumber>
+	<number>(0) 2720-4916</number>
+	<fax>(0) 2720-3750</fax>
+	<email>goossens@bintz.be</email>
+</item>

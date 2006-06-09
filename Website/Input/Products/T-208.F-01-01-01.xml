@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+  <id>T-208.F</id>
+  <date>2006-01-01</date>
+  <category>01-01-01</category>
+  <position>1</position>
+  <linkto>KR-163-A-EX-10-05-02</linkto>
+  <linkto>KR-163-B-10-05-01</linkto>
+  <linkto>KR-164-B-10-07-01</linkto>
+  <linkto>KR-268-B-10-05-02</linkto>
+  <linkto>OAA-100.A1-01-09-01</linkto>
+  <linkto>OAA-100.A3-01-09-02</linkto>
+  <icon>
+    <deutsch>t-208.f.small.png</deutsch>
+    <english>t-208.f.small.png</english>
+    <français>t-208.f.small.png</français>
+  </icon>
+  <image>
+    <deutsch>t-208.f.png</deutsch>
+    <english>t-208.f.png</english>
+    <français>t-208.f.png</français>
+  </image>
+  <name>
+    <deutsch>T-208.F</deutsch>
+    <english>T-208.F</english>
+    <français>T-208.F</français>
+  </name>
+  <headline>
+    <deutsch>Ueberfuellsicherung</deutsch>
+    <english>Overfill cut-out device</english>
+    <français>Sécurité antidebordement</français>
+  </headline>
+  <description>
+    <deutsch>Geeignet fuer aggressive, wassergefaehrdende Fluessigkeiten ( z.B. Saeuren, Laugen, waessrige Loesungen etc )
+				Allgemeine bauaufsichtliche Zulassung Z-65.11-404
+				Vollstaendige Ausfuehrung in PE, PPH und PVC</deutsch>
+    <english>Appropriate for aggressive, water hazardous liquids (e.g. acids, bases, aqueous solutions, etc.)
+				General approval by the building authorities Z-65.11-404
+				Complete construction in PE, PPH and PVC</english>
+    <français>Approprié pour les liquides agressifs, nocifs pour les eaux 
+				(p.ex. acides, lessives alcalines, solutions aqueuses, etc.)
+				Admission générale de la surveillance de chantiers Z-65.11-404
+				Modèle complet en PE, PPH et PVC</français>
+  </description>
+  <datasheet>
+    <deutsch>
+      <name>Datenblatt</name>
+      <path>01/01-01-01-E-T200F.pdf</path>
+    </deutsch>
+    <english>
+      <name>Datasheet</name>
+      <path>01/01-01-01-E-T200F.pdf</path>
+    </english>
+    <français>
+      <name>Fiche de données</name>
+      <path>01/01-01-01-F-T200F.pdf</path>
+    </français>
+  </datasheet>
+  <otherdoc>
+    <deutsch>
+      <name>Zulassung (Z-65.11-404)</name>
+      <path>TestReport/Z-65.11-404.pdf</path>
+    </deutsch>
+    <english>
+      <name>Approval (Z-65.11-404)</name>
+      <path>TestReport/Z-65.11-404.pdf</path>
+    </english>
+    <français>
+      <name>Admission (Z-65.11-404)</name>
+      <path>TestReport/Z-65.11-404.pdf</path>
+    </français>
+  </otherdoc>
+  <otherdoc>
+    <deutsch>
+      <name>Zulassung (alt Z-65.11-1)</name>
+      <path>TestReport/Z-65.11-1-D-T-20.F.pdf</path>
+    </deutsch>
+    <english>
+      <name>Approval (ancient Z-65.11-1)</name>
+      <path>TestReport/Z-65.11-1-D-T-20.F.pdf</path>
+    </english>
+    <français>
+      <name>Admission (ancienne Z-65.11-1)</name>
+      <path>TestReport/Z-65.11-1-D-T-20.F.pdf</path>
+    </français>
+  </otherdoc>
+  <manual>
+    <deutsch>
+      <name>Anleitung</name>
+      <path>M-D-T20,TK30.pdf</path>
+    </deutsch>
+    <english>
+      <name>Manual</name>
+      <path>M-D-T20,TK30.pdf</path>
+    </english>
+    <français>
+      <name>Manual</name>
+      <path>M-D-T20,TK30.pdf</path>
+    </français>
+  </manual>
+</item>

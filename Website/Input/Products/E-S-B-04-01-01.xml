@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+  <id>E-S-B</id>
+  <date>2006-01-01</date>
+  <category>04-01-01</category>
+  <position>1</position>
+  <icon>
+    <deutsch>e-s_b.small.png</deutsch>
+    <english>e-s_b.small.png</english>
+    <français>e-s_b.small.png</français>
+  </icon>
+  <image>
+    <deutsch>e-s_b.png</deutsch>
+    <english>e-s_b.png</english>
+    <français>e-s_b.png</français>
+  </image>
+  <name>
+    <deutsch>E-S/B</deutsch>
+    <english>E-S/B</english>
+    <français>E-S/B</français>
+  </name>
+  <headline>
+    <deutsch>Elektrode -einfach-</deutsch>
+    <english>Electrode -simple-</english>
+    <français>Electrode -simple-</français>
+  </headline>
+  <description>
+    <deutsch>Materialien: Messing und Edelstahl
+				Vor-Ort-Festlegung der Laenge</deutsch>
+    <english>Materials: brass and special steel
+				On-site determination of the length</english>
+    <français>Matériaux : laiton et acier inox
+				La longueur sera déterminée sur place</français>
+  </description>
+  <datasheet>
+    <deutsch>
+      <name>Datenblatt</name>
+      <path>04/04-01-01-E-ee-1fach_esb.pdf</path>
+    </deutsch>
+    <english>
+      <name>Datasheet</name>
+      <path>04/04-01-01-E-ee-1fach_esb.pdf</path>
+    </english>
+    <français>
+      <name>Fiche de données</name>
+      <path>04/04-01-01-F-ee-1fach_esb.pdf</path>
+    </français>
+  </datasheet>
+</item>

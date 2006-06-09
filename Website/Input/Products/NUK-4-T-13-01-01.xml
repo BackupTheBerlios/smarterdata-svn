@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+  <id>NUK-4-T</id>
+  <date>2006-01-01</date>
+  <category>13-01-01</category>
+  <position>1</position>
+  <icon>
+    <deutsch>nuk4t.small.png</deutsch>
+    <english>nuk4t.small.png</english>
+    <français>nuk4t.small.png</français>
+  </icon>
+  <image>
+    <deutsch>nuk4t.png</deutsch>
+    <english>nuk4t.png</english>
+    <français>nuk4t.png</français>
+  </image>
+  <name>
+    <deutsch>NUK-4-T</deutsch>
+    <english>NUK-4-T</english>
+    <français>NUK-4-T</français>
+  </name>
+  <headline>
+    <deutsch>Ultraschallfuellstandssensor</deutsch>
+    <english>Ultrasonic level detector</english>
+    <français>Palpeur de niveau ultrasonique</français>
+  </headline>
+  <description>
+    <deutsch>Beruehrungslose Messung
+				Kompakte Bauform
+				Einfache Kalibrierung
+				Ausgangssignal Messbereiche 4 ...20mA/0 ...10V
+				Messbereich bis 4m</deutsch>
+    <english>Contactless measuring
+				Compact type 
+				Simple calibration
+				Output signal measuring ranges 4 ...20mA/0 ...10V
+				Measuring range up to 4m</english>
+    <français>Mesure sans contact direct
+				Construction compacte
+				Calibrage simple
+				Signal de sortie des plages de mesure 4 ...20mA/0 ...10V
+				Plage de mesure jusqu&apos;à 4m</français>
+  </description>
+  <datasheet>
+    <deutsch>
+      <name>Datenblatt</name>
+      <path>13/13-01-01-E-nuk-4-t.pdf</path>
+    </deutsch>
+    <english>
+      <name>Datasheet</name>
+      <path>13/13-01-01-E-nuk-4-t.pdf</path>
+    </english>
+    <français>
+      <name>Fiche de données</name>
+      <path>13/13-01-01-F-nuk-4-t.pdf</path>
+    </français>
+  </datasheet>
+  <manual>
+    <deutsch>
+      <name>Betriebsanleitung</name>
+      <path>M-D-nuk-4-t.pdf</path>
+    </deutsch>
+    <english>
+      <name>Operating instruction</name>
+      <path>M-D-nuk-4-t.pdf</path>
+    </english>
+    <français>
+      <name>Mode d´emploi</name>
+      <path>M-D-nuk-4-t.pdf</path>
+    </français>
+  </manual>
+</item>

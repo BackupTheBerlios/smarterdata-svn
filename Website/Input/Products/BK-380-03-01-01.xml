@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+  <id>BK-380</id>
+  <date>2006-01-01</date>
+  <category>03-01-01</category>
+  <position>1</position>
+  <linkto>MTA-02-01-01</linkto>
+  <linkto>UETA-32-xx-02-04-01</linkto>
+  <linkto>W-35x-02-02-01</linkto>
+  <icon>
+    <deutsch>bk-380.small.png</deutsch>
+    <english>bk-380.small.png</english>
+    <français>bk-380.small.png</français>
+  </icon>
+  <image>
+    <deutsch>bk-380.png</deutsch>
+    <english>bk-380.png</english>
+    <français>bk-380.png</français>
+  </image>
+  <name>
+    <deutsch>BK-380</deutsch>
+    <english>BK-380</english>
+    <français>BK-380</français>
+  </name>
+  <headline>
+    <deutsch>Bistabiler Wechselkontakt</deutsch>
+    <english>Bistable change-over contact</english>
+    <français>Contact inverseur à deux positions</français>
+  </headline>
+  <description>
+    <deutsch>Schaltkontakte (magnetisch)
+				Bistabile Schaltkontakte mit Mikroschalter
+				Hohe Schaltleistung
+				Universell einsetzbar
+				Extrem unempfindlich gegen Erschuetterungen
+				Manuell betaetigbar fuer einfache Inbetriebnahme</deutsch>
+    <english>Switching contact (magnetic)
+				Bistable switching contacts with microswitch
+				High breaking capacity
+				Universally applicable
+				Extremely insensitive to stocks 
+				Manually actuated for simple commissioning</english>
+    <français>Contact de commutation de commande (magnétique)
+				Contacts de commutation de commande à deux positions avec microrupteur
+				Haut pouvoir de coupure 
+				Application universelle
+				Particulièrement insensible aux vibrations
+				Opération manuelle pour une mise en service simple</français>
+  </description>
+  <datasheet>
+    <deutsch>
+      <name>Datenblatt</name>
+      <path>03/03-01-01-E-BK-390.pdf</path>
+    </deutsch>
+    <english>
+      <name>Datasheet</name>
+      <path>03/03-01-01-E-BK-390.pdf</path>
+    </english>
+    <français>
+      <name>Fiche de données</name>
+      <path>03/03-01-01-F-BK-390.pdf</path>
+    </français>
+  </datasheet>
+</item>
