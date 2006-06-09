@@ -1,0 +1,39 @@
+<table style="background-color: rgb(204, 204, 204);" border="0" cellpadding="2" cellspacing="1" width="100%">
+	<tr style="background-color: rgb(255, 255, 255);" valign="top">
+		<td> <a href="phpcode.php">back</a> | <a href="index.php">Overview</a> | <!-- <a href="anzeigekontrolle.php">next</a> -->| <a href="sprachsupport.php?doDebug">Debugversion</a></td>
+	</tr>
+</table>
+<table style="background-color: rgb(204, 204, 204);" border="0" cellpadding="2" cellspacing="1" width="100%">
+	<tr style="background-color: rgb(255, 255, 255);" valign="top">
+		<td colspan="3"><center><b>Language support</b></center></td>
+	</tr>
+	<tr style="background-color: rgb(255, 255, 255);" valign="top">
+		<td colspan="2"><b>English</b></td>
+	</tr>
+	<tr style="background-color: rgb(255, 255, 255);" valign="top">
+		<td NOWRAP><b>Template</b></td>
+		<td><pre>{displayFileInHTML:TEMPLATE_DIRECTORY,TEMPLATE_FILE}</pre></td>
+	</tr>
+	<tr style="background-color: rgb(255, 255, 255);" valign="top">
+		<td NOWRAP><b>PHP-Code</b></td>
+		<td><pre>{displayFileInHTML:PHP_DIRECTORY,PHP_FILE}</pre></td>
+	</tr>
+	<tr style="background-color: rgb(255, 255, 255);" valign="top">
+		<td><b>Output</b></td>
+		<td>Current language: {TOP.LANG}
+			<br>Switch to: <a href="{TOP.PHP_FILE}?lang=<!-- IF TOP.LANG=="de" -->en">en<!-- ELSE -->de">de<!-- ENDIF TOP.LANG=="de" --></a>
+		</td>
+	</tr>
+</table>
+<table width="100%" cellspacing="1" cellpadding="2" border="0">
+	<tr>
+		<td> <a href="phpcode.php">back</a> | <a href="index.php">Overview</a> | next </td>
+		<td>
+			<div align="right">
+				<b>Refreshed {dateformat:TOP.TIME_REFRESHED}</b>
+				<br><b>Page compiled in {TOP.TIME_COMPILED} seconds</b>
+				<br><b>Page generated in {TOP.TIME_GENERATED} seconds</b>
+			</div>
+		</td>
+	</tr>
+</table>
