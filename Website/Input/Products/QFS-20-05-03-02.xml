@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+  <id>QFS-20</id>
+  <date>2006-01-01</date>
+  <category>05-03-02</category>
+  <position>1</position>
+  <icon>
+    <deutsch>qfs-20.small.png</deutsch>
+    <english>qfs-20.small.png</english>
+    <français>qfs-20.small.png</français>
+  </icon>
+  <image>
+    <deutsch>qfs-20.png</deutsch>
+    <english>qfs-20.png</english>
+    <français>qfs-20.png</français>
+  </image>
+  <name>
+    <deutsch>QFS-20</deutsch>
+    <english>QFS-20</english>
+    <français>QFS-20</français>
+  </name>
+  <headline>
+    <deutsch>Schwimmschalter Edelstahl quecksilberfrei</deutsch>
+    <english>Floating switch, stainless steel, mercury free</english>
+    <français>Interrupteur à flotteur en acier inoxydable sans mercure</français>
+  </headline>
+  <description>
+    <deutsch>Einfache kostenguenstige Fuellstandsmessung mit ueberzeugendem Preis / Leistungsverhaeltnis
+				Schwimmer aus Edelstahl (1.4571)
+				Spezialkabel aus: Silikon und FEP (Teflon)
+				Alle Schaltertypen als Einzelschalter, als Schalterkombination in Haenge- oder Stabausfuehrung
+				Reed-Kontakt</deutsch>
+    <english>Simple, cost-efficient level measuring with a convincing price / performance ratio
+				Float made of special steel (1.4571)
+				Special cable made of : silicone and  FEP (Teflon)
+				All float type switches as single switch, as switch combination in suspended and bar type
+				Reed-Contact</english>
+    <français>Mesure de niveau simple à un prix avantageux d´un rapport prix/performance convaincant
+				Flotteur des matériaux acier inox (1.4571)
+				Câble spécial en: silicone et FEP (téflon)
+				Tous les types d´interrupteurs individuels comme combinaison d´interrupteurs du type suspendu ou baguette
+				Reed-Contact</français>
+  </description>
+  <datasheet>
+    <deutsch>
+      <name>Datenblatt</name>
+      <path>05/05-03-02-E-qfs-2_qfsk-2_edelstahl.pdf</path>
+    </deutsch>
+    <english>
+      <name>Datasheet</name>
+      <path>05/05-03-02-E-qfs-2_qfsk-2_edelstahl.pdf</path>
+    </english>
+    <français>
+      <name>Fiche de données</name>
+      <path>05/05-03-02-F-qfs-2_qfsk-2_edelstahl.pdf</path>
+    </français>
+  </datasheet>
+</item>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+	<date>2006-01-01</date>
+	<icon>
+		<deutsch>nopic.png</deutsch>
+		<english>nopic.png</english>
+		<français>nopic.png</français>
+	</icon>
+	<inmenu>yes</inmenu>
+	<menuname>
+		<deutsch>Produkte 2006</deutsch>
+		<english>Products 2006</english>
+		<français>Produits 2006</français>
+	</menuname>
+	<headline>
+		<deutsch>Produkte 2006</deutsch>
+		<english>Products 2006</english>
+		<français>Produits 2006</français>
+	</headline>
+	<description>
+		<deutsch>
+			EX- und WHG-Ueberfuellsicherungen (konduktiv und Schwimmer)
+			24V-Direktanschluss EF2, ELH und EP (Zulassungen beantragt)
+			Magnetklappenanzeigen
+			Hydrostatische Messung
+		</deutsch>
+		<english>
+			EX- and WHG protections against overfilling (conductive and float)
+			24V-direct connection EF2, ELH and EP (approvals requested)
+			Magnetic flap displays
+			Hydrostatic measuring
+		</english>
+		<français>
+			Protections centre le trop-plein EX et WHG (conductibles et flotteurs)
+			24V raccordement direct EF2, ELH et EP (admission sollicitée)
+			indicateurs de clapet magnétique
+			Mesure hydrostatique
+		</français>
+	</description>
+	<newsdoc>
+		<deutsch>
+			<name>News</name>
+			<path>news-D-E-produkte_2006.pdf</path>
+		</deutsch>
+		<english>
+			<name>News-PDF</name>
+			<path>news-D-E-produkte_2006.pdf</path>
+		</english>
+		<français>
+			<name>Nouveautés PDF</name>
+			<path>news-D-E-produkte_2006.pdf</path>
+		</français>
+	</newsdoc>
+</item>

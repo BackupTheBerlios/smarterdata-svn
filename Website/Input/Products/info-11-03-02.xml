@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+  <id>info-11-03-02</id>
+  <date>2006-01-01</date>
+  <category>11-03-02</category>
+  <position>1</position>
+  <icon>
+    <deutsch>info-ex.small.png</deutsch>
+    <english>info-ex.small.png</english>
+    <français>info-ex.small.png</français>
+  </icon>
+  <image>
+    <deutsch />
+    <english />
+    <français />
+  </image>
+  <name>
+    <deutsch>Info</deutsch>
+    <english>Info</english>
+    <français>Info</français>
+  </name>
+  <headline>
+    <deutsch>Allgemeine Beschreibung 2 Niveaumesswertgeber TK-3_ EX</deutsch>
+    <english>General description 2 level transducer TK-3_EX</english>
+    <français>Description générale 2 transmetteur de mesure de niveau TK-30</français>
+  </headline>
+  <description>
+    <deutsch>-</deutsch>
+    <english>-</english>
+    <français>-</français>
+  </description>
+  <datasheet>
+    <deutsch>
+      <name>Datenblatt</name>
+      <path>11/11-03-02-E-TK3x_EX_allg_daten_2.pdf</path>
+    </deutsch>
+    <english>
+      <name>Datasheet</name>
+      <path>11/11-03-02-E-TK3x_EX_allg_daten_2.pdf</path>
+    </english>
+    <français>
+      <name>Fiche de données</name>
+      <path>11/11-03-02-F-TK3x_EX_allg_daten_2.pdf</path>
+    </français>
+  </datasheet>
+</item>

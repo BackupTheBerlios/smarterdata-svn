@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+  <id>T-208-PVC</id>
+  <date>2006-01-01</date>
+  <category>06-01-05</category>
+  <position>1</position>
+  <icon>
+    <deutsch>t-208_kunststoff.small.png</deutsch>
+    <english>t-208_kunststoff.small.png</english>
+    <français>t-208_kunststoff.small.png</français>
+  </icon>
+  <image>
+    <deutsch>t-208_kunststoff.png</deutsch>
+    <english>t-208_kunststoff.png</english>
+    <français>t-208_kunststoff.png</français>
+  </image>
+  <name>
+    <deutsch>T-208</deutsch>
+    <english>T-208</english>
+    <français>T-208</français>
+  </name>
+  <headline>
+    <deutsch>Magnettauchsonde Kunststoff</deutsch>
+    <english>Magnetic submerged detectors made of plastic</english>
+    <français>Sondes plongées magnétique en plastique</français>
+  </headline>
+  <description>
+    <deutsch>Geeignet fuer die Erfassung und Steuerung von Fluessigkeiten
+				Preisguenstige Ausfuehrung mit Kabelanschluss
+				Komplett aus PE, PPH oder PVC
+				Bis zu 7 Schaltpunkte moeglich mit einer Tauchsonde
+				Verstellbare Ausfuehrungen zur nachtraeglichen Anpassung der Schaltpunkte
+				Potentialfreie Schaltkontakte
+				Temperatur-, druck- und medienunabhaengige Fuellstandserfassung
+				Sonderausfuehrungen nach Kundenspezifikation.</deutsch>
+    <english>Appropriate for the capturing and control of liquids
+				Price-efficient type with cable connection
+				Completely made of PE, PPH or PVC
+				Up to 7 shifting points with one surmerged detector
+				Adjustable types for subsequent adjustment of the shifting points
+				Potential-free switching contacts
+				Level measuring independent of temperature, pressure and media 
+				Special types upon customer specification</english>
+    <français>Conviennent pour la saisie et le contrôle de liquides
+				Type à un prix avantageux avec raccord de câble
+				Complet en PE, PPH ou PVC
+				Jusqu´à 7 points de commutation avec une électrode
+				Types ajustables pour adaptation ultérieure des points de contact de commutation
+				Contacts de commutation de commande sans potentiel
+				Saisie du niveau indépendante de la température, de la pression et des medias 
+				Modèles spécifiques fabriqués sur mesure pour le client</français>
+  </description>
+  <datasheet>
+    <deutsch>
+      <name>Datenblatt</name>
+      <path>06/06-01-05-E-T208_T209.pdf</path>
+    </deutsch>
+    <english>
+      <name>Datasheet</name>
+      <path>06/06-01-05-E-T208_T209.pdf</path>
+    </english>
+    <français>
+      <name>Fiche de données</name>
+      <path>06/06-01-05-F-T208_T209.pdf</path>
+    </français>
+  </datasheet>
+</item>

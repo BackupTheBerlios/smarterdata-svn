@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+  <id>T-203-VA</id>
+  <date>2006-01-01</date>
+  <category>06-04-01</category>
+  <position>1</position>
+  <icon>
+    <deutsch>t-203_edelstahl.small.png</deutsch>
+    <english>t-203_edelstahl.small.png</english>
+    <français>t-203_edelstahl.small.png</français>
+  </icon>
+  <image>
+    <deutsch>t-203_edelstahl.png</deutsch>
+    <english>t-203_edelstahl.png</english>
+    <français>t-203_edelstahl.png</français>
+  </image>
+  <name>
+    <deutsch>T-203</deutsch>
+    <english>T-203</english>
+    <français>T-203</français>
+  </name>
+  <headline>
+    <deutsch>Magnettauchsonde Edelstahl fuer EX-Bereich Kategorie 1 (Zone 0)</deutsch>
+    <english>Magnetic submerged detectors made of special steel for ex area category 1 (zone 0)</english>
+    <français>Sondes plongées magnétiques en acier inox pour des zones à risque d´explosion catégorie 1 (Zone 0)</français>
+  </headline>
+  <description>
+    <deutsch>Geeignet fuer die Erfassung und Steuerung von Fluessigkeiten
+				Bis zu 7 Schaltpunkte
+				Verstellbare Ausfuehrungen zur nachtraeglichen An-passung der Schaltpunkte
+				Potentialfreie Schaltkontakte
+				Temperatur-, druck- und medienunabhaengige Fuellstandserfassung
+				Komplett aus Edelstahl (1.4571)
+				Grosser Betriebstemperaturbereich
+				Vielzahl von Schwimmertypen
+				TUEV 02 ATEX 1795 X 
+				Z-65.11-404
+				Sonderausfuehrungen nach Kundenspezifikation.</deutsch>
+    <english>Appropriate for the capturing and control of liquids
+				Up to 7 shifting points 
+				Adjustable types for subsequent adjustment of the shifting points
+				Potential-free switching contacts
+				Level measuring independent of temperature, pressure and media 
+				Completely made of special steel (1.4571)
+				Large operating temperature range
+				Multitude of float types
+				TUEV 02 ATEX 1795 X 
+				Z-65.11-404
+				Special types according to customer specification.</english>
+    <français>Conviennent pour la saisie et le contrôle de liquides
+				Jusqu´à 7 points de contact de commutation
+				Types ajustables pour adaptation ultérieure des points de contact de commutation
+				Contacts de commutation de commande sans potentiel
+				Saisie du niveau indépendante de la température, de la pression et des medias 
+				Complet en acier inox (1.4571)
+				Grandes températures de fonctionnement
+				Multitude de types de flotteurs
+				TUEV 02 ATEX 1795 X 
+				Z-65.11-404
+				Modèles spécifiques fabriqués sur mesure pour le client</français>
+  </description>
+  <datasheet>
+    <deutsch>
+      <name>Datenblatt</name>
+      <path>06/06-04-01-E-T203_T204_T204-0_E_EX.pdf</path>
+    </deutsch>
+    <english>
+      <name>Datasheet</name>
+      <path>06/06-04-01-E-T203_T204_T204-0_E_EX.pdf</path>
+    </english>
+    <français>
+      <name>Fiche de données</name>
+      <path>06/06-04-01-F-T203_T204_T204-0_E_EX.pdf</path>
+    </français>
+  </datasheet>
+  <otherdoc>
+    <deutsch>
+      <name>ATEX-Zulassung (TUEV 02 ATEX 1795 X)</name>
+      <path>TestReport/ATEX_1795_T-20_.F_TK-30_.pdf</path>
+    </deutsch>
+    <english>
+      <name>ATEX approval (TUEV 02 ATEX 1795 X)</name>
+      <path>TestReport/ATEX_1795_T-20_.F_TK-30_.pdf</path>
+    </english>
+    <français>
+      <name>Admission ATEX (TUEV 02 ATEX 1795 X)</name>
+      <path>TestReport/ATEX_1795_T-20_.F_TK-30_.pdf</path>
+    </français>
+  </otherdoc>
+  <otherdoc>
+    <deutsch>
+      <name>Zulassung (Z-65.11-404)</name>
+      <path>TestReport/Z-65.11-404.pdf</path>
+    </deutsch>
+    <english>
+      <name>Approval (Z-65.11-404)</name>
+      <path>TestReport/Z-65.11-404.pdf</path>
+    </english>
+    <français>
+      <name>Admission (Z-65.11-404)</name>
+      <path>TestReport/Z-65.11-404.pdf</path>
+    </français>
+  </otherdoc>
+</item>

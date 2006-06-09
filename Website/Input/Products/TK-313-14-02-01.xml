@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+  <id>TK-313</id>
+  <date>2006-01-01</date>
+  <category>14-02-01</category>
+  <position>1</position>
+  <icon>
+    <deutsch>tk-313.small.png</deutsch>
+    <english>tk-313.small.png</english>
+    <français>tk-313.small.png</français>
+  </icon>
+  <image>
+    <deutsch>tk-313.png</deutsch>
+    <english>tk-313.png</english>
+    <français>tk-313.png</français>
+  </image>
+  <name>
+    <deutsch>TK-313</deutsch>
+    <english>TK-313</english>
+    <français>TK-313</français>
+  </name>
+  <headline>
+    <deutsch>Auswertegeraet</deutsch>
+    <english>Evaluation device</english>
+    <français>Unité d'évaluation</français>
+  </headline>
+  <description>
+    <deutsch>2 Grenzkontakte in einem Geraet
+				Min-Max-Steuerung oder Grenzwerte</deutsch>
+    <english>2 limit contacts on one device
+				Min-max control or limit values</english>
+    <français>2 contacts limites sur une unité
+				Réglage Min-Max ou valeurs limites</français>
+  </description>
+  <datasheet>
+    <deutsch>
+      <name>Datenblatt</name>
+      <path>14/14-02-01-E-tk-313.pdf</path>
+    </deutsch>
+    <english>
+      <name>Datasheet</name>
+      <path>14/14-02-01-E-tk-313.pdf</path>
+    </english>
+    <français>
+      <name>Fiche de données</name>
+      <path>14/14-02-01-F-tk-313.pdf</path>
+    </français>
+  </datasheet>
+  <manual>
+    <deutsch>
+      <name>Betriebsanleitung</name>
+      <path>M-D-tk-313.pdf</path>
+    </deutsch>
+    <english>
+      <name>Operating instruction</name>
+      <path>M-D-tk-313.pdf</path>
+    </english>
+    <français>
+      <name>Mode d´emploi</name>
+      <path>M-D-tk-313.pdf</path>
+    </français>
+  </manual>
+</item>

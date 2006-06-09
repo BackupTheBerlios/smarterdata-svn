@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+  <id>T-207-PPH</id>
+  <date>2006-01-01</date>
+  <category>06-01-04</category>
+  <position>1</position>
+  <icon>
+    <deutsch>t-207.small.png</deutsch>
+    <english>t-207.small.png</english>
+    <français>t-207.small.png</français>
+  </icon>
+  <image>
+    <deutsch>t-207.png</deutsch>
+    <english>t-207.png</english>
+    <français>t-207.png</français>
+  </image>
+  <name>
+    <deutsch>T-207</deutsch>
+    <english>T-207</english>
+    <français>T-207</français>
+  </name>
+  <headline>
+    <deutsch>Magnettauchsonde PPH</deutsch>
+    <english>Magnetic submerged detectors made of PPH</english>
+    <français>Sondes plongées magnétique PPH</français>
+  </headline>
+  <description>
+    <deutsch>Geeignet fuer die Erfassung und Steuerung von Fluessigkeiten
+				Preisguenstige Ausfuehrung mit Kabelanschluss
+				Komplett aus dem Material: PPH
+				Potentialfreie Schaltkontakte
+				Temperatur-, druck- und medienunabhaengige Fuellstandserfassung
+				Miniaturausfuehrung
+				Vielzahl von Schwimmertypen
+				Sonderausfuehrungen nach Kundenspezifikation.</deutsch>
+    <english>Appropriate for the capturing and control of liquids
+				Price-efficient type with cable connection
+				Completely made of the material: PPH
+				Potential-free switching contracts
+				Level measuring independent of temperature, pressure and media 
+				Miniature type
+				Multitude of floater types
+				Special types upon customer specification</english>
+    <français>Conviennent pour la saisie et le contrôle de liquides
+				Type à un prix avantageux avec raccord de câble
+				Complet en PPH
+				Contacts de commutation de commande sans potentiel
+				Saisie du niveau indépendante de la température, de la pression et des medias 
+				Modèle miniature
+				Multitude de types de flotteurs
+				Modèles spécifiques fabriqués sur mesure pour le client</français>
+  </description>
+  <datasheet>
+    <deutsch>
+      <name>Datenblatt</name>
+      <path>06/06-01-04-E-T206_T207.pdf</path>
+    </deutsch>
+    <english>
+      <name>Datasheet</name>
+      <path>06/06-01-04-E-T206_T207.pdf</path>
+    </english>
+    <français>
+      <name>Fiche de données</name>
+      <path>06/06-01-04-F-T206_T207.pdf</path>
+    </français>
+  </datasheet>
+</item>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+  <id>T-202-VA</id>
+  <date>2006-01-01</date>
+  <category>06-01-02</category>
+  <position>1</position>
+  <icon>
+    <deutsch>t-202_edelstahl.small.png</deutsch>
+    <english>t-202_edelstahl.small.png</english>
+    <français>t-202_edelstahl.small.png</français>
+  </icon>
+  <image>
+    <deutsch>t-202_edelstahl.png</deutsch>
+    <english>t-202_edelstahl.png</english>
+    <français>t-202_edelstahl.png</français>
+  </image>
+  <name>
+    <deutsch>T-202</deutsch>
+    <english>T-202</english>
+    <français>T-202</français>
+  </name>
+  <headline>
+    <deutsch>Magnettauchsonde Edelstahl</deutsch>
+    <english>Magnetic submerged detectors made of special steel</english>
+    <français>Sondes plongées magnétique en acier inox</français>
+  </headline>
+  <description>
+    <deutsch>Geeignet fuer die Erfassung und Steuerung von Fluessigkeiten
+				Preisguenstige Ausfuehrung mit Kabelanschluss
+				Komplett aus Edelstahl (1.4571)
+				Potentialfreie Schaltkontakte
+				Temperatur-, druck- und medienunabhaengige Fuellstandserfassung
+				Miniaturausfuehrung
+				Vielzahl von Schwimmertypen
+				Sonderausfuehrungen nach Kundenspezifikation.</deutsch>
+    <english>Appropriate for the capturing and control of liquids
+				Price-efficient type with cable connection
+				Completely made of special steel (1.4571)
+				Potential-free switching contacts
+				Level measuring independent of temperature, pressure and media 
+				Miniature type
+				Multitude of floater types
+				Special types upon customer specification</english>
+    <français>Conviennent pour la saisie et le contrôle de liquides
+				Type à un prix avantageux avec raccord de câble
+				Complet en acier inox (1.4571)
+				Contacts de commutation de commande sans potentiel
+				Saisie du niveau indépendante de la température, de la pression et des medias 
+				Modèle miniature
+				Multitude de types de flotteurs
+				Modèles spécifiques fabriqués sur mesure pour le client</français>
+  </description>
+  <datasheet>
+    <deutsch>
+      <name>Datenblatt</name>
+      <path>06/06-01-02-E-T201_T202.pdf</path>
+    </deutsch>
+    <english>
+      <name>Datasheet</name>
+      <path>06/06-01-02-E-T201_T202.pdf</path>
+    </english>
+    <français>
+      <name>Fiche de données</name>
+      <path>06/06-01-02-F-T201_T202.pdf</path>
+    </français>
+  </datasheet>
+</item>

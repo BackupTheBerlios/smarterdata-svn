@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+  <id>ES-2...7fach</id>
+  <date>2006-01-01</date>
+  <category>04-01-02</category>
+  <position>1</position>
+  <icon>
+    <deutsch>es-2___7fach.small.png</deutsch>
+    <english>es-2___7fach.small.png</english>
+    <français>es-2___7fach.small.png</français>
+  </icon>
+  <image>
+    <deutsch>es-2___7fach.png</deutsch>
+    <english>es-2___7fach.png</english>
+    <français>es-2___7fach.png</français>
+  </image>
+  <name>
+    <deutsch>ES-2...7fach</deutsch>
+    <english>ES-2...7fach</english>
+    <français>ES-2...7fach</français>
+  </name>
+  <headline>
+    <deutsch>Stellelektrode</deutsch>
+    <english>Adjustable electrode</english>
+    <français>Electrode d´ajustement</français>
+  </headline>
+  <description>
+    <deutsch>Geeignet fuer alle leitfaehigen, aggressiven Medien (z.B. Saeuren, Laugen), 
+				waessrige Loesungen, Wasser, Abwasser oder andere leitfaehige Fluessigkeiten
+				Gewindeanschluesse und Gehaeuse aus: PE, PPH, PVC, PTFE und PVDF
+				Fuehlerstaebe aus: Edelstahl, Hastelloy B und C, Titan und Tantal
+				Preisguenstige Einfachausfuehrung
+				Bis zu 7 Schaltpunkte mit einer Elektrode
+				Verstellbare Ausfuehrungen zur nachtraeglichen Anpassung der Schaltpunkte
+				Sonderausfuehrungen und spezielle Elektroden nach Kundenwuenschen</deutsch>
+    <english>Appropriate for all conductive, aggressive media (e.g. acids, bases), aqueous solutions, 
+				water, sewage or other conductive liquids
+				Threaded connections and housings made of : PE, PPH, PVC, PTFE and PVDF
+				Detector bar made of : special steel, Hastelloy B and C, titanium and tanalium
+				Cost efficient basic type 
+				Up to 7 shifting points with one electrode
+				Adjustable types for subsequent adjustment of the shifting points
+				Special types and special electrodes upon customer requests</english>
+    <français>Approprié pour tous les media conductibles, agressifs (p.ex. acides, lessives alcalines), 
+				solutions aqueuses, eau, eaux usées ou d´autres liquides conductibles
+				Raccords filetés et boîtier en: PE, PPH, PVC, PTFE et PVDF 
+				Détecteurs en baguette: acier inox, hastelloy B et C, titane et tantale
+				Construction simple à un prix avantageux
+				Jusqu´à 7 points de commutation avec une électrode 
+				Type ajustable pour l´adaptation ultérieure des points de commutation
+				Construction spéciale et électrodes spéciales sur demande du client</français>
+  </description>
+  <datasheet>
+    <deutsch>
+      <name>Datenblatt</name>
+      <path>04/04-01-02-E-e-2-7fach_es-2-7fach.pdf</path>
+    </deutsch>
+    <english>
+      <name>Datasheet</name>
+      <path>04/04-01-02-E-e-2-7fach_es-2-7fach.pdf</path>
+    </english>
+    <français>
+      <name>Fiche de données</name>
+      <path>04/04-01-02-F-e-2-7fach_es-2-7fach.pdf</path>
+    </français>
+  </datasheet>
+</item>

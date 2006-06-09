@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+  <id>07</id>
+  <position>7</position>
+  <htmldata>
+	  <name>
+    	<deutsch>Hydrostatisch, Grenzwert</deutsch>
+	    <english>Hydrostatic, Limit switch</english>
+    	<français>Hydrostatique, Valuer limite</français>
+	  </name>
+  </htmldata>
+</item>

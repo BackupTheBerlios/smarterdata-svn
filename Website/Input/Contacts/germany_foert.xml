@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+	<title>
+	    <deutsch>Deutscher PLZ-Bereich 35..35999, 40..42999, 44..47999, 50..53999, 56..59999</deutsch>
+    	<english>German postal code area 35..35999, 40..42999, 44..47999, 50..53999, 56..59999</english>
+	    <français>Code postal allemand secteur 35..35999, 40..42999, 44..47999, 50..53999, 56..59999</français>
+	</title>
+   	<name>FIB Ralf Foert Industriebedarf</name>
+	<street>Seydlitzstr. 28</street>
+	<country>DE</country>
+	<citycode>58840</citycode>
+	<city>Plettenberg</city>
+	<prenumber>0049</prenumber>
+	<number>(0)2391-54 93 1</number>
+	<fax>(0)2391-54 93 7</fax>
+	<email>fibfoert@t-online.de</email>
+</item>
