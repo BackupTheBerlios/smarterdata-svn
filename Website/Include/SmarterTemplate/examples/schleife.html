@@ -1,0 +1,45 @@
+<table style="background-color: rgb(204, 204, 204);" border="0" cellpadding="2" cellspacing="1" width="100%">
+	<tr style="background-color: rgb(255, 255, 255);" valign="top">
+		<td>
+			<a href="erweiterung_argumente.php">zurueck</a> 
+			| <a href="index.php">Uebersicht</a> 
+			| <a href="anzeigekontrolle.php">weiter</a> 
+			| <a href="{PHP_FILE}?doDebug">Debugversion</a>
+		</td>
+	</tr>
+</table>
+<table style="background-color: rgb(204, 204, 204);" border="0" cellpadding="2" cellspacing="1" width="100%">
+	<tr style="background-color: rgb(255, 255, 255);" valign="top">
+		<td colspan="3"><center><b>Kontrollstrukturen</b></center></td>
+	</tr>
+	<tr style="background-color: rgb(255, 255, 255);" valign="top">
+		<td colspan="2"><b>Schleifen</b></td>
+	</tr>
+	<tr style="background-color: rgb(255, 255, 255);" valign="top">
+		<td NOWRAP><b>Template</b></td>
+		<td><pre>{displayFileInHTML:TEMPLATE_DIRECTORY,TEMPLATE_FILE}</pre></td>
+	</tr>
+	<tr style="background-color: rgb(255, 255, 255);" valign="top">
+		<td NOWRAP><b>PHP-Code</b></td>
+		<td><pre>{displayFileInHTML:PHP_DIRECTORY,PHP_FILE}</pre></td>
+	</tr>
+	<tr style="background-color: rgb(255, 255, 255);" valign="top">
+		<td><b>Ausgabe</b></td>
+		<td>
+			<!-- BEGIN zeile -->
+				{CURRENTKEY}: {Spalte1}, {Spalte2}, {Spalte3}<br>
+			<!-- END zeile -->
+		</td>
+	</tr>
+</table>
+<table width="100%" cellspacing="1" cellpadding="2" border="0">
+	<tr>
+		<td>
+			<div align="right">
+				<b>Letzte Aenderung am {dateformat:TOP.TIME_REFRESHED}</b>
+				<br><b>Seite kompiliert in {TOP.TIME_COMPILED} Sekunden</b>
+				<br><b>Seite generiert in {TOP.TIME_GENERATED} Sekunden</b>
+			</div>
+		</td>
+	</tr>
+</table>
