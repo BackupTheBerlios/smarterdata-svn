@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+	<image>
+	    <deutsch>other/atex.de.png</deutsch>
+    	<english>other/atex.en.png</english>
+	    <français>other/atex.fr.png</français>
+	</image>
+	<linkto>
+	    <deutsch>documents/Otherdoc/TestReport/ATEX_1172_Q-D-E-.pdf</deutsch>
+    	<english>documents/Otherdoc/TestReport/ATEX_1172_Q-D-E-.pdf</english>
+	    <français>documents/Otherdoc/TestReport/ATEX_1172_Q-D-E-.pdf</français>
+	</linkto>
+</item>

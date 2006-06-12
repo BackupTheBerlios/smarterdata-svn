@@ -1,0 +1,45 @@
+<style>
+tr.contactheader
+{
+	background-color: #BBBBBB;
+	border-bottom: 1px solid #000000;
+	font-family: verdana;
+	font-size: 10px;
+	border-collapse: collapse;
+	margin: 0px;
+	padding: 0px;
+}
+tr.contacts
+{
+	background-color: #CCCCCC;
+	border-bottom: 1px solid #000000;
+	font-family: verdana;
+	font-size: 10px;
+	border-collapse: collapse;
+	margin: 0px;
+	padding: 0px;
+}
+</style>
+<table cellspacing="0" cellpadding="0" border="0">
+	<!-- BEGIN contacts -->
+	<tr class="contactheader">
+		<td colspan="2" align="center">{title}</td>
+	</tr>
+	<tr class="contacts" valign="top">
+		<td>
+			{name}
+			<br>
+			{street}
+			<br>
+			{country} - {citycode} {city}
+		</td>
+		<td NOWRAP>
+			{langtext.fon}: {prenumber} {number}
+			<br>
+			{langtext.fax}: {prenumber} {fax}
+			<br>
+			{langtext.email}: {email}
+		</td>
+	</tr>
+	<!-- END categories -->
+</table>

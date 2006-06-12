@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+  <id>QFSK-26</id>
+  <date>2006-01-01</date>
+  <category>05-03-02</category>
+  <position>1</position>
+  <icon>
+    <deutsch>qfsk-26.small.png</deutsch>
+    <english>qfsk-26.small.png</english>
+    <français>qfsk-26.small.png</français>
+  </icon>
+  <image>
+    <deutsch>qfsk-26.png</deutsch>
+    <english>qfsk-26.png</english>
+    <français>qfsk-26.png</français>
+  </image>
+  <name>
+    <deutsch>QFSK-26</deutsch>
+    <english>QFSK-26</english>
+    <français>QFSK-26</français>
+  </name>
+  <headline>
+    <deutsch>Schwimmschalterkombination Edelstahl quecksilberfrei</deutsch>
+    <english>Float type switch combination made of stainless steel mercury-free</english>
+    <français>Commutateurs flottants en acier inoxydable sans mercure</français>
+  </headline>
+  <description>
+    <deutsch>Einfache kostenguenstige Fuellstandsmessung mit ueberzeugendem Preis / Leistungsverhaeltnis
+				Schwimmer aus Edelstahl (1.4571)
+				Spezialkabel aus: Silikon und FEP (Teflon)
+				Reed-Kontakt</deutsch>
+    <english>Simple, cost-efficient level measuring with a convincing price / performance ratio
+				Float made of special steel (1.4571)
+				Special cable made of : silicone and  FEP (Teflon)
+				Reed-Contact</english>
+    <français>Mesure de niveau simple à un prix avantageux d´un rapport prix/performance convaincant
+				Flotteur des matériaux acier inox (1.4571)
+				Câble spécial en: silicone et FEP (téflon)
+				Reed-Contact</français>
+  </description>
+  <datasheet>
+    <deutsch>
+      <name>Datenblatt</name>
+      <path>05/05-03-02-E-qfs-2_qfsk-2_edelstahl.pdf</path>
+    </deutsch>
+    <english>
+      <name>Datasheet</name>
+      <path>05/05-03-02-E-qfs-2_qfsk-2_edelstahl.pdf</path>
+    </english>
+    <français>
+      <name>Fiche de données</name>
+      <path>05/05-03-02-F-qfs-2_qfsk-2_edelstahl.pdf</path>
+    </français>
+  </datasheet>
+</item>

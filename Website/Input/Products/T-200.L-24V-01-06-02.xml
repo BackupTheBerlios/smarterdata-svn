@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+  <id>T-200.L-24V</id>
+  <date>2006-01-01</date>
+  <category>01-06-02</category>
+  <position>1</position>
+  <icon>
+    <deutsch>t-200.l.24v.small.png</deutsch>
+    <english>t-200.l.24v.small.png</english>
+    <français>t-200.l.24v.small.png</français>
+  </icon>
+  <image>
+    <deutsch>t-200.l.24v.png</deutsch>
+    <english>t-200.l.24v.png</english>
+    <français>t-200.l.24v.png</français>
+  </image>
+  <name>
+    <deutsch>T-200.L (24V)</deutsch>
+    <english>T-200.L (24V)</english>
+    <français>T-200.L (24V)</français>
+  </name>
+  <headline>
+    <deutsch>Leckagesonde 24V Direktanschluss</deutsch>
+    <english>Leakage detector 24V direct connection</english>
+    <français>Sonde de fuits 24V raccordement direct</français>
+  </headline>
+  <description>
+    <deutsch>Geeignet fuer aggressive, wassergefaehrdende Fluessigkeiten ( z.B. Saeuren, Laugen, waessrige Loesungen etc )
+				Allgemeine bauaufsichtliche Zulassung Z-65.40-153
+				Vollstaendige Ausfuehrung in PE, PPH und PVC</deutsch>
+    <english>Appropriate for aggressive, water hazardous liquids (e.g. acids, bases, aqueous solutions, etc.)
+				General approval by the building authorities Z-65.40-153
+				Complete construction in PE, PPH and PVC</english>
+    <français>Approprié pour les liquides agressifs, nocifs pour les eaux 
+				(p.ex. acides, lessives alcalines, solutions aqueuses, etc.)
+				Admission générale de la surveillance de chantiers Z-65.40-153
+				Modèle complet en PE, PPH et PVC</français>
+  </description>
+  <datasheet>
+    <deutsch>
+      <name>Datenblatt</name>
+      <path>01/01-06-02-E-T200L_24v-direkt.pdf</path>
+    </deutsch>
+    <english>
+      <name>Datasheet</name>
+      <path>01/01-06-02-E-T200L_24v-direkt.pdf</path>
+    </english>
+    <français>
+      <name>Fiche de données</name>
+      <path>01/01-06-02-F-T200L_24v-direkt.pdf</path>
+    </français>
+  </datasheet>
+  <otherdoc>
+    <deutsch>
+      <name>Zulassung (Z-65.40-153)</name>
+      <path>TestReport/Z-65.40-153-D-T-200.L.pdf</path>
+    </deutsch>
+    <english>
+      <name>Approval (Z-65.40-153)</name>
+      <path>TestReport/Z-65.40-153-D-T-200.L.pdf</path>
+    </english>
+    <français>
+      <name>Approval (Z-65.40-153)</name>
+      <path>TestReport/Z-65.40-153-D-T-200.L.pdf</path>
+    </français>
+  </otherdoc>
+</item>

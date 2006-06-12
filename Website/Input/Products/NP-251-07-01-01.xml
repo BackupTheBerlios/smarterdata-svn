@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+  <id>NP-251</id>
+  <date>2006-01-01</date>
+  <category>07-01-01</category>
+  <position>1</position>
+  <icon>
+    <deutsch>np-251.small.png</deutsch>
+    <english>np-251.small.png</english>
+    <français>np-251.small.png</français>
+  </icon>
+  <image>
+    <deutsch>np-251.png</deutsch>
+    <english>np-251.png</english>
+    <français>np-251.png</français>
+  </image>
+  <name>
+    <deutsch>NP-251</deutsch>
+    <english>NP-251</english>
+    <français>NP-251</français>
+  </name>
+  <headline>
+    <deutsch>Niveauschalter -pneumatisch- -einfach-</deutsch>
+    <english>Level switch -pneumatic- -simple-</english>
+    <français>Interrupteur de niveau -pneumatique- -simple-</français>
+  </headline>
+  <description>
+    <deutsch>Einzelschalter ab 1/2&quot; Gewindeanschluss in Edelstahl (1.4571)
+				Geeignet fuer aggressive Medien durch Verwendung von Viton- oder EPDM-Membranen
+				Feste, starre Rohre oder flexibler, leicht zu reinigender Schlauch</deutsch>
+    <english>Single switch from threaded connection made of  PPH or PVC
+				Appropriate for aggressive media by using Viton or EPDM membranes
+				Fixed rigid tubes or flexible, easy-to-clean tube</english>
+    <français>Interrupteur individuel à partir de raccord filetés 1/2&quot; en PPH ou PVC
+				Approprié pour les media agressifs en utilisant des membranes en Viton ou EPDM
+				Tubes solides, rigides ou tubes flexibles, simples à nettoyer</français>
+  </description>
+  <datasheet>
+    <deutsch>
+      <name>Datenblatt</name>
+      <path>07/07-01-01-E-np-250.pdf</path>
+    </deutsch>
+    <english>
+      <name>Datasheet</name>
+      <path>07/07-01-01-E-np-250.pdf</path>
+    </english>
+    <français>
+      <name>Fiche de données</name>
+      <path>07/07-01-01-F-np-250.pdf</path>
+    </français>
+  </datasheet>
+</item>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+  <id>EE-22-01-03-02</id>
+  <date>2006-01-01</date>
+  <category>01-03-02</category>
+  <position>1</position>
+  <icon>
+    <deutsch>ee-22.small.png</deutsch>
+    <english>ee-22.small.png</english>
+    <français>ee-22.small.png</français>
+  </icon>
+  <image>
+    <deutsch>ee-22.png</deutsch>
+    <english>ee-22.png</english>
+    <français>ee-22.png</français>
+  </image>
+  <name>
+    <deutsch>EE-22</deutsch>
+    <english>EE-22</english>
+    <français>EE-22</français>
+  </name>
+  <headline>
+    <deutsch>Elektrode -mehrfach- EX-Bereich Kategorie 1 (Zone 0)</deutsch>
+    <english>Electrode -multiple- EX area category 1 (zone 0)</english>
+    <français>Electrode -multiple- zone à risque d´explosion catégorie 1 (Zone 0)</français>
+  </headline>
+  <description>
+    <deutsch>Konduktive Messung in explosionsgefaehrdeten Bereichen mit EG-Baumusterpruefbescheinigung
+				Einsatz der Elektroden bei Kategorie 1 (Zone 0) im Gasraum oberhalb der Medien
+				ATEX-Zulassung TUEV 02 ATEX 1796 X
+				Ueberfuellsicherung EX und WHG Z-65.13-405</deutsch>
+    <english>Conductive measuring in potentially explosive areas with EG type test certificate
+				Use of the electrodes for category 1 (zone 0) in the gamma space above the media
+				ATEX approval TUEV 02 ATEX 1796 X
+				Protection against overfilling EX and WHG Z-65.13-405</english>
+    <français>Mesures conductives dans des zones à risque d´explosion avec certificat d&apos;essai de modèle type
+				Utilisation de l´électrode à la catégorie 1 (Zone 0) à l&apos;espace gamma au-dessus des media
+				Admission ATEX TUEV 02 ATEX 1796 X
+				Protection contre le trop-plein EX et WHG Z-65.13-405</français>
+  </description>
+  <datasheet>
+    <deutsch>
+      <name>Datenblatt</name>
+      <path>01/01-03-02-E-ee21_22.pdf</path>
+    </deutsch>
+    <english>
+      <name>Datasheet</name>
+      <path>01/01-03-02-E-ee21_22.pdf</path>
+    </english>
+    <français>
+      <name>Fiche de données</name>
+      <path>01/01-03-02-F-ee21_22.pdf</path>
+    </français>
+  </datasheet>
+  <otherdoc>
+    <deutsch>
+      <name>ATEX-Zulassung (TUEV 02 ATEX 1796 X)</name>
+      <path>TestReport/ATEX_1796_X_EE-20,EE-21.pdf</path>
+    </deutsch>
+    <english>
+      <name>ATEX approval (TUEV 02 ATEX 1796 X)</name>
+      <path>TestReport/ATEX_1796_X_EE-20,EE-21.pdf</path>
+    </english>
+    <français>
+      <name>Admission ATEX (TUEV 02 ATEX 1796 X)</name>
+      <path>TestReport/ATEX_1796_X_EE-20,EE-21.pdf</path>
+    </français>
+  </otherdoc>
+  <otherdoc>
+    <deutsch>
+      <name>Zulassung (Z-65.13-405)</name>
+      <path>TestReport/Z-65.13-405.pdf</path>
+    </deutsch>
+    <english>
+      <name>Approval (Z-65.13-405)</name>
+      <path>TestReport/Z-65.13-405.pdf</path>
+    </english>
+    <français>
+      <name>Admission (Z-65.13-405)</name>
+      <path>TestReport/Z-65.13-405.pdf</path>
+    </français>
+  </otherdoc>
+</item>

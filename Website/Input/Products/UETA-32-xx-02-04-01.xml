@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+  <id>UETA-32-xx</id>
+  <date>2006-01-01</date>
+  <category>02-04-01</category>
+  <position>1</position>
+  <icon>
+    <deutsch>ueta-32-63.small.png</deutsch>
+    <english>ueta-32-63.small.png</english>
+    <français>ueta-32-63.small.png</français>
+  </icon>
+  <image>
+    <deutsch>ueta-32-90.png</deutsch>
+    <english>ueta-32-90.png</english>
+    <français>ueta-32-90.png</français>
+  </image>
+  <name>
+    <deutsch>UETA-32-xx</deutsch>
+    <english>UETA-32-xx</english>
+    <français>UETA-32-xx</français>
+  </name>
+  <headline>
+    <deutsch>Uebertankanzeiger</deutsch>
+    <english>Overfilling indicator</english>
+    <français>Affichage de trop-plein</français>
+  </headline>
+  <description>
+    <deutsch>Vor-Ort-Anzeige durch transparentes PVC-Rohr oder durch magnetisch betaetigte Anzeigeschiene
+				Vollstaendige Trennung des Fluessigkeitsstandes zum Anzeigeraum
+				Grenzkontakte und Geber fuer Fernanzeige</deutsch>
+    <english>On-site display by a transparent PVC tube or by a magnetically actuated display bar
+				Complete separation between the liquid level and the display area
+				Limit contacts and transmitting device as accessory</english>
+    <français>Affichage sur place par une tube en PVC transparent ou par une barre d´affichage magnétique
+				Séparation complète du niveau du liquide et de l´indicateur
+				Contacts et transmetteur pour le téléaffichage en option</français>
+  </description>
+  <datasheet>
+    <deutsch>
+      <name>Datenblatt</name>
+      <path>02/02-04-01-E-UETA.pdf</path>
+    </deutsch>
+    <english>
+      <name>Datasheet</name>
+      <path>02/02-04-01-E-UETA.pdf</path>
+    </english>
+    <français>
+      <name>Fiche de données</name>
+      <path>02/02-04-01-F-UETA.pdf</path>
+    </français>
+  </datasheet>
+</item>

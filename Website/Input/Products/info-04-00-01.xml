@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+  <id>info-04-00-01</id>
+  <date>2006-01-01</date>
+  <category>04-00-01</category>
+  <position>1</position>
+  <icon>
+    <deutsch>info.small.png</deutsch>
+    <english>info.small.png</english>
+    <français>info.small.png</français>
+  </icon>
+  <image>
+    <deutsch />
+    <english />
+    <français />
+  </image>
+  <name>
+    <deutsch>Info</deutsch>
+    <english>Info</english>
+    <français>Info</français>
+  </name>
+  <headline>
+    <deutsch>Allgemeine Beschreibung zu Elektroden</deutsch>
+    <english>General description of electrodes</english>
+    <français>Description générale de électrodes</français>
+  </headline>
+  <description>
+    <deutsch>-</deutsch>
+    <english>-</english>
+    <français>-</français>
+  </description>
+  <datasheet>
+    <deutsch>
+      <name>Datenblatt</name>
+      <path>04/04-00-01-E-elektroden_allgemein.pdf</path>
+    </deutsch>
+    <english>
+      <name>Datasheet</name>
+      <path>04/04-00-01-E-elektroden_allgemein.pdf</path>
+    </english>
+    <français>
+      <name>Fiche de données</name>
+      <path>04/04-00-01-F-elektroden_allgemein.pdf</path>
+    </français>
+  </datasheet>
+</item>

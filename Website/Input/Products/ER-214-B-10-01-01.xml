@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+  <id>ER-214-B</id>
+  <date>2006-01-01</date>
+  <category>10-01-01</category>
+  <position>1</position>
+  <icon>
+    <deutsch>er-214_b.small.png</deutsch>
+    <english>er-214_b.small.png</english>
+    <français>er-214_b.small.png</français>
+  </icon>
+  <image>
+    <deutsch>er-214_b.png</deutsch>
+    <english>er-214_b.png</english>
+    <français>er-214_b.png</français>
+  </image>
+  <name>
+    <deutsch>ER-214/B</deutsch>
+    <english>ER-214/B</english>
+    <français>ER-214/B</français>
+  </name>
+  <headline>
+    <deutsch>Elektrodenrelais 2-Kanal</deutsch>
+    <english>Electrode relay 2 channel</english>
+    <français>Relais d´électrode 2 canal</français>
+  </headline>
+  <description>
+    <deutsch>Geeignet zum Aufbau von Steuerungen mit konduktiven Elektroden
+				Geringe Abmessungen (bei Breite 22,5mm) d.h. Platzeinsparung im Schaltschrank
+				Niedrige Leistungsaufnahme (z.B. 5mA bei 230VAC) d.h. Einsparungen in der Leistungsversorgung
+				2-Kanal geeignet zur Erfassung von Grenzwerten (Hoch-,Tiefalarm) oder zum Aufbau von 
+				2-mal-2-Punkt-Regelungen (MIN/MAX) in einem Geraet
+				Ansteuerung der Elektroden mit gleichspannungsfreier Wechselspannung zur Vermeidung von Elektrolyse
+				Busfaehig
+				Grosser Bereich an moeglichen Versorgungsspannungen; auch DC-Versionen moeglich
+				Mehrere Empfindlichkeitsbereiche (einstellbar), somit optimale Anpassung an Schwach- oder starkleitfaehige Medien
+				Temperatur- und spannungsstabile Ansprechempfindlichkeit; Grenzwerterfassung von unterschiedlich 
+				leitfaehigen Fluessigkeiten moeglich bzw. kein Ansprechen auf leitfaehige &quot;Nebel&quot; oberhalb der Fluessigkeiten
+				Als Kontaktschutzrelais einsetzbar
+				19&quot;-Versionen moeglich
+				Montagefreundlicher Federkraftklemmenanschluss</deutsch>
+    <english>Appropriate for mounting of controls with conductive electrodes
+				Little dimensions (in 22,5mm width) e.g. space-saving in the switch cabinet
+				Low power consumption (e.g. 5mA at 230VAC) i.e. saving in the power supply
+				2-channel appropriate for the measuring of limit values (high-, low-alarm) or to mount 
+				2 times 2 point controls (MIN/MAX) on one device
+				Drive of the electrodes with DC-free alternating voltage to prevent from electrolysis
+				Compatible to bus systems
+				Large range of possible supply voltages; also DC versions possible
+				Several ranges of sensitivity (adjustable) thus optimum adaptation to low or high conductive media
+				Temperature- and tension-stable response sensitivity; limit value measuring of different conductive liquids 
+				is possible respectively no response to conductive ?fog? above the liquids
+				Applicable as contact protection relay
+				19&quot; versions available
+				Assembly-friendly spring force clamp connection</english>
+    <français>Approprié pour l´assemblage de réglages avec des électrodes conductives
+				Petites dimensions (en largeur 22,5mm) c´est-à-dire gain de place dans l´armoire de commande
+				Basse puissance à l´arbre (p.ex. 5mA à 230VAC) c´est-à-dire économie dans l&apos;alimentation 
+				deux canaux appropriés pour saisir les valeurs limites d´alarme  (élevé/bas)  ou pour assembler 
+				le réglage 2 fois 2 points (MIN/MAX) dans une unité
+				Exciter les electrodes par courant alternatif sans tension continue  pour éviter l´électrolyse
+				applicable avec commande de bus
+				Grande gamme de tensions d´alimentation disponibles; également livrable en version DC
+				Plusieurs paliers de sensibilité (ajustables) ainsi que l´adaptation optimale à des media 
+				de faible et forte conductibilité
+				Sensibilité de fonctionnement stable en température et en tension; saisie de valeurs limites de liquides 
+				de différente conductibilité possible , pas de sensibilité aux « brouillards » conductibles au-dessus des liquides 
+				Utilisable comme relais de protection de contact 
+				Versions 19&quot; disponibles
+				Connexion serrée par tension facile à monter</français>
+  </description>
+  <datasheet>
+    <deutsch>
+      <name>Datenblatt</name>
+      <path>10/10-01-01-E-er104b_er214b.pdf</path>
+    </deutsch>
+    <english>
+      <name>Datasheet</name>
+      <path>10/10-01-01-E-er104b_er214b.pdf</path>
+    </english>
+    <français>
+      <name>Fiche de données</name>
+      <path>10/10-01-01-F-er104b_er214b.pdf</path>
+    </français>
+  </datasheet>
+  <manual>
+    <deutsch>
+      <name>Betriebsanleitung</name>
+      <path>M-D-er-214b.pdf</path>
+    </deutsch>
+    <english>
+      <name>Operating instruction</name>
+      <path>M-D-er-214b.pdf</path>
+    </english>
+    <français>
+      <name>Mode d´emploi</name>
+      <path>M-D-er-214b.pdf</path>
+    </français>
+  </manual>
+</item>

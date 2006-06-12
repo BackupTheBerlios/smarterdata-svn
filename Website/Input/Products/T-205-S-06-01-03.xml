@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+  <id>T-205-S</id>
+  <date>2006-01-01</date>
+  <category>06-01-03</category>
+  <position>1</position>
+  <icon>
+    <deutsch>t-205-s.small.png</deutsch>
+    <english>t-205-s.small.png</english>
+    <français>t-205-s.small.png</français>
+  </icon>
+  <image>
+    <deutsch>t-205-s.png</deutsch>
+    <english>t-205-s.png</english>
+    <français>t-205-s.png</français>
+  </image>
+  <name>
+    <deutsch>T-205-S</deutsch>
+    <english>T-205-S</english>
+    <français>T-205-S</français>
+  </name>
+  <headline>
+    <deutsch>T-205 mit Schutzrohr</deutsch>
+    <english>T-205 with protective tube</english>
+    <français>T-205 avec tube protecteur</français>
+  </headline>
+  <description>
+    <deutsch>Geeignet fuer die Erfassung und Steuerung von Fluessigkeiten
+				Preisguenstige Ausfuehrung mit Kabelanschluss
+				Komplett aus PPH bzw. PVC
+				Potentialfreier Schaltkontakt
+				Temperatur-, druck- und medienunabhaengige Fuellstandserfassung
+				Integriertes Fixiergewicht</deutsch>
+    <english>Appropriate for the capturing and control of liquids
+				Price-efficient type with cable connection
+				Completely made of PPH or PVC
+				Potential-free switching contacts
+				Level measuring independent of temperature, pressure and media 
+				Integrated fixture weight</english>
+    <français>Conviennent pour la saisie et le contrôle de liquides
+				Type à un prix avantageux avec raccord de câble
+				Complet en PPH ou PVC
+				Contacts de commutation de commande sans potentiel
+				Saisie du niveau indépendante de la température, de la pression et des medias 
+				Poids de fixage intégré</français>
+  </description>
+  <datasheet>
+    <deutsch>
+      <name>Datenblatt</name>
+      <path>06/06-01-03-E-T205.pdf</path>
+    </deutsch>
+    <english>
+      <name>Datasheet</name>
+      <path>06/06-01-03-E-T205.pdf</path>
+    </english>
+    <français>
+      <name>Fiche de données</name>
+      <path>06/06-01-03-F-T205.pdf</path>
+    </français>
+  </datasheet>
+</item>

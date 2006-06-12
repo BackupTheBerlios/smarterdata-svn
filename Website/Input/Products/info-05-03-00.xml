@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+  <id>info-05-03-00</id>
+  <date>2006-01-01</date>
+  <category>05-03-00</category>
+  <position>1</position>
+  <icon>
+    <deutsch>info-hgfrei.small.png</deutsch>
+    <english>info-hgfrei.small.png</english>
+    <français>info-hgfrei.small.png</français>
+  </icon>
+  <image>
+    <deutsch />
+    <english />
+    <français />
+  </image>
+  <name>
+    <deutsch>Info</deutsch>
+    <english>Info</english>
+    <français>Info</français>
+  </name>
+  <headline>
+    <deutsch>Schwimmschalter allgemein</deutsch>
+    <english>Float switches</english>
+    <français>Flotteurs</français>
+  </headline>
+  <description>
+    <deutsch>-</deutsch>
+    <english>-</english>
+    <français>-</français>
+  </description>
+  <datasheet>
+    <deutsch>
+      <name>Datenblatt</name>
+      <path>05/05-03-00-E-hg-frei_schwimmschalter.pdf</path>
+    </deutsch>
+    <english>
+      <name />
+      <path />
+    </english>
+    <français>
+      <name />
+      <path />
+    </français>
+  </datasheet>
+</item>
