@@ -26,7 +26,6 @@ function CheckHeaderImage(& $Check)
 		}
 		if (!is_file($Imagepath . $Check[$Language]))
 		{
-			echo $Imagepath . $Check[$Language];
 			echo 'header image not found for ' . $Language;
 			return false;
 		}
@@ -58,7 +57,6 @@ function CheckHeaderLinkto(& $Check)
 			echo 'header linkto unset for ' . $Language;
 			return false;
 		}
-		echo $Mainpath . $Check[$Language] . '<br>';
 		if (!file_exists($Mainpath . $Check[$Language]))
 		{
 			echo 'header linkto not found.';

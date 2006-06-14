@@ -16,5 +16,4 @@ while ($File= $Dir->Read())
 	$Filename= substr($File, 0, strlen($File) - 4);
 	$AvailableHeader[$Filename]= $Temp['root']['item'];
 }
-echo '<pre>'.print_r($AvailableHeader, 1).'</pre>';
 ?>
