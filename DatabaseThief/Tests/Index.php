@@ -1,8 +1,7 @@
 <?php
 require_once str_replace('\\', '/', dirname(__FILE__)) . '/../Include.php';
 require_once str_replace('\\', '/', dirname(__FILE__)) . '/Config.php';
-$Data= new DatabaseThief('mysql');
-$Data->Connect($DatabaseHost, $DatabasePort, $DatabaseName, 'root', 'samtron');
+$Data= new DatabaseThief('mysql', $DatabaseHost, $DatabasePort, $DatabaseName, 'test', 'test');
 $Databases= $Data->ListDatabases();
 if ($Databases === null)
 {
@@ -14,7 +13,6 @@ else
 	{
 		echo '<hr align="left" style="width: 50px">';
 		echo 'DB: ' . $Database[0] . '<br>';
-		#continue;
 		$Tables= $Data->ListTables($Database[0]);
 		if ($Tables === null)
 		{

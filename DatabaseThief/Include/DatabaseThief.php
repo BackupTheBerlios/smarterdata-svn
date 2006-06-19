@@ -3,17 +3,14 @@ class DatabaseThief
 {
 	protected $Db;
 	protected $DbType;
-	public function __construct($DbType)
+	public function __construct($DbType, $DatabaseHost, $DatabasePort, $DatabaseName, $DatabaseUserName, $DatabaseUserPassword)
 	{
-		$this->DbType=$DbType;
+		$this->DbType= $DbType;
+		$this->Db= DbConnect :: Connect($DbType, $DatabaseHost, $DatabasePort, $DatabaseName, $DatabaseUserName, $DatabaseUserPassword);
+		$this->Db->setAttribute(PDO :: ATTR_ERRMODE, PDO :: ERRMODE_EXCEPTION);
 	}
 	public function __destruct()
 	{
-	}
-	public function Connect($DatabaseHost, $DatabasePort, $DatabaseName, $DatabaseUserName, $DatabaseUserPassword)
-	{
-		$this->Db= DbConnect :: Connect($DatabaseHost, $DatabasePort, $DatabaseName, $DatabaseUserName, $DatabaseUserPassword);
-		$this->Db->setAttribute(PDO :: ATTR_ERRMODE, PDO :: ERRMODE_EXCEPTION);
 	}
 	public function ListDatabases()
 	{
@@ -27,9 +24,9 @@ class DatabaseThief
 	private function MySqlListDatabases()
 	{
 		$Query= 'SHOW DATABASES';
-		$Pdo=$this->Db->Prepare($Query);
+		$Pdo= $this->Db->Prepare($Query);
 		$Pdo->Execute();
-		if(!($Values=$Pdo->FetchAll()))
+		if (!($Values= $Pdo->FetchAll()))
 		{
 			return null;
 		}
@@ -48,9 +45,9 @@ class DatabaseThief
 	{
 		$Query= 'USE ' . $DatabaseName;
 		$Query= 'SHOW TABLES';
-		$Pdo=$this->Db->Prepare($Query);
+		$Pdo= $this->Db->Prepare($Query);
 		$Pdo->Execute();
-		if(!($Values=$Pdo->FetchAll()))
+		if (!($Values= $Pdo->FetchAll()))
 		{
 			return null;
 		}
@@ -69,9 +66,9 @@ class DatabaseThief
 	{
 		$Query= 'USE ' . $DatabaseName;
 		$Query= 'SHOW COLUMNS FROM ' . $TableName;
-		$Pdo=$this->Db->Prepare($Query);
+		$Pdo= $this->Db->Prepare($Query);
 		$Pdo->Execute();
-		if(!($Values=$Pdo->FetchAll()))
+		if (!($Values= $Pdo->FetchAll()))
 		{
 			return null;
 		}

@@ -28,9 +28,9 @@ class DbConnect
 	 * @param string $DatabaseUserName
 	 * @param string $DatabaseUserPassword
 	 */
-	public static function & Connect($DatabaseHost, $DatabasePort, $DatabaseName, $DatabaseUserName, $DatabaseUserPassword)
+	public static function & Connect($DatabaseType, $DatabaseHost, $DatabasePort, $DatabaseName, $DatabaseUserName, $DatabaseUserPassword)
 	{
-		$ConnectionString= self :: CreateConnectionstring($DatabaseHost, $DatabasePort, $DatabaseName, $DatabaseUserName, $DatabaseUserPassword);
+		$ConnectionString= self :: CreateConnectionstring($DatabaseType, $DatabaseHost, $DatabasePort, $DatabaseName, $DatabaseUserName, $DatabaseUserPassword);
 		if (!isset (self :: $DatabaseConnection[$ConnectionString]))
 		{
 			try
@@ -54,7 +54,7 @@ class DbConnect
 	 * @param string $DatabaseUserName
 	 * @param string $DatabaseUserPassword
 	 */
-	public static function Disconnect($DatabaseHost, $DatabasePort, $DatabaseName, $DatabaseUserName, $DatabaseUserPassword)
+	public static function Disconnect($DatabaseType, $DatabaseHost, $DatabasePort, $DatabaseName, $DatabaseUserName, $DatabaseUserPassword)
 	{
 		$ConnectionString= self :: CreateConnectionstring($DatabaseHost, $DatabasePort, $DatabaseName, $DatabaseUserName, $DatabaseUserPassword);
 		self :: $DatabaseConnection[$ConnectionString]= null;
@@ -69,9 +69,9 @@ class DbConnect
 	 * @param string $DatabaseUserName
 	 * @param string $DatabaseUserPassword
 	 */
-	private static function CreateConnectionstring($DatabaseHost, $DatabasePort, $DatabaseName, $DatabaseUserName, $DatabaseUserPassword)
+	private static function CreateConnectionstring($DatabaseType, $DatabaseHost, $DatabasePort, $DatabaseName, $DatabaseUserName, $DatabaseUserPassword)
 	{
-		$ConnectionString= 'mysql:';
+		$ConnectionString= $DatabaseType . ':';
 		$ConnectionString .= 'host=' . $DatabaseHost;
 		$ConnectionString .= ';port=' . $DatabasePort;
 		$ConnectionString .= ';dbname=' . $DatabaseName;
