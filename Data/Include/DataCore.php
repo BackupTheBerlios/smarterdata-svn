@@ -21,6 +21,7 @@ class DataCore extends Datamanager
 	}
 	public function __destruct()
 	{
+		$this->Store();
 	}
 	private function Load()
 	{
