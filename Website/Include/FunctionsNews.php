@@ -1,5 +1,5 @@
 <?php
-function CheckNewsDate(&$Check)
+function CheckNewsDate(& $Check)
 {
 	if (is_array($Check))
 	{
@@ -95,7 +95,7 @@ function CheckNewsDescription(& $Check)
 		$Check[$Language]= array ();
 		foreach ($Description as $Line)
 		{
-			$Check[$Language][]['value']= trim($Line) . "\n";
+			$Check[$Language][]['value']= trim($Line);
 		}
 	}
 	return true;
@@ -132,16 +132,63 @@ function CheckNewsDoc(& $Check)
 	}
 	return true;
 }
-function CheckNewsInmenu(&$Check, &$Headline)
+function CheckNewsInmenu(& $Check, & $Headline)
 {
-	if($Check === 'yes')
+	if ($Check === 'yes')
 	{
-		$Check = $Headline;
+		$Check= $Headline;
 	}
 	return true;
 }
-function GenerateNewssite($News)
+function GenerateNews($News)
 {
-	echo '<pre>' . print_r($News, 1) . '</pre>';
+	global $UsedLanguages;
+	foreach ($UsedLanguages as $Language)
+	{
+		$NewItems= array ();
+		foreach ($News as $Newsbit)
+		{
+			foreach ($Newsbit as $New)
+			{
+				$NewItems[]= PrepareNewsArray($New, $Language);
+			}
+		}
+		$Tpl= new smartertemplate(dirname(__FILE__) . '/../Input/Templates/News.html');
+		$Tpl->Assign('language', $Language);
+		$Tpl->Assign('news', $NewItems);
+		$Pageresult= $Tpl->Result();
+		$Fh= fopen(dirname(__FILE__) . '/../Output/News/_news_' . $Language . '.html', 'w');
+		fputs($Fh, $Pageresult);
+		fclose($Fh);
+		$Tpl->SetTemplatefile(dirname(__FILE__) . '/../Input/Templates/Newsmenu.html');
+		$Pageresult= $Tpl->Result();
+		$Fh= fopen(dirname(__FILE__) . '/../Output/News/_newsmenu_' . $Language . '.html', 'w');
+		fputs($Fh, $Pageresult);
+		fclose($Fh);
+	}
+}
+function PrepareNewsArray($News, $Language)
+{
+	global $Languagetexts;
+	$Tplvar['language']= $Language;
+	$Tplvar['langtext']= $Languagetexts[$Language];
+	$Tplvar['date']= $News['date'];
+	$Tplvar['icon']= $News['icon'][$Language];
+	$Tplvar['inmenu']= $News['inmenu'][$Language];
+	$Tplvar['menuname']= $News['menuname'][$Language];
+	$Tplvar['headline']= $News['headline'][$Language];
+	$Tplvar['description']= $News['description'][$Language];
+	if (!isset ($News['newsdoc']))
+	{
+		$Tplvar['newsdoc']= '';
+	}
+	else
+	{
+		foreach ($News['newsdoc'] as $Newsdoc)
+		{
+			$Tplvar['newsdoc'][]= $Newsdoc[$Language];
+		}
+	}
+	return $Tplvar;
 }
 ?>

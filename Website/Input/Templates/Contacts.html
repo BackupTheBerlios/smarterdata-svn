@@ -20,26 +20,25 @@ tr.contacts
 	padding: 0px;
 }
 </style>
-<table cellspacing="0" cellpadding="0" border="0">
+<table
+	cellspacing="0"
+	cellpadding="0"
+	border="0">
 	<!-- BEGIN contacts -->
 	<tr class="contactheader">
-		<td colspan="2" align="center">{title}</td>
+		<td
+			colspan="2"
+			align="center">{title}</td>
 	</tr>
-	<tr class="contacts" valign="top">
-		<td>
-			{name}
-			<br>
-			{street}
-			<br>
-			{country} - {citycode} {city}
-		</td>
-		<td NOWRAP>
-			{langtext.fon}: {prenumber} {number}
-			<br>
-			{langtext.fax}: {prenumber} {fax}
-			<br>
-			{langtext.email}: {email}
-		</td>
+	<tr
+		class="contacts"
+		valign="top">
+		<td>{name} <br>
+		{street} <br>
+		{country} - {citycode} {city}</td>
+		<td NOWRAP>{langtext.fon}: {prenumber} {number} <br>
+		{langtext.fax}: {prenumber} {fax} <br>
+		{langtext.email}: {email}</td>
 	</tr>
 	<!-- END categories -->
 </table>

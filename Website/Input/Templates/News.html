@@ -1,0 +1,40 @@
+<style>
+tr.news
+{
+	background-color: #CCCCCC;
+	border-bottom: 1px solid #000000;
+	font-family: verdana;
+	font-size: 10px;
+	border-collapse: collapse;
+	margin: 0px;
+	padding: 0px;
+}
+</style>
+<table
+	cellspacing="0"
+	cellpadding="0"
+	border="0">
+	<!-- BEGIN news -->
+	<tr class="news">
+		<td>{date}</td>
+		<td>{headline}</td>
+	</tr>
+	<tr class="news">
+		<td colspan="2">
+		<ul>
+			<!-- BEGIN description -->
+			<li>{value}</li>
+			<!-- END description -->
+		</ul>
+		<!-- IF newsdoc>"" -->
+		<div align="right">
+		<ul>
+			<!-- BEGIN newsdoc -->
+			<li><a href="Documents/News/{path}">{name}</a></li>
+			<!-- END newsdoc -->
+		</ul>
+		</div>
+		<!-- ENDIF newsdoc>"" --></td>
+	</tr>
+	<!-- END news -->
+</table>

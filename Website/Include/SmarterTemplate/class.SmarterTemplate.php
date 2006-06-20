@@ -64,11 +64,6 @@
 			}
 
 			$this->setTemplateFilename ( $template_filename );
-			$this->setPaths ();
-			$this->setDebug ();
-			$this->setPattern ();
-			$this->setLifetime ();
-			$this->setFeatures ();
 		}
 		public function assign ( $name, $value = '' )
 		{
@@ -236,7 +231,7 @@
 				$this->smarterCache		= new SmarterCache ();
 			}
 		}
-		private function setTemplateFilename ( $template_filename )
+		public function setTemplateFilename ( $template_filename )
 		{
 			/** Searching for the template on different locations
 			 * @param $template_filename string
@@ -246,6 +241,11 @@
 #			if ( $this->lang != "" ) $template_filename = preg_replace ( '/\.([a-z]{1,})$/i', '.' . $this->lang . '.$1', $template_filename );
 			$this->templatefile		= $template_filename;
 			$this->templatefilenameEncoded	= preg_replace ( '/[:\/.\\\\]/', '_', $this->templatefile ) . '.php';
+			$this->setPaths ();
+			$this->setDebug ();
+			$this->setPattern ();
+			$this->setLifetime ();
+			$this->setFeatures ();
 		}
 		private function setDebug ()
 		{
