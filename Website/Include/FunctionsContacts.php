@@ -118,7 +118,7 @@ function CheckContactPrenumber(& $Check)
 		echo 'Array in contact Prenumber';
 		return false;
 	}
-	if (strlen($Check) < 4)
+	if (strlen($Check) < 3)
 	{
 		echo 'contact Prenumber too short';
 		return false;
@@ -187,7 +187,6 @@ function GenerateContacts($Contacts)
 		{
 			$NewItems[]= PrepareContactArray($Contact, $Language);
 		}
-		
 		$Tpl= new smartertemplate(dirname(__FILE__) . '/../Input/Templates/Contacts.html');
 		$Tpl->Assign('language', $Language);
 		$Tpl->Assign('contacts', $NewItems);
@@ -201,16 +200,16 @@ function PrepareContactArray($Contact, $Language)
 {
 	global $Languagetexts;
 	$Tplvar['language']= $Language;
-	$Tplvar['title']=$Contact['title'][$Language];
-	$Tplvar['name']=$Contact['name'];
-	$Tplvar['street']=$Contact['street'];
-	$Tplvar['country']=$Contact['country'];
-	$Tplvar['citycode']=$Contact['citycode'];
-	$Tplvar['city']=$Contact['city'];
-	$Tplvar['prenumber']=$Contact['prenumber'];
-	$Tplvar['number']=$Contact['number'];
-	$Tplvar['fax']=$Contact['fax'];
-	$Tplvar['email']=$Contact['email'];
+	$Tplvar['title']= $Contact['title'][$Language];
+	$Tplvar['name']= $Contact['name'];
+	$Tplvar['street']= $Contact['street'];
+	$Tplvar['country']= $Contact['country'];
+	$Tplvar['citycode']= $Contact['citycode'];
+	$Tplvar['city']= $Contact['city'];
+	$Tplvar['prenumber']= $Contact['prenumber'];
+	$Tplvar['number']= $Contact['number'];
+	$Tplvar['fax']= $Contact['fax'];
+	$Tplvar['email']= $Contact['email'];
 	$Tplvar['langtext']= $Languagetexts[$Language];
 	return $Tplvar;
 }

@@ -49,7 +49,11 @@ function PrepareImpressumArray($Impressum, $Language)
 {
 	global $Languagetexts;
 	$Tplvar['language']= $Language;
-	$Tplvar['text']= $Impressum['text'][$Language];
+	$Text = explode("\n", $Impressum['text'][$Language]);
+	foreach($Text as $Line)
+	{
+		$Tplvar['text'].= trim($Line)."\n";
+	}
 	$Tplvar['langtext']= $Languagetexts[$Language];
 	return $Tplvar;
 }
