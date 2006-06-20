@@ -1,40 +1,43 @@
+<style>
+tr.menu
+{
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #000000;
+	font-family: verdana;
+	font-size: 11px;
+	border-collapse: collapse;
+	margin: 0px;
+	padding: 0px;
+}
+</style>
 <table width="100%">
 	<!-- ABOUTUS -->
-	<tr>
+	<tr class="menu">
 		<td><a href="_aboutus_{language}.html">{langtext.aboutus}</a></td>
 	</tr>
 	<!-- NEWS -->
-	<tr>
+	<tr class="menu">
 		<td><a href="_news_{language}.html">{langtext.news}</a></td>
 	</tr>
 	<!-- NEWSMENU -->
-	<tr>
+	<tr class="menu">
 		<td>{menu.newsmenu}</td>
 	</tr>
 	<!-- PRODUCTS -->
-	<tr>
+	<tr class="menu">
 		<td>{langtext.products}</td>
 	</tr>
-	<tr>
+	<tr class="menu">
 		<td>{menu.categories}</td>
 	</tr>
 	<!-- DOCUMENTS -->
-	<tr>
-		<td>{langtext.documents_conformity}</td>
+	<tr class="menu">
+		<td><a href="_products_documents_conformity_{language}.html">{langtext.documents_conformity}</td>
 	</tr>
-	<tr>
-		<td>{menu.documents_conformity}</td>
+	<tr class="menu">
+		<td><a href="_products_documents_manual_{language}.html">{langtext.documents_manual}</td>
 	</tr>
-	<tr>
-		<td>{langtext.documents_manual}</td>
-	</tr>
-	<tr>
-		<td>{menu.documents_manual}</td>
-	</tr>
-	<tr>
-		<td>{langtext.documents_other}</td>
-	</tr>
-	<tr>
-		<td>{menu.documents_other}</td>
+	<tr class="menu">
+		<td><a href="_products_documents_otherdoc_{language}.html">{langtext.documents_other}</td>
 	</tr>
 </table>

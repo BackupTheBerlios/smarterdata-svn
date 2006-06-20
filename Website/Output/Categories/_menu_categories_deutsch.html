@@ -4,7 +4,7 @@ tr.categories
 	background-color: #CCCCCC;
 	border-bottom: 1px solid #000000;
 	font-family: verdana;
-	font-size: 10px;
+	font-size: 11px;
 	border-collapse: collapse;
 	margin: 0px;
 	padding: 0px;
