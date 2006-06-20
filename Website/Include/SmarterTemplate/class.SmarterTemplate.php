@@ -5,7 +5,7 @@
 		private $lang					= "de";
 		private $doDebug				= false;
 		private $checkNonEmpty			= true;
-		private $useCache				= true;
+		private $useCache				= false;
 		private $currentLoop			= 0;
 		private $parentLoop				= array ();
 		private $pattern				= array ();
