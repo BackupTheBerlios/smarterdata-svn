@@ -1,61 +1,62 @@
 <?php
 require_once 'Config.php';
 require_once dirname(__FILE__) . '/Include/SmarterTemplate/class.smartertemplate.php';
-$UsedLanguages= array (
-	'deutsch',
-	'english',
-	'français'
-);
-$Languagetexts= array (
-	'deutsch' => array (
-		'siehe_auch' => 'siehe auch',
-		'datasheet' => 'Datenblaetter',
-		'handbuch' => 'Betriebsanleitungen',
-		'otherdoc' => 'Andere Dokumente',
-		'fon' => 'Telefon',
-		'fax' => 'Telefax',
-		'email' => 'eMail'
-	),
-	'english' => array (
-		'siehe_auch' => 'see also',
-		'datasheet' => 'Datasheets',
-		'handbuch' => 'Manuals',
-		'otherdoc' => 'Other documents',
-		'fon' => 'Telephone',
-		'fax' => 'Fax',
-		'email' => 'eMail'
-	),
-	'français' => array (
-		'siehe_auch' => 'voir aussi',
-		'datasheet' => 'Datasheets',
-		'handbuch' => 'Manuals',
-		'otherdoc' => 'Other documents',
-		'fon' => 'Téléphone',
-		'fax' => 'Télécopie',
-		'email' => 'eMail'
-	)
-);
-$DefaultLanguage= 'deutsch';
-$FoundDocuments= array();
+/**
+ * Sprachen laden
+ */
+require_once dirname(__FILE__) . '/Include/Languagetexts.php';
+require_once dirname(__FILE__) . '/Include/PrepareLanguagetexts.php';
+$FoundDocuments= array ();
 require_once dirname(__FILE__) . '/Include/FunctionsMain.php';
-/** **/
+/**
+ * AboutUs erstellen
+ */
 require_once dirname(__FILE__) . '/Include/FunctionsAboutUs.php';
 require_once dirname(__FILE__) . '/Include/AboutUs.php';
+/**
+ * Categories erstellen (Produktkategorieen)
+ */
 require_once dirname(__FILE__) . '/Include/FunctionsCategories.php';
 require_once dirname(__FILE__) . '/Include/Categories.php';
+/**
+ * Contacts erstellen
+ */
 require_once dirname(__FILE__) . '/Include/FunctionsContacts.php';
 require_once dirname(__FILE__) . '/Include/Contacts.php';
+/**
+ * Header erstellen
+ */
 require_once dirname(__FILE__) . '/Include/FunctionsHeader.php';
 require_once dirname(__FILE__) . '/Include/Header.php';
+/**
+ * Impressum erstellen
+ */
 require_once dirname(__FILE__) . '/Include/FunctionsImpressum.php';
 require_once dirname(__FILE__) . '/Include/Impressum.php';
+/**
+ * News erstellen
+ */
 require_once dirname(__FILE__) . '/Include/FunctionsNews.php';
 require_once dirname(__FILE__) . '/Include/News.php';
-require_once dirname(__FILE__) . '/Include/FunctionsMenu.php';
-require_once dirname(__FILE__) . '/Include/Menu.php';
+/**
+ * Products erstellen
+ */
 require_once dirname(__FILE__) . '/Include/FunctionsProducts.php';
 require_once dirname(__FILE__) . '/Include/Products.php';
+/**
+ * Products Documents erstellen
+ * abhaengig von Products
+ */
 require_once dirname(__FILE__) . '/Include/FunctionsProductsDocuments.php';
 require_once dirname(__FILE__) . '/Include/ProductsDocuments.php';
-echo "The end";
+/**
+ * Menue erstellen
+ */
+require_once dirname(__FILE__) . '/Include/FunctionsMenu.php';
+require_once dirname(__FILE__) . '/Include/Menu.php';
+/**
+ * Website bauen
+ */
+require_once dirname(__FILE__) . '/BuildSite.php';
+echo "<hr>Fertig...";
 ?>

@@ -1,29 +1,17 @@
 <?php
-function CheckMenuname(& $Check)
+function GenerateMenu($Menu)
 {
-	global $DefaultLanguage, $UsedLanguages;
-	if (!is_array($Check))
-	{
-		echo 'MENUNAME is not an array';
-		return false;
-	}
-	if (!isset ($Check[$DefaultLanguage]))
-	{
-		echo 'default language for MENUNAME not set';
-		return false;
-	}
+	global $UsedLanguages, $Languagetexts;
 	foreach ($UsedLanguages as $Language)
 	{
-		if (!isset ($Check[$Language]))
-		{
-			$Check[$Language]= $Check[$DefaultLanguage];
-		}
-		if (strlen($Check[$Language]) == 0)
-		{
-			echo 'MENUNAME unset for ' . $Language;
-			return false;
-		}
+		$Tpl= new smartertemplate(dirname(__FILE__) . '/../Input/Templates/Menu.html');
+		$Tpl->Assign('language', $Language);
+		$Tpl->Assign('langtext', $Languagetexts[$Language]);
+		$Tpl->Assign('menu', $Menu[$Language]);
+		$Pageresult= $Tpl->Result();
+		$Fh= fopen(dirname(__FILE__) . '/../Output/Menu/_menu_' . $Language . '.html', 'w');
+		fputs($Fh, $Pageresult);
+		fclose($Fh);
 	}
-	return true;
 }
 ?>

@@ -1,17 +1,9 @@
 <?php
 echo 'Preparing menu...<br>';
 flush();
-/** Benoetigt die Available-Variablen **/
-#$AvailableNews
-#$AvailableProducts
-krsort($NewsPrepared);
-foreach ($NewsPrepared as $News)
+foreach ($UsedLanguages as $Language)
 {
-	if (is_array($News['inmenu']))
-	{
-		$MenuPrepared['news']['visible'][]= $News;
-	}
-	$MenuPrepared['news']['invisible'][]= $News;
+	$MenuPrepared[$Language]['categories']= implode('', file(dirname(__FILE__) . '/../../Output/Categories/_menu_categories_' . $Language . '.html'));
+	$MenuPrepared[$Language]['newsmenu']= implode('', file(dirname(__FILE__) . '/../../Output/News/_newsmenu_' . $Language . '.html'));
 }
-$Menu
 ?>
