@@ -46,7 +46,7 @@ foreach ($UsedLanguages as $Language)
 			$Tpl->Assign('langtext', $Languagetexts[$Language]);
 			$Tpl->Assign('index', $Index);
 			$Pageresult= $Tpl->Result();
-			$Fh= fopen(dirname(__FILE__) . '/Output/BuildSite/' . $Value, 'w');
+			$Fh= fopen(dirname(__FILE__) . '/site_html/' . $Value, 'w');
 			fputs($Fh, $Pageresult);
 			fclose($Fh);
 		}

@@ -67,4 +67,18 @@
       <path>06/06-01-02-F-T201_T202.pdf</path>
     </français>
   </datasheet>
+  <manual>
+    <deutsch>
+      <name>Betriebsanleitung Magnettauchsonden allgemein</name>
+      <path>M-D-magnettauchsonde.pdf</path>
+    </deutsch>
+    <english>
+      <name>Operating manual magnetic submerged detectors general</name>
+      <path>M-D-magnettauchsonde.pdf</path>
+    </english>
+    <français>
+      <name>Mode d´emploi général pour sondes plongées magnétiques</name>
+      <path>M-D-magnettauchsonde.pdf</path>
+    </français>
+  </manual>
 </item>

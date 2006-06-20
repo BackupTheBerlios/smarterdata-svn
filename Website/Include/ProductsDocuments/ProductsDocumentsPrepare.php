@@ -4,8 +4,8 @@ flush();
 $ProductsDocumentsPrepared= array ();
 foreach ($UsedLanguages as $Language)
 {
-	ksort($AvailableProductsDocuments['manual'][$Language]);
-	foreach ($AvailableProductsDocuments['manual'][$Language] as $Name => $Documents)
+	ksort($AvailableProductsDocuments['manuals'][$Language]);
+	foreach ($AvailableProductsDocuments['manuals'][$Language] as $Name => $Documents)
 	{
 		foreach ($Documents as $Document)
 		{
@@ -22,7 +22,7 @@ foreach ($UsedLanguages as $Language)
 				$ProductsDocumentsPrepared[$Language]['manual'][]= array (
 					'name' => $Name,
 					'description' => $Document['name'],
-					'path' => $Document['path']
+					'path' => 'Documents/Manual/'.$Document['path']
 				);
 			}
 		}
@@ -44,7 +44,7 @@ foreach ($UsedLanguages as $Language)
 				$ProductsDocumentsPrepared[$Language]['conformity'][]= array (
 					'name' => $Name,
 					'description' => $Document['name'],
-					'path' => $Document['path']
+					'path' => 'Documents/Conformity/'.$Document['path']
 				);
 			}
 		}
@@ -66,7 +66,7 @@ foreach ($UsedLanguages as $Language)
 				$ProductsDocumentsPrepared[$Language]['otherdoc'][]= array (
 					'name' => $Name,
 					'description' => $Document['name'],
-					'path' => $Document['path']
+					'path' => 'Documents/Otherdoc/'.$Document['path']
 				);
 			}
 		}

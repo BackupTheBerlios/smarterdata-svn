@@ -43,18 +43,4 @@
       <path>06/06-00-01-F-T20x_allg_daten_1.pdf</path>
     </français>
   </datasheet>
-  <manual>
-    <deutsch>
-      <name>Betriebsanleitung Magnettauchsonden allgemein</name>
-      <path>M-D-magnettauchsonde.pdf</path>
-    </deutsch>
-    <english>
-      <name>Operating manual magnetic submerged detectors general</name>
-      <path>M-D-magnettauchsonde.pdf</path>
-    </english>
-    <français>
-      <name>Mode d´emploi général pour sondes plongées magnétiques</name>
-      <path>M-D-magnettauchsonde.pdf</path>
-    </français>
-  </manual>
 </item>
