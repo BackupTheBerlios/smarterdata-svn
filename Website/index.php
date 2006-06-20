@@ -47,6 +47,8 @@ require_once dirname(__FILE__) . '/Include/FunctionsContacts.php';
 require_once dirname(__FILE__) . '/Include/Contacts.php';
 require_once dirname(__FILE__) . '/Include/FunctionsHeader.php';
 require_once dirname(__FILE__) . '/Include/Header.php';
+require_once dirname(__FILE__) . '/Include/FunctionsImpressum.php';
+require_once dirname(__FILE__) . '/Include/Impressum.php';
 require_once dirname(__FILE__) . '/Include/FunctionsNews.php';
 require_once dirname(__FILE__) . '/Include/News.php';
 require_once dirname(__FILE__) . '/Include/FunctionsMenu.php';
