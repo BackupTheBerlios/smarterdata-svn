@@ -160,7 +160,7 @@ function GenerateNews($News)
 		$Fh= fopen(dirname(__FILE__) . '/../Output/News/_news_' . $Language . '.html', 'w');
 		fputs($Fh, $Pageresult);
 		fclose($Fh);
-		$Tpl->SetTemplatefile(dirname(__FILE__) . '/../Input/Templates/Newsmenu.html');
+		$Tpl->SetTemplatefilename(dirname(__FILE__) . '/../Input/Templates/Newsmenu.html');
 		$Pageresult= $Tpl->Result();
 		$Fh= fopen(dirname(__FILE__) . '/../Output/News/_newsmenu_' . $Language . '.html', 'w');
 		fputs($Fh, $Pageresult);

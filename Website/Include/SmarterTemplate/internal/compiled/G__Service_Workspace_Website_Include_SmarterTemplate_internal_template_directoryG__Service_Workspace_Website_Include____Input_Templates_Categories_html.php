@@ -10,7 +10,10 @@ tr.categories
 	padding: 0px;
 }
 </style>
-<table cellspacing="0" cellpadding="0" border="0">
+<table
+	cellspacing="0"
+	cellpadding="0"
+	border="0">
 	<?php
 if ( is_array ( $loop[0]['value']['categories'] ) )
 {

@@ -1,5 +1,5 @@
 <?php $TIME_GENERATED = round(microtime (), 4); ?><style>
-tr.header
+tr.newsmenu
 {
 	background-color: #CCCCCC;
 	border-bottom: 1px solid #000000;
@@ -14,13 +14,12 @@ tr.header
 	cellspacing="0"
 	cellpadding="0"
 	border="0">
-	<tr class="header">
-		<?php
-if ( is_array ( $loop[0]['value']['header'] ) )
+	<?php
+if ( is_array ( $loop[0]['value']['news'] ) )
 {
 $loop[1]['ROWCNT'] = -1;
 $loop[1]['ROWCNTHUMAN'] = 0;
-foreach ( $loop[0]['value']['header'] as $loop[1]['key'] => $loop[1]['value'] )
+foreach ( $loop[0]['value']['news'] as $loop[1]['key'] => $loop[1]['value'] )
 {
 	$loop[1]['ROWCNT']++;
 	$loop[1]['ROWCNTHUMAN']++;
@@ -30,10 +29,10 @@ foreach ( $loop[0]['value']['header'] as $loop[1]['key'] => $loop[1]['value'] )
 	$loop[1]['value']['ALTROW']       = $loop[1]['ROWCNTHUMAN']%2;
 	$loop[1]['value']['CURRENTKEY']   = $loop[1]['key'];
 ?>
-		<td><?php if ( $loop[1]['value']['linkto'] > "" ) { ?><a
-			href="<?php echo $loop[1]['value']['linkto']; ?>"
-			border="0"><?php } ?> <img src="<?php echo $loop[1]['value']['image']; ?>"> <?php if ( $loop[1]['value']['linkto'] > "" ) { ?></a><?php } ?>
-		</td>
-		<?php } } ?>
+	<?php if ( $loop[1]['value']['inmenu'] > "" ) { ?>
+	<tr class="newsmenu">
+		<td><a href="_news_<?php echo $loop[0]['value']['language']; ?>.html"><?php echo $loop[1]['value']['menuname']; ?></a></td>
 	</tr>
+	<?php } ?>
+	<?php } } ?>
 </table>
