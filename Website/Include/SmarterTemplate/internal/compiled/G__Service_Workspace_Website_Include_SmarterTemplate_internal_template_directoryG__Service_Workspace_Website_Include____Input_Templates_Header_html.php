@@ -1,15 +1,8 @@
-<?php $TIME_GENERATED = round(microtime (), 4); ?><style>
-tr.header
-{
-	background-color: #CCCCCC;
-	border-bottom: 1px solid #000000;
-	font-family: verdana;
-	font-size: 11px;
-	border-collapse: collapse;
-	margin: 0px;
-	padding: 0px;
-}
-</style>
+<?php $TIME_GENERATED = round(microtime (), 4); ?><link
+	href="Stylesheet/Header.css"
+	rel="stylesheet"
+	type="text/css"
+	media="screen, projection, print">
 <table
 	cellspacing="0"
 	cellpadding="0"
@@ -32,7 +25,7 @@ foreach ( $loop[0]['value']['header'] as $loop[1]['key'] => $loop[1]['value'] )
 ?>
 		<td><?php if ( $loop[1]['value']['linkto'] > "" ) { ?><a
 			href="<?php echo $loop[1]['value']['linkto']; ?>"
-			border="0"><?php } ?> <img src="<?php echo $loop[1]['value']['image']; ?>"> <?php if ( $loop[1]['value']['linkto'] > "" ) { ?></a><?php } ?>
+			border="0"><?php } ?> <img src="Images/<?php echo $loop[1]['value']['image']; ?>"> <?php if ( $loop[1]['value']['linkto'] > "" ) { ?></a><?php } ?>
 		</td>
 		<?php } } ?>
 	</tr>

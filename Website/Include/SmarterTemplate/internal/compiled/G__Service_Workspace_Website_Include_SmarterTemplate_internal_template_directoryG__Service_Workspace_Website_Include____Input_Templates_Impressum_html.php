@@ -1,18 +1,11 @@
 <?php
 require_once "G:/Service/Workspace/Website/Include/SmarterTemplate/internal/extensions/htmlentities.php";
 
-?><?php $TIME_GENERATED = round(microtime (), 4); ?><style>
-tr.impressum
-{
-	background-color: #CCCCCC;
-	border-bottom: 1px solid #000000;
-	font-family: verdana;
-	font-size: 11px;
-	border-collapse: collapse;
-	margin: 0px;
-	padding: 0px;
-}
-</style>
+?><?php $TIME_GENERATED = round(microtime (), 4); ?><link
+	href="Stylesheet/Impressum.css"
+	rel="stylesheet"
+	type="text/css"
+	media="screen, projection, print">
 <table
 	cellspacing="0"
 	cellpadding="0"
@@ -37,3 +30,4 @@ foreach ( $loop[0]['value']['impressum'] as $loop[1]['key'] => $loop[1]['value']
 		<?php } } ?>
 	</tr>
 </table>
+<div id="menu2"></div>

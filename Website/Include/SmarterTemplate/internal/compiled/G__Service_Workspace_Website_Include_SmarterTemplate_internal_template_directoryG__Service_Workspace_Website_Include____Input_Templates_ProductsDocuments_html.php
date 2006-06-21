@@ -1,25 +1,8 @@
-<?php $TIME_GENERATED = round(microtime (), 4); ?><style>
-tr.productsdocuments_0
-{
-	background-color: #6c83b0;
-	border-bottom: 1px solid #000000;
-	font-family: verdana;
-	font-size: 11px;
-	border-collapse: collapse;
-	margin: 0px;
-	padding: 0px;
-}
-tr.productsdocuments_1
-{
-	background-color: #6c94c1;
-	border-bottom: 1px solid #000000;
-	font-family: verdana;
-	font-size: 10px;
-	border-collapse: collapse;
-	margin: 0px;
-	padding: 0px;
-}
-</style>
+<?php $TIME_GENERATED = round(microtime (), 4); ?><link
+	href="Stylesheet/ProductsDocuments.css"
+	rel="stylesheet"
+	type="text/css"
+	media="screen, projection, print">
 <table
 	cellspacing="0"
 	cellpadding="0"
@@ -45,3 +28,4 @@ foreach ( $loop[0]['value']['documents'] as $loop[1]['key'] => $loop[1]['value']
 	</tr>
 	<?php } } ?>
 </table>
+<div id="menu2"></div>

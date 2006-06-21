@@ -1,4 +1,9 @@
-<?php $TIME_GENERATED = round(microtime (), 4); ?><?php
+<?php $TIME_GENERATED = round(microtime (), 4); ?><link
+	href="Stylesheet/AboutUs.css"
+	rel="stylesheet"
+	type="text/css"
+	media="screen, projection, print">
+<?php
 if ( is_array ( $loop[0]['value']['aboutus'] ) )
 {
 $loop[1]['ROWCNT'] = -1;
@@ -13,9 +18,12 @@ foreach ( $loop[0]['value']['aboutus'] as $loop[1]['key'] => $loop[1]['value'] )
 	$loop[1]['value']['ALTROW']       = $loop[1]['ROWCNTHUMAN']%2;
 	$loop[1]['value']['CURRENTKEY']   = $loop[1]['key'];
 ?>
-<p><img
+<p
+	class="aboutus"
+	style="width: 500px"><img
 	src="./images/<?php echo $loop[1]['value']['imagepath']; ?>"
 	align="<?php echo $loop[1]['value']['imageposition']; ?>"
 	border="0"> <?php echo $loop[1]['value']['content']; ?> <br />
 </p>
 <?php } } ?>
+<div id="menu2"></div>

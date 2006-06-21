@@ -1,15 +1,8 @@
-<?php $TIME_GENERATED = round(microtime (), 4); ?><style>
-tr.news
-{
-	background-color: #CCCCCC;
-	border-bottom: 1px solid #000000;
-	font-family: verdana;
-	font-size: 11px;
-	border-collapse: collapse;
-	margin: 0px;
-	padding: 0px;
-}
-</style>
+<?php $TIME_GENERATED = round(microtime (), 4); ?><link
+	href="Stylesheet/News.css"
+	rel="stylesheet"
+	type="text/css"
+	media="screen, projection, print">
 <table
 	cellspacing="0"
 	cellpadding="0"
@@ -80,3 +73,4 @@ foreach ( $loop[1]['value']['newsdoc'] as $loop[2]['key'] => $loop[2]['value'] )
 	</tr>
 	<?php } } ?>
 </table>
+<div id="menu2"></div>

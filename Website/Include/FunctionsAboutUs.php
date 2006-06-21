@@ -26,10 +26,27 @@ function CheckAboutUsImage(& $Check)
 		echo 'AboutUsImage path not set';
 		return false;
 	}
-	if (!file_exists(dirname(__FILE__) . '/../site_html/Images/Other/' . $Check['path']))
+	if (!is_array($Check['path']))
 	{
-		echo 'IMAGE does not exist. ' . $Check['path'];
+		echo 'AboutUsImage path not set';
 		return false;
+	}
+	if (!isset ($Check['path'][$DefaultLanguage]))
+	{
+		echo 'AboutUsImage default language path not set';
+		return false;
+	}
+	foreach ($UsedLanguages as $Language)
+	{
+		if (!isset ($Check['path'][$Language]))
+		{
+			$Check['path'][$Language]= $Check['path'][$DefaultLanguage];
+		}
+		if (!file_exists(dirname(__FILE__) . '/../site_html/Images/' . $Check['path'][$Language]))
+		{
+			echo 'IMAGE does not exist. ' . $Check['path'][$Language];
+			return false;
+		}
 	}
 	return true;
 }
@@ -81,8 +98,9 @@ function GenerateAboutUs($Abouts)
 function PrepareAboutUsArray($AboutUs, $Language)
 {
 	global $Languagetexts;
+	$Tplvar['langtext']= $Languagetexts[$Language];
 	$Tplvar['language']= $Language;
-	$Tplvar['imagepath']= $AboutUs['image']['path'];
+	$Tplvar['imagepath']= $AboutUs['image']['path'][$Language];
 	$Tplvar['imageposition']= $AboutUs['image']['position'];
 	$Tplvar['content']= $AboutUs['content'][$Language];
 	return $Tplvar;

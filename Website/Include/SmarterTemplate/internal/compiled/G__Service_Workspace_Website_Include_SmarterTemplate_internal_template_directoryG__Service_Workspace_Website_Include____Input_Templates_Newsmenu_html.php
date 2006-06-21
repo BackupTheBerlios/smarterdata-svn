@@ -1,15 +1,8 @@
-<?php $TIME_GENERATED = round(microtime (), 4); ?><style>
-tr.newsmenu
-{
-	background-color: #CCCCCC;
-	border-bottom: 1px solid #000000;
-	font-family: verdana;
-	font-size: 11px;
-	border-collapse: collapse;
-	margin: 0px;
-	padding: 0px;
-}
-</style>
+<?php $TIME_GENERATED = round(microtime (), 4); ?><link
+	href="Stylesheet/Newsmenu.css"
+	rel="stylesheet"
+	type="text/css"
+	media="screen, projection, print">
 <table
 	cellspacing="0"
 	cellpadding="0"

@@ -17,7 +17,8 @@ $Languagetexts['deutsch']= array (
 	'products' => 'Produkte',
 	'documents_manual' => 'Handbuecher',
 	'documents_conformity' => 'Konformitaets- erklaerungen',
-	'documents_other' => 'Sonstige Dokumente'
+	'documents_other' => 'Sonstige Dokumente',
+	'aboutus' => 'E.L.B.'
 );
 $Languagetexts['english']= array (
 	'news' => 'News',
@@ -31,7 +32,8 @@ $Languagetexts['english']= array (
 	'products' => 'Products',
 	'documents_manual' => 'Manuals',
 	'documents_conformity' => 'Conformity explanations',
-	'documents_other' => 'Other documents'
+	'documents_other' => 'Other documents',
+	'aboutus' => 'E.L.B.'
 );
 $Languagetexts['français']= array (
 	'news' => 'Nouveautés',
@@ -45,6 +47,7 @@ $Languagetexts['français']= array (
 	'products' => 'Produits',
 	'documents_manual' => 'Manuels',
 	'documents_conformity' => 'Déclarations de conformité',
-	'documents_other' => 'Autres documents'
+	'documents_other' => 'Autres documents',
+	'aboutus' => 'E.L.B.'
 );
 ?>
