@@ -2,7 +2,11 @@
 	type="text/javascript"
 	language="javascript"
 	src="Javascript/Menu.js"></script>
-<link href="Stylesheet/Index.css" rel="stylesheet" type="text/css" media="screen, projection, print">
+<link
+	href="Stylesheet/Index.css"
+	rel="stylesheet"
+	type="text/css"
+	media="screen, projection, print">
 <table
 	cellspacing="0"
 	cellpadding="0"
@@ -12,7 +16,14 @@
 		<td>{index.header}</td>
 	</tr>
 	<tr valign="top">
-		<td style="width: 200px">{index.menu}</td>
+		<td style="width: 200px">
+		<div
+			id="menu1"
+			style="position:absolute; left:0px; top:1px; z-index:2">{index.menu}
+		<!-- BEGIN languages --> <a href="{filename}"><img
+			src="{flag}"
+			border="0"></a>&nbsp;&nbsp; <!-- END languages --></div>
+		</td>
 		<td>{index.content}</td>
 	</tr>
 </table>
