@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <item>
+ <id>2</id>
   <image>
     <position>right</position>
-    <path>tk-312.small.png</path>
+    <path>
+      <deutsch>tk-312.small.png</deutsch>
+      <english>tk-312.small.png</english>
+      <français>tk-312.small.png</français>
+    </path>
   </image>
   <content>
     <deutsch>Unser Standardprogramm umfasst Ueberfuellsicherungen und Leckagesonden mit Pruefzeichen nach Par. 19h WHG mit der gesamten Auswerteelektronik, mechanische Anzeigen mit entsprechenden Kontakten, konduktive Elektroden mit elektronischen Auswertungen, Schwimmschalter aus allen Materialien, hydrostatische und kapazitive Messung, Vibrationsschalter, kontinuierliche Schwimmersonden (Widerstandskette), hydrostatische kontinuierliche Messung und Ultraschallmessungen.</deutsch>

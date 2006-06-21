@@ -3,7 +3,11 @@
   <id>1</id>
   <image>
     <position>left</position>
-    <path>atex.png</path>
+    <path>
+      <deutsch>Other/atex.de.png</deutsch>
+      <english>Other/atex.en.png</english>
+      <français>Other/atex.fr.png</français>
+    </path>
   </image>
   <content>
     <deutsch>Die Firma E.L.B.-Fuellstandsgeraete Bundschuh GmbH+Co entwickelt, produziert und vertreibt seit ueber 25 Jahren Fuellstandsmessgeraete fuer fluessige Medien, welche zur Erfassung, Registrierung und Steuerung von Fuellstaenden im gesamten industriellen Bereich zum Einsatz kommen.</deutsch>

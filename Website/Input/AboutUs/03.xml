@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <item>
+ <id>3</id>
    <image>
     <position>left</position>
-    <path>kg-200.small.png</path>
+     <path>
+      <deutsch>kg-200.small.png</deutsch>
+      <english>kg-200.small.png</english>
+      <français>kg-200.small.png</français>
+    </path>
   </image>
   <content>
     <deutsch>Ausserdem koennen diese Geraete in explosionsgefaehrdeten Bereichen fuer Anwendungen der Kategorie 1 (Zone 0) und Kategorie 2 (Zone 1) (ATEX) eingesetzt werden. Unsere Staerke liegt bei der Herstellung von kundenspezifischen Ausfuehrungen (Massanfertigungen).</deutsch>

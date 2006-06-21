@@ -4,8 +4,14 @@
   <date>2006-01-01</date>
   <category>04-01-04</category>
   <position>1</position>
-  <linkto>ET-4xx-01-02-02</linkto>
-  <linkto>ET-4xx-04-01-04</linkto>
+  <linkto>ET-410-01-02-02</linkto>
+  <linkto>ET-420-01-02-02</linkto>
+  <linkto>ET-430-01-02-02</linkto>
+  <linkto>ET-440-01-02-02</linkto>
+  <linkto>ET-410-04-01-04</linkto>
+  <linkto>ET-420-04-01-04</linkto>
+  <linkto>ET-430-04-01-04</linkto>
+  <linkto>ET-440-04-01-04</linkto>
   <icon>
     <deutsch>e-2___5fach.small.png</deutsch>
     <english>e-2___5fach.small.png</english>

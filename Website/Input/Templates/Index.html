@@ -1,47 +1,19 @@
-<style>
-a:link {
-font-weight:normal;
-color:#000000;
-text-decoration:none;
-}
-a:visited {
-font-weight:normal;
-color:#CCCCCC;
-text-decoration:none;
-}
-a:focus {
-font-weight:normal;
-color:#FFFFFF;
-text-decoration:underline;
-}
-a:hover {
-font-weight:normal;
-color:#FFFFFF;
-text-decoration:none;
-}
-a:active {
-font-weight:bold;
-color:#FFFFFF;
-text-decoration:underline;
-}
-body, table, td, img
-{
-	background-color: #6375bd;
-	font-family: verdana;
-	border-collapse: collapse;
-	border: 0px;
-	margin: 0px;
-	padding: 0px;
-	color: rgb( 0, 0, 0 );
-}
-</style>
-<table cellspacing="0" cellpadding="0" border="0">
+<script
+	type="text/javascript"
+	language="javascript"
+	src="Javascript/Menu.js"></script>
+<link href="Stylesheet/Index.css" rel="stylesheet" type="text/css" media="screen, projection, print">
+<body OnLoad="setVariables();checkLocationMenu1();checkLocationMenu2()">
+<table
+	cellspacing="0"
+	cellpadding="0"
+	border="0">
 	<tr valign="top">
-		<td style="width: 200px"></td>
+		<td style="width: 200px">&nbsp;</td>
 		<td>{index.header}</td>
 	</tr>
 	<tr valign="top">
-		<td>{index.menu}</td>
+		<td style="width: 200px">{index.menu}</td>
 		<td>{index.content}</td>
 	</tr>
 </table>

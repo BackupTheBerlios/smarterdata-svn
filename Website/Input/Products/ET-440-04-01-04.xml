@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <item>
-  <id>ET-4xx-04-01-04</id>
+  <id>ET-440-04-01-04</id>
   <date>2006-01-01</date>
   <category>04-01-04</category>
   <position>1</position>
@@ -15,9 +15,9 @@
     <français>et-410.png</français>
   </image>
   <name>
-    <deutsch>ET-410, ET-420, ET-430, ET-440</deutsch>
-    <english>ET-410, ET-420, ET-430, ET-440</english>
-    <français>ET-410, ET-420, ET-430, ET-440</français>
+    <deutsch>ET-440</deutsch>
+    <english>ET-440</english>
+    <français>ET-440</français>
   </name>
   <headline>
     <deutsch>Elektronikteil fuer E-2...5fach 24V Direktanschluss</deutsch>

@@ -6,7 +6,10 @@
   <position>1</position>
   <linkto>MTA-02-01-01</linkto>
   <linkto>UETA-32-xx-02-04-01</linkto>
-  <linkto>W-35x-02-02-01</linkto>
+  <linkto>W-350-02-02-01</linkto>
+  <linkto>W-351-02-02-01</linkto>
+  <linkto>W-352-02-02-01</linkto>
+  <linkto>W-353-02-02-01</linkto>
   <icon>
     <deutsch>nopic.small.png</deutsch>
     <english>nopic.small.png</english>

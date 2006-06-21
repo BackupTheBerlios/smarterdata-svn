@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <item>
-  <id>W-35x</id>
+  <id>W-351</id>
   <date>2006-01-01</date>
   <category>02-02-01</category>
   <position>1</position>
@@ -15,9 +15,9 @@
     <français>w-351.png</français>
   </image>
   <name>
-    <deutsch>W-350, W351, W-352, W-353</deutsch>
-    <english>W-350, W351, W-352, W-353</english>
-    <français>W-350, W351, W-352, W-353</français>
+    <deutsch>W-351</deutsch>
+    <english>W-351</english>
+    <français>W-351</français>
   </name>
   <headline>
     <deutsch>Wasserstandsanzeiger</deutsch>

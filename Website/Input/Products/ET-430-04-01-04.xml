@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <item>
-  <id>ET-4xx</id>
+  <id>ET-430-04-01-04</id>
   <date>2006-01-01</date>
-  <category>01-02-02</category>
+  <category>04-01-04</category>
   <position>1</position>
   <icon>
     <deutsch>et-410.small.png</deutsch>
@@ -15,14 +15,14 @@
     <français>et-410.png</français>
   </image>
   <name>
-    <deutsch>ET-410, ET-420, ET-430, ET-440</deutsch>
-    <english>ET-410, ET-420, ET-430, ET-440</english>
-    <français>ET-410, ET-420, ET-430, ET-440</français>
+    <deutsch>ET-430</deutsch>
+    <english>ET-430</english>
+    <français>ET-430</français>
   </name>
   <headline>
-    <deutsch>Elektronikteil fuer EF-3...5fach 24V Direktanschluss</deutsch>
-    <english>Electronic part EF-3...5 times 24V direct connection</english>
-    <français>Pièce électronique pour EF-3...5 fois 24V connexion en direct</français>
+    <deutsch>Elektronikteil fuer E-2...5fach 24V Direktanschluss</deutsch>
+    <english>Electronic part E-2...5 times 24V direct connection</english>
+    <français>Pièce électronique pour E-2...5 fois 24V connexion en direct</français>
   </headline>
   <description>
     <deutsch>4 Grenzwerte oder 2 Grenzwerte mit 1 MIN-MAX-Schaltung
@@ -38,15 +38,15 @@
   <datasheet>
     <deutsch>
       <name>Datenblatt</name>
-      <path>01/01-02-02-E-ef3-5_et-4.pdf</path>
+      <path>04/04-01-04-E-e-2-5_et-4.pdf</path>
     </deutsch>
     <english>
       <name>Datasheet</name>
-      <path>01/01-02-02-E-ef3-5_et-4.pdf</path>
+      <path>04/04-01-04-E-e-2-5_et-4.pdf</path>
     </english>
     <français>
       <name>Fiche de données</name>
-      <path>01/01-02-02-F-ef3-5_et-4.pdf</path>
+      <path>04/04-01-04-F-e-2-5_et-4.pdf</path>
     </français>
   </datasheet>
 </item>

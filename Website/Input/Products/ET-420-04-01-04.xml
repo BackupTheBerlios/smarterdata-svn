@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item>
+  <id>ET-420-04-01-04</id>
+  <date>2006-01-01</date>
+  <category>04-01-04</category>
+  <position>1</position>
+  <icon>
+    <deutsch>et-410.small.png</deutsch>
+    <english>et-410.small.png</english>
+    <français>et-410.small.png</français>
+  </icon>
+  <image>
+    <deutsch>et-410.png</deutsch>
+    <english>et-410.png</english>
+    <français>et-410.png</français>
+  </image>
+  <name>
+    <deutsch>ET-420</deutsch>
+    <english>ET-420</english>
+    <français>ET-420</français>
+  </name>
+  <headline>
+    <deutsch>Elektronikteil fuer E-2...5fach 24V Direktanschluss</deutsch>
+    <english>Electronic part E-2...5 times 24V direct connection</english>
+    <français>Pièce électronique pour E-2...5 fois 24V connexion en direct</français>
+  </headline>
+  <description>
+    <deutsch>4 Grenzwerte oder 2 Grenzwerte mit 1 MIN-MAX-Schaltung
+				4 Empfindlichkeitsbereiche ueber DIP-Schalter waehlbar
+				Schliesserausgang</deutsch>
+    <english>4 limit values or 2 limit values with 1 MIN-MAX switching
+				4 sensibility ranges selectable over DIP switches
+				Switch off output</english>
+    <français>4 valeurs limites ou 2 valeurs limites avec 1 connexion MIN-MAX
+				4 sensibilité de fonctionnement sélectionnables par un interrupteur DIP
+				Sortie de contact à fermeture</français>
+  </description>
+  <datasheet>
+    <deutsch>
+      <name>Datenblatt</name>
+      <path>04/04-01-04-E-e-2-5_et-4.pdf</path>
+    </deutsch>
+    <english>
+      <name>Datasheet</name>
+      <path>04/04-01-04-E-e-2-5_et-4.pdf</path>
+    </english>
+    <français>
+      <name>Fiche de données</name>
+      <path>04/04-01-04-F-e-2-5_et-4.pdf</path>
+    </français>
+  </datasheet>
+</item>
