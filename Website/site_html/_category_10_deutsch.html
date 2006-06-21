@@ -9,11 +9,12 @@
 	media="screen, projection, print">
 <table
 	cellspacing="0"
-	cellpadding="0"
-	border="0">
+	cellpadding="
+	border="
+	0" style="width: 1000px">
 	<tr valign="top">
 		<td style="width: 200px">&nbsp;</td>
-		<td><link
+		<td style="width: 800px"><link
 	href="Stylesheet/Header.css"
 	rel="stylesheet"
 	type="text/css"
@@ -47,9 +48,6 @@
 	type="text/css"
 	media="screen, projection, print">
 <table style="width: 200px;">
-	<tr class="menu">
-		<td colspan="2"><img src="Images/Other/new_elbefant.png"></td>
-	</tr>
 	<!-- ABOUTUS -->
 	<tr class="menu">
 		<td style="width: 10px">&nbsp;</td>
@@ -57,8 +55,10 @@
 	</tr>
 	<tr class="menu">
 		<td
-			class="menutop"
-			colspan="2"><a href="_aboutus_deutsch.html">E.L.B.</a></td>
+			colspan="2"
+			align="center"><a href="_aboutus_deutsch.html"><img
+			src="Images/Other/elbefant.small.png"
+			border="0"></a></td>
 	</tr>
 	<!-- NEWS -->
 	<tr class="menu">
@@ -153,10 +153,17 @@
 	<tr class="menu">
 		<td colspan="2"><a href="_products_documents_otherdoc_deutsch.html">Sonstige Dokumente</td>
 	</tr>
+	<tr class="menu">
+		<td colspan="2"><input
+			type="checkbox"
+			id="lockmenu1"
+			onclick="lockMenu1()"><label for="lockmenu1"></label></td>
+	</tr>
 </table>
 <script language="JavaScript">
 checkLocationMenu1();
-</script>		 <a href="_category_10_deutsch.html"><img
+</script>
+		 <a href="_category_10_deutsch.html"><img
 			src="Images/Other/deutsch.png"
 			border="0"></a>&nbsp;&nbsp;  <a href="_category_10_english.html"><img
 			src="Images/Other/english.png"
@@ -164,7 +171,7 @@ checkLocationMenu1();
 			src="Images/Other/français.png"
 			border="0"></a>&nbsp;&nbsp; </div>
 		</td>
-		<td><link
+		<td style="width: 800px;"><link
 	href="Stylesheet/ProductOverview.css"
 	rel="stylesheet"
 	type="text/css"
@@ -175,6 +182,7 @@ checkLocationMenu1();
 	border="0">
 	<tr valign="top">
 		<td>
+		<div class="productoverview_tablescroller">
 		<table
 			class="product"
 			cellspacing="1"
@@ -1303,13 +1311,12 @@ checkLocationMenu1();
 				</td>
 			</tr>
 					</table>
+		</div>
 		</td>
 		<td>
 		<div
 			class="menu2"
-			id="menu2"
-			style="position:absolute; left:710px; top:120px; z-index:2"><b
-			style="font-decoration: underline">Produkte</b><br>
+			id="menu2"><b>Produkte</b><br>
 		 <a href="#54650bdff6ae2fb167757e4d9a08cc45b971beb5">Info</a> (10-01-00)<br>
 		 <a href="#1508e715e45e090c651ff748cd1a288988180b37">ER-104/B</a> (10-01-01)<br>
 		 <a href="#45ab09f0708e9c0f3b20b203fd59ac945ff367bc">ER-214/B</a> (10-01-01)<br>
@@ -1324,6 +1331,10 @@ checkLocationMenu1();
 		 <a href="#7b033699e12b7edb57fe6f5da60808af92ad604e">KR-163/A/Ex</a> (10-05-02)<br>
 		 <a href="#ecfba5d4a07ac9221087a6931c7b130cd6ec1b6b">KR-268/B</a> (10-05-02)<br>
 		 <a href="#90e633d2c4591165e27c09333b171fec11acd41a">KR-164/B</a> (10-07-01)<br>
+		 <input
+			type="checkbox"
+			id="lockmenu2"
+			onclick="lockMenu1()"><label for="lockmenu2"></label>
 		</div>
 		<script language="javascript">checkLocationMenu2();</script>
 	</tr>

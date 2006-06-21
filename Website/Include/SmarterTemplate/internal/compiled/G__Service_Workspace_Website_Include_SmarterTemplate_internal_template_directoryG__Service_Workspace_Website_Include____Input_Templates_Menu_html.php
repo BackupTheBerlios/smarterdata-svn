@@ -4,9 +4,6 @@
 	type="text/css"
 	media="screen, projection, print">
 <table style="width: 200px;">
-	<tr class="menu">
-		<td colspan="2"><img src="Images/Other/new_elbefant.png"></td>
-	</tr>
 	<!-- ABOUTUS -->
 	<tr class="menu">
 		<td style="width: 10px">&nbsp;</td>
@@ -14,8 +11,10 @@
 	</tr>
 	<tr class="menu">
 		<td
-			class="menutop"
-			colspan="2"><a href="_aboutus_<?php echo $loop[0]['value']['language']; ?>.html"><?php echo $loop[0]['value']['langtext']['aboutus']; ?></a></td>
+			colspan="2"
+			align="center"><a href="_aboutus_<?php echo $loop[0]['value']['language']; ?>.html"><img
+			src="Images/Other/elbefant.small.png"
+			border="0"></a></td>
 	</tr>
 	<!-- NEWS -->
 	<tr class="menu">
@@ -44,6 +43,12 @@
 	</tr>
 	<tr class="menu">
 		<td colspan="2"><a href="_products_documents_otherdoc_<?php echo $loop[0]['value']['language']; ?>.html"><?php echo $loop[0]['value']['langtext']['documents_other']; ?></td>
+	</tr>
+	<tr class="menu">
+		<td colspan="2"><input
+			type="checkbox"
+			id="lockmenu1"
+			onclick="lockMenu1()"><label for="lockmenu1"><?php echo $loop[0]['value']['langtext']['lockmenu']; ?></label></td>
 	</tr>
 </table>
 <script language="JavaScript">

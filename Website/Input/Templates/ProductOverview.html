@@ -9,6 +9,7 @@
 	border="0">
 	<tr valign="top">
 		<td>
+		<div class="productoverview_tablescroller">
 		<table
 			class="product"
 			cellspacing="1"
@@ -125,15 +126,18 @@
 			</tr>
 			<!-- END products -->
 		</table>
+		</div>
 		</td>
 		<td>
 		<div
 			class="menu2"
-			id="menu2"
-			style="position:absolute; left:710px; top:120px; z-index:2"><b
-			style="font-decoration: underline">{products.0.langtext.products}</b><br>
+			id="menu2"><b>{products.0.langtext.products}</b><br>
 		<!-- BEGIN products --> <a href="#{hash}">{name}</a> ({category})<br>
-		<!-- END products --></div>
+		<!-- END products --> <input
+			type="checkbox"
+			id="lockmenu2"
+			onclick="lockMenu1()"><label for="lockmenu2">{langtext.lockmenu}</label>
+		</div>
 		<script language="javascript">checkLocationMenu2();</script>
 	</tr>
 </table>

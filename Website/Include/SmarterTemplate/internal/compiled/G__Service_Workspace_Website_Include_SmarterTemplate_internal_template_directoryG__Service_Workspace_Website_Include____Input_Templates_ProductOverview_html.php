@@ -9,6 +9,7 @@
 	border="0">
 	<tr valign="top">
 		<td>
+		<div class="productoverview_tablescroller">
 		<table
 			class="product"
 			cellspacing="1"
@@ -223,13 +224,12 @@ foreach ( $loop[1]['value']['linkto'] as $loop[2]['key'] => $loop[2]['value'] )
 			</tr>
 			<?php } } ?>
 		</table>
+		</div>
 		</td>
 		<td>
 		<div
 			class="menu2"
-			id="menu2"
-			style="position:absolute; left:710px; top:120px; z-index:2"><b
-			style="font-decoration: underline"><?php echo $loop[0]['value']['products']['0']['langtext']['products']; ?></b><br>
+			id="menu2"><b><?php echo $loop[0]['value']['products']['0']['langtext']['products']; ?></b><br>
 		<?php
 if ( is_array ( $loop[0]['value']['products'] ) )
 {
@@ -245,7 +245,11 @@ foreach ( $loop[0]['value']['products'] as $loop[1]['key'] => $loop[1]['value'] 
 	$loop[1]['value']['ALTROW']       = $loop[1]['ROWCNTHUMAN']%2;
 	$loop[1]['value']['CURRENTKEY']   = $loop[1]['key'];
 ?> <a href="#<?php echo $loop[1]['value']['hash']; ?>"><?php echo $loop[1]['value']['name']; ?></a> (<?php echo $loop[1]['value']['category']; ?>)<br>
-		<?php } } ?></div>
+		<?php } } ?> <input
+			type="checkbox"
+			id="lockmenu2"
+			onclick="lockMenu1()"><label for="lockmenu2"><?php echo $loop[0]['value']['langtext']['lockmenu']; ?></label>
+		</div>
 		<script language="javascript">checkLocationMenu2();</script>
 	</tr>
 </table>

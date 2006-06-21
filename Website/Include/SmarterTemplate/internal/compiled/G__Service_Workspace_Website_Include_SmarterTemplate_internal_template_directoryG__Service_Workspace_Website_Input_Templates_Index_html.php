@@ -9,11 +9,12 @@
 	media="screen, projection, print">
 <table
 	cellspacing="0"
-	cellpadding="0"
-	border="0">
+	cellpadding="
+	border="
+	0" style="width: 1000px">
 	<tr valign="top">
 		<td style="width: 200px">&nbsp;</td>
-		<td><?php echo $loop[0]['value']['index']['header']; ?></td>
+		<td style="width: 800px"><?php echo $loop[0]['value']['index']['header']; ?></td>
 	</tr>
 	<tr valign="top">
 		<td style="width: 200px">
@@ -38,6 +39,6 @@ foreach ( $loop[0]['value']['languages'] as $loop[1]['key'] => $loop[1]['value']
 			src="<?php echo $loop[1]['value']['flag']; ?>"
 			border="0"></a>&nbsp;&nbsp; <?php } } ?></div>
 		</td>
-		<td><?php echo $loop[0]['value']['index']['content']; ?></td>
+		<td style="width: 800px;"><?php echo $loop[0]['value']['index']['content']; ?></td>
 	</tr>
 </table>

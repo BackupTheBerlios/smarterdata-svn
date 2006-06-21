@@ -19,7 +19,7 @@ a:focus {
 a:hover {
 	font-weight: normal;
 	color: #FFFFFF;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 a:active {
@@ -28,13 +28,23 @@ a:active {
 	text-decoration: underline;
 }
 
-body,table,td,img {
+body,table,img {
 	background-color: #6375bd;
 	font-family: verdana;
 	border-collapse: collapse;
 	border: 0px;
 	margin: 1px;
 	padding: 0px;
+	color: rgb(0, 0, 0);
+	border: 0px solid #000000;
+}
+td {
+	background-color: #6375bd;
+	font-family: verdana;
+	border-collapse: collapse;
+	border: 0px;
+	margin: 2px;
+	padding: 2px;
 	color: rgb(0, 0, 0);
 	border: 0px solid #000000;
 }
