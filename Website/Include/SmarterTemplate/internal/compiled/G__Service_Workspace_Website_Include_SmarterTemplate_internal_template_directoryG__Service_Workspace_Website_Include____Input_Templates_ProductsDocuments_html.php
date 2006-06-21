@@ -23,9 +23,12 @@ foreach ( $loop[0]['value']['documents'] as $loop[1]['key'] => $loop[1]['value']
 	$loop[1]['value']['CURRENTKEY']   = $loop[1]['key'];
 ?>
 	<tr class="productsdocuments_<?php echo $loop[1]['value']['ROWBIT']; ?>">
-		<td><a href="<?php echo $loop[1]['value']['path']; ?>"><?php echo $loop[1]['value']['name']; ?></a></td>
+		<td><img
+			src="Images/Other/pdf.png"
+			width="19"
+			height="18"
+			style="vertical-align:middle"><a href="<?php echo $loop[1]['value']['path']; ?>"><?php echo $loop[1]['value']['name']; ?></a></td>
 		<td><?php echo $loop[1]['value']['description']; ?></td>
 	</tr>
 	<?php } } ?>
 </table>
-<div id="menu2"></div>

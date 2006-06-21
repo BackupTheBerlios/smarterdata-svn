@@ -1,17 +1,17 @@
-function setVariables()
+var y;
+var v;
+var sD;
+if(navigator.appName == 'Microsoft Internet Explorer')
 {
-	if(navigator.appName == 'Microsoft Internet Explorer')
-	{
-		sD= ".style";
-		v= ".pixelTop=";
-		y= "document.body.scrollTop";
-	}
-	else
-	{
-		sD= ".style";
-		v= ".top=";
-		y= "window.pageYOffset";
-	}
+	sD= ".style";
+	v= ".pixelTop=";
+	y= "document.body.scrollTop";
+}
+else
+{
+	sD= ".style";
+	v= ".top=";
+	y= "window.pageYOffset";
 }
 function checkLocationMenu1()
 {

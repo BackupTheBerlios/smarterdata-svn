@@ -30,4 +30,3 @@ foreach ( $loop[0]['value']['impressum'] as $loop[1]['key'] => $loop[1]['value']
 		<?php } } ?>
 	</tr>
 </table>
-<div id="menu2"></div>

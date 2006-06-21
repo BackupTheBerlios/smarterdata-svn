@@ -1,4 +1,8 @@
-<?php $TIME_GENERATED = round(microtime (), 4); ?><link href="Stylesheet/ProductOverview.css" rel="stylesheet" type="text/css" media="screen, projection, print">
+<?php $TIME_GENERATED = round(microtime (), 4); ?><link
+	href="Stylesheet/ProductOverview.css"
+	rel="stylesheet"
+	type="text/css"
+	media="screen, projection, print">
 <table
 	cellspacing="0"
 	cellpadding="0"
@@ -90,7 +94,12 @@ foreach ( $loop[1]['value']['conformity'] as $loop[2]['key'] => $loop[2]['value'
 	$loop[2]['value']['ALTROW']       = $loop[2]['ROWCNTHUMAN']%2;
 	$loop[2]['value']['CURRENTKEY']   = $loop[2]['key'];
 ?>
-							<li><a href="Documents/Conformity/<?php echo $loop[2]['value']['path']; ?>"><?php echo $loop[2]['value']['name']; ?></a></li>
+							<li><img
+								src="Images/Other/pdf2.png"
+								width="19"
+								height="18"
+								style="vertical-align:middle"><a
+								href="Documents/Conformity/<?php echo $loop[2]['value']['path']; ?>"><?php echo $loop[2]['value']['name']; ?></a></li>
 							<?php } } ?>
 						</ul>
 						</div>
@@ -114,7 +123,12 @@ foreach ( $loop[1]['value']['datasheet'] as $loop[2]['key'] => $loop[2]['value']
 	$loop[2]['value']['ALTROW']       = $loop[2]['ROWCNTHUMAN']%2;
 	$loop[2]['value']['CURRENTKEY']   = $loop[2]['key'];
 ?>
-							<li><a href="Documents/Datasheet/<?php echo $loop[2]['value']['path']; ?>"><?php echo $loop[2]['value']['name']; ?></a></li>
+							<li><img
+								src="Images/Other/pdf2.png"
+								width="19"
+								height="18"
+								style="vertical-align:middle"><a
+								href="Documents/Datasheet/<?php echo $loop[2]['value']['path']; ?>"><?php echo $loop[2]['value']['name']; ?></a></li>
 							<?php } } ?>
 						</ul>
 						</div>
@@ -138,7 +152,11 @@ foreach ( $loop[1]['value']['manual'] as $loop[2]['key'] => $loop[2]['value'] )
 	$loop[2]['value']['ALTROW']       = $loop[2]['ROWCNTHUMAN']%2;
 	$loop[2]['value']['CURRENTKEY']   = $loop[2]['key'];
 ?>
-							<li><a href="Documents/Manual/<?php echo $loop[2]['value']['path']; ?>"><?php echo $loop[2]['value']['name']; ?></a></li>
+							<li><img
+								src="Images/Other/pdf2.png"
+								width="19"
+								height="18"
+								style="vertical-align:middle"><a href="Documents/Manual/<?php echo $loop[2]['value']['path']; ?>"><?php echo $loop[2]['value']['name']; ?></a></li>
 							<?php } } ?>
 						</ul>
 						</div>
@@ -165,7 +183,12 @@ foreach ( $loop[1]['value']['otherdoc'] as $loop[2]['key'] => $loop[2]['value'] 
 	$loop[2]['value']['ALTROW']       = $loop[2]['ROWCNTHUMAN']%2;
 	$loop[2]['value']['CURRENTKEY']   = $loop[2]['key'];
 ?>
-							<li><a href="Documents/Otherdoc/<?php echo $loop[2]['value']['path']; ?>"><?php echo $loop[2]['value']['name']; ?></a></li>
+							<li><img
+								src="Images/Other/pdf2.png"
+								width="19"
+								height="18"
+								style="vertical-align:middle"><a
+								href="Documents/Otherdoc/<?php echo $loop[2]['value']['path']; ?>"><?php echo $loop[2]['value']['name']; ?></a></li>
 							<?php } } ?>
 						</ul>
 						</div>
@@ -205,9 +228,9 @@ foreach ( $loop[1]['value']['linkto'] as $loop[2]['key'] => $loop[2]['value'] )
 		<div
 			class="menu2"
 			id="menu2"
-			style="position:absolute; left:710px; top:110px; z-index:2">
-			<b style="font-decoration: underline"><?php echo $loop[0]['value']['products']['0']['langtext']['products']; ?></b><br>
-			<?php
+			style="position:absolute; left:710px; top:120px; z-index:2"><b
+			style="font-decoration: underline"><?php echo $loop[0]['value']['products']['0']['langtext']['products']; ?></b><br>
+		<?php
 if ( is_array ( $loop[0]['value']['products'] ) )
 {
 $loop[1]['ROWCNT'] = -1;
@@ -221,9 +244,8 @@ foreach ( $loop[0]['value']['products'] as $loop[1]['key'] => $loop[1]['value'] 
 	$loop[1]['value']['ROWBIT']       = $loop[1]['ROWCNT']%2;
 	$loop[1]['value']['ALTROW']       = $loop[1]['ROWCNTHUMAN']%2;
 	$loop[1]['value']['CURRENTKEY']   = $loop[1]['key'];
-?>
-		<a href="#<?php echo $loop[1]['value']['hash']; ?>"><?php echo $loop[1]['value']['name']; ?></a> (<?php echo $loop[1]['value']['category']; ?>)<br>
+?> <a href="#<?php echo $loop[1]['value']['hash']; ?>"><?php echo $loop[1]['value']['name']; ?></a> (<?php echo $loop[1]['value']['category']; ?>)<br>
 		<?php } } ?></div>
-		</td>
+		<script language="javascript">checkLocationMenu2();</script>
 	</tr>
 </table>

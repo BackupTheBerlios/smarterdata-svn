@@ -1,4 +1,8 @@
-<link href="Stylesheet/ProductOverview.css" rel="stylesheet" type="text/css" media="screen, projection, print">
+<link
+	href="Stylesheet/ProductOverview.css"
+	rel="stylesheet"
+	type="text/css"
+	media="screen, projection, print">
 <table
 	cellspacing="0"
 	cellpadding="0"
@@ -48,7 +52,12 @@
 							width="100%"><i><b>{langtext.conformity}:</b></i>
 						<ul>
 							<!-- BEGIN conformity -->
-							<li><a href="Documents/Conformity/{path}">{name}</a></li>
+							<li><img
+								src="Images/Other/pdf2.png"
+								width="19"
+								height="18"
+								style="vertical-align:middle"><a
+								href="Documents/Conformity/{path}">{name}</a></li>
 							<!-- END conformity -->
 						</ul>
 						</div>
@@ -58,7 +67,12 @@
 							width="100%"><i><b>{langtext.datasheet}:</b></i>
 						<ul>
 							<!-- BEGIN datasheet -->
-							<li><a href="Documents/Datasheet/{path}">{name}</a></li>
+							<li><img
+								src="Images/Other/pdf2.png"
+								width="19"
+								height="18"
+								style="vertical-align:middle"><a
+								href="Documents/Datasheet/{path}">{name}</a></li>
 							<!-- END datasheet -->
 						</ul>
 						</div>
@@ -68,7 +82,11 @@
 							width="100%"><i><b>{langtext.handbuch}:</b></i>
 						<ul>
 							<!-- BEGIN manual -->
-							<li><a href="Documents/Manual/{path}">{name}</a></li>
+							<li><img
+								src="Images/Other/pdf2.png"
+								width="19"
+								height="18"
+								style="vertical-align:middle"><a href="Documents/Manual/{path}">{name}</a></li>
 							<!-- END manual -->
 						</ul>
 						</div>
@@ -81,7 +99,12 @@
 							width="100%"><i><b>{langtext.otherdoc}:</b></i>
 						<ul>
 							<!-- BEGIN otherdoc -->
-							<li><a href="Documents/Otherdoc/{path}">{name}</a></li>
+							<li><img
+								src="Images/Other/pdf2.png"
+								width="19"
+								height="18"
+								style="vertical-align:middle"><a
+								href="Documents/Otherdoc/{path}">{name}</a></li>
 							<!-- END otherdoc -->
 						</ul>
 						</div>
@@ -107,11 +130,10 @@
 		<div
 			class="menu2"
 			id="menu2"
-			style="position:absolute; left:710px; top:110px; z-index:2">
-			<b style="font-decoration: underline">{products.0.langtext.products}</b><br>
-			<!-- BEGIN products -->
-		<a href="#{hash}">{name}</a> ({category})<br>
+			style="position:absolute; left:710px; top:120px; z-index:2"><b
+			style="font-decoration: underline">{products.0.langtext.products}</b><br>
+		<!-- BEGIN products --> <a href="#{hash}">{name}</a> ({category})<br>
 		<!-- END products --></div>
-		</td>
+		<script language="javascript">checkLocationMenu2();</script>
 	</tr>
 </table>

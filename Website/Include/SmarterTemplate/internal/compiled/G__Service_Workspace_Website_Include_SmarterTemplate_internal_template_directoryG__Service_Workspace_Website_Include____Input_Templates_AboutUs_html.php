@@ -26,4 +26,3 @@ foreach ( $loop[0]['value']['aboutus'] as $loop[1]['key'] => $loop[1]['value'] )
 	border="0"> <?php echo $loop[1]['value']['content']; ?> <br />
 </p>
 <?php } } ?>
-<div id="menu2"></div>

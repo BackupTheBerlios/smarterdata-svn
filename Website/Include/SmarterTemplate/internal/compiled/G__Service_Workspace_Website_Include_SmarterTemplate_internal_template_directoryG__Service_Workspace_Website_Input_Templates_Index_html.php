@@ -3,7 +3,6 @@
 	language="javascript"
 	src="Javascript/Menu.js"></script>
 <link href="Stylesheet/Index.css" rel="stylesheet" type="text/css" media="screen, projection, print">
-<body OnLoad="setVariables();checkLocationMenu1();checkLocationMenu2()">
 <table
 	cellspacing="0"
 	cellpadding="0"

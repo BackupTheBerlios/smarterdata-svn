@@ -65,7 +65,11 @@ foreach ( $loop[1]['value']['newsdoc'] as $loop[2]['key'] => $loop[2]['value'] )
 	$loop[2]['value']['ALTROW']       = $loop[2]['ROWCNTHUMAN']%2;
 	$loop[2]['value']['CURRENTKEY']   = $loop[2]['key'];
 ?>
-			<li><a href="Documents/News/<?php echo $loop[2]['value']['path']; ?>"><?php echo $loop[2]['value']['name']; ?></a></li>
+			<li><img
+				src="Images/Other/pdf.png"
+				width="19"
+				height="18"
+				style="vertical-align:middle"><a href="Documents/News/<?php echo $loop[2]['value']['path']; ?>"><?php echo $loop[2]['value']['name']; ?></a></li>
 			<?php } } ?>
 		</ul>
 		</div>
@@ -73,4 +77,3 @@ foreach ( $loop[1]['value']['newsdoc'] as $loop[2]['key'] => $loop[2]['value'] )
 	</tr>
 	<?php } } ?>
 </table>
-<div id="menu2"></div>
