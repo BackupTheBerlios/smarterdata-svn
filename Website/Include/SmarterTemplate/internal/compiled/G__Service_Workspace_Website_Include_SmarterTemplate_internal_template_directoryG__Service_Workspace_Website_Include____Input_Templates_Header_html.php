@@ -3,12 +3,7 @@
 	rel="stylesheet"
 	type="text/css"
 	media="screen, projection, print">
-<table
-	cellspacing="0"
-	cellpadding="0"
-	border="0">
-	<tr class="header">
-		<?php
+<div class="index_top"><?php
 if ( is_array ( $loop[0]['value']['header'] ) )
 {
 $loop[1]['ROWCNT'] = -1;
@@ -22,11 +17,7 @@ foreach ( $loop[0]['value']['header'] as $loop[1]['key'] => $loop[1]['value'] )
 	$loop[1]['value']['ROWBIT']       = $loop[1]['ROWCNT']%2;
 	$loop[1]['value']['ALTROW']       = $loop[1]['ROWCNTHUMAN']%2;
 	$loop[1]['value']['CURRENTKEY']   = $loop[1]['key'];
-?>
-		<td><?php if ( $loop[1]['value']['linkto'] > "" ) { ?><a
-			href="<?php echo $loop[1]['value']['linkto']; ?>"
-			border="0"><?php } ?> <img src="Images/<?php echo $loop[1]['value']['image']; ?>"> <?php if ( $loop[1]['value']['linkto'] > "" ) { ?></a><?php } ?>
-		</td>
-		<?php } } ?>
-	</tr>
-</table>
+?> <?php if ( $loop[1]['value']['linkto'] > "" ) { ?><a
+	href="<?php echo $loop[1]['value']['linkto']; ?>"
+	border="0"><?php } ?> <img src="Images/<?php echo $loop[1]['value']['image']; ?>"> <?php if ( $loop[1]['value']['linkto'] > "" ) { ?></a><?php } ?>
+<?php } } ?></div>

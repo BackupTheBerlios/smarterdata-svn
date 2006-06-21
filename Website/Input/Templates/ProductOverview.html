@@ -3,141 +3,128 @@
 	rel="stylesheet"
 	type="text/css"
 	media="screen, projection, print">
+<div
+	class="menu2"
+	id="menu2"><b>{products.0.langtext.products}</b><br>
+<!-- BEGIN products --> <a href="#{hash}">{name}</a> ({category})<br>
+<!-- END products --> <input
+	type="checkbox"
+	id="lockmenu2"
+	onclick="lockMenu2()"><label for="lockmenu2">{langtext.lockmenu}</label>
+</div>
+<div class="index_content"><script language="javascript">checkLocationMenu2();</script>
 <table
-	cellspacing="0"
-	cellpadding="0"
+	class="product"
+	cellspacing="1"
+	colspan="1"
 	border="0">
+	<!-- BEGIN products -->
+	<tr>
+		<td
+			colspan="2"
+			class="product_headline_name"><a name="{hash}" />{category}
+		&nbsp;&nbsp;&nbsp;&nbsp; {name}</td>
+	</tr>
 	<tr valign="top">
-		<td>
-		<div class="productoverview_tablescroller">
-		<table
-			class="product"
-			cellspacing="1"
-			colspan="1"
-			border="0">
-			<!-- BEGIN products -->
-			<tr>
-				<td
-					colspan="2"
-					class="product_headline_name"><a name="{hash}" />{category}
-				&nbsp;&nbsp;&nbsp;&nbsp; {name}</td>
-			</tr>
-			<tr valign="top">
-				<td class="product_icon"><img
-					src="images/{icon}"
-					align="left"></td>
-				<!-- DESCRIPTION -->
-				<td class="product_description">
-				<div
-					class="seealsosideinside"
-					width="100%"><b>{headline}:</b>
-				<ul>
-					<!-- BEGIN description -->
-					<li>{value}</li>
-					<!-- END description -->
-				</ul>
-				</div>
-				</td>
-			</tr>
-			<tr valign="top">
-				<td colspan="2"><!-- DOCS -->
-				<table
-					width="100%"
-					cellspacing="0"
-					cellpadding="0"
-					border="0">
-					<tr valign="top">
-						<td width="50%"><!-- IF conformity>"" -->
-						<div
-							class="seealsosideinside"
-							width="100%"><i><b>{langtext.conformity}:</b></i>
-						<ul>
-							<!-- BEGIN conformity -->
-							<li><img
-								src="Images/Other/pdf2.png"
-								width="19"
-								height="18"
-								style="vertical-align:middle"><a
-								href="Documents/Conformity/{path}">{name}</a></li>
-							<!-- END conformity -->
-						</ul>
-						</div>
-						<!-- ENDIF conformity>"" --> <!-- IF datasheet>"" -->
-						<div
-							class="seealsosideinside"
-							width="100%"><i><b>{langtext.datasheet}:</b></i>
-						<ul>
-							<!-- BEGIN datasheet -->
-							<li><img
-								src="Images/Other/pdf2.png"
-								width="19"
-								height="18"
-								style="vertical-align:middle"><a
-								href="Documents/Datasheet/{path}">{name}</a></li>
-							<!-- END datasheet -->
-						</ul>
-						</div>
-						<!-- ENDIF datasheet>"" --> <!-- IF manual>"" -->
-						<div
-							class="seealsosideinside"
-							width="100%"><i><b>{langtext.handbuch}:</b></i>
-						<ul>
-							<!-- BEGIN manual -->
-							<li><img
-								src="Images/Other/pdf2.png"
-								width="19"
-								height="18"
-								style="vertical-align:middle"><a href="Documents/Manual/{path}">{name}</a></li>
-							<!-- END manual -->
-						</ul>
-						</div>
-						<!-- ENDIF manual>"" --></td>
-						<td
-							width="50%"
-							style="border-left: 1px solid #000000;"><!-- IF otherdoc>"" -->
-						<div
-							class="seealsosideinside"
-							width="100%"><i><b>{langtext.otherdoc}:</b></i>
-						<ul>
-							<!-- BEGIN otherdoc -->
-							<li><img
-								src="Images/Other/pdf2.png"
-								width="19"
-								height="18"
-								style="vertical-align:middle"><a
-								href="Documents/Otherdoc/{path}">{name}</a></li>
-							<!-- END otherdoc -->
-						</ul>
-						</div>
-						<!-- ENDIF otherdoc>"" --> <!-- IF linkto>"" -->
-						<div
-							class="seealsosideinside"
-							width="100%"><i><b>{langtext.siehe_auch}:</b></i>
-						<ul>
-							<!-- BEGIN linkto -->
-							<li><a href="{link}">{name}</a></li>
-							<!-- END linkto -->
-						</ul>
-						</div>
-						<!-- ENDIF linkto>"" --></td>
-					</tr>
-				</table>
-				</td>
-			</tr>
-			<!-- END products -->
-		</table>
+		<td class="product_icon"><img
+			src="images/{icon}"
+			align="left"></td>
+		<!-- DESCRIPTION -->
+		<td class="product_description">
+		<div
+			class="seealsosideinside"
+			width="100%"><b>{headline}:</b>
+		<ul>
+			<!-- BEGIN description -->
+			<li>{value}</li>
+			<!-- END description -->
+		</ul>
 		</div>
 		</td>
-		<td>
-		<div
-			class="menu2"
-			id="menu2"><b>{products.0.langtext.products}</b><br>
-		<!-- BEGIN products --> <a href="#{hash}">{name}</a> ({category})<br>
-		<!-- END products --> <input
-			type="checkbox"
-			id="lockmenu2"
-			onclick="lockMenu1()"><label for="lockmenu2">{langtext.lockmenu}</label>
-		</div>
-		<script language="javascript">checkLocationMenu2();</script>
 	</tr>
+	<tr valign="top">
+		<td colspan="2"><!-- DOCS -->
+		<table
+			width="100%"
+			cellspacing="0"
+			cellpadding="0"
+			border="0">
+			<tr valign="top">
+				<td width="50%"><!-- IF conformity>"" -->
+				<div
+					class="seealsosideinside"
+					width="100%"><i><b>{langtext.conformity}:</b></i>
+				<ul>
+					<!-- BEGIN conformity -->
+					<li><img
+						src="Images/Other/pdf2.png"
+						width="19"
+						height="18"
+						style="vertical-align:middle"><a
+						href="Documents/Conformity/{path}">{name}</a></li>
+					<!-- END conformity -->
+				</ul>
+				</div>
+				<!-- ENDIF conformity>"" --> <!-- IF datasheet>"" -->
+				<div
+					class="seealsosideinside"
+					width="100%"><i><b>{langtext.datasheet}:</b></i>
+				<ul>
+					<!-- BEGIN datasheet -->
+					<li><img
+						src="Images/Other/pdf2.png"
+						width="19"
+						height="18"
+						style="vertical-align:middle"><a href="Documents/Datasheet/{path}">{name}</a></li>
+					<!-- END datasheet -->
+				</ul>
+				</div>
+				<!-- ENDIF datasheet>"" --> <!-- IF manual>"" -->
+				<div
+					class="seealsosideinside"
+					width="100%"><i><b>{langtext.handbuch}:</b></i>
+				<ul>
+					<!-- BEGIN manual -->
+					<li><img
+						src="Images/Other/pdf2.png"
+						width="19"
+						height="18"
+						style="vertical-align:middle"><a href="Documents/Manual/{path}">{name}</a></li>
+					<!-- END manual -->
+				</ul>
+				</div>
+				<!-- ENDIF manual>"" --></td>
+				<td
+					width="50%"
+					style="border-left: 1px solid #000000;"><!-- IF otherdoc>"" -->
+				<div
+					class="seealsosideinside"
+					width="100%"><i><b>{langtext.otherdoc}:</b></i>
+				<ul>
+					<!-- BEGIN otherdoc -->
+					<li><img
+						src="Images/Other/pdf2.png"
+						width="19"
+						height="18"
+						style="vertical-align:middle"><a href="Documents/Otherdoc/{path}">{name}</a></li>
+					<!-- END otherdoc -->
+				</ul>
+				</div>
+				<!-- ENDIF otherdoc>"" --> <!-- IF linkto>"" -->
+				<div
+					class="seealsosideinside"
+					width="100%"><i><b>{langtext.siehe_auch}:</b></i>
+				<ul>
+					<!-- BEGIN linkto -->
+					<li><a href="{link}">{name}</a></li>
+					<!-- END linkto -->
+				</ul>
+				</div>
+				<!-- ENDIF linkto>"" --></td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<!-- END products -->
 </table>
+</div>

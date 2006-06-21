@@ -3,6 +3,7 @@
 	rel="stylesheet"
 	type="text/css"
 	media="screen, projection, print">
+<div class="index_left" id="index_left">
 <table style="width: 200px;">
 	<!-- ABOUTUS -->
 	<tr class="menu">
@@ -48,9 +49,10 @@
 		<td colspan="2"><input
 			type="checkbox"
 			id="lockmenu1"
-			onclick="lockMenu1()"><label for="lockmenu1"><?php echo $loop[0]['value']['langtext']['lockmenu']; ?></label></td>
+			onclick="lockindex_left()"><label for="lockindex_left"><?php echo $loop[0]['value']['langtext']['lockmenu']; ?></label></td>
 	</tr>
 </table>
+</div>
 <script language="JavaScript">
-checkLocationMenu1();
+checkLocationindex_left();
 </script>

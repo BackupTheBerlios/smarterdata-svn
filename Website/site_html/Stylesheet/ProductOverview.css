@@ -1,5 +1,5 @@
 table.product {
-	width: 99%;
+	width: 600px;
 	border: 1px solid #000000;
 }
 
@@ -123,8 +123,13 @@ div.description {
 	color: #000000;
 }
 
+div.menu2content {
+}
+
 div.menu2 {
-	position: fixed;
+	position: absolute;
+	top: 120px;
+	left: 800px;
 	text-align: right;
 	background-color: #6c83b0;
 	font-size: 10px;
@@ -135,15 +140,4 @@ div.menu2 {
 	border-right: 1px solid #000000;
 	border-top: 1px solid #000000;
 	border-bottom: 1px solid #000000;
-}
-
-div.productoverview_tablescroller {
-	width: 580px;
-}
-
-div.menu2 {
-	position: absolute;
-	left: 781px;
-	top: 120px;
-	z-index: 2;
 }

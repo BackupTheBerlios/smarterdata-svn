@@ -13,14 +13,14 @@ else
 	v= ".top=";
 	y= "window.pageYOffset";
 }
-var lockmenu1=false;
+var lockindex_left=false;
 var lockmenu2=false;
-function lockMenu1()
+function lockindex_left()
 {
-	if(lockmenu1==false)
-		lockmenu1=true;
+	if(lockindex_left==false)
+		lockindex_left=true;
 	else
-		lockmenu1=false;
+		lockindex_left=false;
 }
 function lockMenu2()
 {
@@ -29,18 +29,18 @@ function lockMenu2()
 	else
 		lockmenu2=false;
 }
-function checkLocationMenu1()
+function checkLocationindex_left()
 {
-	if(lockmenu1==false)
+	if(lockindex_left==false)
 	{
-		var object = window.document.getElementById('menu1');
+		var object = window.document.getElementById('index_left');
 		yy=eval(y)+1;
 		eval('object'+sD+v+yy);
-		setTimeout("checkLocationMenu1()",1);
+		setTimeout("checkLocationindex_left()",1);
 	}
 	else
 	{
-		setTimeout("checkLocationMenu1()",1000);
+		setTimeout("checkLocationindex_left()",1000);
 	}
 }
 function checkLocationMenu2()
@@ -48,7 +48,7 @@ function checkLocationMenu2()
 	if(lockmenu2==false)
 	{
 		var object = window.document.getElementById('menu2');
-		yy=eval(y)+110;
+		yy=eval(y)+121;
 		eval('object'+sD+v+yy);
 		setTimeout("checkLocationMenu2()",1);
 	}

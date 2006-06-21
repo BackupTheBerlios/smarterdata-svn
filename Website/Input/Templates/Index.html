@@ -7,24 +7,9 @@
 	rel="stylesheet"
 	type="text/css"
 	media="screen, projection, print">
-<table
-	cellspacing="0"
-	cellpadding="
-	border="
-	0" style="width: 1000px">
-	<tr valign="top">
-		<td style="width: 200px">&nbsp;</td>
-		<td style="width: 800px">{index.header}</td>
-	</tr>
-	<tr valign="top">
-		<td style="width: 200px">
-		<div
-			id="menu1"
-			style="position:absolute; left:0px; top:1px; z-index:2">{index.menu}
-		<!-- BEGIN languages --> <a href="{filename}"><img
-			src="{flag}"
-			border="0"></a>&nbsp;&nbsp; <!-- END languages --></div>
-		</td>
-		<td style="width: 800px;">{index.content}</td>
-	</tr>
-</table>
+{index.header}
+{index.menu} <!-- BEGIN languages --> <a
+	href="{filename}"><img
+	src="{flag}"
+	border="0"></a>&nbsp;&nbsp; <!-- END languages -->
+{index.content}
