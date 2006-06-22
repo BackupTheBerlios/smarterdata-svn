@@ -7,22 +7,22 @@
   <icon>
     <deutsch>s-11.small.png</deutsch>
     <english>s-11.small.png</english>
-    <français>s-11.small.png</français>
+    <french>s-11.small.png</french>
   </icon>
   <image>
     <deutsch>s-11.png</deutsch>
     <english>s-11.png</english>
-    <français>s-11.png</français>
+    <french>s-11.png</french>
   </image>
   <name>
     <deutsch>S-11</deutsch>
     <english>S-11</english>
-    <français>S-11</français>
+    <french>S-11</french>
   </name>
   <headline>
     <deutsch>Schwimmschalter Kunststoff</deutsch>
     <english>Float type switches made of plastic material</english>
-    <français>Interrupteur à flotteur en plastique</français>
+    <french>Interrupteur à flotteur en plastique</french>
   </headline>
   <description>
     <deutsch>Einfache kostenguenstige Fuellstandsmessung mit ueberzeugendem Preis / Leistungsverhaeltnis
@@ -37,12 +37,12 @@
 				All float type switches as single switch, as switch combination in suspended and bar type
 				Switch types for 2-point control with only one single float
 				All float type switches are available in any size also mercury-free</english>
-    <français>Mesure de niveau simple à un prix avantageux d´un rapport prix/performance convaincant
+    <french>Mesure de niveau simple à un prix avantageux d´un rapport prix/performance convaincant
 				Flotteur des matériaux: PE
 				Câble spécial en: TPK (PVC), silicone et FEP (téflon)
 				Tous les types d´interrupteurs individuels comme combinaison d´interrupteurs du type suspendu ou baguette
 				Types d´interrupteurs pour régulation à deux positions avec seulement un seul flotteur
-				Tous les types d´interrupteurs sont livrables dans toutes les dimensions, également sans mercure</français>
+				Tous les types d´interrupteurs sont livrables dans toutes les dimensions, également sans mercure</french>
   </description>
   <datasheet>
     <deutsch>
@@ -53,9 +53,9 @@
       <name>Datasheet</name>
       <path>05/05-01-01-E-s-10_s-11_s-12.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>05/05-01-01-F-s-10_s-11_s-12.pdf</path>
-    </français>
+    </french>
   </datasheet>
 </item>

@@ -7,22 +7,22 @@
   <icon>
     <deutsch>nopic.small.png</deutsch>
     <english>nopic.small.png</english>
-    <français>nopic.small.png</français>
+    <french>nopic.small.png</french>
   </icon>
   <image>
     <deutsch />
     <english />
-    <français />
+    <french />
   </image>
   <name>
     <deutsch>MK-</deutsch>
     <english>MK-</english>
-    <français>MK-</français>
+    <french>MK-</french>
   </name>
   <headline>
     <deutsch>Monostabiler Kontakt</deutsch>
     <english>Monostable contact</english>
-    <français>Contact monostable</français>
+    <french>Contact monostable</french>
   </headline>
   <description>
     <deutsch>Schaltkontakte (magnetisch)
@@ -31,8 +31,8 @@
     <english>Switching contact (magnetic)
 				Monostable switching contact with dry reed contact
 				Universally applicable</english>
-    <français>Contact de commutation de commande (magnétique)
+    <french>Contact de commutation de commande (magnétique)
 				Contacts de commutation de commande monostable avec contact reed
-				Application universelle</français>
+				Application universelle</french>
   </description>
 </item>

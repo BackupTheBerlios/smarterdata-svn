@@ -7,22 +7,22 @@
   <icon>
     <deutsch>hd-100.small.png</deutsch>
     <english>hd-100.small.png</english>
-    <français>hd-100.small.png</français>
+    <french>hd-100.small.png</french>
   </icon>
   <image>
     <deutsch>hd-100.png</deutsch>
     <english>hd-100.png</english>
-    <français>hd-100.png</français>
+    <french>hd-100.png</french>
   </image>
   <name>
     <deutsch>HD-100</deutsch>
     <english>HD-100</english>
-    <français>HD-100</français>
+    <french>HD-100</french>
   </name>
   <headline>
     <deutsch>Druckaufnehmer</deutsch>
     <english>Pressure transducer</english>
-    <français>Dynamo mètre</français>
+    <french>Dynamo mètre</french>
   </headline>
   <description>
     <deutsch>2-Leiter 4...20mA Ausgang
@@ -38,13 +38,13 @@
 				Simple assembly and installation
 				Ideal for deep wells and cisterns to measure the water level
 				For unpressurized repositories</english>
-    <français>2 conducteurs sortie 4...20mA 
+    <french>2 conducteurs sortie 4...20mA 
 				La plage de mesure 0...250mbar (correspond à une colonne d´eau de 0...2,5m) jusqu´à 0..1bar 
 				(correspond à une colonne d´eau de 0...10m)
 				Assemblé de matériaux acier inox (1.4305), PE, NBR
 				Montage et installation simple
 				Idéal pour les puits et citernes pour saisir le niveau d´eau
-				Pour des récipients sans pression</français>
+				Pour des récipients sans pression</french>
   </description>
   <datasheet>
     <deutsch>
@@ -55,9 +55,9 @@
       <name>Datasheet</name>
       <path>12/12-01-01-E-hd-100.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>12/12-01-01-F-hd-100.pdf</path>
-    </français>
+    </french>
   </datasheet>
 </item>

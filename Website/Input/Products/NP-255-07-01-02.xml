@@ -7,22 +7,22 @@
   <icon>
     <deutsch>np-255.small.png</deutsch>
     <english>np-255.small.png</english>
-    <français>np-255.small.png</français>
+    <french>np-255.small.png</french>
   </icon>
   <image>
     <deutsch>np-255.png</deutsch>
     <english>np-255.png</english>
-    <français>np-255.png</français>
+    <french>np-255.png</french>
   </image>
   <name>
     <deutsch>NP-255</deutsch>
     <english>NP-255</english>
-    <français>NP-255</français>
+    <french>NP-255</french>
   </name>
   <headline>
     <deutsch>Niveauschalter -pneumatisch- -mehrfach-</deutsch>
     <english>Level switch -pneumatic- -multiple-</english>
-    <français>Interrupteur de niveau -pneumatique- -multiple-</français>
+    <french>Interrupteur de niveau -pneumatique- -multiple-</french>
   </headline>
   <description>
     <deutsch>Kombinationen mit bis zu 4 Schaltpunkten ab 2&quot; Gewindeanschluss
@@ -31,9 +31,9 @@
     <english>Combinations with up to 4 switch points from 2? thread connection
 				Appropriate for aggressive media by using Viton or EPDM membranes
 				Fixed rigid tubes or flexible, easy-to-clean tube</english>
-    <français>Combinaison de jusqu´à 4 points de contact de commutation à partir de raccords filetés 2&quot;
+    <french>Combinaison de jusqu´à 4 points de contact de commutation à partir de raccords filetés 2&quot;
 				Approprié pour les media agressifs en utilisant des membranes en Viton ou EPDM
-				Tubes solides, rigides ou tubes flexibles, simples à nettoyer</français>
+				Tubes solides, rigides ou tubes flexibles, simples à nettoyer</french>
   </description>
   <datasheet>
     <deutsch>
@@ -44,9 +44,9 @@
       <name>Datasheet</name>
       <path>07/07-01-02-E-np-255.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>07/07-01-02-F-np-255.pdf</path>
-    </français>
+    </french>
   </datasheet>
 </item>

@@ -7,22 +7,22 @@
   <icon>
     <deutsch>ee-1fach.small.png</deutsch>
     <english>ee-1fach.small.png</english>
-    <français>ee-1fach.small.png</français>
+    <french>ee-1fach.small.png</french>
   </icon>
   <image>
     <deutsch>ee-1fach.png</deutsch>
     <english>ee-1fach.png</english>
-    <français>ee-1fach.png</français>
+    <french>ee-1fach.png</french>
   </image>
   <name>
     <deutsch>EE-1fach</deutsch>
     <english>EE-1fach</english>
-    <français>EE-1fach</français>
+    <french>EE-1fach</french>
   </name>
   <headline>
     <deutsch>Elektrode -einfach-</deutsch>
     <english>Electrode -simple-</english>
-    <français>Electrode -simple-</français>
+    <french>Electrode -simple-</french>
   </headline>
   <description>
     <deutsch>Stabausfuehrung fest
@@ -39,13 +39,13 @@
 				Detector bar made of : special steel, Hastelloy B and C, titanium and tanalium
 				Cost efficient basic type 
 				Special types and special electrodes upon customer requests</english>
-    <français>Type baguette fixe
+    <french>Type baguette fixe
 				Approprié pour tous les media conductibles, agressifs (p.ex. acides, lessives alcalines), 
 				solutions aqueuses, eau, eaux usées ou d´autres liquides conductibles
 				Raccords filetés et boîtier en: PE, PPH, PVC, PTFE, PVDF et acier inox (1.4571)
 				Détecteurs en baguette: acier inox, hastelloy B et C, titane et tantale
 				Construction simple à un prix avantageux
-				Construction spéciale et électrodes spéciales sur demande du client</français>
+				Construction spéciale et électrodes spéciales sur demande du client</french>
   </description>
   <datasheet>
     <deutsch>
@@ -56,9 +56,9 @@
       <name>Datasheet</name>
       <path>04/04-01-01-E-ee-1fach_esb.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>04/04-01-01-F-ee-1fach_esb.pdf</path>
-    </français>
+    </french>
   </datasheet>
 </item>

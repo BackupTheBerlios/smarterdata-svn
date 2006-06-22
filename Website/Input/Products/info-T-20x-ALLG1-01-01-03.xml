@@ -7,28 +7,28 @@
   <icon>
     <deutsch>info-ex.small.png</deutsch>
     <english>info-ex.small.png</english>
-    <français>info-ex.small.png</français>
+    <french>info-ex.small.png</french>
   </icon>
   <image>
     <deutsch />
     <english />
-    <français />
+    <french />
   </image>
   <name>
     <deutsch>Info T-20x</deutsch>
     <english>Info T-20x</english>
-    <français>Info T-20x</français>
+    <french>Info T-20x</french>
   </name>
   <headline>
     <deutsch>Magnettauchsonden fuer EX-Bereich Kategorie 1 (Zone 0), Allgemeine Information 1</deutsch>
     <english>Magnetic submerged detectors for ex area category 1 (zone 0) general information 1</english>
-    <français>Sondes magnétiques à immersion pour des zones à risque d´explosion catégorie 1 (Zone 0), 
-				information générale 1</français>
+    <french>Sondes magnétiques à immersion pour des zones à risque d´explosion catégorie 1 (Zone 0), 
+				information générale 1</french>
   </headline>
   <description>
     <deutsch>-</deutsch>
     <english>-</english>
-    <français>-</français>
+    <french>-</french>
   </description>
   <datasheet>
     <deutsch>
@@ -39,10 +39,10 @@
       <name>Datasheet</name>
       <path>01/01-01-03-E-T20x_F_EX_allg_daten_1.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>01/01-01-03-F-T20x_F_EX_allg_daten_1.pdf</path>
-    </français>
+    </french>
   </datasheet>
   <otherdoc>
     <deutsch>
@@ -53,10 +53,10 @@
       <name>ATEX approval (TUEV 02 ATEX 1795 X)</name>
       <path>TestReport/ATEX_1795_T-20_.F_TK-30_.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Admission ATEX (TUEV 02 ATEX 1795 X)</name>
       <path>TestReport/ATEX_1795_T-20_.F_TK-30_.pdf</path>
-    </français>
+    </french>
   </otherdoc>
   <otherdoc>
     <deutsch>
@@ -67,9 +67,9 @@
       <name>Approval (Z-65.11-404)</name>
       <path>TestReport/Z-65.11-404.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Admission (Z-65.11-404)</name>
       <path>TestReport/Z-65.11-404.pdf</path>
-    </français>
+    </french>
   </otherdoc>
 </item>

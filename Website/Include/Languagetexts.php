@@ -2,7 +2,7 @@
 $UsedLanguages= array (
 	'deutsch',
 	'english',
-	'français'
+	'french'
 );
 $DefaultLanguage= 'deutsch';
 $Languagetexts['deutsch']= array (
@@ -35,7 +35,7 @@ $Languagetexts['english']= array (
 	'documents_other' => 'Other documents',
 	'aboutus' => 'E.L.B.'
 );
-$Languagetexts['français']= array (
+$Languagetexts['french']= array (
 	'news' => 'Nouveautés',
 	'siehe_auch' => 'voir aussi',
 	'datasheet' => 'Datasheets',

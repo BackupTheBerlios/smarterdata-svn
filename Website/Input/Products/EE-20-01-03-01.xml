@@ -7,22 +7,22 @@
   <icon>
     <deutsch>ee-20.small.png</deutsch>
     <english>ee-20.small.png</english>
-    <français>ee-20.small.png</français>
+    <french>ee-20.small.png</french>
   </icon>
   <image>
     <deutsch>ee-20.png</deutsch>
     <english>ee-20.png</english>
-    <français>ee-20.png</français>
+    <french>ee-20.png</french>
   </image>
   <name>
     <deutsch>EE-20</deutsch>
     <english>EE-20</english>
-    <français>EE-20</français>
+    <french>EE-20</french>
   </name>
   <headline>
     <deutsch>Konduktive Elektrode fuer EX-Bereich Kategorie 1 (Zone 0)</deutsch>
     <english>Conductive electrodes for ex area category 1 (zone 0)</english>
-    <français>Electrode conductive pour des zones à risque d´explosion catégorie 1 (Zone 0)</français>
+    <french>Electrode conductive pour des zones à risque d´explosion catégorie 1 (Zone 0)</french>
   </headline>
   <description>
     <deutsch>Konduktive Messung in explosionsgefaehrdeten Bereichen mit EG-Baumusterpruefbescheinigung
@@ -35,11 +35,11 @@
 				Flame puncture-proof cable routing FK-100
 				ATEX approval TUEV 02 ATEX 1796 X
 				Protection against overfilling EX and WHG Z-65.13-405</english>
-    <français>Mesures conductives dans des zones à risque d´explosion avec certificat d`essai de modèle type
+    <french>Mesures conductives dans des zones à risque d´explosion avec certificat d`essai de modèle type
 				Utilisation de l´électrode à la catégorie 1 (Zone 0) à l&apos;espace gamma au-dessus des media
 				Cheminement du câblage protégé contre le retour de flamme FK-100
 				Admission ATEX TUEV 02 ATEX 1796 X
-				Protection contre le trop-plein EX et WHG Z-65.13-405</français>
+				Protection contre le trop-plein EX et WHG Z-65.13-405</french>
   </description>
   <datasheet>
     <deutsch>
@@ -50,10 +50,10 @@
       <name>Datasheet</name>
       <path>01/01-03-01-F-ee20.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>01/01-03-01-F-ee20.pdf</path>
-    </français>
+    </french>
   </datasheet>
   <otherdoc>
     <deutsch>
@@ -64,10 +64,10 @@
       <name>ATEX approval (TUEV 02 ATEX 1796 X)</name>
       <path>TestReport/ATEX_1796_X_EE-20,EE-21.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Admission ATEX (TUEV 02 ATEX 1796 X)</name>
       <path>TestReport/ATEX_1796_X_EE-20,EE-21.pdf</path>
-    </français>
+    </french>
   </otherdoc>
   <otherdoc>
     <deutsch>
@@ -78,9 +78,9 @@
       <name>Approval (Z-65.13-405)</name>
       <path>TestReport/Z-65.13-405.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Admission (Z-65.13-405)</name>
       <path>TestReport/Z-65.13-405.pdf</path>
-    </français>
+    </french>
   </otherdoc>
 </item>

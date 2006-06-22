@@ -7,22 +7,22 @@
   <icon>
     <deutsch>t-200.l.24v.small.png</deutsch>
     <english>t-200.l.24v.small.png</english>
-    <français>t-200.l.24v.small.png</français>
+    <french>t-200.l.24v.small.png</french>
   </icon>
   <image>
     <deutsch>t-200.l.24v.png</deutsch>
     <english>t-200.l.24v.png</english>
-    <français>t-200.l.24v.png</français>
+    <french>t-200.l.24v.png</french>
   </image>
   <name>
     <deutsch>T-200.L (24V)</deutsch>
     <english>T-200.L (24V)</english>
-    <français>T-200.L (24V)</français>
+    <french>T-200.L (24V)</french>
   </name>
   <headline>
     <deutsch>Leckagesonde 24V Direktanschluss</deutsch>
     <english>Leakage detector 24V direct connection</english>
-    <français>Sonde de fuits 24V raccordement direct</français>
+    <french>Sonde de fuits 24V raccordement direct</french>
   </headline>
   <description>
     <deutsch>Geeignet fuer aggressive, wassergefaehrdende Fluessigkeiten ( z.B. Saeuren, Laugen, waessrige Loesungen etc )
@@ -31,10 +31,10 @@
     <english>Appropriate for aggressive, water hazardous liquids (e.g. acids, bases, aqueous solutions, etc.)
 				General approval by the building authorities Z-65.40-153
 				Complete construction in PE, PPH and PVC</english>
-    <français>Approprié pour les liquides agressifs, nocifs pour les eaux 
+    <french>Approprié pour les liquides agressifs, nocifs pour les eaux 
 				(p.ex. acides, lessives alcalines, solutions aqueuses, etc.)
 				Admission générale de la surveillance de chantiers Z-65.40-153
-				Modèle complet en PE, PPH et PVC</français>
+				Modèle complet en PE, PPH et PVC</french>
   </description>
   <datasheet>
     <deutsch>
@@ -45,10 +45,10 @@
       <name>Datasheet</name>
       <path>01/01-06-02-E-T200L_24v-direkt.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>01/01-06-02-F-T200L_24v-direkt.pdf</path>
-    </français>
+    </french>
   </datasheet>
   <otherdoc>
     <deutsch>
@@ -59,9 +59,9 @@
       <name>Approval (Z-65.40-153)</name>
       <path>TestReport/Z-65.40-153-D-T-200.L.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Approval (Z-65.40-153)</name>
       <path>TestReport/Z-65.40-153-D-T-200.L.pdf</path>
-    </français>
+    </french>
   </otherdoc>
 </item>

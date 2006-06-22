@@ -8,22 +8,22 @@
   <icon>
     <deutsch>kr-163_a_ex.small.png</deutsch>
     <english>kr-163_a_ex.small.png</english>
-    <français>kr-163_a_ex.small.png</français>
+    <french>kr-163_a_ex.small.png</french>
   </icon>
   <image>
     <deutsch>kr-163_a_ex.png</deutsch>
     <english>kr-163_a_ex.png</english>
-    <français>kr-163_a_ex.png</français>
+    <french>kr-163_a_ex.png</french>
   </image>
   <name>
     <deutsch>KR-163/A/Ex</deutsch>
     <english>KR-163/A/Ex</english>
-    <français>KR-163/A/Ex</français>
+    <french>KR-163/A/Ex</french>
   </name>
   <headline>
     <deutsch>Kontaktschutzrelais</deutsch>
     <english>Contact protection relay</english>
-    <français>Relais de protection de contact</français>
+    <french>Relais de protection de contact</french>
   </headline>
   <description>
     <deutsch>Universelle Messumformer die die Eingangssignale (Widerstandswerte) mit &quot;NAMUR&quot;-Spezifikation (DIN EN 60947) 
@@ -34,10 +34,10 @@
 				with &quot;NAMUR&quot; specifications (DIN EN 60947) to switching signals
 				Admitted as a part of an overfill and leakage protection. Z-65.11-1, Z-65.40-153, Z-65.11-404
 				Inherently safe control circuit TUEV 98 ATEX 1357</english>
-    <français>Transducteur de mesure universel qui convertit les signaux d´entrée 
+    <french>Transducteur de mesure universel qui convertit les signaux d´entrée 
 				(valeurs de la résistance) en signaux de commutation par la spécification &quot;NAMUR&quot; (DIN EN 60947)
 				Admissible comme partie d´une protection de trop-plein et de fuites. Z-65.11-1, Z-65.40-153, Z-65.11-404
-				Circuit de commande à sécurité intrinsèque TUEV 98 ATEX 1357</français>
+				Circuit de commande à sécurité intrinsèque TUEV 98 ATEX 1357</french>
   </description>
   <datasheet>
     <deutsch>
@@ -48,10 +48,10 @@
       <name>Datasheet</name>
       <path>10/10-05-02-E-kr-268b_kr-163a-ex.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>10/10-05-02-F-kr-268b_kr-163a-ex.pdf</path>
-    </français>
+    </french>
   </datasheet>
   <manual>
     <deutsch>
@@ -62,10 +62,10 @@
       <name>Operating instruction</name>
       <path>M-D-kr-163a,ex.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Mode d´emploi</name>
       <path>M-D-kr-163a,ex.pdf</path>
-    </français>
+    </french>
   </manual>
   <otherdoc>
     <deutsch>
@@ -76,10 +76,10 @@
       <name>Approval (TUEV 98 ATEX 1357)</name>
       <path>TestReport/ATEX_1357_KR-163_A_EX.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Admission (TUEV 98 ATEX 1357)</name>
       <path>TestReport/ATEX_1357_KR-163_A_EX.pdf</path>
-    </français>
+    </french>
   </otherdoc>
   <otherdoc>
     <deutsch>
@@ -90,10 +90,10 @@
       <name>Approval (Z-65.40-153)</name>
       <path>TestReport/Z-65.40-153-D-T-200.L.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Admission (Z-65.40-153)</name>
       <path>TestReport/Z-65.40-153-D-T-200.L.pdf</path>
-    </français>
+    </french>
   </otherdoc>
   <otherdoc>
     <deutsch>
@@ -104,10 +104,10 @@
       <name>Approval (Z-65.1-404)</name>
       <path>TestReport/Z-65.11-404.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Admission (Z-65.1-404)</name>
       <path>TestReport/Z-65.11-404.pdf</path>
-    </français>
+    </french>
   </otherdoc>
   <otherdoc>
     <deutsch>
@@ -118,9 +118,9 @@
       <name>Ancient approval (Z-65.11-1)</name>
       <path>TestReport/Z-65.11-1-D-T-20.F.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Ancienne admission (Z-65.11-1)</name>
       <path>TestReport/Z-65.11-1-D-T-20.F.pdf</path>
-    </français>
+    </french>
   </otherdoc>
 </item>

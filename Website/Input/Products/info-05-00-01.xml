@@ -7,27 +7,27 @@
   <icon>
     <deutsch>info-hgverbot.small.png</deutsch>
     <english>info-hgverbot.small.png</english>
-    <français>info-hgverbot.small.png</français>
+    <french>info-hgverbot.small.png</french>
   </icon>
   <image>
     <deutsch />
     <english />
-    <français />
+    <french />
   </image>
   <name>
     <deutsch>Info S-xx</deutsch>
     <english>Info S-xx</english>
-    <français>Info S-xx</français>
+    <french>Info S-xx</french>
   </name>
   <headline>
     <deutsch>Allgemeine Beschreibung zu Schwimmschaltern</deutsch>
     <english>General description of float type switches</english>
-    <français>Description générale des interrupteurs à flotteurs</français>
+    <french>Description générale des interrupteurs à flotteurs</french>
   </headline>
   <description>
     <deutsch>-</deutsch>
     <english>-</english>
-    <français>-</français>
+    <french>-</french>
   </description>
   <datasheet>
     <deutsch>
@@ -38,9 +38,9 @@
       <name>Datasheet</name>
       <path>05/05-00-01-E-schwimmschalter_allgemein.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>05/05-00-01-F-schwimmschalter_allgemein.pdf</path>
-    </français>
+    </french>
   </datasheet>
 </item>

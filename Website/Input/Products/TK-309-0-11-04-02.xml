@@ -7,22 +7,22 @@
   <icon>
     <deutsch>tk-309_0.small.png</deutsch>
     <english>tk-309_0.small.png</english>
-    <français>tk-309_0.small.png</français>
+    <french>tk-309_0.small.png</french>
   </icon>
   <image>
     <deutsch>tk-309_0.png</deutsch>
     <english>tk-309_0.png</english>
-    <français>tk-309_0.png</français>
+    <french>tk-309_0.png</french>
   </image>
   <name>
     <deutsch>TK-309/0</deutsch>
     <english>TK-309/0</english>
-    <français>TK-309/0</français>
+    <french>TK-309/0</french>
   </name>
   <headline>
     <deutsch>Niveaumesswertgeber fuer EX-Bereich Kategorie 1(Zone 0)</deutsch>
     <english>Level transducer for EX area category 1 (zone 0)</english>
-    <français>Transmetteur de mesure de niveau pour la zone à risque d´explosion catégorie 1 (zone 0)</français>
+    <french>Transmetteur de mesure de niveau pour la zone à risque d´explosion catégorie 1 (zone 0)</french>
   </headline>
   <description>
     <deutsch>Fuer EX-Bereich Kategorie 1 (Zone 0) zugelassen. TUEV 02 ATEX 1795 X
@@ -40,14 +40,14 @@
 				Output signal (2-, 3-conductor resistance) for simple cost-efficient signal evaluation
 				Large range of operating temperature
 				Special design according to customer specification.</english>
-    <français>Admis pour la zone à risque d´explosion catégorie 1 (zone 0). TUEV 02 ATEX 1795 X
+    <french>Admis pour la zone à risque d´explosion catégorie 1 (zone 0). TUEV 02 ATEX 1795 X
 				Indication de l´hauteur de remplissage indépendant de la température, de la pression, 
 				du medium, de formation de vapeur et de réservoirs installés
 				Complètement en acier inox 1.4571
 				Résolution 7,5/10/15/20mm disponible
 				Signal de sortie (2,3 conducteurs résistance) pour une évaluation de signaux simple et à un prix avantageux
 				Gamme de température de service étendue
-				Modèles spécifiques fabriqués sur mesure pour le client</français>
+				Modèles spécifiques fabriqués sur mesure pour le client</french>
   </description>
   <datasheet>
     <deutsch>
@@ -58,10 +58,10 @@
       <name>Datasheet</name>
       <path>11/11-04-02-E-tk-307-0_309-0_ex.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>11/11-04-02-F-tk-307-0_309-0_ex.pdf</path>
-    </français>
+    </french>
   </datasheet>
   <otherdoc>
     <deutsch>
@@ -72,9 +72,9 @@
       <name>ATEX approval (TUEV 02 ATEX 1795 X)</name>
       <path>TestReport/ATEX_1795_T-20_.F_TK-30_.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Admission ATEX (TUEV 02 ATEX 1795 X)</name>
       <path>TestReport/ATEX_1795_T-20_.F_TK-30_.pdf</path>
-    </français>
+    </french>
   </otherdoc>
 </item>

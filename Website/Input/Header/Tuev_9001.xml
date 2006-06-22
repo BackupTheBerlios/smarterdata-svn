@@ -3,11 +3,11 @@
 	<image>
 	    <deutsch>other/iso9001.de.png</deutsch>
     	<english>other/iso9001.en.png</english>
-	    <français>other/iso9001.fr.png</français>
+	    <french>other/iso9001.fr.png</french>
 	</image>
 	<linkto>
 	    <deutsch>Documents/Otherdoc/15-00-02-D-tuev_cert_zertifikat_2005.pdf</deutsch>
     	<english>Documents/Otherdoc/15-00-02-E-tuev_cert_zertifikat_2005.pdf</english>
-	    <français>Documents/Otherdoc/15-00-02-F-tuev_cert_zertifikat_2005.pdf</français>
+	    <french>Documents/Otherdoc/15-00-02-F-tuev_cert_zertifikat_2005.pdf</french>
 	</linkto>
 </item>

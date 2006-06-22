@@ -7,22 +7,22 @@
   <icon>
     <deutsch>oaa-100.a1.small.png</deutsch>
     <english>oaa-100.a1.small.png</english>
-    <français>oaa-100.a1.small.png</français>
+    <french>oaa-100.a1.small.png</french>
   </icon>
   <image>
     <deutsch>oaa-100.a1.png</deutsch>
     <english>oaa-100.a1.png</english>
-    <français>oaa-100.a1.png</français>
+    <french>oaa-100.a1.png</french>
   </image>
   <name>
     <deutsch>OAA-100.A1</deutsch>
     <english>OAA-100.A1</english>
-    <français>OAA-100.A1</français>
+    <french>OAA-100.A1</french>
   </name>
   <headline>
     <deutsch>Alarmmelder (Messumformer)</deutsch>
     <english>Alarm indicator (measuring transducer)</english>
-    <français>Avertisseur (transducteur de mesure)</français>
+    <french>Avertisseur (transducteur de mesure)</french>
   </headline>
   <description>
     <deutsch>Optische und akustische Alarmanzeige
@@ -35,11 +35,11 @@
 				in 1, 2 or multiple type
 				Complete with external signal light and optional horn
 				Separate outputs to control the stop-valves or for further notice to the control rooms, etc.</english>
-    <français>Signal d´alarme optique et acoustique
+    <french>Signal d´alarme optique et acoustique
 				Construction compacte p.ex. pour le degré de protection IP 65 pour l´assemblage « sur place » 
 				au récipient en construction simple, double ou multiple
 				Complet avec lampe de signalisation et avertisseur optionnel
-				Sorties séparées pour exciter des soupapes d`arrêt ou pour retransmettre à la salle de contrôle, etc.</français>
+				Sorties séparées pour exciter des soupapes d`arrêt ou pour retransmettre à la salle de contrôle, etc.</french>
   </description>
   <datasheet>
     <deutsch>
@@ -50,10 +50,10 @@
       <name>Datasheet</name>
       <path>01/01-09-01-E-OAA.A1.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>01/01-09-01-F-OAA.A1.pdf</path>
-    </français>
+    </french>
   </datasheet>
   <manual>
     <deutsch>
@@ -64,9 +64,9 @@
       <name>Operating instruction</name>
       <path>M-D-oaa-100_a1.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Mode d´emploi</name>
       <path>M-D-oaa-100_a1.pdf</path>
-    </français>
+    </french>
   </manual>
 </item>

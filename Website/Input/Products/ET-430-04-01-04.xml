@@ -7,22 +7,22 @@
   <icon>
     <deutsch>et-410.small.png</deutsch>
     <english>et-410.small.png</english>
-    <français>et-410.small.png</français>
+    <french>et-410.small.png</french>
   </icon>
   <image>
     <deutsch>et-410.png</deutsch>
     <english>et-410.png</english>
-    <français>et-410.png</français>
+    <french>et-410.png</french>
   </image>
   <name>
     <deutsch>ET-430</deutsch>
     <english>ET-430</english>
-    <français>ET-430</français>
+    <french>ET-430</french>
   </name>
   <headline>
     <deutsch>Elektronikteil fuer E-2...5fach 24V Direktanschluss</deutsch>
     <english>Electronic part E-2...5 times 24V direct connection</english>
-    <français>Pièce électronique pour E-2...5 fois 24V connexion en direct</français>
+    <french>Pièce électronique pour E-2...5 fois 24V connexion en direct</french>
   </headline>
   <description>
     <deutsch>4 Grenzwerte oder 2 Grenzwerte mit 1 MIN-MAX-Schaltung
@@ -31,9 +31,9 @@
     <english>4 limit values or 2 limit values with 1 MIN-MAX switching
 				4 sensibility ranges selectable over DIP switches
 				Switch off output</english>
-    <français>4 valeurs limites ou 2 valeurs limites avec 1 connexion MIN-MAX
+    <french>4 valeurs limites ou 2 valeurs limites avec 1 connexion MIN-MAX
 				4 sensibilité de fonctionnement sélectionnables par un interrupteur DIP
-				Sortie de contact à fermeture</français>
+				Sortie de contact à fermeture</french>
   </description>
   <datasheet>
     <deutsch>
@@ -44,9 +44,9 @@
       <name>Datasheet</name>
       <path>04/04-01-04-E-e-2-5_et-4.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>04/04-01-04-F-e-2-5_et-4.pdf</path>
-    </français>
+    </french>
   </datasheet>
 </item>

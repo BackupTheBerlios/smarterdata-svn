@@ -45,9 +45,8 @@ foreach ($UsedLanguages as $Language)
 			{
 				$Languagearray[]= array (
 					'name' => $CurrentLanguage,
-					'filename' => $Result[1] . '_' . $CurrentLanguage . '.html',
-					'flag' => 'Images/Other/' . $CurrentLanguage.'.png'
-				);
+					'filename' => urlencode($Result[1] . '_' . $CurrentLanguage . '.html'
+				), 'flag' => 'Images/Other/' . $CurrentLanguage . '.png');
 			}
 			$Index['content']= implode('', file($Directory . '/' . $Value));
 			$Tpl= new smartertemplate(dirname(__FILE__) . '/Input/Templates/Index.html');

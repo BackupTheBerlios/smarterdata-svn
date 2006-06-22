@@ -7,22 +7,22 @@
   <icon>
     <deutsch>mta.small.png</deutsch>
     <english>mta.small.png</english>
-    <français>mta.small.png</français>
+    <french>mta.small.png</french>
   </icon>
   <image>
     <deutsch>mta.png</deutsch>
     <english>mta.png</english>
-    <français>mta.png</français>
+    <french>mta.png</french>
   </image>
   <name>
     <deutsch>MTA</deutsch>
     <english>MTA</english>
-    <français>MTA</français>
+    <french>MTA</french>
   </name>
   <headline>
     <deutsch>Mechanischer Tankinhaltsanzeiger</deutsch>
     <english>Mechanic display of tank contents</english>
-    <français>Témoin de jauge de contenance de réservoir</français>
+    <french>Témoin de jauge de contenance de réservoir</french>
   </headline>
   <description>
     <deutsch>Keine seitlichen Behaelteroeffnungen noetig
@@ -34,11 +34,11 @@
 				Ideal for all storage tanks
 				Optical ?on site? display also for high storage tanks
 				Limit contacts and transmitting device as accessory</english>
-    <français>Pas d´ouvertures latérales de réservoir requises
+    <french>Pas d´ouvertures latérales de réservoir requises
 				Poulie de guidage non blocable
 				Idéal pour tous les réservoirs de stockage
 				Indicateur optique &quot;sur place&quot; également pour les hauts bacs de stockage 
-				Contacts et transmetteur pour le téléaffichage en option</français>
+				Contacts et transmetteur pour le téléaffichage en option</french>
   </description>
   <datasheet>
     <deutsch>
@@ -49,9 +49,9 @@
       <name>Datasheet</name>
       <path>02/02-01-01-E-MTA.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>02/02-01-01-F-MTA.pdf</path>
-    </français>
+    </french>
   </datasheet>
 </item>

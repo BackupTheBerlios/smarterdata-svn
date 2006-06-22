@@ -7,22 +7,22 @@
   <icon>
     <deutsch>sk-15.small.png</deutsch>
     <english>sk-15.small.png</english>
-    <français>sk-15.small.png</français>
+    <french>sk-15.small.png</french>
   </icon>
   <image>
     <deutsch>sk-15.png</deutsch>
     <english>sk-15.png</english>
-    <français>sk-15.png</français>
+    <french>sk-15.png</french>
   </image>
   <name>
     <deutsch>SK-16</deutsch>
     <english>SK-16</english>
-    <français>SK-16</français>
+    <french>SK-16</french>
   </name>
   <headline>
     <deutsch>Schwimmschalterkombination Kunststoff Stabausfuehrung</deutsch>
     <english>Float type switch combination plastic bar type</english>
-    <français>Combinaison d´interrupteurs à flotteur en plastique type baguette</français>
+    <french>Combinaison d´interrupteurs à flotteur en plastique type baguette</french>
   </headline>
   <description>
     <deutsch>Einfache kostenguenstige Fuellstandsmessung mit ueberzeugendem Preis / Leistungsverhaeltnis
@@ -31,9 +31,9 @@
     <english>Simple, cost-efficient level measuring with a convincing price / performance ratio
 				Float made of the materials: PE, PPH or PVC
 				Special cable made of : TPK (PVC), silicone and  FEP (Teflon)</english>
-    <français>Mesure de niveau simple à un prix avantageux d´un rapport prix/performance convaincant
+    <french>Mesure de niveau simple à un prix avantageux d´un rapport prix/performance convaincant
 				Flotteur des matériaux: PE, PPH ou PVC 
-				Câble spécial en: TPK (PVC), silicone et FEP (téflon)</français>
+				Câble spécial en: TPK (PVC), silicone et FEP (téflon)</french>
   </description>
   <datasheet>
     <deutsch>
@@ -44,9 +44,9 @@
       <name>Datasheet</name>
       <path>05/05-02-01-E-sk-10_sk-15.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>05/05-02-01-F-sk-10_sk-15.pdf</path>
-    </français>
+    </french>
   </datasheet>
 </item>

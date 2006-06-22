@@ -7,22 +7,22 @@
   <icon>
     <deutsch>t-209_edelstahl.small.png</deutsch>
     <english>t-209_edelstahl.small.png</english>
-    <français>t-209_edelstahl.small.png</français>
+    <french>t-209_edelstahl.small.png</french>
   </icon>
   <image>
     <deutsch>t-209_edelstahl.png</deutsch>
     <english>t-209_edelstahl.png</english>
-    <français>t-209_edelstahl.png</français>
+    <french>t-209_edelstahl.png</french>
   </image>
   <name>
     <deutsch>T-209</deutsch>
     <english>T-209</english>
-    <français>T-209</français>
+    <french>T-209</french>
   </name>
   <headline>
     <deutsch>Magnettauchsonde Edelstahl</deutsch>
     <english>Magnetic submerged detectors made of special steel</english>
-    <français>Sondes plongées magnétique en acier inox</français>
+    <french>Sondes plongées magnétique en acier inox</french>
   </headline>
   <description>
     <deutsch>Geeignet fuer die Erfassung und Steuerung von Fluessigkeiten
@@ -41,14 +41,14 @@
 				Potential-free switching contacts
 				Level measuring independent of temperature, pressure and media 
 				Special types upon customer specification</english>
-    <français>Conviennent pour la saisie et le contrôle de liquides
+    <french>Conviennent pour la saisie et le contrôle de liquides
 				Type à un prix avantageux avec raccord de câble
 				Complet en acier inox (1.4571)
 				Jusqu´à 7 points de commutation avec une électrode
 				Types ajustables pour adaptation ultérieure des points de contact de commutation
 				Contacts de commutation de commande sans potentiel
 				Saisie du niveau indépendante de la température, de la pression et des medias 
-				Modèles spécifiques fabriqués sur mesure pour le client</français>
+				Modèles spécifiques fabriqués sur mesure pour le client</french>
   </description>
   <datasheet>
     <deutsch>
@@ -59,10 +59,10 @@
       <name>Datasheet</name>
       <path>06/06-01-05-E-T208_T209.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>06/06-01-05-F-T208_T209.pdf</path>
-    </français>
+    </french>
   </datasheet>
   <manual>
     <deutsch>
@@ -73,9 +73,9 @@
       <name>Operating manual magnetic submerged detectors general</name>
       <path>M-D-magnettauchsonde.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Mode d´emploi général pour sondes plongées magnétiques</name>
       <path>M-D-magnettauchsonde.pdf</path>
-    </français>
+    </french>
   </manual>
 </item>

@@ -7,22 +7,22 @@
   <icon>
     <deutsch>qfs-31.small.png</deutsch>
     <english>qfs-31.small.png</english>
-    <français>qfs-31.small.png</français>
+    <french>qfs-31.small.png</french>
   </icon>
   <image>
     <deutsch>qfs-31.png</deutsch>
     <english>qfs-31.png</english>
-    <français>qfs-31.png</français>
+    <french>qfs-31.png</french>
   </image>
   <name>
     <deutsch>QFS-31</deutsch>
     <english>QFS-31</english>
-    <français>QFS-31</français>
+    <french>QFS-31</french>
   </name>
   <headline>
     <deutsch>Schwimmschalter Kunststoff quecksilberfrei</deutsch>
     <english>Float type switch made of plastic mercury-free</english>
-    <français>Interrupteur à flotteur en plastique sans mercure</français>
+    <french>Interrupteur à flotteur en plastique sans mercure</french>
   </headline>
   <description>
     <deutsch>Einfache kostenguenstige Fuellstandsmessung mit ueberzeugendem Preis / Leistungsverhaeltnis
@@ -33,10 +33,10 @@
 				Float made of the material: PPH 
 				Special cable made of: TPK (PVC), silicone and  FEP (Teflon)
 				All float type switches as single switch, as switch combination in suspended and bar type</english>
-    <français>Mesure de niveau simple à un prix avantageux d´un rapport prix/performance convaincant
+    <french>Mesure de niveau simple à un prix avantageux d´un rapport prix/performance convaincant
 				Flotteur des matériaux: PPH  
 				Câble spécial en: TPK (PVC), silicone et FEP (téflon)
-				Tous les types d´interrupteurs individuels comme combinaison d´interrupteurs du type suspendu ou baguette</français>
+				Tous les types d´interrupteurs individuels comme combinaison d´interrupteurs du type suspendu ou baguette</french>
   </description>
   <datasheet>
     <deutsch>
@@ -47,9 +47,9 @@
       <name>Datasheet</name>
       <path>05/05-03-01-E-qfs-1_.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path />
-    </français>
+    </french>
   </datasheet>
 </item>

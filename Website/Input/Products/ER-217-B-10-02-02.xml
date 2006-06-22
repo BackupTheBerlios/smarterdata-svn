@@ -7,22 +7,22 @@
   <icon>
     <deutsch>er-217_b.small.png</deutsch>
     <english>er-217_b.small.png</english>
-    <français>er-217_b.small.png</français>
+    <french>er-217_b.small.png</french>
   </icon>
   <image>
     <deutsch>er-217_b.png</deutsch>
     <english>er-217_b.png</english>
-    <français>er-217_b.png</français>
+    <french>er-217_b.png</french>
   </image>
   <name>
     <deutsch>ER-217/B</deutsch>
     <english>ER-217/B</english>
-    <français>ER-217/B</français>
+    <french>ER-217/B</french>
   </name>
   <headline>
     <deutsch>Elektrodenrelais 2-Kanal</deutsch>
     <english>Electrode relay 2 channel</english>
-    <français>Relais d´électrode 2 canal</français>
+    <french>Relais d´électrode 2 canal</french>
   </headline>
   <description>
     <deutsch>2 unabhaengige Kanaele fuer Anschluss von 2 Ueberfuellsicherungen oder 1 Ueberfuellsicherung und 1 Leckagesicherung oder 2 Leckagesonden
@@ -49,7 +49,7 @@
 				Applicable as contact protection relay
 				19&quot; versions available
 				Assembly-friendly spring force clamp connection</english>
-    <français>2 canaux pour le raccordement de 2 protections de trop-plein ou 1 protection de trop-plein et 
+    <french>2 canaux pour le raccordement de 2 protections de trop-plein ou 1 protection de trop-plein et 
 				1 protection de fuite ou 2 sondes de fuite
 				Admissible comme partie d´une protection de trop-plein. Z-65.13-405, Z-65.40-191
 				Petites dimensions (en largeur 22,5mm) c´est-à-dire gain de place dans l´armoire de commande
@@ -62,7 +62,7 @@
 				de différente conductibilité possible , pas de sensibilité aux « brouillards » conductibles au-dessus des liquides 
 				Utilisable comme relais de protection de contact 
 				Versions 19&quot; disponibles
-				Connexion serrée facile à monter</français>
+				Connexion serrée facile à monter</french>
   </description>
   <datasheet>
     <deutsch>
@@ -73,10 +73,10 @@
       <name>Datasheet</name>
       <path>10/10-02-02-E-er-217b_er-145a_ex.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>10/10-02-02-F-er-217b_er-145a_ex.pdf</path>
-    </français>
+    </french>
   </datasheet>
   <otherdoc>
     <deutsch>
@@ -87,10 +87,10 @@
       <name>Approval (Z-65.13-405)</name>
       <path>TestReport/Z-65.13-405.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Admission (Z-65.13-405)</name>
       <path>TestReport/Z-65.13-405.pdf</path>
-    </français>
+    </french>
   </otherdoc>
   <otherdoc>
     <deutsch>
@@ -101,9 +101,9 @@
       <name>Approval (Z-65.40-191)</name>
       <path>TestReport/Z-65.40-191-D-EP,ELH.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Admission (Z-65.40-191)</name>
       <path>TestReport/Z-65.40-191-D-EP,ELH.pdf</path>
-    </français>
+    </french>
   </otherdoc>
 </item>

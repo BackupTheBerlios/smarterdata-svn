@@ -7,22 +7,22 @@
   <icon>
     <deutsch>tk-300_kunststoff.small.png</deutsch>
     <english>tk-300_kunststoff.small.png</english>
-    <français>tk-300_kunststoff.small.png</français>
+    <french>tk-300_kunststoff.small.png</french>
   </icon>
   <image>
     <deutsch>tk-300_kunststoff.png</deutsch>
     <english>tk-300_kunststoff.png</english>
-    <français>tk-300_kunststoff.png</français>
+    <french>tk-300_kunststoff.png</french>
   </image>
   <name>
     <deutsch>TK-300</deutsch>
     <english>TK-300</english>
-    <français>TK-300</français>
+    <french>TK-300</french>
   </name>
   <headline>
     <deutsch>Niveaumesswertgeber Kunststoff</deutsch>
     <english>Level transducer made of plastic material</english>
-    <français>Transmetteur de mesure de niveau en plastique</français>
+    <french>Transmetteur de mesure de niveau en plastique</french>
   </headline>
   <description>
     <deutsch>Fuellhoehenanzeige unabhaengig von: Temperatur, Druck, Medium, Dampfbildung und Behaeltereinbauten
@@ -43,7 +43,7 @@
 				Large range of operating temperature
 				Multitude of float types
 				Special design according to customer specification.</english>
-    <français>Indication de l´hauteur de remplissage indépendant de la température, de la pression, 
+    <french>Indication de l´hauteur de remplissage indépendant de la température, de la pression, 
 				du medium, de formation de vapeur et de réservoirs installés
 				Type à un prix avantageux avec raccord de câble
 				Complètement en des matériaux: PE, PPH et PVC
@@ -52,7 +52,7 @@
 				Haute résistance chimique lors du choix de matériel correspondant
 				Gamme de température de service étendue
 				Multitude de types de flotteurs
-				Modèles spécifiques fabriqués sur mesure pour le client</français>
+				Modèles spécifiques fabriqués sur mesure pour le client</french>
   </description>
   <datasheet>
     <deutsch>
@@ -63,9 +63,9 @@
       <name>Datasheet</name>
       <path>11/11-01-01-E-tk-300_tk-301.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>11/11-01-01-F-tk-300_tk-301.pdf</path>
-    </français>
+    </french>
   </datasheet>
 </item>

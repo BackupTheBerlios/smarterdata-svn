@@ -7,30 +7,30 @@
   <icon>
     <deutsch>bl-100.small.png</deutsch>
     <english>bl-100.small.png</english>
-    <français>bl-100.small.png</français>
+    <french>bl-100.small.png</french>
   </icon>
   <image>
     <deutsch>bl-100.png</deutsch>
     <english>bl-100.png</english>
-    <français>bl-100.png</français>
+    <french>bl-100.png</french>
   </image>
   <name>
     <deutsch>BL-100</deutsch>
     <english>BL-100</english>
-    <français>BL-100</français>
+    <french>BL-100</french>
   </name>
   <headline>
     <deutsch>Blitzschutzgeraet</deutsch>
     <english>Protector device</english>
-    <français>Parafoudre</français>
+    <french>Parafoudre</french>
   </headline>
   <description>
     <deutsch>Grobschutz gegen Ueberspannungen
 				Bescheinigung TUEV 02 ATEX 1796 X</deutsch>
     <english>Rough protection against over voltages
 				Certificate TUEV 02 ATEX 1796 X</english>
-    <français>Fusible pour haute tension
-				Certificat TUEV 02 ATEX 1796 X</français>
+    <french>Fusible pour haute tension
+				Certificat TUEV 02 ATEX 1796 X</french>
   </description>
   <datasheet>
     <deutsch>
@@ -41,10 +41,10 @@
       <name>Datasheet</name>
       <path>01/01-10-01-E-BL-100.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>01/01-10-01-F-BL-100.pdf</path>
-    </français>
+    </french>
   </datasheet>
   <otherdoc>
     <deutsch>
@@ -55,9 +55,9 @@
       <name>ATEX approval (TUEV 02 ATEX 1796 X)</name>
       <path>TestReport/ATEX_1796_X_EE-20,EE-21.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Admission ATEX (TUEV 02 ATEX 1796 X)</name>
       <path>TestReport/ATEX_1796_X_EE-20,EE-21.pdf</path>
-    </français>
+    </french>
   </otherdoc>
 </item>

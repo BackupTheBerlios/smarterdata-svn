@@ -7,22 +7,22 @@
   <icon>
     <deutsch>er-142.small.png</deutsch>
     <english>er-142.small.png</english>
-    <français>er-142.small.png</français>
+    <french>er-142.small.png</french>
   </icon>
   <image>
     <deutsch>er-142.png</deutsch>
     <english>er-142.png</english>
-    <français>er-142.png</français>
+    <french>er-142.png</french>
   </image>
   <name>
     <deutsch>ER-142</deutsch>
     <english>ER-142</english>
-    <français>ER-142</français>
+    <french>ER-142</french>
   </name>
   <headline>
     <deutsch>[Ex]i-Elektrodenrelais</deutsch>
     <english>[Ex]i-Electrode relay</english>
-    <français>[Ex]i-Relais d´électrode</français>
+    <french>[Ex]i-Relais d´électrode</french>
   </headline>
   <description>
     <deutsch>Geeignet zum Aufbau von Steuerungen mit konduktiven Elektroden
@@ -51,7 +51,7 @@
 				Reversible operating current/quiecent current
 				1 voltage-free floating changer
 				Inherently safe control circuit</english>
-    <français>Approprié pour l´assemblage de réglages avec des électrodes conductives
+    <french>Approprié pour l´assemblage de réglages avec des électrodes conductives
 				Basse puissance à l´arbre (p.ex. 5mA à 230VAC) c´est-à-dire économie dans l&apos;alimentation 
 				Exciter les electrodes par courant alternatif sans tension continue pour éviter l´électrolyse
 				Grande gamme de tensions d´alimentation disponibles; également livrable en version DC
@@ -64,7 +64,7 @@
 				Avec certificat d`essai de modèle type TUEV 02 ATEX 1833
 				Courant de travail / courant de repos réversible
 				1 inverseur sans potentiel  
-				Circuit de commande à sécurité intrinsèque</français>
+				Circuit de commande à sécurité intrinsèque</french>
   </description>
   <datasheet>
     <deutsch>
@@ -75,10 +75,10 @@
       <name>Datasheet</name>
       <path>10/10-01-02-E-er-142_er-143.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>10/10-01-02-F-er-142_er-143.pdf</path>
-    </français>
+    </french>
   </datasheet>
   <manual>
     <deutsch>
@@ -89,10 +89,10 @@
       <name>Operating instruction</name>
       <path>M-DE-er-142,143.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Mode d´emploi</name>
       <path>M-DE-er-142,143.pdf</path>
-    </français>
+    </french>
   </manual>
   <otherdoc>
     <deutsch>
@@ -103,9 +103,9 @@
       <name>ATEX approval (TUEV 02 ATEX 1833)</name>
       <path>TestReport/ATEX_1833_ER-142,ER-143.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Admission ATEX (TUEV 02 ATEX 1833)</name>
       <path>TestReport/ATEX_1833_ER-142,ER-143.pdf</path>
-    </français>
+    </french>
   </otherdoc>
 </item>

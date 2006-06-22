@@ -7,22 +7,22 @@
   <icon>
     <deutsch>er-104_b.small.png</deutsch>
     <english>er-104_b.small.png</english>
-    <français>er-104_b.small.png</français>
+    <french>er-104_b.small.png</french>
   </icon>
   <image>
     <deutsch>er-104_b.png</deutsch>
     <english>er-104_b.png</english>
-    <français>er-104_b.png</français>
+    <french>er-104_b.png</french>
   </image>
   <name>
     <deutsch>ER-104/B</deutsch>
     <english>ER-104/B</english>
-    <français>ER-104/B</français>
+    <french>ER-104/B</french>
   </name>
   <headline>
     <deutsch>Elektrodenrelais 1-Kanal</deutsch>
     <english>Electrode relay 1 channel</english>
-    <français>Relais d´électrode 1 canal</français>
+    <french>Relais d´électrode 1 canal</french>
   </headline>
   <description>
     <deutsch>Geeignet zum Aufbau von Steuerungen mit konduktiven Elektroden
@@ -50,7 +50,7 @@
 				Applicable as contact protection relay
 				19&quot; versions available
 				Assembly-friendly spring force clamp connection</english>
-    <français>Approprié pour l´assemblage de réglages avec des électrodes conductives
+    <french>Approprié pour l´assemblage de réglages avec des électrodes conductives
 				Petites dimensions (en largeur 22,5mm) c´est-à-dire gain de place dans l´armoire de commande
 				Basse puissance à l´arbre (p.ex. 5mA à 230VAC) c´est-à-dire économie dans l&apos;alimentation 
 				1 canal
@@ -64,7 +64,7 @@
 				au-dessus des liquides 
 				Utilisable comme relais de protection de contact 
 				Versions 19&quot; disponibles
-				Connexion serrée par tension facile à monter</français>
+				Connexion serrée par tension facile à monter</french>
   </description>
   <datasheet>
     <deutsch>
@@ -75,10 +75,10 @@
       <name>Datasheet</name>
       <path>10/10-01-01-E-er104b_er214b.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>10/10-01-01-F-er104b_er214b.pdf</path>
-    </français>
+    </french>
   </datasheet>
   <manual>
     <deutsch>
@@ -89,9 +89,9 @@
       <name>Operating instruction</name>
       <path>M-D-er-104b.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Mode d´emploi</name>
       <path>M-D-er-104b.pdf</path>
-    </français>
+    </french>
   </manual>
 </item>

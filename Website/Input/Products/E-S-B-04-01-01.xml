@@ -7,30 +7,30 @@
   <icon>
     <deutsch>e-s_b.small.png</deutsch>
     <english>e-s_b.small.png</english>
-    <français>e-s_b.small.png</français>
+    <french>e-s_b.small.png</french>
   </icon>
   <image>
     <deutsch>e-s_b.png</deutsch>
     <english>e-s_b.png</english>
-    <français>e-s_b.png</français>
+    <french>e-s_b.png</french>
   </image>
   <name>
     <deutsch>E-S/B</deutsch>
     <english>E-S/B</english>
-    <français>E-S/B</français>
+    <french>E-S/B</french>
   </name>
   <headline>
     <deutsch>Elektrode -einfach-</deutsch>
     <english>Electrode -simple-</english>
-    <français>Electrode -simple-</français>
+    <french>Electrode -simple-</french>
   </headline>
   <description>
     <deutsch>Materialien: Messing und Edelstahl
 				Vor-Ort-Festlegung der Laenge</deutsch>
     <english>Materials: brass and special steel
 				On-site determination of the length</english>
-    <français>Matériaux : laiton et acier inox
-				La longueur sera déterminée sur place</français>
+    <french>Matériaux : laiton et acier inox
+				La longueur sera déterminée sur place</french>
   </description>
   <datasheet>
     <deutsch>
@@ -41,9 +41,9 @@
       <name>Datasheet</name>
       <path>04/04-01-01-E-ee-1fach_esb.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>04/04-01-01-F-ee-1fach_esb.pdf</path>
-    </français>
+    </french>
   </datasheet>
 </item>

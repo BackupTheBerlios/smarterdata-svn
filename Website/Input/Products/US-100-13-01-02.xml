@@ -7,22 +7,22 @@
   <icon>
     <deutsch>us-100.small.png</deutsch>
     <english>us-100.small.png</english>
-    <français>us-100.small.png</français>
+    <french>us-100.small.png</french>
   </icon>
   <image>
     <deutsch>us-100.png</deutsch>
     <english>us-100.png</english>
-    <français>us-100.png</français>
+    <french>us-100.png</french>
   </image>
   <name>
     <deutsch>US-100</deutsch>
     <english>US-100</english>
-    <français>US-100</français>
+    <french>US-100</french>
   </name>
   <headline>
     <deutsch>Kompakt-Ultraschallsonde</deutsch>
     <english>Compact ultrasonic detector</english>
-    <français>Palpeur ultrasonique compact</français>
+    <french>Palpeur ultrasonique compact</french>
   </headline>
   <description>
     <deutsch>Beruehrungslose Messung
@@ -43,7 +43,7 @@
 				Output signal measuring ranges 4 ...20mA/0 ...10V
 				Measuring range up to 8m			
 				2- and 3- conductor connection</english>
-    <français>Mesure sans contact direct
+    <french>Mesure sans contact direct
 				Suppression des échos fixes activées
 				Compensation de température
 				Construction compacte
@@ -51,7 +51,7 @@
 				Surveillance du fonctionnement
 				Signal de sortie des plages de mesure 4 ...20mA/0 ...10V
 				Plage de mesure jusqu&apos;à 8m
-				Raccordement 2 et 3 conducteurs</français>
+				Raccordement 2 et 3 conducteurs</french>
   </description>
   <datasheet>
     <deutsch>
@@ -62,9 +62,9 @@
       <name>Datasheet</name>
       <path>13/13-01-02-E-us-100.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>13/13-01-02-F-us-100.pdf</path>
-    </français>
+    </french>
   </datasheet>
 </item>

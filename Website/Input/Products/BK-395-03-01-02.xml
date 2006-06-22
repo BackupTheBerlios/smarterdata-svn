@@ -13,27 +13,27 @@
   <icon>
     <deutsch>nopic.small.png</deutsch>
     <english>nopic.small.png</english>
-    <français>nopic.small.png</français>
+    <french>nopic.small.png</french>
   </icon>
   <image>
     <deutsch>nopic.png</deutsch>
     <english>nopic.png</english>
-    <français>nopic.png</français>
+    <french>nopic.png</french>
   </image>
   <name>
     <deutsch>BK-395</deutsch>
     <english>BK-395</english>
-    <français>BK-395</français>
+    <french>BK-395</french>
   </name>
   <headline>
     <deutsch>Bistabiler Wechselkontakt</deutsch>
     <english>Bistable change-over contact</english>
-    <français>Contact inverseur à deux positions</français>
+    <french>Contact inverseur à deux positions</french>
   </headline>
   <description>
     <deutsch>-</deutsch>
     <english>-</english>
-    <français>-</français>
+    <french>-</french>
   </description>
   <datasheet>
     <deutsch>
@@ -44,9 +44,9 @@
       <name>Datasheet</name>
       <path>03/03-01-02-E-BK-395.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path />
-    </français>
+    </french>
   </datasheet>
 </item>

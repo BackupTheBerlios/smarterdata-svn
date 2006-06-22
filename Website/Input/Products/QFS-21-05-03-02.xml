@@ -7,22 +7,22 @@
   <icon>
     <deutsch>qfs-21.small.png</deutsch>
     <english>qfs-21.small.png</english>
-    <français>qfs-21.small.png</français>
+    <french>qfs-21.small.png</french>
   </icon>
   <image>
     <deutsch>qfs-21.png</deutsch>
     <english>qfs-21.png</english>
-    <français>qfs-21.png</français>
+    <french>qfs-21.png</french>
   </image>
   <name>
     <deutsch>QFS-21</deutsch>
     <english>QFS-21</english>
-    <français>QFS-21</français>
+    <french>QFS-21</french>
   </name>
   <headline>
     <deutsch>Schwimmschalter Edelstahl quecksilberfrei</deutsch>
     <english>Floating switch, stainless steel, mercury free</english>
-    <français>Interrupteur à flotteur, acier inoxydable, en plastique sans mercure</français>
+    <french>Interrupteur à flotteur, acier inoxydable, en plastique sans mercure</french>
   </headline>
   <description>
     <deutsch>Einfache kostenguenstige Fuellstandsmessung mit ueberzeugendem Preis / Leistungsverhaeltnis
@@ -35,11 +35,11 @@
 				Special cable made of : silicone and  FEP (Teflon)
 				All float type switches as single switch, as switch combination in suspended and bar type
 				Reed-Contact</english>
-    <français>Mesure de niveau simple à un prix avantageux d´un rapport prix/performance convaincant
+    <french>Mesure de niveau simple à un prix avantageux d´un rapport prix/performance convaincant
 				Flotteur des matériaux acier inox (1.4571)
 				Câble spécial en: silicone et FEP (téflon)
 				Tous les types d´interrupteurs individuels comme combinaison d´interrupteurs du type suspendu ou baguette
-				Reed-Contact</français>
+				Reed-Contact</french>
   </description>
   <datasheet>
     <deutsch>
@@ -50,9 +50,9 @@
       <name>Datasheet</name>
       <path>05/05-03-02-E-qfs-2_qfsk-2_edelstahl.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>05/05-03-02-F-qfs-2_qfsk-2_edelstahl.pdf</path>
-    </français>
+    </french>
   </datasheet>
 </item>

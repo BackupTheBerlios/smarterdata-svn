@@ -12,22 +12,22 @@
   <icon>
     <deutsch>t-209_0_edelstahl.small.png</deutsch>
     <english>t-209_0_edelstahl.small.png</english>
-    <français>t-209_0_edelstahl.small.png</français>
+    <french>t-209_0_edelstahl.small.png</french>
   </icon>
   <image>
     <deutsch>t-209_0_edelstahl.png</deutsch>
     <english>t-209_0_edelstahl.png</english>
-    <français>t-209_0_edelstahl.png</français>
+    <french>t-209_0_edelstahl.png</french>
   </image>
   <name>
     <deutsch>T-209/0</deutsch>
     <english>T-209/0</english>
-    <français>T-209/0</français>
+    <french>T-209/0</french>
   </name>
   <headline>
     <deutsch>Magnettauchsonden Edelstahl fuer EX-Bereich Kategorie 1, Zone 0</deutsch>
     <english>Magnetic submerged detectors made of special steel for ex area category 1, zone 0</english>
-    <français>Sondes magnétiques à immersions en acier inox pour des zones à risque d´explosion catégorie 1 (Zone 0)</français>
+    <french>Sondes magnétiques à immersions en acier inox pour des zones à risque d´explosion catégorie 1 (Zone 0)</french>
   </headline>
   <description>
     <deutsch>Als Ueberfuellsicherung fuer brennbare Fluessigkeiten zugelassen. Z-65.11-404
@@ -43,13 +43,13 @@
 				Large range of operating temperature
 				Multitude of float types
 				Special design according to customer specification.</english>
-    <français>Admis comme protection contre le trop-plein pour les liquides inflammables. Z-65.11-404
+    <french>Admis comme protection contre le trop-plein pour les liquides inflammables. Z-65.11-404
 				Indication de l´hauteur de remplissage indépendant de la température, de la pression, 
 				du medium, de formation de vapeur et de réservoirs installés
 				Complètement en acier inox 1.4571
 				Gamme de température de service étendue
 				Multitude de types de flotteurs
-				Modèles spécifiques fabriqués sur mesure pour le client</français>
+				Modèles spécifiques fabriqués sur mesure pour le client</french>
   </description>
   <datasheet>
     <deutsch>
@@ -60,10 +60,10 @@
       <name>Datasheet</name>
       <path>01/01-01-06-E-T205-0_T209-0_F_EX.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>01/01-01-06-F-T205-0_T209-0_F_EX.pdf</path>
-    </français>
+    </french>
   </datasheet>
   <otherdoc>
     <deutsch>
@@ -74,10 +74,10 @@
       <name>ATEX approval (TUEV 02 ATEX 1795 X)</name>
       <path>TestReport/ATEX_1795_T-20_.F_TK-30_.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Admission ATEX (TUEV 02 ATEX 1795 X)</name>
       <path>TestReport/ATEX_1795_T-20_.F_TK-30_.pdf</path>
-    </français>
+    </french>
   </otherdoc>
   <otherdoc>
     <deutsch>
@@ -88,9 +88,9 @@
       <name>Approval (Z-65.11-404)</name>
       <path>TestReport/Z-65.11-404.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Admission (Z-65.11-404)</name>
       <path>TestReport/Z-65.11-404.pdf</path>
-    </français>
+    </french>
   </otherdoc>
 </item>

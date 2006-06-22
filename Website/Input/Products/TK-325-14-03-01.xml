@@ -7,30 +7,30 @@
   <icon>
     <deutsch>tk-325.small.png</deutsch>
     <english>tk-325.small.png</english>
-    <français>tk-325.small.png</français>
+    <french>tk-325.small.png</french>
   </icon>
   <image>
     <deutsch>tk-325.png</deutsch>
     <english>tk-325.png</english>
-    <français>tk-325.png</français>
+    <french>tk-325.png</french>
   </image>
   <name>
     <deutsch>TK-325</deutsch>
     <english>TK-325</english>
-    <français>TK-325</français>
+    <french>TK-325</french>
   </name>
   <headline>
     <deutsch>Leuchtbandanzeige</deutsch>
     <english>Luminous band display</english>
-    <français>Affichage lumineux</français>
+    <french>Affichage lumineux</french>
   </headline>
   <description>
     <deutsch>Optische Anzeige des Fuellstandes
 				Fuer Schalttafeleinbau oder als 19&quot;-Einschub</deutsch>
     <english>Optical display of the level
 				For panel mounting or as 19 ?module</english>
-    <français>Affichage optique du niveau
-				Pour encastrement au tableau de commande ou comme tiroir 19&quot;</français>
+    <french>Affichage optique du niveau
+				Pour encastrement au tableau de commande ou comme tiroir 19&quot;</french>
   </description>
   <datasheet>
     <deutsch>
@@ -41,9 +41,9 @@
       <name>Datasheet</name>
       <path>14/14-03-01-E-tk-32x.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>14/14-03-01-F-tk-32x.pdf</path>
-    </français>
+    </french>
   </datasheet>
 </item>

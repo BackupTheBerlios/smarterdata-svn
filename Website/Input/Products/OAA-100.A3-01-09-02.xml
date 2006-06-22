@@ -7,30 +7,30 @@
   <icon>
     <deutsch>oaa-100.a3.small.png</deutsch>
     <english>oaa-100.a3.small.png</english>
-    <français>oaa-100.a3.small.png</français>
+    <french>oaa-100.a3.small.png</french>
   </icon>
   <image>
     <deutsch>oaa-100.a3.png</deutsch>
     <english>oaa-100.a3.png</english>
-    <français>oaa-100.a3.png</français>
+    <french>oaa-100.a3.png</french>
   </image>
   <name>
     <deutsch>OAA-100.A3</deutsch>
     <english>OAA-100.A3</english>
-    <français>OAA-100.A3</français>
+    <french>OAA-100.A3</french>
   </name>
   <headline>
     <deutsch>Alarmmelder (Messumformer)</deutsch>
     <english>Alarm indicator (measuring transducer)</english>
-    <français>Avertisseur (transducteur de mesure)</français>
+    <french>Avertisseur (transducteur de mesure)</french>
   </headline>
   <description>
     <deutsch>Meldeeinrichtung zur Alarmanzeige
 				Separater Ausgang zur Ansteuerung von Absperr-ventilen oder zur Weitermeldung an Leitwarten etc.</deutsch>
     <english>Messaging equipment for alarm display
 				Separate outputs to control the stop-valves or for further notice to the control rooms, etc.</english>
-    <français>Unité de signalisation pour le signal d´alarme
-				Sortie séparée pour exciter des soupapes d&apos;arrêt ou pour retransmettre à la salle de contrôle, etc.</français>
+    <french>Unité de signalisation pour le signal d´alarme
+				Sortie séparée pour exciter des soupapes d&apos;arrêt ou pour retransmettre à la salle de contrôle, etc.</french>
   </description>
   <datasheet>
     <deutsch>
@@ -41,10 +41,10 @@
       <name>Datasheet</name>
       <path>01/01-09-02-E-OAA.A3.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>01/01-09-02-F-OAA.A3.pdf</path>
-    </français>
+    </french>
   </datasheet>
   <manual>
     <deutsch>
@@ -55,9 +55,9 @@
       <name>Operating instruction</name>
       <path>M-D-oaa-100_a3.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Mode d´emploi</name>
       <path>M-D-oaa-100_a3.pdf</path>
-    </français>
+    </french>
   </manual>
 </item>

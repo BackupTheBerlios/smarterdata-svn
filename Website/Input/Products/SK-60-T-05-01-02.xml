@@ -7,22 +7,22 @@
   <icon>
     <deutsch>sk-60_t.small.png</deutsch>
     <english>sk-60_t.small.png</english>
-    <français>sk-60_t.small.png</français>
+    <french>sk-60_t.small.png</french>
   </icon>
   <image>
     <deutsch>sk-60_t.png</deutsch>
     <english>sk-60_t.png</english>
-    <français>sk-60_t.png</français>
+    <french>sk-60_t.png</french>
   </image>
   <name>
     <deutsch>SK-60/T</deutsch>
     <english>SK-60/T</english>
-    <français>SK-60/T</français>
+    <french>SK-60/T</french>
   </name>
   <headline>
     <deutsch>Schwimmschalterkombination PTFE</deutsch>
     <english>Float type switch combination made of PTFE</english>
-    <français>Combinaison d´interrupteurs à flotteur PTFE</français>
+    <french>Combinaison d´interrupteurs à flotteur PTFE</french>
   </headline>
   <description>
     <deutsch>Einfache kostenguenstige Fuellstandsmessung mit ueberzeugendem Preis / Leistungsverhaeltnis
@@ -33,10 +33,10 @@
 				Float made of PTFE
 				Special cable made of : silicone and FEP (Teflon)
 				All float type switches are available in any size also mercury-free</english>
-    <français>Mesure de niveau simple à un prix avantageux d´un rapport prix/performance convaincant
+    <french>Mesure de niveau simple à un prix avantageux d´un rapport prix/performance convaincant
 				Flotteur des matériaux PTFE
 				Câble spécial en: silicone et FEP (téflon)
-				Tous les types d´interrupteurs sont livrables dans toutes les dimensions, également sans mercure</français>
+				Tous les types d´interrupteurs sont livrables dans toutes les dimensions, également sans mercure</french>
   </description>
   <datasheet>
     <deutsch>
@@ -47,9 +47,9 @@
       <name>Datasheet</name>
       <path>05/05-01-02-E-edelstahl_teflon_schwimmschalter.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>05/05-01-02-F-edelstahl_teflon_schwimmschalter.pdf</path>
-    </français>
+    </french>
   </datasheet>
 </item>

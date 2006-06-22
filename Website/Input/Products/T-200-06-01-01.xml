@@ -7,22 +7,22 @@
   <icon>
     <deutsch>t-200_kunststoff.small.png</deutsch>
     <english>t-200_kunststoff.small.png</english>
-    <français>t-200_kunststoff.small.png</français>
+    <french>t-200_kunststoff.small.png</french>
   </icon>
   <image>
     <deutsch>t-200_kunststoff.png</deutsch>
     <english>t-200_kunststoff.png</english>
-    <français>t-200_kunststoff.png</français>
+    <french>t-200_kunststoff.png</french>
   </image>
   <name>
     <deutsch>T-200</deutsch>
     <english>T-200</english>
-    <français>T-200</français>
+    <french>T-200</french>
   </name>
   <headline>
     <deutsch>Magnettauchsonde Kunststoff</deutsch>
     <english>Magnetic submerged detector made of plastic</english>
-    <français>Sondes plongées magnétique en plastique</français>
+    <french>Sondes plongées magnétique en plastique</french>
   </headline>
   <description>
     <deutsch>Geeignet fuer die Erfassung und Steuerung von Fluessigkeiten
@@ -43,7 +43,7 @@
 				Level measuring independent of temperature, pressure and media 
 				Multitude of floater types
 				Special types upon customer specification</english>
-    <français>Conviennent pour la saisie et le contrôle de liquides
+    <french>Conviennent pour la saisie et le contrôle de liquides
 				Type à un prix avantageux avec raccord de câble
 				Complètement en: PE, PPH, PVC 
 				Jusqu´à 7 points de contact de commutation
@@ -51,7 +51,7 @@
 				Contacts de commutation de commande sans potentiel 
 				Saisie du niveau indépendante de la température, de la pression et des medias 
 				Multitude de types de flotteurs
-				Modèles spécifiques fabriqués sur mesure pour le client</français>
+				Modèles spécifiques fabriqués sur mesure pour le client</french>
   </description>
   <datasheet>
     <deutsch>
@@ -62,10 +62,10 @@
       <name>Datasheet</name>
       <path>06/06-01-01-E-T200_T201.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>06/06-01-01-F-T200_T201.pdf</path>
-    </français>
+    </french>
   </datasheet>
   <manual>
     <deutsch>
@@ -76,9 +76,9 @@
       <name>Operating manual magnetic submerged detectors general</name>
       <path>M-D-magnettauchsonde.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Mode d´emploi général pour sondes plongées magnétiques</name>
       <path>M-D-magnettauchsonde.pdf</path>
-    </français>
+    </french>
   </manual>
 </item>

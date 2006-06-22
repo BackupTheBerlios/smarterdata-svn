@@ -7,22 +7,22 @@
   <icon>
     <deutsch>ad-31.small.png</deutsch>
     <english>ad-31.small.png</english>
-    <français>ad-31.small.png</français>
+    <french>ad-31.small.png</french>
   </icon>
   <image>
     <deutsch>ad-31.png</deutsch>
     <english>ad-31.png</english>
-    <français>ad-31.png</français>
+    <french>ad-31.png</french>
   </image>
   <name>
     <deutsch>AD-31</deutsch>
     <english>AD-31</english>
-    <français>AD-31</français>
+    <french>AD-31</french>
   </name>
   <headline>
     <deutsch>Programmierbare Digitalanzeige</deutsch>
     <english>Programmable digital display</english>
-    <français>Affichage digital programmable</français>
+    <french>Affichage digital programmable</french>
   </headline>
   <description>
     <deutsch>Digitale Anzeige mit 24V DC-Versorgung fuer Ultraschallsonde oder hydrostatische Sonden
@@ -31,9 +31,9 @@
     <english>Digital display with 24V DC supply for ultrasonic detector or hydrostatic detector
 				Two limit contacts freely adjustable
 				Output 4...20mA</english>
-    <français>Affichage digital avec alimentation DC 24V pour sonde ultrasonique ou pour sondes hydrostatiques
+    <french>Affichage digital avec alimentation DC 24V pour sonde ultrasonique ou pour sondes hydrostatiques
 				Deux contacts limites librement ajustables
-				Sortie 4...20mA</français>
+				Sortie 4...20mA</french>
   </description>
   <datasheet>
     <deutsch>
@@ -44,10 +44,10 @@
       <name>Datasheet</name>
       <path>14/14-03-02-E-ad-31.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>14/14-03-02-F-ad-31.pdf</path>
-    </français>
+    </french>
   </datasheet>
   <manual>
     <deutsch>
@@ -58,10 +58,10 @@
       <name>Operating instruction</name>
       <path>M-D-ad-31.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Mode d´emploi</name>
       <path>M-D-ad-31.pdf</path>
-    </français>
+    </french>
   </manual>
   <conformity>
     <deutsch>
@@ -72,9 +72,9 @@
       <name>Conformity explanation</name>
       <path>conformity_explanation-D-E-F-AD-31.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Déclaration de conformité</name>
       <path>conformity_explanation-D-E-F-AD-31.pdf</path>
-    </français>
+    </french>
   </conformity>
 </item>

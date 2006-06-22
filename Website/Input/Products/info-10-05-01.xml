@@ -7,27 +7,27 @@
   <icon>
     <deutsch>info.mini.png</deutsch>
     <english>info.mini.png</english>
-    <français>info.mini.png</français>
+    <french>info.mini.png</french>
   </icon>
   <image>
     <deutsch />
     <english />
-    <français />
+    <french />
   </image>
   <name>
     <deutsch>Info KR-xxx (Ex)</deutsch>
     <english>Info KR-xxx (Ex)</english>
-    <français>Info KR-xxx (Ex)</français>
+    <french>Info KR-xxx (Ex)</french>
   </name>
   <headline>
     <deutsch>Allgemeine Beschreibung KR-163, KR-268, KR-163/A/EX</deutsch>
     <english>General description KR-163, KR-268, KR-163/A/EX</english>
-    <français>Description générale KR-163, KR-268, KR-163/A/EX</français>
+    <french>Description générale KR-163, KR-268, KR-163/A/EX</french>
   </headline>
   <description>
     <deutsch>-</deutsch>
     <english>-</english>
-    <français>-</français>
+    <french>-</french>
   </description>
   <datasheet>
     <deutsch>
@@ -38,9 +38,9 @@
       <name>Datasheet</name>
       <path>10/10-05-01-E-kr_allgemein_kr-163_1-kanal.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>10/10-05-01-F-kr_allgemein_kr-163_1-kanal.pdf</path>
-    </français>
+    </french>
   </datasheet>
 </item>

@@ -21,19 +21,19 @@ while ($Value= $Dir->Read())
 		$Product['item']['position']= 1;
 		$Product['item']['icon']['deutsch']= $Temp['imagesmall'];
 		$Product['item']['icon']['english']= $Temp['imagesmall'];
-		$Product['item']['icon']['français']= $Temp['imagesmall'];
+		$Product['item']['icon']['french']= $Temp['imagesmall'];
 		$Product['item']['image']['deutsch']= $Temp['imagebig'];
 		$Product['item']['image']['english']= $Temp['imagebig'];
-		$Product['item']['image']['français']= $Temp['imagebig'];
+		$Product['item']['image']['french']= $Temp['imagebig'];
 		$Product['item']['name']['deutsch']= $Temp['product'];
 		$Product['item']['name']['english']= $Temp['product'];
-		$Product['item']['name']['français']= $Temp['product'];
+		$Product['item']['name']['french']= $Temp['product'];
 		$Product['item']['headline']['deutsch']= $Temp['headline']['de'];
 		$Product['item']['headline']['english']= $Temp['headline']['en'];
-		$Product['item']['headline']['français']= $Temp['headline']['fr'];
+		$Product['item']['headline']['french']= $Temp['headline']['fr'];
 		$Product['item']['description']['deutsch']= $Temp['text']['de'];
 		$Product['item']['description']['english']= $Temp['text']['en'];
-		$Product['item']['description']['français']= $Temp['text']['fr'];
+		$Product['item']['description']['french']= $Temp['text']['fr'];
 		if(isset($Temp['document']['de']))
 		{
 			$Temp['document'] = array($Temp['document']);
@@ -46,34 +46,34 @@ while ($Value= $Dir->Read())
 				$Doc['deutsch']['path']= $Document['de']['link'];
 				$Doc['english']['name']= $Document['en']['name'];
 				$Doc['english']['path']= $Document['en']['link'];
-				$Doc['français']['name']= $Document['fr']['name'];
-				$Doc['français']['path']= $Document['fr']['link'];
+				$Doc['french']['name']= $Document['fr']['name'];
+				$Doc['french']['path']= $Document['fr']['link'];
 				if(preg_match('/^TestReport/', $Doc['deutsch']['path']))
 				{
 					$Doc['deutsch']['path'] = 'TestReport/'.substr($Doc['deutsch']['path'], 11);
 					$Doc['english']['path'] = 'TestReport/'.substr($Doc['english']['path'], 11);
-					$Doc['français']['path'] = 'TestReport/'.substr($Doc['français']['path'], 11);
+					$Doc['french']['path'] = 'TestReport/'.substr($Doc['french']['path'], 11);
 					$Product['item']['otherdoc'][] = $Doc;
 				}
 				elseif(preg_match('/^test_report/', $Doc['deutsch']['path']))
 				{
 					$Doc['deutsch']['path'] = 'TestReport/'.substr($Doc['deutsch']['path'], 12);
 					$Doc['english']['path'] = 'TestReport/'.substr($Doc['english']['path'], 12);
-					$Doc['français']['path'] = 'TestReport/'.substr($Doc['français']['path'], 12);
+					$Doc['french']['path'] = 'TestReport/'.substr($Doc['french']['path'], 12);
 					$Product['item']['otherdoc'][] = $Doc;
 				}
 				elseif(preg_match('/^manuals/', $Doc['deutsch']['path']))
 				{
 					$Doc['deutsch']['path'] = substr($Doc['deutsch']['path'], 8);
 					$Doc['english']['path'] = substr($Doc['english']['path'], 8);
-					$Doc['français']['path'] = substr($Doc['français']['path'], 8);
+					$Doc['french']['path'] = substr($Doc['french']['path'], 8);
 					$Product['item']['manual'][] = $Doc;
 				}
 				elseif(preg_match('/^products/', $Doc['deutsch']['path']))
 				{
 					$Doc['deutsch']['path'] = substr($Doc['deutsch']['path'], 9);
 					$Doc['english']['path'] = substr($Doc['english']['path'], 9);
-					$Doc['français']['path'] = substr($Doc['français']['path'], 9);
+					$Doc['french']['path'] = substr($Doc['french']['path'], 9);
 					$Product['item']['datasheet'][] = $Doc;
 				}
 				else

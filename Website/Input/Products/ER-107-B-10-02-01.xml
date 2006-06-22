@@ -7,22 +7,22 @@
   <icon>
     <deutsch>er-107_b.small.png</deutsch>
     <english>er-107_b.small.png</english>
-    <français>er-107_b.small.png</français>
+    <french>er-107_b.small.png</french>
   </icon>
   <image>
     <deutsch>er-107_b.png</deutsch>
     <english>er-107_b.png</english>
-    <français>er-107_b.png</français>
+    <french>er-107_b.png</french>
   </image>
   <name>
     <deutsch>ER-107/B</deutsch>
     <english>ER-107/B</english>
-    <français>ER-107/B</français>
+    <french>ER-107/B</french>
   </name>
   <headline>
     <deutsch>Elektrodenrelais</deutsch>
     <english>Electrode relay</english>
-    <français>Relais d´électrode</français>
+    <french>Relais d´électrode</french>
   </headline>
   <description>
     <deutsch>Als Teil einer Ueberfuell- und Leckagesicherung zugelassen. Z-65.13-405, Z-65.40-191, Z-65.13-100
@@ -43,7 +43,7 @@
 				is possible respectively no response to conductive ?fog? above the liquids
 				19&quot; versions available
 				Assembly-friendly spring force clamp connection</english>
-    <français>Admissible comme partie d´une protection de trop-plein et de fuites. Z-65.13-405, Z-65.40-191, Z-65.13-100
+    <french>Admissible comme partie d´une protection de trop-plein et de fuites. Z-65.13-405, Z-65.40-191, Z-65.13-100
 				Petites dimensions (en largeur 22,5mm) c´est-à-dire gain de place dans l´armoire de commande
 				Drive of the electrodes with DC-free alternating voltage to prevent from electrolysis
 				Grande gamme de tensions d´alimentation disponibles; également livrable en version DC
@@ -53,7 +53,7 @@
 				de différente conductibilité possible , pas de sensibilité aux « brouillards » conductibles au-dessus des liquides 
 				utilisable comme relais de protection de contact 
 				connexion serrée facile à monter
-				Versions 19&quot; disponibles</français>
+				Versions 19&quot; disponibles</french>
   </description>
   <datasheet>
     <deutsch>
@@ -64,10 +64,10 @@
       <name>Datasheet</name>
       <path>10/10-02-01-E-elektrodenrelais_whg_er-107b.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>10/10-02-01-F-elektrodenrelais_whg_er-107b.pdf</path>
-    </français>
+    </french>
   </datasheet>
   <otherdoc>
     <deutsch>
@@ -78,10 +78,10 @@
       <name>approval(Z-65.13-405)</name>
       <path>TestReport/Z-65.13-405.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Admission (Z-65.13-405)</name>
       <path>TestReport/Z-65.13-405.pdf</path>
-    </français>
+    </french>
   </otherdoc>
   <otherdoc>
     <deutsch>
@@ -92,10 +92,10 @@
       <name>approval (Z-65.40-191)</name>
       <path>TestReport/Z-65.40-191-D-EP,ELH.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Admission (Z-65.40-191)</name>
       <path>TestReport/Z-65.40-191-D-EP,ELH.pdf</path>
-    </français>
+    </french>
   </otherdoc>
   <otherdoc>
     <deutsch>
@@ -106,9 +106,9 @@
       <name>approval (Z-65.13-100)</name>
       <path>TestReport/Z-65.13-100-D-EF2,EFV2.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Admission (Z-65.13-100)</name>
       <path>TestReport/Z-65.13-100-D-EF2,EFV2.pdf</path>
-    </français>
+    </french>
   </otherdoc>
 </item>

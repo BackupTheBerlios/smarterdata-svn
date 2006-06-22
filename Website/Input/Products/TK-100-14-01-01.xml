@@ -7,22 +7,22 @@
   <icon>
     <deutsch>tk-100.small.png</deutsch>
     <english>tk-100.small.png</english>
-    <français>tk-100.small.png</français>
+    <french>tk-100.small.png</french>
   </icon>
   <image>
     <deutsch>tk-100.png</deutsch>
     <english>tk-100.png</english>
-    <français>tk-100.png</français>
+    <french>tk-100.png</french>
   </image>
   <name>
     <deutsch>TK-100</deutsch>
     <english>TK-100</english>
-    <français>TK-100</français>
+    <french>TK-100</french>
   </name>
   <headline>
     <deutsch>R/I-Wandler</deutsch>
     <english>R/I- converter</english>
-    <français>Convertisseur R/I</français>
+    <french>Convertisseur R/I</french>
   </headline>
   <description>
     <deutsch>Ausgang 4...20mA in Verbindung mit unseren Niveaumesswertgebern
@@ -33,10 +33,10 @@
 				Low installation cost
 				Direct connection to the SPS as integrated in the detector head 
 				Calibration possible</english>
-    <français>Sortie 4...20mA en connexion avec nos transmetteurs de niveau
+    <french>Sortie 4...20mA en connexion avec nos transmetteurs de niveau
 				Faibles coûts d´installation
 				Connexion directe à la SPS car elle est intégrée dans la tête de la sonde 
-				Accord possible</français>
+				Accord possible</french>
   </description>
   <datasheet>
     <deutsch>
@@ -47,10 +47,10 @@
       <name>Datasheet</name>
       <path>14/14-01-01-E-tk-100.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>14/14-01-01-F-tk-100.pdf</path>
-    </français>
+    </french>
   </datasheet>
   <manual>
     <deutsch>
@@ -61,9 +61,9 @@
       <name>Operating instruction</name>
       <path>M-D-tk-100.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Mode d´emploi</name>
       <path>M-D-tk-100.pdf</path>
-    </français>
+    </french>
   </manual>
 </item>

@@ -7,22 +7,22 @@
   <icon>
     <deutsch>tk-308_kunststoff.small.png</deutsch>
     <english>tk-308_kunststoff.small.png</english>
-    <français>tk-308_kunststoff.small.png</français>
+    <french>tk-308_kunststoff.small.png</french>
   </icon>
   <image>
     <deutsch>tk-308_kunststoff.png</deutsch>
     <english>tk-308_kunststoff.png</english>
-    <français>tk-308_kunststoff.png</français>
+    <french>tk-308_kunststoff.png</french>
   </image>
   <name>
     <deutsch>TK-308</deutsch>
     <english>TK-308</english>
-    <français>TK-308</français>
+    <french>TK-308</french>
   </name>
   <headline>
     <deutsch>Niveaumesswertgeber Kunststoff</deutsch>
     <english>Level transducer made of plastic material</english>
-    <français>Transmetteur de mesure de niveau en plastique</français>
+    <french>Transmetteur de mesure de niveau en plastique</french>
   </headline>
   <description>
     <deutsch>Fuellhoehenanzeige unabhaengig von: Temperatur, Druck, Medium, Dampfbildung und Behaeltereinbauten
@@ -41,7 +41,7 @@
 				High chemical resistance when the corresponding material is being selected
 				Large range of operating temperature
 				Special design according to customer specification.</english>
-    <français>Indication de l´hauteur de remplissage indépendant de la température, de la pression, 
+    <french>Indication de l´hauteur de remplissage indépendant de la température, de la pression, 
 				du medium, de formation de vapeur et de réservoirs installés
 				Type à un prix avantageux avec raccord de câble
 				complètement en des matériaux: PE, PPH et PVC
@@ -49,7 +49,7 @@
 				Signal de sortie (2,3 conducteurs résistance) pour une évaluation de signaux simple et à un prix avantageux
 				Haute résistance chimique lors du choix de matériel correspondant
 				Gamme de température de service étendue
-				Modèles spécifiques fabriqués sur mesure pour le client</français>
+				Modèles spécifiques fabriqués sur mesure pour le client</french>
   </description>
   <datasheet>
     <deutsch>
@@ -60,9 +60,9 @@
       <name>Datasheet</name>
       <path>11/11-01-03-E-tk-307_tk-308.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>11/11-01-03-F-tk-307_tk-308.pdf</path>
-    </français>
+    </french>
   </datasheet>
 </item>

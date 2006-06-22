@@ -7,22 +7,22 @@
   <icon>
     <deutsch>nsp-2-e.small.png</deutsch>
     <english>nsp-2-e.small.png</english>
-    <français>nsp-2-e.small.png</français>
+    <french>nsp-2-e.small.png</french>
   </icon>
   <image>
     <deutsch>nsp-2-e.png</deutsch>
     <english>nsp-2-e.png</english>
-    <français>nsp-2-e.png</français>
+    <french>nsp-2-e.png</french>
   </image>
   <name>
     <deutsch>NSP-2-E</deutsch>
     <english>NSP-2-E</english>
-    <français>NSP-2-E</français>
+    <french>NSP-2-E</french>
   </name>
   <headline>
     <deutsch>Vibrationsgrenzwertschalter</deutsch>
     <english>Vibration limit value switch</english>
-    <français>Interrupteur de valeurs limites de vibration</français>
+    <french>Interrupteur de valeurs limites de vibration</french>
   </headline>
   <description>
     <deutsch>Universelle Ausfuehrung
@@ -39,13 +39,13 @@
 				Switching function PNP
 				Function test with test magnet in mounted state
 				WHG certificate</english>
-    <français>Type universel
+    <french>Type universel
 				Version à un prix avantageux
 				Version 18..30V DC
 				Technique de 4 conducteurs
 				Fonction logique PNP
 				Test de fonctionnement avec aimant de contrôle en état installé
-				Certificat WHG</français>
+				Certificat WHG</french>
   </description>
   <datasheet>
     <deutsch>
@@ -56,9 +56,9 @@
       <name>Datasheet</name>
       <path>09/09-01-01-E-nsp-1-e.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>09/09-01-01-F-nsp-1-e.pdf</path>
-    </français>
+    </french>
   </datasheet>
 </item>

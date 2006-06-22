@@ -7,22 +7,22 @@
   <icon>
     <deutsch>tk-312.small.png</deutsch>
     <english>tk-312.small.png</english>
-    <français>tk-312.small.png</français>
+    <french>tk-312.small.png</french>
   </icon>
   <image>
     <deutsch>tk-312.png</deutsch>
     <english>tk-312.png</english>
-    <français>tk-312.png</français>
+    <french>tk-312.png</french>
   </image>
   <name>
     <deutsch>TK-312</deutsch>
     <english>TK-312</english>
-    <français>TK-312</français>
+    <french>TK-312</french>
   </name>
   <headline>
     <deutsch>Auswertegeraet</deutsch>
     <english>Evaluation device</english>
-    <français>Unité d'évaluation</français>
+    <french>Unité d'évaluation</french>
   </headline>
   <description>
     <deutsch>R/I-Wandler zum Einbau in Schaltschrank (0(4)..20mA)/0..10Volt)
@@ -31,9 +31,9 @@
     <english>R/I converter for installation to the switch cabinet (0(4)..20mA)/0..10Volt)
 				Mounting rail fixture
 				Narrow type 22,5mm</english>
-    <français>Convertisseur R/I pour montage dans l´armoire de commande (0(4)..20mA)/0..10Volt)
+    <french>Convertisseur R/I pour montage dans l´armoire de commande (0(4)..20mA)/0..10Volt)
 				Fixation sur profilé support
-				Type de construction étroite 22,5mm</français>
+				Type de construction étroite 22,5mm</french>
   </description>
   <datasheet>
     <deutsch>
@@ -44,9 +44,9 @@
       <name>Datasheet</name>
       <path>14/14-01-02-E-tk-312.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>14/14-01-02-F-tk-312.pdf</path>
-    </français>
+    </french>
   </datasheet>
 </item>

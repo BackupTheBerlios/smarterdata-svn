@@ -7,22 +7,22 @@
   <icon>
     <deutsch>t-205_kunststoff.small.png</deutsch>
     <english>t-205_kunststoff.small.png</english>
-    <français>t-205_kunststoff.small.png</français>
+    <french>t-205_kunststoff.small.png</french>
   </icon>
   <image>
     <deutsch>t-205_kunststoff.png</deutsch>
     <english>t-205_kunststoff.png</english>
-    <français>t-205_kunststoff.png</français>
+    <french>t-205_kunststoff.png</french>
   </image>
   <name>
     <deutsch>T-205</deutsch>
     <english>T-205</english>
-    <français>T-205</français>
+    <french>T-205</french>
   </name>
   <headline>
     <deutsch>Magnettauchsonde T-205</deutsch>
     <english>Magnetic submerged detectors T-205</english>
-    <français>Sondes plongées magnétique T-205</français>
+    <french>Sondes plongées magnétique T-205</french>
   </headline>
   <description>
     <deutsch>Geeignet fuer die Erfassung und Steuerung von Fluessigkeiten
@@ -41,14 +41,14 @@
 				Miniature type
 				Multitude of floater types
 				Special types upon customer specification</english>
-    <français>Conviennent pour la saisie et le contrôle de liquides
+    <french>Conviennent pour la saisie et le contrôle de liquides
 				Type à un prix avantageux avec raccord de câble
 				Complet en acier inox (1.4571), laiton ou PPH
 				Contacts de commutation de commande sans potentiel
 				Saisie du niveau indépendante de la température, de la pression et des medias 
 				Modèle miniature
 				Multitude de types de flotteurs
-				Modèles spécifiques fabriqués sur mesure pour le client</français>
+				Modèles spécifiques fabriqués sur mesure pour le client</french>
   </description>
   <datasheet>
     <deutsch>
@@ -59,10 +59,10 @@
       <name>Datasheet</name>
       <path>06/06-01-03-E-T205.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>06/06-01-03-F-T205.pdf</path>
-    </français>
+    </french>
   </datasheet>
   <manual>
     <deutsch>
@@ -73,9 +73,9 @@
       <name>Operating manual magnetic submerged detectors general</name>
       <path>M-D-magnettauchsonde.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Mode d´emploi général pour sondes plongées magnétiques</name>
       <path>M-D-magnettauchsonde.pdf</path>
-    </français>
+    </french>
   </manual>
 </item>

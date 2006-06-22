@@ -7,22 +7,22 @@
   <icon>
     <deutsch>t-206.small.png</deutsch>
     <english>t-206.small.png</english>
-    <français>t-206.small.png</français>
+    <french>t-206.small.png</french>
   </icon>
   <image>
     <deutsch>t-206.png</deutsch>
     <english>t-206.png</english>
-    <français>t-206.png</français>
+    <french>t-206.png</french>
   </image>
   <name>
     <deutsch>T-206</deutsch>
     <english>T-206</english>
-    <français>T-206</français>
+    <french>T-206</french>
   </name>
   <headline>
     <deutsch>Magnettauchsonde Edelstahl</deutsch>
     <english>Magnetic submerged detectors made of special steel</english>
-    <français>Sondes plongées magnétique en acier inox</français>
+    <french>Sondes plongées magnétique en acier inox</french>
   </headline>
   <description>
     <deutsch>Geeignet fuer die Erfassung und Steuerung von Fluessigkeiten
@@ -41,14 +41,14 @@
 				Miniature type
 				Multitude of floater types
 				Special types upon customer specification</english>
-    <français>Conviennent pour la saisie et le contrôle de liquides
+    <french>Conviennent pour la saisie et le contrôle de liquides
 				Type à un prix avantageux avec raccord de câble
 				Complet en acier inox (1.4571)
 				Contacts de commutation de commande sans potentiel
 				Saisie du niveau indépendante de la température, de la pression et des medias 
 				Modèle miniature
 				Multitude de types de flotteurs
-				Modèles spécifiques fabriqués sur mesure pour le client</français>
+				Modèles spécifiques fabriqués sur mesure pour le client</french>
   </description>
   <datasheet>
     <deutsch>
@@ -59,10 +59,10 @@
       <name>Datasheet</name>
       <path>06/06-01-04-E-T206_T207.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>06/06-01-04-F-T206_T207.pdf</path>
-    </français>
+    </french>
   </datasheet>
   <manual>
     <deutsch>
@@ -73,9 +73,9 @@
       <name>Operating manual magnetic submerged detectors general</name>
       <path>M-D-magnettauchsonde.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Mode d´emploi général pour sondes plongées magnétiques</name>
       <path>M-D-magnettauchsonde.pdf</path>
-    </français>
+    </french>
   </manual>
 </item>

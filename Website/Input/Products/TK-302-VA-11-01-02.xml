@@ -7,22 +7,22 @@
   <icon>
     <deutsch>tk-302_edelstahl.small.png</deutsch>
     <english>tk-302_edelstahl.small.png</english>
-    <français>tk-302_edelstahl.small.png</français>
+    <french>tk-302_edelstahl.small.png</french>
   </icon>
   <image>
     <deutsch>tk-302_edelstahl.png</deutsch>
     <english>tk-302_edelstahl.png</english>
-    <français>tk-302_edelstahl.png</français>
+    <french>tk-302_edelstahl.png</french>
   </image>
   <name>
     <deutsch>TK-302</deutsch>
     <english>TK-302</english>
-    <français>TK-302</français>
+    <french>TK-302</french>
   </name>
   <headline>
     <deutsch>Niveaumesswertgeber Edelstahl</deutsch>
     <english>Level transducer of special steel</english>
-    <français>Transmetteur de mesure de niveau en acier inox</français>
+    <french>Transmetteur de mesure de niveau en acier inox</french>
   </headline>
   <description>
     <deutsch>Fuellhoehenanzeige unabhaengig von: Temperatur, Druck, Medium, Dampfbildung und Behaeltereinbauten
@@ -41,7 +41,7 @@
 				Large range of operating temperature
 				Multitude of float types
 				Special design according to customer specification.</english>
-    <français>Indication de l´hauteur de remplissage indépendant de la température, de la pression, 
+    <french>Indication de l´hauteur de remplissage indépendant de la température, de la pression, 
 				du medium, de formation de vapeur et de réservoirs installés
 				Type à un prix avantageux avec raccord de câble
 				Complet en acier inox 1.4571
@@ -49,7 +49,7 @@
 				Signal de sortie (2,3 conducteurs résistance) pour une évaluation
 				Gamme de température de service étendue
 				Multitude de types de flotteurs
-				Modèles spécifiques fabriqués sur mesure pour le client</français>
+				Modèles spécifiques fabriqués sur mesure pour le client</french>
   </description>
   <datasheet>
     <deutsch>
@@ -60,9 +60,9 @@
       <name>Datasheet</name>
       <path>11/11-01-02-E-tk-301_tk-302.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>11/11-01-02-F-tk-301_tk-302.pdf</path>
-    </français>
+    </french>
   </datasheet>
 </item>

@@ -13,22 +13,22 @@
   <icon>
     <deutsch>bk-380.small.png</deutsch>
     <english>bk-380.small.png</english>
-    <français>bk-380.small.png</français>
+    <french>bk-380.small.png</french>
   </icon>
   <image>
     <deutsch>bk-380.png</deutsch>
     <english>bk-380.png</english>
-    <français>bk-380.png</français>
+    <french>bk-380.png</french>
   </image>
   <name>
     <deutsch>BK-380</deutsch>
     <english>BK-380</english>
-    <français>BK-380</français>
+    <french>BK-380</french>
   </name>
   <headline>
     <deutsch>Bistabiler Wechselkontakt</deutsch>
     <english>Bistable change-over contact</english>
-    <français>Contact inverseur à deux positions</français>
+    <french>Contact inverseur à deux positions</french>
   </headline>
   <description>
     <deutsch>Schaltkontakte (magnetisch)
@@ -43,12 +43,12 @@
 				Universally applicable
 				Extremely insensitive to stocks 
 				Manually actuated for simple commissioning</english>
-    <français>Contact de commutation de commande (magnétique)
+    <french>Contact de commutation de commande (magnétique)
 				Contacts de commutation de commande à deux positions avec microrupteur
 				Haut pouvoir de coupure 
 				Application universelle
 				Particulièrement insensible aux vibrations
-				Opération manuelle pour une mise en service simple</français>
+				Opération manuelle pour une mise en service simple</french>
   </description>
   <datasheet>
     <deutsch>
@@ -59,9 +59,9 @@
       <name>Datasheet</name>
       <path>03/03-01-01-E-BK-390.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>03/03-01-01-F-BK-390.pdf</path>
-    </français>
+    </french>
   </datasheet>
 </item>

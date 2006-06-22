@@ -15,22 +15,22 @@
   <icon>
     <deutsch>e-2___5fach.small.png</deutsch>
     <english>e-2___5fach.small.png</english>
-    <français>e-2___5fach.small.png</français>
+    <french>e-2___5fach.small.png</french>
   </icon>
   <image>
     <deutsch>e-2___5fach.png</deutsch>
     <english>e-2___5fach.png</english>
-    <français>e-2___5fach.png</français>
+    <french>e-2___5fach.png</french>
   </image>
   <name>
     <deutsch>E-2...5fach</deutsch>
     <english>E-2...5fach</english>
-    <français>E-2...5fach</français>
+    <french>E-2...5fach</french>
   </name>
   <headline>
     <deutsch>Elektrode mehrfach 24V Direktanschluss</deutsch>
     <english>Electrode multiple 24V direct connection</english>
-    <français>Electrode multiple 24V raccordement direct</français>
+    <french>Electrode multiple 24V raccordement direct</french>
   </headline>
   <description>
     <deutsch>Geeignet fuer alle leitfaehigen, aggressiven Medien (z.B. Saeuren, Laugen), waessrige Loesungen, 
@@ -47,13 +47,13 @@
 				Up to 4 shifting points with one electrode
 				Special types and special electrodes upon customer requests
 				Prepared for electronics in the connection head</english>
-    <français>Approprié pour tous les media conductibles, agressifs (p.ex. acides, lessives alcalines), 
+    <french>Approprié pour tous les media conductibles, agressifs (p.ex. acides, lessives alcalines), 
 				solutions aqueuses, eau, eaux usées ou d´autres liquides conductibles
 				Raccords filetés et boîtier en: PE, PPH, PVC, PTFE  etPVDF
 				Détecteurs en baguette: acier inox, hastelloy B et C, titane et tantale
 				Jusqu´à 4 points de commutation avec une électrode
 				Construction spéciale et électrodes spéciales sur demande du client
-				Préparé pour l´électronique dans la tête de connexion</français>
+				Préparé pour l´électronique dans la tête de connexion</french>
   </description>
   <datasheet>
     <deutsch>
@@ -64,9 +64,9 @@
       <name>Datasheet</name>
       <path>04/04-01-04-E-e-2-5_et-4.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>04/04-01-04-F-e-2-5_et-4.pdf</path>
-    </français>
+    </french>
   </datasheet>
 </item>

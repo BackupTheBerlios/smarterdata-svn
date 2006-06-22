@@ -4,18 +4,18 @@
 	<icon>
 		<deutsch>nopic.png</deutsch>
 		<english>nopic.png</english>
-		<français>nopic.png</français>
+		<french>nopic.png</french>
 	</icon>
 	<inmenu>yes</inmenu>
 	<menuname>
 		<deutsch>Produkte 2006</deutsch>
 		<english>Products 2006</english>
-		<français>Produits 2006</français>
+		<french>Produits 2006</french>
 	</menuname>
 	<headline>
 		<deutsch>Produkte 2006</deutsch>
 		<english>Products 2006</english>
-		<français>Produits 2006</français>
+		<french>Produits 2006</french>
 	</headline>
 	<description>
 		<deutsch>
@@ -30,12 +30,12 @@
 			Magnetic flap displays
 			Hydrostatic measuring
 		</english>
-		<français>
+		<french>
 			Protections centre le trop-plein EX et WHG (conductibles et flotteurs)
 			24V raccordement direct EF2, ELH et EP (admission sollicitée)
 			indicateurs de clapet magnétique
 			Mesure hydrostatique
-		</français>
+		</french>
 	</description>
 	<newsdoc>
 		<deutsch>
@@ -46,9 +46,9 @@
 			<name>News-PDF</name>
 			<path>news-D-E-produkte_2006.pdf</path>
 		</english>
-		<français>
+		<french>
 			<name>Nouveautés PDF</name>
 			<path>news-D-E-produkte_2006.pdf</path>
-		</français>
+		</french>
 	</newsdoc>
 </item>

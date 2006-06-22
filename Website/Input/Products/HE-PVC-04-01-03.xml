@@ -7,22 +7,22 @@
   <icon>
     <deutsch>he-pvc_3fach.small.png</deutsch>
     <english>he-pvc_3fach.small.png</english>
-    <français>he-pvc_3fach.small.png</français>
+    <french>he-pvc_3fach.small.png</french>
   </icon>
   <image>
     <deutsch>he-pvc_3fach.png</deutsch>
     <english>he-pvc_3fach.png</english>
-    <français>he-pvc_3fach.png</français>
+    <french>he-pvc_3fach.png</french>
   </image>
   <name>
     <deutsch>HE-PVC</deutsch>
     <english>HE-PVC</english>
-    <français>HE-PVC</français>
+    <french>HE-PVC</french>
   </name>
   <headline>
     <deutsch>Haengeelektrode -einfach, mehrfach-</deutsch>
     <english>Suspended electrode -simple, multiple-</english>
-    <français>Electrode suspendue -simple, multiple-</français>
+    <french>Electrode suspendue -simple, multiple-</french>
   </headline>
   <description>
     <deutsch>Geeignet fuer alle leitfaehigen, aggressiven Medien (z.B. Saeuren, Laugen), 
@@ -37,12 +37,12 @@
 				Suspended type for large depths or difficult assembly conditions
 				Adjustable types for subsequent adjustment of the shifting points
 				Special types and special electrodes upon customer requests</english>
-    <français>Approprié pour tous les media conductibles, agressifs (p.ex. acides, lessives alcalines), 
+    <french>Approprié pour tous les media conductibles, agressifs (p.ex. acides, lessives alcalines), 
 				solutions aqueuses, eau, eaux usées ou d´autres liquides conductibles
 				Détecteurs en baguette: acier inox, hastelloy B et C, titane et tantale
 				Types suspendus pour les profondeurs importantes ou des conditions de montage difficiles
 				Type ajustable pour l´adaptation ultérieure des points de commutation
-				Construction spéciale et électrodes spéciales sur demande du client</français>
+				Construction spéciale et électrodes spéciales sur demande du client</french>
   </description>
   <datasheet>
     <deutsch>
@@ -53,9 +53,9 @@
       <name>Datasheet</name>
       <path>04/04-01-03-E-stell_haenge-elektroden.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>04/04-01-03-F-stell_haenge-elektroden.pdf</path>
-    </français>
+    </french>
   </datasheet>
 </item>

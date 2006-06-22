@@ -1,4 +1,7 @@
-<?php $TIME_GENERATED = round(microtime (), 4); ?><link
+<?php
+require_once "G:/Service/Workspace/Website/Include/SmarterTemplate/internal/extensions/urlencode.php";
+
+?><?php $TIME_GENERATED = round(microtime (), 4); ?><link
 	href="Stylesheet/Categories.css"
 	rel="stylesheet"
 	type="text/css"
@@ -23,7 +26,7 @@ foreach ( $loop[0]['value']['categories'] as $loop[1]['key'] => $loop[1]['value'
 	$loop[1]['value']['CURRENTKEY']   = $loop[1]['key'];
 ?>
 	<tr class="categories">
-		<td><a href="_category_<?php echo $loop[1]['value']['id']; ?>_<?php echo $loop[0]['value']['language']; ?>.html"><?php echo $loop[1]['value']['name']; ?></a></td>
+		<td><a href="_category_<?php echo $loop[1]['value']['id']; ?>_<?php echo steurlencode ( $loop[0]['value']['language'] ); ?>.html"><?php echo $loop[1]['value']['name']; ?></a></td>
 	</tr>
 	<?php } } ?>
 </table>

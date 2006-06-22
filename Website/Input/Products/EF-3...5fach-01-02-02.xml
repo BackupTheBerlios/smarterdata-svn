@@ -7,27 +7,27 @@
   <icon>
     <deutsch>ef-3...5.small.png</deutsch>
     <english>ef-3...5.small.png</english>
-    <français>ef-3...5.small.png</français>
+    <french>ef-3...5.small.png</french>
   </icon>
   <image>
     <deutsch>ef-3...5.png</deutsch>
     <english>ef-3...5.png</english>
-    <français>ef-3...5.png</français>
+    <french>ef-3...5.png</french>
   </image>
   <name>
     <deutsch>EF-3...5</deutsch>
     <english>EF-3...5</english>
-    <français>EF-3...5</français>
+    <french>EF-3...5</french>
   </name>
   <headline>
     <deutsch>Elektroden -mehrfach- vorbereitet fuer Elektronikteil vorbereitet</deutsch>
     <english>Electrodes -multiple- prepared for electronics part</english>
-    <français>Electrodes conductibles -multiples- préparées à recevoir un relais à électrode integré</français>
+    <french>Electrodes conductibles -multiples- préparées à recevoir un relais à électrode integré</french>
   </headline>
   <description>
     <deutsch>-</deutsch>
     <english>-</english>
-    <français>-</français>
+    <french>-</french>
   </description>
   <datasheet>
     <deutsch>
@@ -38,9 +38,9 @@
       <name>Datasheet</name>
       <path>01/01-02-02-E-ef3-5_et-4.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>01/01-02-02-F-ef3-5_et-4.pdf</path>
-    </français>
+    </french>
   </datasheet>
 </item>

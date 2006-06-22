@@ -8,31 +8,31 @@
   <icon>
     <deutsch>kr-164_b.small.png</deutsch>
     <english>kr-164_b.small.png</english>
-    <français>kr-164_b.small.png</français>
+    <french>kr-164_b.small.png</french>
   </icon>
   <image>
     <deutsch>kr-164_b.png</deutsch>
     <english>kr-164_b.png</english>
-    <français>kr-164_b.png</français>
+    <french>kr-164_b.png</french>
   </image>
   <name>
     <deutsch>KR-164/B</deutsch>
     <english>KR-164/B</english>
-    <français>KR-164/B</français>
+    <french>KR-164/B</french>
   </name>
   <headline>
     <deutsch>Kontaktschutzrelais</deutsch>
     <english>Contact protection relay</english>
-    <français>Relais de protection de contact</français>
+    <french>Relais de protection de contact</french>
   </headline>
   <description>
     <deutsch>Als Schaltverstaerker fuer Schaltkontakte in Tauchsonden oder anderen Fuellstandgebern
 				Monostabile und bistabile Schaltfunktion mit einem Geraet (KR-164)</deutsch>
     <english>As switching amplifier for switch contacts in submerged detectors or other level indicators
 				Mono-stable and bistable switching functions with one device (KR-164)</english>
-    <français>Comme amplificateur de commutation pour les contacts de commutation de commande 
+    <french>Comme amplificateur de commutation pour les contacts de commutation de commande 
 				ou d´autres transmetteurs de niveau 
-				Fonction logique monostable et bistable dans une unité (KR-164)</français>
+				Fonction logique monostable et bistable dans une unité (KR-164)</french>
   </description>
   <datasheet>
     <deutsch>
@@ -43,9 +43,9 @@
       <name>Datasheet</name>
       <path>10/10-07-01-E-kr-164b.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>10/10-07-01-F-kr-164b.pdf</path>
-    </français>
+    </french>
   </datasheet>
 </item>

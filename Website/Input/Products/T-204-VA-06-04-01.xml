@@ -7,22 +7,22 @@
   <icon>
     <deutsch>t-204_edelstahl.small.png</deutsch>
     <english>t-204_edelstahl.small.png</english>
-    <français>t-204_edelstahl.small.png</français>
+    <french>t-204_edelstahl.small.png</french>
   </icon>
   <image>
     <deutsch>t-204_edelstahl.png</deutsch>
     <english>t-204_edelstahl.png</english>
-    <français>t-204_edelstahl.png</français>
+    <french>t-204_edelstahl.png</french>
   </image>
   <name>
     <deutsch>T-204</deutsch>
     <english>T-204</english>
-    <français>T-204</français>
+    <french>T-204</french>
   </name>
   <headline>
     <deutsch>Magnettauchsonde Edelstahl fuer EX-Bereich Kategorie 1 (Zone 0)</deutsch>
     <english>Magnetic submerged detectors made of special steel for ex area category 1 (zone 0)</english>
-    <français>Sondes plongées magnétiques en acier inox pour des zones à risque d´explosion catégorie 1 (Zone 0)</français>
+    <french>Sondes plongées magnétiques en acier inox pour des zones à risque d´explosion catégorie 1 (Zone 0)</french>
   </headline>
   <description>
     <deutsch>Geeignet fuer die Erfassung und Steuerung von Fluessigkeiten
@@ -47,7 +47,7 @@
 				TUEV 02 ATEX 1795 X 
 				Z-65.11-404
 				Special types according to customer specification.</english>
-    <français>Conviennent pour la saisie et le contrôle de liquides
+    <french>Conviennent pour la saisie et le contrôle de liquides
 				Jusqu´à 7 points de contact de commutation
 				Types ajustables pour adaptation ultérieure des points de contact de commutation
 				Contacts de commutation de commande sans potentiel
@@ -57,7 +57,7 @@
 				Multitude de types de flotteurs
 				TUEV 02 ATEX 1795 X 
 				Z-65.11-404
-				Modèles spécifiques fabriqués sur mesure pour le client</français>
+				Modèles spécifiques fabriqués sur mesure pour le client</french>
   </description>
   <datasheet>
     <deutsch>
@@ -68,10 +68,10 @@
       <name>Datasheet</name>
       <path>06/06-04-01-E-T203_T204_T204-0_E_EX.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>06/06-04-01-F-T203_T204_T204-0_E_EX.pdf</path>
-    </français>
+    </french>
   </datasheet>
   <otherdoc>
     <deutsch>
@@ -82,10 +82,10 @@
       <name>ATEX approval (TUEV 02 ATEX 1795 X)</name>
       <path>TestReport/ATEX_1795_T-20_.F_TK-30_.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Admission ATEX (TUEV 02 ATEX 1795 X)</name>
       <path>TestReport/ATEX_1795_T-20_.F_TK-30_.pdf</path>
-    </français>
+    </french>
   </otherdoc>
   <otherdoc>
     <deutsch>
@@ -96,10 +96,10 @@
       <name>Approval ( Z-65.11-404)</name>
       <path>TestReport/Z-65.11-404.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Admission ( Z-65.11-404)</name>
       <path>TestReport/Z-65.11-404.pdf</path>
-    </français>
+    </french>
   </otherdoc>
   <manual>
     <deutsch>
@@ -110,9 +110,9 @@
       <name>Operating manual magnetic submerged detectors general</name>
       <path>M-D-magnettauchsonde.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Mode d´emploi général pour sondes plongées magnétiques</name>
       <path>M-D-magnettauchsonde.pdf</path>
-    </français>
+    </french>
   </manual>
 </item>

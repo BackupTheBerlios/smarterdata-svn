@@ -7,22 +7,22 @@
   <icon>
     <deutsch>kg-200.small.png</deutsch>
     <english>kg-200.small.png</english>
-    <français>kg-200.small.png</français>
+    <french>kg-200.small.png</french>
   </icon>
   <image>
     <deutsch>kg-200.png</deutsch>
     <english>kg-200.png</english>
-    <français>kg-200.png</français>
+    <french>kg-200.png</french>
   </image>
   <name>
     <deutsch>KG-2xx</deutsch>
     <english>KG-2xx</english>
-    <français>KG-2xx</français>
+    <french>KG-2xx</french>
   </name>
   <headline>
     <deutsch>Kapazitive Grenztaster mit Gehaeuse</deutsch>
     <english>Capacitive limit key button with housing</english>
-    <français>Interrupteur-limiteur capacitif avec boîtier</français>
+    <french>Interrupteur-limiteur capacitif avec boîtier</french>
   </headline>
   <description>
     <deutsch>Kapazitive (beruehrungslose) Grenzwerterfassung von fluessigen Medien
@@ -33,10 +33,10 @@
 				Housing made of the materials PPH or PTFE
 				2-conductor AC versions or 3-conductor DC
 				Direct connection 24V DC</english>
-    <français>Saisie de valeurs limites capacitives (sans contact) de medias
+    <french>Saisie de valeurs limites capacitives (sans contact) de medias
 				Boîtier des matériaux PPH ou PTFE
 				2 conducteurs versions AC ou 3 conducteurs versions DC
-				Raccordement direct 24V DC</français>
+				Raccordement direct 24V DC</french>
   </description>
   <datasheet>
     <deutsch>
@@ -47,9 +47,9 @@
       <name>Datasheet</name>
       <path>08/08-01-01-E-kg-2xx.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>08/08-01-01-F-kg-2xx.pdf</path>
-    </français>
+    </french>
   </datasheet>
 </item>

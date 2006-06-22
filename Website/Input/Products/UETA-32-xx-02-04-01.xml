@@ -7,22 +7,22 @@
   <icon>
     <deutsch>ueta-32-63.small.png</deutsch>
     <english>ueta-32-63.small.png</english>
-    <français>ueta-32-63.small.png</français>
+    <french>ueta-32-63.small.png</french>
   </icon>
   <image>
     <deutsch>ueta-32-90.png</deutsch>
     <english>ueta-32-90.png</english>
-    <français>ueta-32-90.png</français>
+    <french>ueta-32-90.png</french>
   </image>
   <name>
     <deutsch>UETA-32-xx</deutsch>
     <english>UETA-32-xx</english>
-    <français>UETA-32-xx</français>
+    <french>UETA-32-xx</french>
   </name>
   <headline>
     <deutsch>Uebertankanzeiger</deutsch>
     <english>Overfilling indicator</english>
-    <français>Affichage de trop-plein</français>
+    <french>Affichage de trop-plein</french>
   </headline>
   <description>
     <deutsch>Vor-Ort-Anzeige durch transparentes PVC-Rohr oder durch magnetisch betaetigte Anzeigeschiene
@@ -31,9 +31,9 @@
     <english>On-site display by a transparent PVC tube or by a magnetically actuated display bar
 				Complete separation between the liquid level and the display area
 				Limit contacts and transmitting device as accessory</english>
-    <français>Affichage sur place par une tube en PVC transparent ou par une barre d´affichage magnétique
+    <french>Affichage sur place par une tube en PVC transparent ou par une barre d´affichage magnétique
 				Séparation complète du niveau du liquide et de l´indicateur
-				Contacts et transmetteur pour le téléaffichage en option</français>
+				Contacts et transmetteur pour le téléaffichage en option</french>
   </description>
   <datasheet>
     <deutsch>
@@ -44,9 +44,9 @@
       <name>Datasheet</name>
       <path>02/02-04-01-E-UETA.pdf</path>
     </english>
-    <français>
+    <french>
       <name>Fiche de données</name>
       <path>02/02-04-01-F-UETA.pdf</path>
-    </français>
+    </french>
   </datasheet>
 </item>
