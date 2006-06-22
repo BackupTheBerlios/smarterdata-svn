@@ -5,31 +5,31 @@
   <category>13-01-01</category>
   <position>1</position>
   <icon>
-    <deutsch>nuk4t.small.png</deutsch>
+    <german>nuk4t.small.png</german>
     <english>nuk4t.small.png</english>
     <french>nuk4t.small.png</french>
   </icon>
   <image>
-    <deutsch>nuk4t.png</deutsch>
+    <german>nuk4t.png</german>
     <english>nuk4t.png</english>
     <french>nuk4t.png</french>
   </image>
   <name>
-    <deutsch>NUK-4-T</deutsch>
+    <german>NUK-4-T</german>
     <english>NUK-4-T</english>
     <french>NUK-4-T</french>
   </name>
   <headline>
-    <deutsch>Ultraschallfuellstandssensor</deutsch>
+    <german>Ultraschallfuellstandssensor</german>
     <english>Ultrasonic level detector</english>
     <french>Palpeur de niveau ultrasonique</french>
   </headline>
   <description>
-    <deutsch>Beruehrungslose Messung
+    <german>Beruehrungslose Messung
 				Kompakte Bauform
 				Einfache Kalibrierung
 				Ausgangssignal Messbereiche 4 ...20mA/0 ...10V
-				Messbereich bis 4m</deutsch>
+				Messbereich bis 4m</german>
     <english>Contactless measuring
 				Compact type 
 				Simple calibration
@@ -42,10 +42,10 @@
 				Plage de mesure jusqu&apos;à 4m</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>13/13-01-01-E-nuk-4-t.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>13/13-01-01-E-nuk-4-t.pdf</path>
@@ -56,10 +56,10 @@
     </french>
   </datasheet>
   <manual>
-    <deutsch>
+    <german>
       <name>Betriebsanleitung</name>
       <path>M-D-nuk-4-t.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Operating instruction</name>
       <path>M-D-nuk-4-t.pdf</path>

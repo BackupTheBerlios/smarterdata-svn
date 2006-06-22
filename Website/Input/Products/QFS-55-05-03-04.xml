@@ -5,30 +5,30 @@
   <category>05-03-04</category>
   <position>1</position>
   <icon>
-    <deutsch>qfs-55.small.png</deutsch>
+    <german>qfs-55.small.png</german>
     <english>qfs-55.small.png</english>
     <french>qfs-55.small.png</french>
   </icon>
   <image>
-    <deutsch>qfs-55.png</deutsch>
+    <german>qfs-55.png</german>
     <english>qfs-55.png</english>
     <french>qfs-55.png</french>
   </image>
   <name>
-    <deutsch>QFS-55</deutsch>
+    <german>QFS-55</german>
     <english>QFS-55</english>
     <french>QFS-55</french>
   </name>
   <headline>
-    <deutsch>Schwimmschalter Teflon quecksilberfrei</deutsch>
+    <german>Schwimmschalter Teflon quecksilberfrei</german>
     <english>Float type switch made of teflon mercury-free</english>
     <french>Interrupteur à flotteur en teflon sans mercure</french>
   </headline>
   <description>
-    <deutsch>Einfache kostenguenstige Fuellstandsmessung mit ueberzeugendem Preis / Leistungsverhaeltnis
+    <german>Einfache kostenguenstige Fuellstandsmessung mit ueberzeugendem Preis / Leistungsverhaeltnis
 				Schwimmer aus PTFE
 				Spezialkabel aus: Silikon und FEP (Teflon)
-				Reedkontakt</deutsch>
+				Reedkontakt</german>
     <english>Simple, cost-efficient level measuring with a convincing price / performance ratio
 				Float made of the PTFE
 				Special cable made of : silicone and  FEP (Teflon)
@@ -39,10 +39,10 @@
 				Reed-Contact</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>05/05-03-04-E-qfs-5_60_teflon.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>05/05-03-04-E-qfs-5_60_teflon.pdf</path>

@@ -5,30 +5,30 @@
   <category>05-03-01</category>
   <position>1</position>
   <icon>
-    <deutsch>qfs-31.small.png</deutsch>
+    <german>qfs-31.small.png</german>
     <english>qfs-31.small.png</english>
     <french>qfs-31.small.png</french>
   </icon>
   <image>
-    <deutsch>qfs-31.png</deutsch>
+    <german>qfs-31.png</german>
     <english>qfs-31.png</english>
     <french>qfs-31.png</french>
   </image>
   <name>
-    <deutsch>QFS-31</deutsch>
+    <german>QFS-31</german>
     <english>QFS-31</english>
     <french>QFS-31</french>
   </name>
   <headline>
-    <deutsch>Schwimmschalter Kunststoff quecksilberfrei</deutsch>
+    <german>Schwimmschalter Kunststoff quecksilberfrei</german>
     <english>Float type switch made of plastic mercury-free</english>
     <french>Interrupteur à flotteur en plastique sans mercure</french>
   </headline>
   <description>
-    <deutsch>Einfache kostenguenstige Fuellstandsmessung mit ueberzeugendem Preis / Leistungsverhaeltnis
+    <german>Einfache kostenguenstige Fuellstandsmessung mit ueberzeugendem Preis / Leistungsverhaeltnis
 				Schwimmer aus dem Material: PPH
 				Spezialkabel aus: TPK (PVC), Silikon und FEP (Teflon)
-				Alle Schaltertypen als Einzelschalter, als Schalterkombination in Haenge- oder Stabausfuehrung</deutsch>
+				Alle Schaltertypen als Einzelschalter, als Schalterkombination in Haenge- oder Stabausfuehrung</german>
     <english>Simple, cost-efficient level measuring with a convincing price / performance ratio
 				Float made of the material: PPH 
 				Special cable made of: TPK (PVC), silicone and  FEP (Teflon)
@@ -39,10 +39,10 @@
 				Tous les types d´interrupteurs individuels comme combinaison d´interrupteurs du type suspendu ou baguette</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>05/05-03-01-E-qfs-1_.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>05/05-03-01-E-qfs-1_.pdf</path>

@@ -5,33 +5,33 @@
   <category>11-04-01</category>
   <position>1</position>
   <icon>
-    <deutsch>tk-303.small.png</deutsch>
+    <german>tk-303.small.png</german>
     <english>tk-303.small.png</english>
     <french>tk-303.small.png</french>
   </icon>
   <image>
-    <deutsch>tk-303.png</deutsch>
+    <german>tk-303.png</german>
     <english>tk-303.png</english>
     <french>tk-303.png</french>
   </image>
   <name>
-    <deutsch>TK-303</deutsch>
+    <german>TK-303</german>
     <english>TK-303</english>
     <french>TK-303</french>
   </name>
   <headline>
-    <deutsch>Niveaumesswertgeber fuer EX-Bereich Kategorie 1(Zone 0)</deutsch>
+    <german>Niveaumesswertgeber fuer EX-Bereich Kategorie 1(Zone 0)</german>
     <english>Level transducer for EX area category 1 (zone 0)</english>
     <french>Transmetteur de mesure de niveau pour la zone à risque d´explosion catégorie 1 (zone 0)</french>
   </headline>
   <description>
-    <deutsch>Fuer EX-Bereich Kategorie 1 (Zone 0) zugelassen. TUEV 02 ATEX 1795 X
+    <german>Fuer EX-Bereich Kategorie 1 (Zone 0) zugelassen. TUEV 02 ATEX 1795 X
 				Fuellhoehenanzeige unabhaengig von: Temperatur, Druck, Medium, Dampfbildung und Behaeltereinbauten
 				Komplett aus Edelstahl 1.4571
 				Aufloesungen 7,5/10/15/20mm moeglich
 				Ausgangssignal (2-,3- Leiter Widerstand) zur einfachen preiswerten Signalauswertung
 				Grosser Betriebstemperaturbereich
-				Sonderausfuehrungen nach Kundenspezifikation.</deutsch>
+				Sonderausfuehrungen nach Kundenspezifikation.</german>
     <english>Approved for EX area category1 (zone 0). TUEV 02 ATEX 1795 X
 				Display of filling height independent of temperature, pressure, medium, vapor formation and tank fixtures
 				Completely made of special steel 1.4571
@@ -49,10 +49,10 @@
 				modèles spécifiques fabriqués sur mesure pour le client</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>11/11-04-01-E-tk-303_304_ex.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>11/11-04-01-E-tk-303_304_ex.pdf</path>
@@ -63,10 +63,10 @@
     </french>
   </datasheet>
   <otherdoc>
-    <deutsch>
+    <german>
       <name>ATEX-Zulassung (TUEV 02 ATEX 1795 X)</name>
       <path>TestReport/ATEX_1795_T-20_.F_TK-30_.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>ATEX approval (TUEV 02 ATEX 1795 X)</name>
       <path>TestReport/ATEX_1795_T-20_.F_TK-30_.pdf</path>

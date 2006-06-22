@@ -5,31 +5,31 @@
   <category>01-03-02</category>
   <position>1</position>
   <icon>
-    <deutsch>ee-21.small.png</deutsch>
+    <german>ee-21.small.png</german>
     <english>ee-21.small.png</english>
     <french>ee-21.small.png</french>
   </icon>
   <image>
-    <deutsch>ee-21.png</deutsch>
+    <german>ee-21.png</german>
     <english>ee-21.png</english>
     <french>ee-21.png</french>
   </image>
   <name>
-    <deutsch>EE-21</deutsch>
+    <german>EE-21</german>
     <english>EE-21</english>
     <french>EE-21</french>
   </name>
   <headline>
-    <deutsch>Konduktive Elektrode fuer EX-Bereich Kategorie 1 (Zone 0)</deutsch>
+    <german>Konduktive Elektrode fuer EX-Bereich Kategorie 1 (Zone 0)</german>
     <english>Conductive electrodes for ex area category 1 (zone 0)</english>
     <french>Electrode conductive pour des zones à risque d´explosion catégorie 1 (Zone 0)</french>
   </headline>
   <description>
-    <deutsch>Konduktive Messung in explosionsgefaehrdeten Bereichen mit EG-Baumusterpruefbescheinigung
+    <german>Konduktive Messung in explosionsgefaehrdeten Bereichen mit EG-Baumusterpruefbescheinigung
 				Einsatz der Elektroden bei Kategorie 1 (Zone 0) im Gasraum oberhalb der Medien
 				Typ EE-21 kann vollstaendig im Bereich der Kategorie 1 eingesetzt werden
 				ATEX-Zulassung TUEV 02 ATEX 1796 X
-				Ueberfuellsicherung EX und WHG Z-65.13-405</deutsch>
+				Ueberfuellsicherung EX und WHG Z-65.13-405</german>
     <english>Conductive measuring in potentially explosive areas with EG type test certificate
 				Use of the electrodes for category 1 (zone 0) in the gamma space above the media
 				Type EE-21 completely applicable in category 1 
@@ -42,10 +42,10 @@
 				Protection contre le trop-plein EX et WHG Z-65.13-405</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>01/01-03-02-E-ee21_22.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>01/01-03-02-E-ee21_22.pdf</path>
@@ -56,10 +56,10 @@
     </french>
   </datasheet>
   <otherdoc>
-    <deutsch>
+    <german>
       <name>ATEX-Zulassung (TUEV 02 ATEX 1796 X)</name>
       <path>TestReport/ATEX_1796_X_EE-20,EE-21.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>ATEX approval (TUEV 02 ATEX 1796 X)</name>
       <path>TestReport/ATEX_1796_X_EE-20,EE-21.pdf</path>
@@ -70,10 +70,10 @@
     </french>
   </otherdoc>
   <otherdoc>
-    <deutsch>
+    <german>
       <name>Zulassung (Z-65.13-405)</name>
       <path>TestReport/Z-65.13-405.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Approval (Z-65.13-405)</name>
       <path>TestReport/Z-65.13-405.pdf</path>

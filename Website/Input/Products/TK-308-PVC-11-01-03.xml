@@ -5,34 +5,34 @@
   <category>11-01-03</category>
   <position>1</position>
   <icon>
-    <deutsch>tk-308_kunststoff.small.png</deutsch>
+    <german>tk-308_kunststoff.small.png</german>
     <english>tk-308_kunststoff.small.png</english>
     <french>tk-308_kunststoff.small.png</french>
   </icon>
   <image>
-    <deutsch>tk-308_kunststoff.png</deutsch>
+    <german>tk-308_kunststoff.png</german>
     <english>tk-308_kunststoff.png</english>
     <french>tk-308_kunststoff.png</french>
   </image>
   <name>
-    <deutsch>TK-308</deutsch>
+    <german>TK-308</german>
     <english>TK-308</english>
     <french>TK-308</french>
   </name>
   <headline>
-    <deutsch>Niveaumesswertgeber Kunststoff</deutsch>
+    <german>Niveaumesswertgeber Kunststoff</german>
     <english>Level transducer made of plastic material</english>
     <french>Transmetteur de mesure de niveau en plastique</french>
   </headline>
   <description>
-    <deutsch>Fuellhoehenanzeige unabhaengig von: Temperatur, Druck, Medium, Dampfbildung und Behaeltereinbauten
+    <german>Fuellhoehenanzeige unabhaengig von: Temperatur, Druck, Medium, Dampfbildung und Behaeltereinbauten
 				Preisguenstige Ausfuehrung mit Kabelanschluss
 				Komplett aus PE, PPH oder PVC
 				Aufloesungen 7,5/10/15/20mm moeglich
 				Ausgangssignal (2-,3- Leiter Widerstand) zur einfachen preiswerten Signalauswertung
 				Hohe chemische Bestaendigkeit bei entsprechender Materialwahl
 				Grosser Betriebstemperaturbereich
-				Sonderausfuehrungen nach Kundenspezifikation.</deutsch>
+				Sonderausfuehrungen nach Kundenspezifikation.</german>
     <english>Display of filling height independent of temperature, pressure, medium, vapor formation and tank fixtures
 				Cost-efficient design with cable connection
 				Completely made of PE, PPH or PVC
@@ -52,10 +52,10 @@
 				Modèles spécifiques fabriqués sur mesure pour le client</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>11/11-01-03-E-tk-307_tk-308.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>11/11-01-03-E-tk-307_tk-308.pdf</path>

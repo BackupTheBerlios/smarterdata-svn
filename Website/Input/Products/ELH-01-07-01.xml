@@ -5,30 +5,30 @@
   <category>01-07-01</category>
   <position>1</position>
   <icon>
-    <deutsch>elh.small.png</deutsch>
+    <german>elh.small.png</german>
     <english>elh.small.png</english>
     <french>elh.small.png</french>
   </icon>
   <image>
-    <deutsch>elh.png</deutsch>
+    <german>elh.png</german>
     <english>elh.png</english>
     <french>elh.png</french>
   </image>
   <name>
-    <deutsch>ELH</deutsch>
+    <german>ELH</german>
     <english>ELH</english>
     <french>ELH</french>
   </name>
   <headline>
-    <deutsch>Leckagesonde (konduktiv)</deutsch>
+    <german>Leckagesonde (konduktiv)</german>
     <english>Leakage detector (conductive)</english>
     <french>Sonde de fuits (conductive)</french>
   </headline>
   <description>
-    <deutsch>Geeignet fuer aggressive, wassergefaehrdende Fluessigkeiten ( z.B. Saeuren, Laugen, waessrige Loesungen etc )
+    <german>Geeignet fuer aggressive, wassergefaehrdende Fluessigkeiten ( z.B. Saeuren, Laugen, waessrige Loesungen etc )
 				Allgemeine bauaufsichtliche Zulassung Z-65.40-191
 				Staebe aus Edelstahl, Hastelloy, Titan, Tantal, Monell oder Glaskohlenstoff
-				Verschiedene Durchmesser (15, 25 und 40mm)</deutsch>
+				Verschiedene Durchmesser (15, 25 und 40mm)</german>
     <english>Appropriate for aggressive, water hazardous liquids (e.g. acids, bases, aqueous solutions, etc.)
 				General approval by the building authorities Z-65.40-191
 				Bars made of special steel, Hastelloy, titanium, tantalum, monel metal or Glassy carbon
@@ -40,10 +40,10 @@
 				Diamètres différents (15, 25 et 40mm)</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>01/01-07-01-E-ELH.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>01/01-07-01-E-ELH.pdf</path>
@@ -54,10 +54,10 @@
     </french>
   </datasheet>
   <otherdoc>
-    <deutsch>
+    <german>
       <name>Zulassung (Z-65.40-191)</name>
       <path>TestReport/Z-65.40-191-D-EP,ELH.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Approval (Z-65.40-191)</name>
       <path>TestReport/Z-65.40-191-D-EP,ELH.pdf</path>

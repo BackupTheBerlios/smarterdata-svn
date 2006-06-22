@@ -5,34 +5,34 @@
   <category>06-01-02</category>
   <position>1</position>
   <icon>
-    <deutsch>t-202_edelstahl.small.png</deutsch>
+    <german>t-202_edelstahl.small.png</german>
     <english>t-202_edelstahl.small.png</english>
     <french>t-202_edelstahl.small.png</french>
   </icon>
   <image>
-    <deutsch>t-202_edelstahl.png</deutsch>
+    <german>t-202_edelstahl.png</german>
     <english>t-202_edelstahl.png</english>
     <french>t-202_edelstahl.png</french>
   </image>
   <name>
-    <deutsch>T-202</deutsch>
+    <german>T-202</german>
     <english>T-202</english>
     <french>T-202</french>
   </name>
   <headline>
-    <deutsch>Magnettauchsonde Edelstahl</deutsch>
+    <german>Magnettauchsonde Edelstahl</german>
     <english>Magnetic submerged detectors made of special steel</english>
     <french>Sondes plongées magnétique en acier inox</french>
   </headline>
   <description>
-    <deutsch>Geeignet fuer die Erfassung und Steuerung von Fluessigkeiten
+    <german>Geeignet fuer die Erfassung und Steuerung von Fluessigkeiten
 				Preisguenstige Ausfuehrung mit Kabelanschluss
 				Komplett aus Edelstahl (1.4571)
 				Potentialfreie Schaltkontakte
 				Temperatur-, druck- und medienunabhaengige Fuellstandserfassung
 				Miniaturausfuehrung
 				Vielzahl von Schwimmertypen
-				Sonderausfuehrungen nach Kundenspezifikation.</deutsch>
+				Sonderausfuehrungen nach Kundenspezifikation.</german>
     <english>Appropriate for the capturing and control of liquids
 				Price-efficient type with cable connection
 				Completely made of special steel (1.4571)
@@ -51,10 +51,10 @@
 				Modèles spécifiques fabriqués sur mesure pour le client</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>06/06-01-02-E-T201_T202.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>06/06-01-02-E-T201_T202.pdf</path>
@@ -65,10 +65,10 @@
     </french>
   </datasheet>
   <manual>
-    <deutsch>
+    <german>
       <name>Betriebsanleitung Magnettauchsonden allgemein</name>
       <path>M-D-magnettauchsonde.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Operating manual magnetic submerged detectors general</name>
       <path>M-D-magnettauchsonde.pdf</path>

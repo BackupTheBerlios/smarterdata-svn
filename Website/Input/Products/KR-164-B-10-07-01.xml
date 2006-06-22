@@ -6,28 +6,28 @@
   <position>1</position>
   <linkto>T-200.F-01-01-01</linkto>
   <icon>
-    <deutsch>kr-164_b.small.png</deutsch>
+    <german>kr-164_b.small.png</german>
     <english>kr-164_b.small.png</english>
     <french>kr-164_b.small.png</french>
   </icon>
   <image>
-    <deutsch>kr-164_b.png</deutsch>
+    <german>kr-164_b.png</german>
     <english>kr-164_b.png</english>
     <french>kr-164_b.png</french>
   </image>
   <name>
-    <deutsch>KR-164/B</deutsch>
+    <german>KR-164/B</german>
     <english>KR-164/B</english>
     <french>KR-164/B</french>
   </name>
   <headline>
-    <deutsch>Kontaktschutzrelais</deutsch>
+    <german>Kontaktschutzrelais</german>
     <english>Contact protection relay</english>
     <french>Relais de protection de contact</french>
   </headline>
   <description>
-    <deutsch>Als Schaltverstaerker fuer Schaltkontakte in Tauchsonden oder anderen Fuellstandgebern
-				Monostabile und bistabile Schaltfunktion mit einem Geraet (KR-164)</deutsch>
+    <german>Als Schaltverstaerker fuer Schaltkontakte in Tauchsonden oder anderen Fuellstandgebern
+				Monostabile und bistabile Schaltfunktion mit einem Geraet (KR-164)</german>
     <english>As switching amplifier for switch contacts in submerged detectors or other level indicators
 				Mono-stable and bistable switching functions with one device (KR-164)</english>
     <french>Comme amplificateur de commutation pour les contacts de commutation de commande 
@@ -35,10 +35,10 @@
 				Fonction logique monostable et bistable dans une unité (KR-164)</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>10/10-07-01-E-kr-164b.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>10/10-07-01-E-kr-164b.pdf</path>

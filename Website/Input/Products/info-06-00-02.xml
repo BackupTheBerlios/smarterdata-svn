@@ -5,35 +5,35 @@
   <category>06-00-02</category>
   <position>1</position>
   <icon>
-    <deutsch>info.mini.png</deutsch>
+    <german>info.mini.png</german>
     <english>info.mini.png</english>
     <french>info.mini.png</french>
   </icon>
   <image>
-    <deutsch />
+    <german />
     <english />
     <french />
   </image>
   <name>
-    <deutsch>Info 2 T-20x</deutsch>
+    <german>Info 2 T-20x</german>
     <english>Info 2 T-20x</english>
     <french>Info 2 T-20x</french>
   </name>
   <headline>
-    <deutsch>Allgemeine Beschreibung 2</deutsch>
+    <german>Allgemeine Beschreibung 2</german>
     <english>General description 2</english>
     <french>Description générale 2</french>
   </headline>
   <description>
-    <deutsch>-</deutsch>
+    <german>-</german>
     <english>-</english>
     <french>-</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>06/06-00-02-E-T20x_allg_daten_2.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>06/06-00-02-E-T20x_allg_daten_2.pdf</path>

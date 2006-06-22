@@ -5,27 +5,27 @@
   <category>11-01-01</category>
   <position>1</position>
   <icon>
-    <deutsch>tk-300_kunststoff.small.png</deutsch>
+    <german>tk-300_kunststoff.small.png</german>
     <english>tk-300_kunststoff.small.png</english>
     <french>tk-300_kunststoff.small.png</french>
   </icon>
   <image>
-    <deutsch>tk-300_kunststoff.png</deutsch>
+    <german>tk-300_kunststoff.png</german>
     <english>tk-300_kunststoff.png</english>
     <french>tk-300_kunststoff.png</french>
   </image>
   <name>
-    <deutsch>TK-300</deutsch>
+    <german>TK-300</german>
     <english>TK-300</english>
     <french>TK-300</french>
   </name>
   <headline>
-    <deutsch>Niveaumesswertgeber Kunststoff</deutsch>
+    <german>Niveaumesswertgeber Kunststoff</german>
     <english>Level transducer made of plastic material</english>
     <french>Transmetteur de mesure de niveau en plastique</french>
   </headline>
   <description>
-    <deutsch>Fuellhoehenanzeige unabhaengig von: Temperatur, Druck, Medium, Dampfbildung und Behaeltereinbauten
+    <german>Fuellhoehenanzeige unabhaengig von: Temperatur, Druck, Medium, Dampfbildung und Behaeltereinbauten
 				Preisguenstige Ausfuehrung mit Kabelanschluss
 				Komplett aus den Materialien: PE, PPH und PVC
 				Aufloesungen 10 und 15mm moeglich
@@ -33,7 +33,7 @@
 				Hohe chemische Bestaendigkeit bei entsprechender Materialwahl
 				Grosser Betriebstemperaturbereich
 				Vielzahl von Schwimmertypen
-				Sonderausfuehrungen nach Kundenspezifikation.</deutsch>
+				Sonderausfuehrungen nach Kundenspezifikation.</german>
     <english>Display of filling height independent of temperature, pressure, medium, vapor formation and tank fixtures
 				Cost-efficient design with cable connection
 				Completely made of the materials: PE, PPH and PVC
@@ -55,10 +55,10 @@
 				Modèles spécifiques fabriqués sur mesure pour le client</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>11/11-01-01-E-tk-300_tk-301.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>11/11-01-01-E-tk-300_tk-301.pdf</path>

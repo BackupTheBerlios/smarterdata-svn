@@ -5,27 +5,27 @@
   <category>10-01-01</category>
   <position>1</position>
   <icon>
-    <deutsch>er-104_b.small.png</deutsch>
+    <german>er-104_b.small.png</german>
     <english>er-104_b.small.png</english>
     <french>er-104_b.small.png</french>
   </icon>
   <image>
-    <deutsch>er-104_b.png</deutsch>
+    <german>er-104_b.png</german>
     <english>er-104_b.png</english>
     <french>er-104_b.png</french>
   </image>
   <name>
-    <deutsch>ER-104/B</deutsch>
+    <german>ER-104/B</german>
     <english>ER-104/B</english>
     <french>ER-104/B</french>
   </name>
   <headline>
-    <deutsch>Elektrodenrelais 1-Kanal</deutsch>
+    <german>Elektrodenrelais 1-Kanal</german>
     <english>Electrode relay 1 channel</english>
     <french>Relais d´électrode 1 canal</french>
   </headline>
   <description>
-    <deutsch>Geeignet zum Aufbau von Steuerungen mit konduktiven Elektroden
+    <german>Geeignet zum Aufbau von Steuerungen mit konduktiven Elektroden
 				Geringe Abmessungen (bei Breite 22,5mm) d.h. Platzeinsparung im Schaltschrank
 				Niedrige Leistungsaufnahme (z.B. 5mA bei 230VAC) d.h. Einsparungen in der Leistungsversorgung
 				1-Kanal
@@ -36,7 +36,7 @@
 				Temperatur- und spannungsstabile Ansprechempfindlichkeit; Grenzwerterfassung von unterschiedlich leitfaehigen Fluessigkeiten moeglich bzw. kein Ansprechen auf leitfaehige &quot;Nebel&quot; oberhalb der Fluessigkeiten
 				Als Kontaktschutzrelais einsetzbar
 				19&quot;-Versionen moeglich
-				Montagefreundlicher Federkraftklemmenanschluss</deutsch>
+				Montagefreundlicher Federkraftklemmenanschluss</german>
     <english>Appropriate for mounting of controls with conductive electrodes
 				Little dimensions (in 22,5mm width) e.g. space-saving in the switch cabinet
 				Low power consumption (e.g. 5mA at 230VAC) i.e. saving in the power supply
@@ -67,10 +67,10 @@
 				Connexion serrée par tension facile à monter</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>10/10-01-01-E-er104b_er214b.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>10/10-01-01-E-er104b_er214b.pdf</path>
@@ -81,10 +81,10 @@
     </french>
   </datasheet>
   <manual>
-    <deutsch>
+    <german>
       <name>Betriebsanleitung</name>
       <path>M-D-er-104b.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Operating instruction</name>
       <path>M-D-er-104b.pdf</path>

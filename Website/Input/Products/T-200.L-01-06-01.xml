@@ -5,29 +5,29 @@
   <category>01-06-01</category>
   <position>1</position>
   <icon>
-    <deutsch>t-200.l.small.png</deutsch>
+    <german>t-200.l.small.png</german>
     <english>t-200.l.small.png</english>
     <french>t-200.l.small.png</french>
   </icon>
   <image>
-    <deutsch>t-200.l.png</deutsch>
+    <german>t-200.l.png</german>
     <english>t-200.l.png</english>
     <french>t-200.l.png</french>
   </image>
   <name>
-    <deutsch>T-200.L</deutsch>
+    <german>T-200.L</german>
     <english>T-200.L</english>
     <french>T-200.L</french>
   </name>
   <headline>
-    <deutsch>Leckagesonde</deutsch>
+    <german>Leckagesonde</german>
     <english>leakage detector</english>
     <french>sonde de fuits</french>
   </headline>
   <description>
-    <deutsch>Geeignet fuer aggressive, wassergefaehrdende Fluessigkeiten (z.B. Saeuren, Laugen, waessrige Loesungen etc)
+    <german>Geeignet fuer aggressive, wassergefaehrdende Fluessigkeiten (z.B. Saeuren, Laugen, waessrige Loesungen etc)
 				Allgemeine bauaufsichtliche Zulassung Z-65.40-153
-				Vollstaendige Ausfuehrung in PE, PPH und PVC</deutsch>
+				Vollstaendige Ausfuehrung in PE, PPH und PVC</german>
     <english>Appropriate for aggressive, water hazardous liquids (e.g. acids, bases, aqueous solutions, etc.)
 				General approval by the building authorities Z-65.40-153
 				Complete construction in PE, PPH and PVC</english>
@@ -37,10 +37,10 @@
 				Modèle complet en PE, PPH et PVC</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>01/01-06-01-E-T200L.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>01/01-06-01-E-T200L.pdf</path>
@@ -51,10 +51,10 @@
     </french>
   </datasheet>
   <otherdoc>
-    <deutsch>
+    <german>
       <name>Zulassung (Z-65.40-153)</name>
       <path>TestReport/Z-65.40-153-D-T-200.L.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Approval (Z-65.40-153)</name>
       <path>TestReport/Z-65.40-153-D-T-200.L.pdf</path>

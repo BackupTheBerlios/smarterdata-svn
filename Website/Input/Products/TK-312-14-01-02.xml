@@ -5,29 +5,29 @@
   <category>14-01-02</category>
   <position>1</position>
   <icon>
-    <deutsch>tk-312.small.png</deutsch>
+    <german>tk-312.small.png</german>
     <english>tk-312.small.png</english>
     <french>tk-312.small.png</french>
   </icon>
   <image>
-    <deutsch>tk-312.png</deutsch>
+    <german>tk-312.png</german>
     <english>tk-312.png</english>
     <french>tk-312.png</french>
   </image>
   <name>
-    <deutsch>TK-312</deutsch>
+    <german>TK-312</german>
     <english>TK-312</english>
     <french>TK-312</french>
   </name>
   <headline>
-    <deutsch>Auswertegeraet</deutsch>
+    <german>Auswertegeraet</german>
     <english>Evaluation device</english>
     <french>Unité d'évaluation</french>
   </headline>
   <description>
-    <deutsch>R/I-Wandler zum Einbau in Schaltschrank (0(4)..20mA)/0..10Volt)
+    <german>R/I-Wandler zum Einbau in Schaltschrank (0(4)..20mA)/0..10Volt)
 				 Tragschienenbefestigung
-				 Schmalbaubausfuehrung 22,5mm</deutsch>
+				 Schmalbaubausfuehrung 22,5mm</german>
     <english>R/I converter for installation to the switch cabinet (0(4)..20mA)/0..10Volt)
 				Mounting rail fixture
 				Narrow type 22,5mm</english>
@@ -36,10 +36,10 @@
 				Type de construction étroite 22,5mm</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>14/14-01-02-E-tk-312.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>14/14-01-02-E-tk-312.pdf</path>

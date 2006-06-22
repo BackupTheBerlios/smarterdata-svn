@@ -4,13 +4,13 @@
    <image>
     <position>left</position>
      <path>
-      <deutsch>kg-200.small.png</deutsch>
+      <german>kg-200.small.png</german>
       <english>kg-200.small.png</english>
       <french>kg-200.small.png</french>
     </path>
   </image>
   <content>
-    <deutsch>Ausserdem koennen diese Geraete in explosionsgefaehrdeten Bereichen fuer Anwendungen der Kategorie 1 (Zone 0) und Kategorie 2 (Zone 1) (ATEX) eingesetzt werden. Unsere Staerke liegt bei der Herstellung von kundenspezifischen Ausfuehrungen (Massanfertigungen).</deutsch>
+    <german>Ausserdem koennen diese Geraete in explosionsgefaehrdeten Bereichen fuer Anwendungen der Kategorie 1 (Zone 0) und Kategorie 2 (Zone 1) (ATEX) eingesetzt werden. Unsere Staerke liegt bei der Herstellung von kundenspezifischen Ausfuehrungen (Massanfertigungen).</german>
     <english>Furthermore, these devices may be used in explosive areas for applications of the category 1 (zone 0) and category 2 (zone 1) (ATEX). We are specialized in producing customer-tailored applications.</english>
     <french>Ces appareils peuvent également être utilisés dans des zones à risque d´explosion pour utilisation de la catégorie 1 (Zone 0) et de la catégorie 2 (Zone 1) (ATEX). Notre point fort réside dans la fabrication de modèles spécifiques (fabriquées sur mesure pour le client).</french>
   </content>

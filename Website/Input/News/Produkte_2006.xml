@@ -2,28 +2,28 @@
 <item>
 	<date>2006-01-01</date>
 	<icon>
-		<deutsch>nopic.png</deutsch>
+		<german>nopic.png</german>
 		<english>nopic.png</english>
 		<french>nopic.png</french>
 	</icon>
 	<inmenu>yes</inmenu>
 	<menuname>
-		<deutsch>Produkte 2006</deutsch>
+		<german>Produkte 2006</german>
 		<english>Products 2006</english>
 		<french>Produits 2006</french>
 	</menuname>
 	<headline>
-		<deutsch>Produkte 2006</deutsch>
+		<german>Produkte 2006</german>
 		<english>Products 2006</english>
 		<french>Produits 2006</french>
 	</headline>
 	<description>
-		<deutsch>
+		<german>
 			EX- und WHG-Ueberfuellsicherungen (konduktiv und Schwimmer)
 			24V-Direktanschluss EF2, ELH und EP (Zulassungen beantragt)
 			Magnetklappenanzeigen
 			Hydrostatische Messung
-		</deutsch>
+		</german>
 		<english>
 			EX- and WHG protections against overfilling (conductive and float)
 			24V-direct connection EF2, ELH and EP (approvals requested)
@@ -38,10 +38,10 @@
 		</french>
 	</description>
 	<newsdoc>
-		<deutsch>
+		<german>
 			<name>News</name>
 			<path>news-D-E-produkte_2006.pdf</path>
-		</deutsch>
+		</german>
 		<english>
 			<name>News-PDF</name>
 			<path>news-D-E-produkte_2006.pdf</path>

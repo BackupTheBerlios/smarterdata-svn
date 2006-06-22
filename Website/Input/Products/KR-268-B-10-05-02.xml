@@ -6,32 +6,32 @@
   <position>1</position>
   <linkto>T-200.F-01-01-01</linkto>
   <icon>
-    <deutsch>kr-268_b.small.png</deutsch>
+    <german>kr-268_b.small.png</german>
     <english>kr-268_b.small.png</english>
     <french>kr-268_b.small.png</french>
   </icon>
   <image>
-    <deutsch>kr-268_b.png</deutsch>
+    <german>kr-268_b.png</german>
     <english>kr-268_b.png</english>
     <french>kr-268_b.png</french>
   </image>
   <name>
-    <deutsch>KR-268/B</deutsch>
+    <german>KR-268/B</german>
     <english>KR-268/B</english>
     <french>KR-268/B</french>
   </name>
   <headline>
-    <deutsch>Kontaktschutzrelais 2-Kanal</deutsch>
+    <german>Kontaktschutzrelais 2-Kanal</german>
     <english>Contact protection relay 2-channel</english>
     <french>Relais de protection de contact 2 canal</french>
   </headline>
   <description>
-    <deutsch>2 unabhaengige Kanaele fuer Anschluss von 2 Ueberfuellsicherungen oder 1 Ueberfuellsicherung und 1 Leckagesicherung 
+    <german>2 unabhaengige Kanaele fuer Anschluss von 2 Ueberfuellsicherungen oder 1 Ueberfuellsicherung und 1 Leckagesicherung 
 				oder 2 Leckagesonden
 				Busfaehig
 				Universelle Messumformer die die Eingangssignale (Widerstandswerte) mit &quot;NAMUR&quot;-Spezifikation (DIN EN 60947) 
 				in Schaltsignale umsetzen
-				Als Teil einer Ueberfuell- bzw. Leckagesicherung zugelassen. Z-65.11-1, Z-65.40-153, Z-65.11-404</deutsch>
+				Als Teil einer Ueberfuell- bzw. Leckagesicherung zugelassen. Z-65.11-1, Z-65.40-153, Z-65.11-404</german>
     <english>2 independent channels for the connection of 2 overfill protections or 1 overfill protection and 1 leakage 
 				protection or 2 leakage detectors
 				Compatible to bus systems
@@ -46,10 +46,10 @@
 				Admissible comme partie d´une protection de trop-plein et de fuites. Z-65.11-1, Z-65.40-153, Z-65.11-404</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>10/10-05-02-E-kr-268b_kr-163a-ex.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>10/10-05-02-E-kr-268b_kr-163a-ex.pdf</path>
@@ -60,10 +60,10 @@
     </french>
   </datasheet>
   <otherdoc>
-    <deutsch>
+    <german>
       <name>Zulassung (Z-65.50-153)</name>
       <path>TestReport/Z-65.40-153-D-T-200.L.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Approval (Z-65.50-153)</name>
       <path>TestReport/Z-65.40-153-D-T-200.L.pdf</path>
@@ -74,10 +74,10 @@
     </french>
   </otherdoc>
   <otherdoc>
-    <deutsch>
+    <german>
       <name>Zulassung (Z-65.1-404)</name>
       <path>TestReport/Z-65.11-404.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Approval (Z-65.1-404)</name>
       <path>TestReport/Z-65.11-404.pdf</path>
@@ -88,10 +88,10 @@
     </french>
   </otherdoc>
   <otherdoc>
-    <deutsch>
+    <german>
       <name>Zulassung alt (Z-65.11-1)</name>
       <path>TestReport/Z-65.11-1-D-T-20.F.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Ancient approval (Z-65.11-1)</name>
       <path>TestReport/Z-65.11-1-D-T-20.F.pdf</path>

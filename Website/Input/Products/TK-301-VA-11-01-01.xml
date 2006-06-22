@@ -5,34 +5,34 @@
   <category>11-01-01</category>
   <position>1</position>
   <icon>
-    <deutsch>tk-301_edelstahl.small.png</deutsch>
+    <german>tk-301_edelstahl.small.png</german>
     <english>tk-301_edelstahl.small.png</english>
     <french>tk-301_edelstahl.small.png</french>
   </icon>
   <image>
-    <deutsch>tk-301_edelstahl.png</deutsch>
+    <german>tk-301_edelstahl.png</german>
     <english>tk-301_edelstahl.png</english>
     <french>tk-301_edelstahl.png</french>
   </image>
   <name>
-    <deutsch>TK-301</deutsch>
+    <german>TK-301</german>
     <english>TK-301</english>
     <french>TK-301</french>
   </name>
   <headline>
-    <deutsch>Niveaumesswertgeber Edelstahl</deutsch>
+    <german>Niveaumesswertgeber Edelstahl</german>
     <english>Level transducer of special steel</english>
     <french>Transmetteur de mesure de niveau en acier inox</french>
   </headline>
   <description>
-    <deutsch>Fuellhoehenanzeige unabhaengig von: Temperatur, Druck, Medium, Dampfbildung und Behaeltereinbauten
+    <german>Fuellhoehenanzeige unabhaengig von: Temperatur, Druck, Medium, Dampfbildung und Behaeltereinbauten
 				Preisguenstige Ausfuehrung mit Kabelanschluss
 				Komplett aus Edelstahl (1.4571)
 				Aufloesungen 7,5/10/15/20mm moeglich
 				Ausgangssignal (2-,3- Leiter Widerstand) zur einfachen preiswerten Signalauswertung
 				Grosser Betriebstemperaturbereich
 				Vielzahl von Schwimmertypen
-				Sonderausfuehrungen nach Kundenspezifikation</deutsch>
+				Sonderausfuehrungen nach Kundenspezifikation</german>
     <english>Display of filling height independent of temperature, pressure, medium, vapor formation and tank fixtures
 				Cost-efficient design with cable connection
 				Completely made of special steel (1.4571)
@@ -53,10 +53,10 @@
 				Modèles spécifiques fabriqués sur mesure pour le client</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>11/11-01-01-E-tk-300_tk-301.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>11/11-01-01-E-tk-300_tk-301.pdf</path>

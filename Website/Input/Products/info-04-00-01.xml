@@ -5,35 +5,35 @@
   <category>04-00-01</category>
   <position>1</position>
   <icon>
-    <deutsch>info.mini.png</deutsch>
+    <german>info.mini.png</german>
     <english>info.mini.png</english>
     <french>info.mini.png</french>
   </icon>
   <image>
-    <deutsch />
+    <german />
     <english />
     <french />
   </image>
   <name>
-    <deutsch>Info Elektroden</deutsch>
+    <german>Info Elektroden</german>
     <english>Info electrodes</english>
     <french>Info électrodes</french>
   </name>
   <headline>
-    <deutsch>Allgemeine Beschreibung zu Elektroden</deutsch>
+    <german>Allgemeine Beschreibung zu Elektroden</german>
     <english>General description of electrodes</english>
     <french>Description générale de électrodes</french>
   </headline>
   <description>
-    <deutsch>-</deutsch>
+    <german>-</german>
     <english>-</english>
     <french>-</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>04/04-00-01-E-elektroden_allgemein.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>04/04-00-01-E-elektroden_allgemein.pdf</path>

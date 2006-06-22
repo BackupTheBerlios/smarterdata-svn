@@ -5,34 +5,34 @@
   <category>06-01-05</category>
   <position>1</position>
   <icon>
-    <deutsch>t-208_kunststoff.small.png</deutsch>
+    <german>t-208_kunststoff.small.png</german>
     <english>t-208_kunststoff.small.png</english>
     <french>t-208_kunststoff.small.png</french>
   </icon>
   <image>
-    <deutsch>t-208_kunststoff.png</deutsch>
+    <german>t-208_kunststoff.png</german>
     <english>t-208_kunststoff.png</english>
     <french>t-208_kunststoff.png</french>
   </image>
   <name>
-    <deutsch>T-208</deutsch>
+    <german>T-208</german>
     <english>T-208</english>
     <french>T-208</french>
   </name>
   <headline>
-    <deutsch>Magnettauchsonde Kunststoff</deutsch>
+    <german>Magnettauchsonde Kunststoff</german>
     <english>Magnetic submerged detectors made of plastic</english>
     <french>Sondes plongées magnétique en plastique</french>
   </headline>
   <description>
-    <deutsch>Geeignet fuer die Erfassung und Steuerung von Fluessigkeiten
+    <german>Geeignet fuer die Erfassung und Steuerung von Fluessigkeiten
 				Preisguenstige Ausfuehrung mit Kabelanschluss
 				Komplett aus PE, PPH oder PVC
 				Bis zu 7 Schaltpunkte moeglich mit einer Tauchsonde
 				Verstellbare Ausfuehrungen zur nachtraeglichen Anpassung der Schaltpunkte
 				Potentialfreie Schaltkontakte
 				Temperatur-, druck- und medienunabhaengige Fuellstandserfassung
-				Sonderausfuehrungen nach Kundenspezifikation.</deutsch>
+				Sonderausfuehrungen nach Kundenspezifikation.</german>
     <english>Appropriate for the capturing and control of liquids
 				Price-efficient type with cable connection
 				Completely made of PE, PPH or PVC
@@ -51,10 +51,10 @@
 				Modèles spécifiques fabriqués sur mesure pour le client</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>06/06-01-05-E-T208_T209.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>06/06-01-05-E-T208_T209.pdf</path>
@@ -65,10 +65,10 @@
     </french>
   </datasheet>
   <manual>
-    <deutsch>
+    <german>
       <name>Betriebsanleitung Magnettauchsonden allgemein</name>
       <path>M-D-magnettauchsonde.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Operating manual magnetic submerged detectors general</name>
       <path>M-D-magnettauchsonde.pdf</path>

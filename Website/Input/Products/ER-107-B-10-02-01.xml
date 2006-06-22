@@ -5,27 +5,27 @@
   <category>10-02-01</category>
   <position>1</position>
   <icon>
-    <deutsch>er-107_b.small.png</deutsch>
+    <german>er-107_b.small.png</german>
     <english>er-107_b.small.png</english>
     <french>er-107_b.small.png</french>
   </icon>
   <image>
-    <deutsch>er-107_b.png</deutsch>
+    <german>er-107_b.png</german>
     <english>er-107_b.png</english>
     <french>er-107_b.png</french>
   </image>
   <name>
-    <deutsch>ER-107/B</deutsch>
+    <german>ER-107/B</german>
     <english>ER-107/B</english>
     <french>ER-107/B</french>
   </name>
   <headline>
-    <deutsch>Elektrodenrelais</deutsch>
+    <german>Elektrodenrelais</german>
     <english>Electrode relay</english>
     <french>Relais d´électrode</french>
   </headline>
   <description>
-    <deutsch>Als Teil einer Ueberfuell- und Leckagesicherung zugelassen. Z-65.13-405, Z-65.40-191, Z-65.13-100
+    <german>Als Teil einer Ueberfuell- und Leckagesicherung zugelassen. Z-65.13-405, Z-65.40-191, Z-65.13-100
 				Geringe Abmessungen (bei Breite 22,5mm) d.h. Platzeinsparung im Schaltschrank
 				Ansteuerung der Elektroden mit gleichspannungsfreier Wechselspannung zur Vermeidung von Elektrolyse
 				Grosser Bereich an moeglichen Versorgungsspannungen; auch DC-Versionen moeglich
@@ -33,7 +33,7 @@
 				Temperatur- und spannungsstabile Ansprechempfindlichkeit; Grenzwerterfassung von unterschiedlich leitfaehigen 
 				Fluessigkeiten moeglich bzw. Kein Ansprechen auf leitfaehige &quot;Nebel&quot; oberhalb der Fluessigkeiten
 				19&quot;-Versionen moeglich
-				Montagefreundlicher Klemmenanschluss</deutsch>
+				Montagefreundlicher Klemmenanschluss</german>
     <english>Admitted as a part of an overfill and leakage protection. Z-65.13-405, Z-65.40-191, Z-65.13-100
 				Little dimensions (in 22,5mm width) e.g. space-saving in the switch cabinet
 				Drive of the electrodes with DC-free alternating voltage to prevent from electrolysis
@@ -56,10 +56,10 @@
 				Versions 19&quot; disponibles</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>10/10-02-01-E-elektrodenrelais_whg_er-107b.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>10/10-02-01-E-elektrodenrelais_whg_er-107b.pdf</path>
@@ -70,10 +70,10 @@
     </french>
   </datasheet>
   <otherdoc>
-    <deutsch>
+    <german>
       <name>Zulassung (Z-65.13-405)</name>
       <path>TestReport/Z-65.13-405.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>approval(Z-65.13-405)</name>
       <path>TestReport/Z-65.13-405.pdf</path>
@@ -84,10 +84,10 @@
     </french>
   </otherdoc>
   <otherdoc>
-    <deutsch>
+    <german>
       <name>Zulassung (Z-65.40-191)</name>
       <path>TestReport/Z-65.40-191-D-EP,ELH.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>approval (Z-65.40-191)</name>
       <path>TestReport/Z-65.40-191-D-EP,ELH.pdf</path>
@@ -98,10 +98,10 @@
     </french>
   </otherdoc>
   <otherdoc>
-    <deutsch>
+    <german>
       <name>Zulassung (Z-65.13-100)</name>
       <path>TestReport/Z-65.13-100-D-EF2,EFV2.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>approval (Z-65.13-100)</name>
       <path>TestReport/Z-65.13-100-D-EF2,EFV2.pdf</path>

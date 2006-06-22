@@ -5,30 +5,30 @@
   <category>08-01-01</category>
   <position>1</position>
   <icon>
-    <deutsch>kg-200.small.png</deutsch>
+    <german>kg-200.small.png</german>
     <english>kg-200.small.png</english>
     <french>kg-200.small.png</french>
   </icon>
   <image>
-    <deutsch>kg-200.png</deutsch>
+    <german>kg-200.png</german>
     <english>kg-200.png</english>
     <french>kg-200.png</french>
   </image>
   <name>
-    <deutsch>KG-2xx</deutsch>
+    <german>KG-2xx</german>
     <english>KG-2xx</english>
     <french>KG-2xx</french>
   </name>
   <headline>
-    <deutsch>Kapazitive Grenztaster mit Gehaeuse</deutsch>
+    <german>Kapazitive Grenztaster mit Gehaeuse</german>
     <english>Capacitive limit key button with housing</english>
     <french>Interrupteur-limiteur capacitif avec boîtier</french>
   </headline>
   <description>
-    <deutsch>Kapazitive (beruehrungslose) Grenzwerterfassung von fluessigen Medien
+    <german>Kapazitive (beruehrungslose) Grenzwerterfassung von fluessigen Medien
 				Gehaeuse in den Materialien PPH oder PTFE
 				2-Leiter AC-Versionen oder 3-Leiter DC
-				Direktanschluss 24V DC</deutsch>
+				Direktanschluss 24V DC</german>
     <english>Capacitive (contact less) limit value measuring of liquid media 
 				Housing made of the materials PPH or PTFE
 				2-conductor AC versions or 3-conductor DC
@@ -39,10 +39,10 @@
 				Raccordement direct 24V DC</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>08/08-01-01-E-kg-2xx.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>08/08-01-01-E-kg-2xx.pdf</path>

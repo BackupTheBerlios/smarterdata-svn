@@ -5,30 +5,30 @@
   <category>14-01-01</category>
   <position>1</position>
   <icon>
-    <deutsch>tk-100.small.png</deutsch>
+    <german>tk-100.small.png</german>
     <english>tk-100.small.png</english>
     <french>tk-100.small.png</french>
   </icon>
   <image>
-    <deutsch>tk-100.png</deutsch>
+    <german>tk-100.png</german>
     <english>tk-100.png</english>
     <french>tk-100.png</french>
   </image>
   <name>
-    <deutsch>TK-100</deutsch>
+    <german>TK-100</german>
     <english>TK-100</english>
     <french>TK-100</french>
   </name>
   <headline>
-    <deutsch>R/I-Wandler</deutsch>
+    <german>R/I-Wandler</german>
     <english>R/I- converter</english>
     <french>Convertisseur R/I</french>
   </headline>
   <description>
-    <deutsch>Ausgang 4...20mA in Verbindung mit unseren Niveaumesswertgebern
+    <german>Ausgang 4...20mA in Verbindung mit unseren Niveaumesswertgebern
 				geringe Installationskosten
 				direkter Anschluss an die SPS da im Sondenkopf integriert
-				Abgleich moeglich</deutsch>
+				Abgleich moeglich</german>
     <english>Output 4...20mA in connection with our level transducers
 				Low installation cost
 				Direct connection to the SPS as integrated in the detector head 
@@ -39,10 +39,10 @@
 				Accord possible</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>14/14-01-01-E-tk-100.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>14/14-01-01-E-tk-100.pdf</path>
@@ -53,10 +53,10 @@
     </french>
   </datasheet>
   <manual>
-    <deutsch>
+    <german>
       <name>Betriebsanleitung</name>
       <path>M-D-tk-100.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Operating instruction</name>
       <path>M-D-tk-100.pdf</path>

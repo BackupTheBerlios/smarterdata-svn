@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <item>
 	<image>
-	    <deutsch>other/hgfreilogo.de.png</deutsch>
+	    <german>other/hgfreilogo.de.png</german>
     	<english>other/hgfreilogo.en.png</english>
 	    <french>other/hgfreilogo.fr.png</french>
 	</image>
 	<linkto>
-	    <deutsch>documents/news/special/schwimmschalter_hg-frei-D-.pdf</deutsch>
+	    <german>documents/news/special/schwimmschalter_hg-frei-D-.pdf</german>
     	<english>documents/news/special/schwimmschalter_hg-frei-D-.pdf</english>
 	    <french>documents/news/special/schwimmschalter_hg-frei-F-.pdf</french>
 	</linkto>

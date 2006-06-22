@@ -5,29 +5,29 @@
   <category>01-06-02</category>
   <position>1</position>
   <icon>
-    <deutsch>t-200.l.24v.small.png</deutsch>
+    <german>t-200.l.24v.small.png</german>
     <english>t-200.l.24v.small.png</english>
     <french>t-200.l.24v.small.png</french>
   </icon>
   <image>
-    <deutsch>t-200.l.24v.png</deutsch>
+    <german>t-200.l.24v.png</german>
     <english>t-200.l.24v.png</english>
     <french>t-200.l.24v.png</french>
   </image>
   <name>
-    <deutsch>T-200.L (24V)</deutsch>
+    <german>T-200.L (24V)</german>
     <english>T-200.L (24V)</english>
     <french>T-200.L (24V)</french>
   </name>
   <headline>
-    <deutsch>Leckagesonde 24V Direktanschluss</deutsch>
+    <german>Leckagesonde 24V Direktanschluss</german>
     <english>Leakage detector 24V direct connection</english>
     <french>Sonde de fuits 24V raccordement direct</french>
   </headline>
   <description>
-    <deutsch>Geeignet fuer aggressive, wassergefaehrdende Fluessigkeiten ( z.B. Saeuren, Laugen, waessrige Loesungen etc )
+    <german>Geeignet fuer aggressive, wassergefaehrdende Fluessigkeiten ( z.B. Saeuren, Laugen, waessrige Loesungen etc )
 				Allgemeine bauaufsichtliche Zulassung Z-65.40-153
-				Vollstaendige Ausfuehrung in PE, PPH und PVC</deutsch>
+				Vollstaendige Ausfuehrung in PE, PPH und PVC</german>
     <english>Appropriate for aggressive, water hazardous liquids (e.g. acids, bases, aqueous solutions, etc.)
 				General approval by the building authorities Z-65.40-153
 				Complete construction in PE, PPH and PVC</english>
@@ -37,10 +37,10 @@
 				Modèle complet en PE, PPH et PVC</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>01/01-06-02-E-T200L_24v-direkt.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>01/01-06-02-E-T200L_24v-direkt.pdf</path>
@@ -51,10 +51,10 @@
     </french>
   </datasheet>
   <otherdoc>
-    <deutsch>
+    <german>
       <name>Zulassung (Z-65.40-153)</name>
       <path>TestReport/Z-65.40-153-D-T-200.L.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Approval (Z-65.40-153)</name>
       <path>TestReport/Z-65.40-153-D-T-200.L.pdf</path>

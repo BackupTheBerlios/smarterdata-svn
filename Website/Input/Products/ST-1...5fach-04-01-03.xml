@@ -5,32 +5,32 @@
   <category>04-01-03</category>
   <position>1</position>
   <icon>
-    <deutsch>st-1___5fach.small.png</deutsch>
+    <german>st-1___5fach.small.png</german>
     <english>st-1___5fach.small.png</english>
     <french>st-1___5fach.small.png</french>
   </icon>
   <image>
-    <deutsch>st-1___5fach.png</deutsch>
+    <german>st-1___5fach.png</german>
     <english>st-1___5fach.png</english>
     <french>st-1___5fach.png</french>
   </image>
   <name>
-    <deutsch>ST 1...5fach</deutsch>
+    <german>ST 1...5fach</german>
     <english>ST 1...5fach</english>
     <french>ST 1...5fach</french>
   </name>
   <headline>
-    <deutsch>Stellelektrode mit von aussen verschiebbaren Staeben</deutsch>
+    <german>Stellelektrode mit von aussen verschiebbaren Staeben</german>
     <english>Adjustable electrode with bars to be slid from the outside</english>
     <french>Electrode d´ajustement avec des baguettes mobiles de l´extérieur</french>
   </headline>
   <description>
-    <deutsch>Geeignet fuer alle leitfaehigen, aggressiven Medien (z.B. Saeuren, Laugen), 
+    <german>Geeignet fuer alle leitfaehigen, aggressiven Medien (z.B. Saeuren, Laugen), 
 				waessrige Loesungen, Wasser, Abwasser oder andere leitfaehige Fluessigkeiten
 				Gewindeanschluesse aus: PE, PPH, PVC, PTFE, PVDF und Edelstahl (1.4571)
 				Fuehlerstaebe aus: Edelstahl, Hastelloy B und C, Titan und Tantal
 				Verstellbare Ausfuehrungen zur nachtraeglichen Anpassung der Schaltpunkte
-				Sonderausfuehrungen und spezielle Elektroden nach Kundenwuenschen moeglich</deutsch>
+				Sonderausfuehrungen und spezielle Elektroden nach Kundenwuenschen moeglich</german>
     <english>Appropriate for all conductive, aggressive media (e.g. acids, bases), aqueous solutions, 
 				water, sewage or other conductive liquids
 				Threaded connections and housings made of : PE, PPH, PVC, PTFE, PVDF and special steel (1.4571)
@@ -45,10 +45,10 @@
 				Construction spéciale et électrodes spéciales sur demande du client</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>04/04-01-03-E-stell_haenge-elektroden.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>04/04-01-03-E-stell_haenge-elektroden.pdf</path>

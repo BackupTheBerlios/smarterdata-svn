@@ -5,35 +5,35 @@
   <category>05-00-01</category>
   <position>1</position>
   <icon>
-    <deutsch>info-hgverbot.small.png</deutsch>
+    <german>info-hgverbot.small.png</german>
     <english>info-hgverbot.small.png</english>
     <french>info-hgverbot.small.png</french>
   </icon>
   <image>
-    <deutsch />
+    <german />
     <english />
     <french />
   </image>
   <name>
-    <deutsch>Info S-xx</deutsch>
+    <german>Info S-xx</german>
     <english>Info S-xx</english>
     <french>Info S-xx</french>
   </name>
   <headline>
-    <deutsch>Allgemeine Beschreibung zu Schwimmschaltern</deutsch>
+    <german>Allgemeine Beschreibung zu Schwimmschaltern</german>
     <english>General description of float type switches</english>
     <french>Description générale des interrupteurs à flotteurs</french>
   </headline>
   <description>
-    <deutsch>-</deutsch>
+    <german>-</german>
     <english>-</english>
     <french>-</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>05/05-00-01-E-schwimmschalter_allgemein.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>05/05-00-01-E-schwimmschalter_allgemein.pdf</path>

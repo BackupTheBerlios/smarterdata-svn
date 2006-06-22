@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <item>
 	<image>
-	    <deutsch>other/iso9001.de.png</deutsch>
+	    <german>other/iso9001.de.png</german>
     	<english>other/iso9001.en.png</english>
 	    <french>other/iso9001.fr.png</french>
 	</image>
 	<linkto>
-	    <deutsch>Documents/Otherdoc/15-00-02-D-tuev_cert_zertifikat_2005.pdf</deutsch>
+	    <german>Documents/Otherdoc/15-00-02-D-tuev_cert_zertifikat_2005.pdf</german>
     	<english>Documents/Otherdoc/15-00-02-E-tuev_cert_zertifikat_2005.pdf</english>
 	    <french>Documents/Otherdoc/15-00-02-F-tuev_cert_zertifikat_2005.pdf</french>
 	</linkto>

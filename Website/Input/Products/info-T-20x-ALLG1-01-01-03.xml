@@ -5,36 +5,36 @@
   <category>01-01-03</category>
   <position>1</position>
   <icon>
-    <deutsch>info-ex.small.png</deutsch>
+    <german>info-ex.small.png</german>
     <english>info-ex.small.png</english>
     <french>info-ex.small.png</french>
   </icon>
   <image>
-    <deutsch />
+    <german />
     <english />
     <french />
   </image>
   <name>
-    <deutsch>Info T-20x</deutsch>
+    <german>Info T-20x</german>
     <english>Info T-20x</english>
     <french>Info T-20x</french>
   </name>
   <headline>
-    <deutsch>Magnettauchsonden fuer EX-Bereich Kategorie 1 (Zone 0), Allgemeine Information 1</deutsch>
+    <german>Magnettauchsonden fuer EX-Bereich Kategorie 1 (Zone 0), Allgemeine Information 1</german>
     <english>Magnetic submerged detectors for ex area category 1 (zone 0) general information 1</english>
     <french>Sondes magnétiques à immersion pour des zones à risque d´explosion catégorie 1 (Zone 0), 
 				information générale 1</french>
   </headline>
   <description>
-    <deutsch>-</deutsch>
+    <german>-</german>
     <english>-</english>
     <french>-</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>01/01-01-03-E-T20x_F_EX_allg_daten_1.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>01/01-01-03-E-T20x_F_EX_allg_daten_1.pdf</path>
@@ -45,10 +45,10 @@
     </french>
   </datasheet>
   <otherdoc>
-    <deutsch>
+    <german>
       <name>ATEX-Zulassung (TUEV 02 ATEX 1795 X)</name>
       <path>TestReport/ATEX_1795_T-20_.F_TK-30_.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>ATEX approval (TUEV 02 ATEX 1795 X)</name>
       <path>TestReport/ATEX_1795_T-20_.F_TK-30_.pdf</path>
@@ -59,10 +59,10 @@
     </french>
   </otherdoc>
   <otherdoc>
-    <deutsch>
+    <german>
       <name>Zulassung (Z-65.11-404)</name>
       <path>TestReport/Z-65.11-404.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Approval (Z-65.11-404)</name>
       <path>TestReport/Z-65.11-404.pdf</path>

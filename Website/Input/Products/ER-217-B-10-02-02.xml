@@ -5,27 +5,27 @@
   <category>10-02-02</category>
   <position>1</position>
   <icon>
-    <deutsch>er-217_b.small.png</deutsch>
+    <german>er-217_b.small.png</german>
     <english>er-217_b.small.png</english>
     <french>er-217_b.small.png</french>
   </icon>
   <image>
-    <deutsch>er-217_b.png</deutsch>
+    <german>er-217_b.png</german>
     <english>er-217_b.png</english>
     <french>er-217_b.png</french>
   </image>
   <name>
-    <deutsch>ER-217/B</deutsch>
+    <german>ER-217/B</german>
     <english>ER-217/B</english>
     <french>ER-217/B</french>
   </name>
   <headline>
-    <deutsch>Elektrodenrelais 2-Kanal</deutsch>
+    <german>Elektrodenrelais 2-Kanal</german>
     <english>Electrode relay 2 channel</english>
     <french>Relais d´électrode 2 canal</french>
   </headline>
   <description>
-    <deutsch>2 unabhaengige Kanaele fuer Anschluss von 2 Ueberfuellsicherungen oder 1 Ueberfuellsicherung und 1 Leckagesicherung oder 2 Leckagesonden
+    <german>2 unabhaengige Kanaele fuer Anschluss von 2 Ueberfuellsicherungen oder 1 Ueberfuellsicherung und 1 Leckagesicherung oder 2 Leckagesonden
 				Als Teil einer Ueberfuellsicherung zugelassen. Z-65.13-405, Z-65.40-191
 				Geringe Abmessungen (bei Breite 22,5mm) d.h. Platzeinsparung im Schaltschrank
 				Busfaehig
@@ -35,7 +35,7 @@
 				Temperatur- und spannungsstabile Ansprechempfindlichkeit; Grenzwerterfassung von unterschiedlich leitfaehigen Fluessigkeiten moeglich bzw. Kein Ansprechen auf leitfaehige &quot;Nebel&quot; oberhalb der Fluessigkeiten
 				Als Kontaktschutzrelais einsetzbar
 				19&quot;-Versionen moeglich
-				Montagefreundlicher Klemmenanschluss</deutsch>
+				Montagefreundlicher Klemmenanschluss</german>
     <english>2 independent channels for the connection of 2 overfill protections or 1 overfill protection and 1 leakage 
 				protection or 2 leakage detectors
 				Admitted as a part of an overfill and leakage protection. Z-65.13-405, Z-65.40-191
@@ -65,10 +65,10 @@
 				Connexion serrée facile à monter</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>10/10-02-02-E-er-217b_er-145a_ex.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>10/10-02-02-E-er-217b_er-145a_ex.pdf</path>
@@ -79,10 +79,10 @@
     </french>
   </datasheet>
   <otherdoc>
-    <deutsch>
+    <german>
       <name>Zulassung (Z-65.13-405)</name>
       <path>TestReport/Z-65.13-405.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Approval (Z-65.13-405)</name>
       <path>TestReport/Z-65.13-405.pdf</path>
@@ -93,10 +93,10 @@
     </french>
   </otherdoc>
   <otherdoc>
-    <deutsch>
+    <german>
       <name>Zulassung (Z-65.40-191)</name>
       <path>TestReport/Z-65.40-191-D-EP,ELH.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Approval (Z-65.40-191)</name>
       <path>TestReport/Z-65.40-191-D-EP,ELH.pdf</path>

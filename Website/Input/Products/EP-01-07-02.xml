@@ -5,29 +5,29 @@
   <category>01-07-02</category>
   <position>1</position>
   <icon>
-    <deutsch>ep.small.png</deutsch>
+    <german>ep.small.png</german>
     <english>ep.small.png</english>
     <french>ep.small.png</french>
   </icon>
   <image>
-    <deutsch>ep.png</deutsch>
+    <german>ep.png</german>
     <english>ep.png</english>
     <french>ep.png</french>
   </image>
   <name>
-    <deutsch>EP</deutsch>
+    <german>EP</german>
     <english>EP</english>
     <french>EP</french>
   </name>
   <headline>
-    <deutsch>Leckagesonde Plattenelektrode (konduktiv)</deutsch>
+    <german>Leckagesonde Plattenelektrode (konduktiv)</german>
     <english>Leakage detector plate electrode (conductive)</english>
     <french>Sonde de fuits électrode à plaques (conductive)</french>
   </headline>
   <description>
-    <deutsch>Geeignet fuer aggressive, wassergefaehrdende Fluessigkeiten ( z.B. Saeuren, Laugen, waessrige Loesungen etc )
+    <german>Geeignet fuer aggressive, wassergefaehrdende Fluessigkeiten ( z.B. Saeuren, Laugen, waessrige Loesungen etc )
 				Allgemeine bauaufsichtliche Zulassung Z-65.40-191
-				Staebe aus Edelstahl, Hastelloy, Titan, Tantal, Monell oder Glaskohlenstoff</deutsch>
+				Staebe aus Edelstahl, Hastelloy, Titan, Tantal, Monell oder Glaskohlenstoff</german>
     <english>Appropriate for aggressive, water hazardous liquids (e.g. acids, bases, aqueous solutions, etc.)
 				General approval by the building authorities Z-65.40-191
 				Bars made of special steel, Hastelloy, titanium, tantalum, monel metal or Glassy carbon</english>
@@ -37,10 +37,10 @@
 				Barres en acier inox, Hastelloy, titane, tantale, Monel ou Carbone vitreux</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>01/01-07-02-E-EP.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>01/01-07-02-E-EP.pdf</path>
@@ -51,10 +51,10 @@
     </french>
   </datasheet>
   <otherdoc>
-    <deutsch>
+    <german>
       <name>Zulassung (Z-65-40-191)</name>
       <path>TestReport/Z-65.40-191-D-EP,ELH.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Approval (Z-65-40-191)</name>
       <path>TestReport/Z-65.40-191-D-EP,ELH.pdf</path>

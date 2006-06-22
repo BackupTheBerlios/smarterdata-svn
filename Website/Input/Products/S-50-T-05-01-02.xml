@@ -5,31 +5,31 @@
   <category>05-01-02</category>
   <position>1</position>
   <icon>
-    <deutsch>s-50_t.small.png</deutsch>
+    <german>s-50_t.small.png</german>
     <english>s-50_t.small.png</english>
     <french>s-50_t.small.png</french>
   </icon>
   <image>
-    <deutsch>s-50_t.png</deutsch>
+    <german>s-50_t.png</german>
     <english>s-50_t.png</english>
     <french>s-50_t.png</french>
   </image>
   <name>
-    <deutsch>S-50/T</deutsch>
+    <german>S-50/T</german>
     <english>S-50/T</english>
     <french>S-50/T</french>
   </name>
   <headline>
-    <deutsch>Schwimmschalter PTFE</deutsch>
+    <german>Schwimmschalter PTFE</german>
     <english>Float type switch made of PTFE</english>
     <french>Interrupteur à flotteur PTFE</french>
   </headline>
   <description>
-    <deutsch>Einfache kostenguenstige Fuellstandsmessung mit ueberzeugendem Preis / Leistungsverhaeltnis
+    <german>Einfache kostenguenstige Fuellstandsmessung mit ueberzeugendem Preis / Leistungsverhaeltnis
 				Schwimmer aus PTFE
 				Spezialkabel aus: Silikon und FEP (Teflon)
 				Alle Schaltertypen als Einzelschalter, als Schalterkombination in Haenge- oder Stabausfuehrung
-				Alle Schwimmschalter erhalten Sie in allen Groessen auch quecksilberfrei</deutsch>
+				Alle Schwimmschalter erhalten Sie in allen Groessen auch quecksilberfrei</german>
     <english>Simple, cost-efficient level measuring with a convincing price / performance ratio
 				Float made of the PTFE
 				Special cable made of : silicone and  FEP (Teflon)
@@ -42,10 +42,10 @@
 				Tous les types d´interrupteurs sont livrables dans toutes les dimensions, également sans mercure</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>05/05-01-02-E-edelstahl_teflon_schwimmschalter.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>05/05-01-02-E-edelstahl_teflon_schwimmschalter.pdf</path>

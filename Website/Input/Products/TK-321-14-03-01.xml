@@ -5,35 +5,35 @@
   <category>14-03-01</category>
   <position>1</position>
   <icon>
-    <deutsch>nopic.small.png</deutsch>
+    <german>nopic.small.png</german>
     <english>nopic.small.png</english>
     <french>nopic.small.png</french>
   </icon>
   <image>
-    <deutsch>nopic.png</deutsch>
+    <german>nopic.png</german>
     <english>nopic.png</english>
     <french>nopic.png</french>
   </image>
   <name>
-    <deutsch>TK-321</deutsch>
+    <german>TK-321</german>
     <english>TK-321</english>
     <french>TK-321</french>
   </name>
   <headline>
-    <deutsch>Leuchtbandanzeige</deutsch>
+    <german>Leuchtbandanzeige</german>
     <english>Luminous band display</english>
     <french>Affichage lumineux</french>
   </headline>
   <description>
-    <deutsch>-</deutsch>
+    <german>-</german>
     <english>-</english>
     <french>-</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>14/14-03-01-E-tk-320.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>14/14-03-01-E-tk-320.pdf</path>

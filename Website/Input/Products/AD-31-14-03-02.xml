@@ -5,29 +5,29 @@
   <category>14-03-02</category>
   <position>1</position>
   <icon>
-    <deutsch>ad-31.small.png</deutsch>
+    <german>ad-31.small.png</german>
     <english>ad-31.small.png</english>
     <french>ad-31.small.png</french>
   </icon>
   <image>
-    <deutsch>ad-31.png</deutsch>
+    <german>ad-31.png</german>
     <english>ad-31.png</english>
     <french>ad-31.png</french>
   </image>
   <name>
-    <deutsch>AD-31</deutsch>
+    <german>AD-31</german>
     <english>AD-31</english>
     <french>AD-31</french>
   </name>
   <headline>
-    <deutsch>Programmierbare Digitalanzeige</deutsch>
+    <german>Programmierbare Digitalanzeige</german>
     <english>Programmable digital display</english>
     <french>Affichage digital programmable</french>
   </headline>
   <description>
-    <deutsch>Digitale Anzeige mit 24V DC-Versorgung fuer Ultraschallsonde oder hydrostatische Sonden
+    <german>Digitale Anzeige mit 24V DC-Versorgung fuer Ultraschallsonde oder hydrostatische Sonden
 				Zwei Grenzkontakte frei einstellbar
-				Ausgang 4...20mA</deutsch>
+				Ausgang 4...20mA</german>
     <english>Digital display with 24V DC supply for ultrasonic detector or hydrostatic detector
 				Two limit contacts freely adjustable
 				Output 4...20mA</english>
@@ -36,10 +36,10 @@
 				Sortie 4...20mA</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>14/14-03-02-E-ad-31.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>14/14-03-02-E-ad-31.pdf</path>
@@ -50,10 +50,10 @@
     </french>
   </datasheet>
   <manual>
-    <deutsch>
+    <german>
       <name>Betriebsanleitung</name>
       <path>M-D-ad-31.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Operating instruction</name>
       <path>M-D-ad-31.pdf</path>
@@ -64,10 +64,10 @@
     </french>
   </manual>
   <conformity>
-    <deutsch>
+    <german>
       <name>Konformitaetserklaerung</name>
       <path>conformity_explanation-D-E-F-AD-31.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Conformity explanation</name>
       <path>conformity_explanation-D-E-F-AD-31.pdf</path>

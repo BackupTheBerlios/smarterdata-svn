@@ -5,34 +5,34 @@
   <category>06-01-04</category>
   <position>1</position>
   <icon>
-    <deutsch>t-207.small.png</deutsch>
+    <german>t-207.small.png</german>
     <english>t-207.small.png</english>
     <french>t-207.small.png</french>
   </icon>
   <image>
-    <deutsch>t-207.png</deutsch>
+    <german>t-207.png</german>
     <english>t-207.png</english>
     <french>t-207.png</french>
   </image>
   <name>
-    <deutsch>T-207</deutsch>
+    <german>T-207</german>
     <english>T-207</english>
     <french>T-207</french>
   </name>
   <headline>
-    <deutsch>Magnettauchsonde PPH</deutsch>
+    <german>Magnettauchsonde PPH</german>
     <english>Magnetic submerged detectors made of PPH</english>
     <french>Sondes plongées magnétique PPH</french>
   </headline>
   <description>
-    <deutsch>Geeignet fuer die Erfassung und Steuerung von Fluessigkeiten
+    <german>Geeignet fuer die Erfassung und Steuerung von Fluessigkeiten
 				Preisguenstige Ausfuehrung mit Kabelanschluss
 				Komplett aus dem Material: PPH
 				Potentialfreie Schaltkontakte
 				Temperatur-, druck- und medienunabhaengige Fuellstandserfassung
 				Miniaturausfuehrung
 				Vielzahl von Schwimmertypen
-				Sonderausfuehrungen nach Kundenspezifikation.</deutsch>
+				Sonderausfuehrungen nach Kundenspezifikation.</german>
     <english>Appropriate for the capturing and control of liquids
 				Price-efficient type with cable connection
 				Completely made of the material: PPH
@@ -51,10 +51,10 @@
 				Modèles spécifiques fabriqués sur mesure pour le client</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>06/06-01-04-E-T206_T207.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>06/06-01-04-E-T206_T207.pdf</path>
@@ -65,10 +65,10 @@
     </french>
   </datasheet>
   <manual>
-    <deutsch>
+    <german>
       <name>Betriebsanleitung Magnettauchsonden allgemein</name>
       <path>M-D-magnettauchsonde.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Operating manual magnetic submerged detectors general</name>
       <path>M-D-magnettauchsonde.pdf</path>

@@ -5,34 +5,34 @@
   <category>10-02-02</category>
   <position>1</position>
   <icon>
-    <deutsch>er-145_a.small.png</deutsch>
+    <german>er-145_a.small.png</german>
     <english>er-145_a.small.png</english>
     <french>er-145_a.small.png</french>
   </icon>
   <image>
-    <deutsch>er-145_a.png</deutsch>
+    <german>er-145_a.png</german>
     <english>er-145_a.png</english>
     <french>er-145_a.png</french>
   </image>
   <name>
-    <deutsch>ER-145/A</deutsch>
+    <german>ER-145/A</german>
     <english>ER-145/A</english>
     <french>ER-145/A</french>
   </name>
   <headline>
-    <deutsch>[Ex]i-Elektrodenrelais</deutsch>
+    <german>[Ex]i-Elektrodenrelais</german>
     <english>[Ex]i-Electrode relay</english>
     <french>[Ex]i-relais d´électrode</french>
   </headline>
   <description>
-    <deutsch>Als Teil einer Ueberfuell- bzw. Leckagesicherung zugelassen. Z-65.13-405, Z-65.40-191, Z-65.13-100
+    <german>Als Teil einer Ueberfuell- bzw. Leckagesicherung zugelassen. Z-65.13-405, Z-65.40-191, Z-65.13-100
 				Geringe Abmessungen (bei Breite 22,5mm) d.h. Platzeinsparung im Schaltschrank
 				Ansteuerung der Elektroden mit gleichspannungsfreier Wechselspannung zur Vermeidung von Elektrolyse
 				Grosser Bereich an moeglichen Versorgungsspannungen
 				Temperatur- und spannungsstabile Ansprechempfindlichkeit; Grenzwerterfassung von unterschiedlich leitfaehigen Fluessigkeiten moeglich bzw. Kein Ansprechen auf leitfaehige &quot;Nebel&quot; oberhalb der Fluessigkeiten
 				Montagefreundlicher Klemmenanschluss 
 				Eigensicherer Steuerstromkreis
-				EG-Baumusterpruefung TUEV 00 ATEX 1604</deutsch>
+				EG-Baumusterpruefung TUEV 00 ATEX 1604</german>
     <english>Admitted as a part of an overfill and leakage protection. Z-65.13-405, Z-65.40-191, Z-65.13-100
 				Little dimensions (in 22,5mm width) e.g. space-saving in the switch cabinet
 				Drive of the electrodes with DC-free alternating voltage to prevent from electrolysis
@@ -53,10 +53,10 @@
 				Avec certificat d&apos;essai de modèle type TUEV 00 ATEX 1604</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>10/10-02-02-E-er-217b_er-145a_ex.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>10/10-02-02-E-er-217b_er-145a_ex.pdf</path>
@@ -67,10 +67,10 @@
     </french>
   </datasheet>
   <manual>
-    <deutsch>
+    <german>
       <name>Betriebsanleitung</name>
       <path>M-D-er-145a,ex.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Operating instruction</name>
       <path>M-D-er-145a,ex.pdf</path>
@@ -81,10 +81,10 @@
     </french>
   </manual>
   <otherdoc>
-    <deutsch>
+    <german>
       <name>ATEX-Zulassung (TUEV 00 ATEX 1604)</name>
       <path>TestReport/ATEX_1604_ER-144_A_EX,ER-145_A_EX.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>ATEX approval (TUEV 00 ATEX 1604)</name>
       <path>TestReport/ATEX_1604_ER-144_A_EX,ER-145_A_EX.pdf</path>
@@ -95,10 +95,10 @@
     </french>
   </otherdoc>
   <otherdoc>
-    <deutsch>
+    <german>
       <name>Zulassung (Z-65.13-405)</name>
       <path>TestReport/Z-65.13-405.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Approval (Z-65.13-405)</name>
       <path>TestReport/Z-65.13-405.pdf</path>
@@ -109,10 +109,10 @@
     </french>
   </otherdoc>
   <otherdoc>
-    <deutsch>
+    <german>
       <name>Zulassung (Z-65.40-191)</name>
       <path>TestReport/Z-65.40-191-D-EP,ELH.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Approval (Z-65.40-191)</name>
       <path>TestReport/Z-65.40-191-D-EP,ELH.pdf</path>
@@ -123,10 +123,10 @@
     </french>
   </otherdoc>
   <otherdoc>
-    <deutsch>
+    <german>
       <name>Zulassung (Z-65.13-100)</name>
       <path>TestReport/Z-65.13-100-D-EF2,EFV2.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Approval (Z-65.13-100)</name>
       <path>TestReport/Z-65.13-100-D-EF2,EFV2.pdf</path>

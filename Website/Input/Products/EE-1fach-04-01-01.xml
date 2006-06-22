@@ -5,33 +5,33 @@
   <category>04-01-01</category>
   <position>1</position>
   <icon>
-    <deutsch>ee-1fach.small.png</deutsch>
+    <german>ee-1fach.small.png</german>
     <english>ee-1fach.small.png</english>
     <french>ee-1fach.small.png</french>
   </icon>
   <image>
-    <deutsch>ee-1fach.png</deutsch>
+    <german>ee-1fach.png</german>
     <english>ee-1fach.png</english>
     <french>ee-1fach.png</french>
   </image>
   <name>
-    <deutsch>EE-1fach</deutsch>
+    <german>EE-1fach</german>
     <english>EE-1fach</english>
     <french>EE-1fach</french>
   </name>
   <headline>
-    <deutsch>Elektrode -einfach-</deutsch>
+    <german>Elektrode -einfach-</german>
     <english>Electrode -simple-</english>
     <french>Electrode -simple-</french>
   </headline>
   <description>
-    <deutsch>Stabausfuehrung fest
+    <german>Stabausfuehrung fest
 				Geeignet fuer alle leitfaehigen, aggressiven Medien (z.B. Saeuren, Laugen), 
 				waessrigen Loesungen, Wasser, Abwaesser oder andere leitfaehige Fluessigkeiten
 				Gewindeanschluesse und Gehaeuse aus: PE, PPH, PVC, PTFE, PVDF und Edelstahl (1.4571)
 				Fuehlerstaebe aus: Edelstahl, Hastelloy B und C, Titan und Tantal
 				Preisguenstige Einfachausfuehrung
-				Sonderausfuehrungen und spezielle Elektroden nach Kundenwuenschen</deutsch>
+				Sonderausfuehrungen und spezielle Elektroden nach Kundenwuenschen</german>
     <english>Bar type fixed
 				Appropriate for all conductive, aggressive media (e.g. acids, bases), aqueous solutions, water, 
 				sewage or other conductive liquids
@@ -48,10 +48,10 @@
 				Construction spéciale et électrodes spéciales sur demande du client</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>04/04-01-01-E-ee-1fach_esb.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>04/04-01-01-E-ee-1fach_esb.pdf</path>

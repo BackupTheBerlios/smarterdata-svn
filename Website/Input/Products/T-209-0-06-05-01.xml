@@ -5,33 +5,33 @@
   <category>06-05-01</category>
   <position>1</position>
   <icon>
-    <deutsch>t-209_0_edelstahl.small.png</deutsch>
+    <german>t-209_0_edelstahl.small.png</german>
     <english>t-209_0_edelstahl.small.png</english>
     <french>t-209_0_edelstahl.small.png</french>
   </icon>
   <image>
-    <deutsch>t-209_0_edelstahl.png</deutsch>
+    <german>t-209_0_edelstahl.png</german>
     <english>t-209_0_edelstahl.png</english>
     <french>t-209_0_edelstahl.png</french>
   </image>
   <name>
-    <deutsch>T-209/0</deutsch>
+    <german>T-209/0</german>
     <english>T-209/0</english>
     <french>T-209/0</french>
   </name>
   <headline>
-    <deutsch>Magnettauchsonde Edelstahl fuer EX-Bereich Kategorie 1 (Zone 0)</deutsch>
+    <german>Magnettauchsonde Edelstahl fuer EX-Bereich Kategorie 1 (Zone 0)</german>
     <english>Magnetic submerged detectors made of special steel for ex area category 1 (zone 0)</english>
     <french>Sondes plongées magnétiques en acier inox pour des zones à risque d´explosion catégorie 1 (Zone 0)</french>
   </headline>
   <description>
-    <deutsch>Preisguenstige Ausfuehrung mit Kabelanschluss
+    <german>Preisguenstige Ausfuehrung mit Kabelanschluss
 				Komplett aus Edelstahl (1.4571)
 				Grosser Betriebstemperaturbereich
 				Vielzahl von Schwimmertypen
 				TUEV 02 ATEX 1795 X
 				Z-65.11-404
-				Sonderausfuehrungen nach Kundenspezifikation.</deutsch>
+				Sonderausfuehrungen nach Kundenspezifikation.</german>
     <english>Cost-efficient design with cable connection
 				Completely made of special steel 1.4571
 				Large range of operating temperature
@@ -48,10 +48,10 @@
 				Modèles spécifiques fabriqués sur mesure pour le client</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>06/06-05-01-E-T205-0_T209-0_EX.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>06/06-05-01-E-T205-0_T209-0_EX.pdf</path>
@@ -62,10 +62,10 @@
     </french>
   </datasheet>
   <otherdoc>
-    <deutsch>
+    <german>
       <name>ATEX-Zulassung (TUEV 02 ATEX 1795 X)</name>
       <path>TestReport/ATEX_1795_T-20_.F_TK-30_.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>ATEX approval (TUEV 02 ATEX 1795 X)</name>
       <path>TestReport/ATEX_1795_T-20_.F_TK-30_.pdf</path>
@@ -76,10 +76,10 @@
     </french>
   </otherdoc>
   <otherdoc>
-    <deutsch>
+    <german>
       <name>Zulassung (Z-65.11-404)</name>
       <path>TestReport/Z-65.11-404.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>approval(Z-65.11-404)</name>
       <path>TestReport/Z-65.11-404.pdf</path>
@@ -90,10 +90,10 @@
     </french>
   </otherdoc>
   <manual>
-    <deutsch>
+    <german>
       <name>Anleitung</name>
       <path>M-D-T20,TK30.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Manual</name>
       <path>M-D-T20,TK30.pdf</path>

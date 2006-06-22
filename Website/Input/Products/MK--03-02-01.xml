@@ -5,29 +5,29 @@
   <category>03-02-01</category>
   <position>1</position>
   <icon>
-    <deutsch>nopic.small.png</deutsch>
+    <german>nopic.small.png</german>
     <english>nopic.small.png</english>
     <french>nopic.small.png</french>
   </icon>
   <image>
-    <deutsch />
+    <german />
     <english />
     <french />
   </image>
   <name>
-    <deutsch>MK-</deutsch>
+    <german>MK-</german>
     <english>MK-</english>
     <french>MK-</french>
   </name>
   <headline>
-    <deutsch>Monostabiler Kontakt</deutsch>
+    <german>Monostabiler Kontakt</german>
     <english>Monostable contact</english>
     <french>Contact monostable</french>
   </headline>
   <description>
-    <deutsch>Schaltkontakte (magnetisch)
+    <german>Schaltkontakte (magnetisch)
 				Monostabile Schaltkontakte mit Reedkontakt
-				Universell einsetzbar</deutsch>
+				Universell einsetzbar</german>
     <english>Switching contact (magnetic)
 				Monostable switching contact with dry reed contact
 				Universally applicable</english>

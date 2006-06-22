@@ -5,32 +5,32 @@
   <category>12-01-01</category>
   <position>1</position>
   <icon>
-    <deutsch>hd-100.small.png</deutsch>
+    <german>hd-100.small.png</german>
     <english>hd-100.small.png</english>
     <french>hd-100.small.png</french>
   </icon>
   <image>
-    <deutsch>hd-100.png</deutsch>
+    <german>hd-100.png</german>
     <english>hd-100.png</english>
     <french>hd-100.png</french>
   </image>
   <name>
-    <deutsch>HD-100</deutsch>
+    <german>HD-100</german>
     <english>HD-100</english>
     <french>HD-100</french>
   </name>
   <headline>
-    <deutsch>Druckaufnehmer</deutsch>
+    <german>Druckaufnehmer</german>
     <english>Pressure transducer</english>
     <french>Dynamo mètre</french>
   </headline>
   <description>
-    <deutsch>2-Leiter 4...20mA Ausgang
+    <german>2-Leiter 4...20mA Ausgang
 				Messbereich 0...250mbar (entspricht 0...2,5m Wassersaeule) bis 0..1bar (entspricht 0...10m Wassersaeule)
 				Aufgebaut aus den Materialien Edelstahl (1.4305), PE, NBR
 				Einfache Montage und Installation
 				Ideal fuer tiefe Brunnen und Zisternen zur Erfassung des Wasserstandes
-				Fuer drucklose Behaeltnisse</deutsch>
+				Fuer drucklose Behaeltnisse</german>
     <english>2-conductor 4...20mA output
 				Measuring range 0...250mbar (corresponds to 0...2,5m water column) up to 0..1bar 
 				(corresponds to 0...10m water column)
@@ -47,10 +47,10 @@
 				Pour des récipients sans pression</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>12/12-01-01-E-hd-100.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>12/12-01-01-E-hd-100.pdf</path>

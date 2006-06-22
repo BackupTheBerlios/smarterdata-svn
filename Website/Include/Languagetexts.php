@@ -1,11 +1,11 @@
 <?php
 $UsedLanguages= array (
-	'deutsch',
+	'german',
 	'english',
 	'french'
 );
-$DefaultLanguage= 'deutsch';
-$Languagetexts['deutsch']= array (
+$DefaultLanguage= 'german';
+$Languagetexts['german']= array (
 	'news' => 'Neues',
 	'siehe_auch' => 'siehe auch',
 	'datasheet' => 'Datenblaetter',

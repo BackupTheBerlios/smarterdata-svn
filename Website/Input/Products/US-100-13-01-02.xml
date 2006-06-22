@@ -5,27 +5,27 @@
   <category>13-01-02</category>
   <position>1</position>
   <icon>
-    <deutsch>us-100.small.png</deutsch>
+    <german>us-100.small.png</german>
     <english>us-100.small.png</english>
     <french>us-100.small.png</french>
   </icon>
   <image>
-    <deutsch>us-100.png</deutsch>
+    <german>us-100.png</german>
     <english>us-100.png</english>
     <french>us-100.png</french>
   </image>
   <name>
-    <deutsch>US-100</deutsch>
+    <german>US-100</german>
     <english>US-100</english>
     <french>US-100</french>
   </name>
   <headline>
-    <deutsch>Kompakt-Ultraschallsonde</deutsch>
+    <german>Kompakt-Ultraschallsonde</german>
     <english>Compact ultrasonic detector</english>
     <french>Palpeur ultrasonique compact</french>
   </headline>
   <description>
-    <deutsch>Beruehrungslose Messung
+    <german>Beruehrungslose Messung
 				Aktive Festzielausblendung
 				Temperaturkompensation
 				Kompakte Bauform
@@ -33,7 +33,7 @@
 				Funktionsueberwachung
 				Ausgangssignal Messbereiche 4 ...20mA/0 ...10V
 				Messbereich bis 8m
-				2-Leiter und 3-Leiter Anschluss</deutsch>
+				2-Leiter und 3-Leiter Anschluss</german>
     <english>Contactless measuring
 				Active fixed target dimming
 				Temperature compensation
@@ -54,10 +54,10 @@
 				Raccordement 2 et 3 conducteurs</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>13/13-01-02-E-us-100.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>13/13-01-02-E-us-100.pdf</path>

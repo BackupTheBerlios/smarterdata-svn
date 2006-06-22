@@ -5,35 +5,35 @@
   <category>11-00-02</category>
   <position>1</position>
   <icon>
-    <deutsch>info.mini.png</deutsch>
+    <german>info.mini.png</german>
     <english>info.mini.png</english>
     <french>info.mini.png</french>
   </icon>
   <image>
-    <deutsch />
+    <german />
     <english />
     <french />
   </image>
   <name>
-    <deutsch>Info 2 TK-30x</deutsch>
+    <german>Info 2 TK-30x</german>
     <english>Info 2 TK-30x</english>
     <french>Info 2 TK-30x</french>
   </name>
   <headline>
-    <deutsch>Allgemeine Beschreibung 2 Niveaumesswertgeber TK-30_</deutsch>
+    <german>Allgemeine Beschreibung 2 Niveaumesswertgeber TK-30_</german>
     <english>General description 2 level transducer TK-30_</english>
     <french>Description générale 2 transmetteur de mesure de niveau TK-30</french>
   </headline>
   <description>
-    <deutsch>-</deutsch>
+    <german>-</german>
     <english>-</english>
     <french>-</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>11/11-00-02-E-TK3x_allg_daten_2.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>11/11-00-02-E-TK3x_allg_daten_2.pdf</path>

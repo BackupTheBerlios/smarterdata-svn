@@ -11,29 +11,29 @@
   <linkto>OAA-100.A1-01-09-01</linkto>
   <linkto>OAA-100.A3-01-09-02</linkto>
   <icon>
-    <deutsch>t-208.f.small.png</deutsch>
+    <german>t-208.f.small.png</german>
     <english>t-208.f.small.png</english>
     <french>t-208.f.small.png</french>
   </icon>
   <image>
-    <deutsch>t-208.f.png</deutsch>
+    <german>t-208.f.png</german>
     <english>t-208.f.png</english>
     <french>t-208.f.png</french>
   </image>
   <name>
-    <deutsch>T-208.F</deutsch>
+    <german>T-208.F</german>
     <english>T-208.F</english>
     <french>T-208.F</french>
   </name>
   <headline>
-    <deutsch>Ueberfuellsicherung</deutsch>
+    <german>Ueberfuellsicherung</german>
     <english>Overfill cut-out device</english>
     <french>Sécurité antidebordement</french>
   </headline>
   <description>
-    <deutsch>Geeignet fuer aggressive, wassergefaehrdende Fluessigkeiten ( z.B. Saeuren, Laugen, waessrige Loesungen etc )
+    <german>Geeignet fuer aggressive, wassergefaehrdende Fluessigkeiten ( z.B. Saeuren, Laugen, waessrige Loesungen etc )
 				Allgemeine bauaufsichtliche Zulassung Z-65.11-404
-				Vollstaendige Ausfuehrung in PE, PPH und PVC</deutsch>
+				Vollstaendige Ausfuehrung in PE, PPH und PVC</german>
     <english>Appropriate for aggressive, water hazardous liquids (e.g. acids, bases, aqueous solutions, etc.)
 				General approval by the building authorities Z-65.11-404
 				Complete construction in PE, PPH and PVC</english>
@@ -43,10 +43,10 @@
 				Modèle complet en PE, PPH et PVC</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>01/01-01-01-E-T200F.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>01/01-01-01-E-T200F.pdf</path>
@@ -57,10 +57,10 @@
     </french>
   </datasheet>
   <otherdoc>
-    <deutsch>
+    <german>
       <name>Zulassung (Z-65.11-404)</name>
       <path>TestReport/Z-65.11-404.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Approval (Z-65.11-404)</name>
       <path>TestReport/Z-65.11-404.pdf</path>
@@ -71,10 +71,10 @@
     </french>
   </otherdoc>
   <otherdoc>
-    <deutsch>
+    <german>
       <name>Zulassung (alt Z-65.11-1)</name>
       <path>TestReport/Z-65.11-1-D-T-20.F.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Approval (ancient Z-65.11-1)</name>
       <path>TestReport/Z-65.11-1-D-T-20.F.pdf</path>
@@ -85,10 +85,10 @@
     </french>
   </otherdoc>
   <manual>
-    <deutsch>
+    <german>
       <name>Anleitung</name>
       <path>M-D-T20,TK30.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Manual</name>
       <path>M-D-T20,TK30.pdf</path>

@@ -5,35 +5,35 @@
   <category>06-03-01</category>
   <position>1</position>
   <icon>
-    <deutsch>info-ex.small.png</deutsch>
+    <german>info-ex.small.png</german>
     <english>info-ex.small.png</english>
     <french>info-ex.small.png</french>
   </icon>
   <image>
-    <deutsch />
+    <german />
     <english />
     <french />
   </image>
   <name>
-    <deutsch>Info 1 T-20x Ex</deutsch>
+    <german>Info 1 T-20x Ex</german>
     <english>Info 1 T-20x Ex</english>
     <french>Info 1 T-20x Ex</french>
   </name>
   <headline>
-    <deutsch>Allgemeine Beschreibung 1 fuer EX-Bereich Kategorie 1 (Zone 0)</deutsch>
+    <german>Allgemeine Beschreibung 1 fuer EX-Bereich Kategorie 1 (Zone 0)</german>
     <english>General description 1 for ex area category 1 (zone 0)</english>
     <french>Description générale 1 pour des zones à risque d´explosion catégorie 1 (Zone 0)</french>
   </headline>
   <description>
-    <deutsch>-</deutsch>
+    <german>-</german>
     <english>-</english>
     <french>-</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>06/06-03-01-E-T20x_EX_allg_daten_1.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>06/06-03-01-E-T20x_EX_allg_daten_1.pdf</path>

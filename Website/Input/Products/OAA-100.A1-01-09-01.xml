@@ -5,31 +5,31 @@
   <category>01-09-01</category>
   <position>1</position>
   <icon>
-    <deutsch>oaa-100.a1.small.png</deutsch>
+    <german>oaa-100.a1.small.png</german>
     <english>oaa-100.a1.small.png</english>
     <french>oaa-100.a1.small.png</french>
   </icon>
   <image>
-    <deutsch>oaa-100.a1.png</deutsch>
+    <german>oaa-100.a1.png</german>
     <english>oaa-100.a1.png</english>
     <french>oaa-100.a1.png</french>
   </image>
   <name>
-    <deutsch>OAA-100.A1</deutsch>
+    <german>OAA-100.A1</german>
     <english>OAA-100.A1</english>
     <french>OAA-100.A1</french>
   </name>
   <headline>
-    <deutsch>Alarmmelder (Messumformer)</deutsch>
+    <german>Alarmmelder (Messumformer)</german>
     <english>Alarm indicator (measuring transducer)</english>
     <french>Avertisseur (transducteur de mesure)</french>
   </headline>
   <description>
-    <deutsch>Optische und akustische Alarmanzeige
+    <german>Optische und akustische Alarmanzeige
 				Kompakter Aufbau z.B. in Schutzart IP 65 fuer Montage &quot;vor Ort&quot; am Behaelter
 				in 1, 2 oder Mehrfach-Ausfuehrung
 				Komplett mit externer Signalleuchte und Hupe als Option
-				Separate Ausgaenge zur Ansteuerung von Absperrventilen oder zur Weitermeldung an Leitwarten etc.</deutsch>
+				Separate Ausgaenge zur Ansteuerung von Absperrventilen oder zur Weitermeldung an Leitwarten etc.</german>
     <english>Optical alarm display and acoustical signal
 				Compact design e.g. of the protection class IP 65 for assembly &quot;on site&quot; on the tank
 				in 1, 2 or multiple type
@@ -42,10 +42,10 @@
 				Sorties séparées pour exciter des soupapes d`arrêt ou pour retransmettre à la salle de contrôle, etc.</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>01/01-09-01-E-OAA.A1.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>01/01-09-01-E-OAA.A1.pdf</path>
@@ -56,10 +56,10 @@
     </french>
   </datasheet>
   <manual>
-    <deutsch>
+    <german>
       <name>Betriebsanleitung</name>
       <path>M-D-oaa-100_a1.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Operating instruction</name>
       <path>M-D-oaa-100_a1.pdf</path>

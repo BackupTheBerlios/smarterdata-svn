@@ -5,33 +5,33 @@
   <category>11-01-02</category>
   <position>1</position>
   <icon>
-    <deutsch>tk-301_ptfe.small.png</deutsch>
+    <german>tk-301_ptfe.small.png</german>
     <english>tk-301_ptfe.small.png</english>
     <french>tk-301_ptfe.small.png</french>
   </icon>
   <image>
-    <deutsch>tk-301_ptfe.png</deutsch>
+    <german>tk-301_ptfe.png</german>
     <english>tk-301_ptfe.png</english>
     <french>tk-301_ptfe.png</french>
   </image>
   <name>
-    <deutsch>TK-301</deutsch>
+    <german>TK-301</german>
     <english>TK-301</english>
     <french>TK-301</french>
   </name>
   <headline>
-    <deutsch>Niveaumesswertgeber PTFE</deutsch>
+    <german>Niveaumesswertgeber PTFE</german>
     <english>Level transducer made of PTFE</english>
     <french>Transmetteur de mesure de niveau PTFE</french>
   </headline>
   <description>
-    <deutsch>Fuellhoehenanzeige unabhaengig von: Temperatur, Druck, Medium, Dampfbildung und Behaeltereinbauten
+    <german>Fuellhoehenanzeige unabhaengig von: Temperatur, Druck, Medium, Dampfbildung und Behaeltereinbauten
 				Preisguenstige Ausfuehrung mit Kabelanschluss
 				Komplett aus PTFE
 				Aufloesungen 7,5/10/15/20mm moeglich
 				Ausgangssignal (2-,3- Leiter Widerstand) zur einfachen preiswerten Signalauswertung
 				Grosser Betriebstemperaturbereich
-				Sonderausfuehrungen nach Kundenspezifikation.</deutsch>
+				Sonderausfuehrungen nach Kundenspezifikation.</german>
     <english>Display of filling height independent of temperature, pressure, medium, vapor formation and tank fixtures
 				Cost-efficient design with cable connection
 				Completely made of PTFE
@@ -49,10 +49,10 @@
 				Modèles spécifiques fabriqués sur mesure pour le client</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>11/11-01-02-E-tk-301_tk-302.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>11/11-01-02-E-tk-301_tk-302.pdf</path>

@@ -11,32 +11,32 @@
   <linkto>W-352-02-02-01</linkto>
   <linkto>W-353-02-02-01</linkto>
   <icon>
-    <deutsch>bk-390.small.png</deutsch>
+    <german>bk-390.small.png</german>
     <english>bk-390.small.png</english>
     <french>bk-390.small.png</french>
   </icon>
   <image>
-    <deutsch>bk-390.png</deutsch>
+    <german>bk-390.png</german>
     <english>bk-390.png</english>
     <french>bk-390.png</french>
   </image>
   <name>
-    <deutsch>BK-390</deutsch>
+    <german>BK-390</german>
     <english>BK-390</english>
     <french>BK-390</french>
   </name>
   <headline>
-    <deutsch>Bistabiler Wechselkontakt</deutsch>
+    <german>Bistabiler Wechselkontakt</german>
     <english>Bistable change-over contact</english>
     <french>Contact inverseur à deux positions</french>
   </headline>
   <description>
-    <deutsch>Schaltkontakte (magnetisch)
+    <german>Schaltkontakte (magnetisch)
 				Bistabile Schaltkontakte mit Mikroschalter
 				Hohe Schaltleistung
 				Universell einsetzbar
 				Extrem unempfindlich gegen Erschuetterungen
-				Manuell betaetigbar fuer einfache Inbetriebnahme</deutsch>
+				Manuell betaetigbar fuer einfache Inbetriebnahme</german>
     <english>Switching contact (magnetic)
 				Bistable switching contacts with microswitch
 				High breaking capacity
@@ -51,10 +51,10 @@
 				Opération manuelle pour une mise en service simple</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>03/03-01-01-E-BK-390.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>03/03-01-01-E-BK-390.pdf</path>

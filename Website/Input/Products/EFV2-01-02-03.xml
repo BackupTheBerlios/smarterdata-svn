@@ -5,29 +5,29 @@
   <category>01-02-03</category>
   <position>1</position>
   <icon>
-    <deutsch>efv2.small.png</deutsch>
+    <german>efv2.small.png</german>
     <english>efv2.small.png</english>
     <french>efv2.small.png</french>
   </icon>
   <image>
-    <deutsch>efv2.png</deutsch>
+    <german>efv2.png</german>
     <english>efv2.png</english>
     <french>efv2.png</french>
   </image>
   <name>
-    <deutsch>EFV2</deutsch>
+    <german>EFV2</german>
     <english>EFV2</english>
     <french>EFV2</french>
   </name>
   <headline>
-    <deutsch>Ueberfuellsicherung Konduktive Elektrode</deutsch>
+    <german>Ueberfuellsicherung Konduktive Elektrode</german>
     <english>Overfill cut-out device conductive electrodes</english>
     <french>Protection contre le trop-plein électrode conductive</french>
   </headline>
   <description>
-    <deutsch>Geeignet fuer aggressive, wassergefaehrdende Fluessigkeiten ( z.B. Saeuren, Laugen, waessrige Loesungen etc )
+    <german>Geeignet fuer aggressive, wassergefaehrdende Fluessigkeiten ( z.B. Saeuren, Laugen, waessrige Loesungen etc )
 				Allgemeine bauaufsichtliche Zulassung Z-65.13-100, Z-65.13-405
-				Staebe aus Edelstahl, Hastelloy, Titan, Tantal, Monell oder Glaskohlenstoff</deutsch>
+				Staebe aus Edelstahl, Hastelloy, Titan, Tantal, Monell oder Glaskohlenstoff</german>
     <english>Appropriate for aggressive, water hazardous liquids (e.g. acids, bases, aqueous solutions, etc.)
 				General approval by the building authorities Z-65.13-100, Z-65.13-405
 				Bars made of special steel, Hastelloy, titanium, tantalum, monel metal or Glassy carbon</english>
@@ -37,10 +37,10 @@
 				Barres en acier inox, Hastelloy, titane, tantale, Monel ou Carbone vitreux</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>01/01-02-03-E-efv2.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>01/01-02-03-E-efv2.pdf</path>
@@ -51,10 +51,10 @@
     </french>
   </datasheet>
   <otherdoc>
-    <deutsch>
+    <german>
       <name>Zulassung (Z-65.13-100)</name>
       <path>TestReport/Z-65.13-100-D-EF2,EFV2.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Approval (Z-65.13-100)</name>
       <path>TestReport/Z-65.13-100-D-EF2,EFV2.pdf</path>
@@ -65,10 +65,10 @@
     </french>
   </otherdoc>
   <otherdoc>
-    <deutsch>
+    <german>
       <name>Zulassung (Z-65.13-405)</name>
       <path>TestReport/Z-65.13-405.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Approval (Z-65.13-405)</name>
       <path>TestReport/Z-65.13-405.pdf</path>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <item>
 	<image>
-	    <deutsch>other/atex.de.png</deutsch>
+	    <german>other/atex.de.png</german>
     	<english>other/atex.en.png</english>
 	    <french>other/atex.fr.png</french>
 	</image>
 	<linkto>
-	    <deutsch>documents/Otherdoc/TestReport/ATEX_1172_Q-D-E-.pdf</deutsch>
+	    <german>documents/Otherdoc/TestReport/ATEX_1172_Q-D-E-.pdf</german>
     	<english>documents/Otherdoc/TestReport/ATEX_1172_Q-D-E-.pdf</english>
 	    <french>documents/Otherdoc/TestReport/ATEX_1172_Q-D-E-.pdf</french>
 	</linkto>

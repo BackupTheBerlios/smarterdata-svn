@@ -5,31 +5,31 @@
   <category>04-01-03</category>
   <position>1</position>
   <icon>
-    <deutsch>he-ptfe.small.png</deutsch>
+    <german>he-ptfe.small.png</german>
     <english>he-ptfe.small.png</english>
     <french>he-ptfe.small.png</french>
   </icon>
   <image>
-    <deutsch>he-ptfe.png</deutsch>
+    <german>he-ptfe.png</german>
     <english>he-ptfe.png</english>
     <french>he-ptfe.png</french>
   </image>
   <name>
-    <deutsch>HE-PTFE</deutsch>
+    <german>HE-PTFE</german>
     <english>HE-PTFE</english>
     <french>HE-PTFE</french>
   </name>
   <headline>
-    <deutsch>Haengeelektrode -einfach, mehrfach-</deutsch>
+    <german>Haengeelektrode -einfach, mehrfach-</german>
     <english>Suspended electrode -simple, multiple-</english>
     <french>Electrode suspendue -simple, multiple-</french>
   </headline>
   <description>
-    <deutsch>Geeignet fuer alle leitfaehigen, aggressiven Medien (z.B. Saeuren, Laugen), waessrige Loesungen, Wasser, Abwasser oder andere leitfaehige Fluessigkeiten
+    <german>Geeignet fuer alle leitfaehigen, aggressiven Medien (z.B. Saeuren, Laugen), waessrige Loesungen, Wasser, Abwasser oder andere leitfaehige Fluessigkeiten
 				Fuehlerstaebe aus: Edelstahl, Hastelloy B und C, Titan und Tantal
 				Haengeausfuehrungen fuer grosse Tiefen oder schwierige Montagebedingungen
 				Verstellbare Ausfuehrungen zur nachtraeglichen Anpassung der Schaltpunkte
-				Sonderausfuehrungen und spezielle Elektroden nach Kundenwuenschen moeglich</deutsch>
+				Sonderausfuehrungen und spezielle Elektroden nach Kundenwuenschen moeglich</german>
     <english>Appropriate for all conductive, aggressive media (e.g. acids, bases), aqueous solutions, 
 				water, sewage or other conductive liquids
 				Detector bar made of : special steel, Hastelloy B and C, titanium and tanalium
@@ -44,10 +44,10 @@
 				Construction spéciale et électrodes spéciales sur demande du client</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>04/04-01-03-E-stell_haenge-elektroden.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>04/04-01-03-E-stell_haenge-elektroden.pdf</path>

@@ -5,33 +5,33 @@
   <category>09-01-01</category>
   <position>1</position>
   <icon>
-    <deutsch>nsp-2-e.small.png</deutsch>
+    <german>nsp-2-e.small.png</german>
     <english>nsp-2-e.small.png</english>
     <french>nsp-2-e.small.png</french>
   </icon>
   <image>
-    <deutsch>nsp-2-e.png</deutsch>
+    <german>nsp-2-e.png</german>
     <english>nsp-2-e.png</english>
     <french>nsp-2-e.png</french>
   </image>
   <name>
-    <deutsch>NSP-2-E</deutsch>
+    <german>NSP-2-E</german>
     <english>NSP-2-E</english>
     <french>NSP-2-E</french>
   </name>
   <headline>
-    <deutsch>Vibrationsgrenzwertschalter</deutsch>
+    <german>Vibrationsgrenzwertschalter</german>
     <english>Vibration limit value switch</english>
     <french>Interrupteur de valeurs limites de vibration</french>
   </headline>
   <description>
-    <deutsch>Universelle Ausfuehrung
+    <german>Universelle Ausfuehrung
 				Low-Cost-Version
 				18..30V DC-Version
 				4-Leiter-Technik
 				Schaltfunktion PNP
 				Funktionstest mit Pruefmagnet im eingebauten Zustand
-				WHG-Bescheinigung</deutsch>
+				WHG-Bescheinigung</german>
     <english>Universal type
 				Low-Cost-Version
 				18..30V DC Version
@@ -48,10 +48,10 @@
 				Certificat WHG</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>09/09-01-01-E-nsp-1-e.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>09/09-01-01-E-nsp-1-e.pdf</path>

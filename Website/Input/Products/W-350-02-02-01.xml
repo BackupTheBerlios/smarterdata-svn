@@ -5,29 +5,29 @@
   <category>02-02-01</category>
   <position>1</position>
   <icon>
-    <deutsch>w-351.small.png</deutsch>
+    <german>w-351.small.png</german>
     <english>w-351.small.png</english>
     <french>w-351.small.png</french>
   </icon>
   <image>
-    <deutsch>w-351.png</deutsch>
+    <german>w-351.png</german>
     <english>w-351.png</english>
     <french>w-351.png</french>
   </image>
   <name>
-    <deutsch>W-350</deutsch>
+    <german>W-350</german>
     <english>W-350</english>
     <french>W-350</french>
   </name>
   <headline>
-    <deutsch>Wasserstandsanzeiger</deutsch>
+    <german>Wasserstandsanzeiger</german>
     <english>Water level gauge</english>
     <french>Indicateur de niveau d´eau</french>
   </headline>
   <description>
-    <deutsch>Vorortanzeige durch transparentes Rohr (Hartglas, Plexiglas, PVC-transparent)
+    <german>Vorortanzeige durch transparentes Rohr (Hartglas, Plexiglas, PVC-transparent)
 				PVC-, Rotgusseckventile, Edelstahlboegen
-				Grenzkontakte und -geber fuer Fernanzeige</deutsch>
+				Grenzkontakte und -geber fuer Fernanzeige</german>
     <english>On-site display by a transparent tube (hard glass, Plexiglas, transparent PVC)
 				PVC-, red bronze corner valves, special steel bows
 				Limit contacts and transmitting devices for remote display</english>
@@ -36,10 +36,10 @@
 				Contacts et transmetteurs pour le téléaffichage</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>02/02-02-01-E-W-350.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>02/02-02-01-E-W-350.pdf</path>
@@ -50,10 +50,10 @@
     </french>
   </datasheet>
   <manual>
-    <deutsch>
+    <german>
       <name>Betriebsanleitung W-350</name>
       <path>M-D-w-350.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Operating instruction W-350</name>
       <path>M-D-w-350.pdf</path>
@@ -64,10 +64,10 @@
     </french>
   </manual>
   <manual>
-    <deutsch>
+    <german>
       <name>Betriebsanleitung W-351</name>
       <path>M-D-w-351.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Operating instruction W-351</name>
       <path>M-D-w-351.pdf</path>
@@ -78,10 +78,10 @@
     </french>
   </manual>
   <manual>
-    <deutsch>
+    <german>
       <name>Betriebsanleitung W-352</name>
       <path>M-D-w-352.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Operating instruction W-352</name>
       <path>M-D-w-352.pdf</path>

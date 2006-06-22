@@ -5,30 +5,30 @@
   <category>04-02-02</category>
   <position>1</position>
   <icon>
-    <deutsch>ee-22.small.png</deutsch>
+    <german>ee-22.small.png</german>
     <english>ee-22.small.png</english>
     <french>ee-22.small.png</french>
   </icon>
   <image>
-    <deutsch>ee-22.png</deutsch>
+    <german>ee-22.png</german>
     <english>ee-22.png</english>
     <french>ee-22.png</french>
   </image>
   <name>
-    <deutsch>EE-22</deutsch>
+    <german>EE-22</german>
     <english>EE-22</english>
     <french>EE-22</french>
   </name>
   <headline>
-    <deutsch>Elektrode -mehrfach- fuer EX-Bereich Kategorie 1 (Zone 0)</deutsch>
+    <german>Elektrode -mehrfach- fuer EX-Bereich Kategorie 1 (Zone 0)</german>
     <english>Electrode - multiple- for EX area category 1 (zone 0)</english>
     <french>Electrode -multiple- pour la zone à risque d´explosion catégorie 1 (zone 0)</french>
   </headline>
   <description>
-    <deutsch>Konduktive Messung in explosionsgefaehrdeten Bereichen mit EG-Baumusterpruefbescheinigung
+    <german>Konduktive Messung in explosionsgefaehrdeten Bereichen mit EG-Baumusterpruefbescheinigung
 				Einsatz der Fuehler im [EX]-Bereich bis Kategorie 1 (Zone 0)
 				ATEX-Zulassung TUEV 02 ATEX 1796 X
-				Ueberfuellsicherung EX und WHG Z-65.13-405</deutsch>
+				Ueberfuellsicherung EX und WHG Z-65.13-405</german>
     <english>Conductive measuring in potentially explosive areas with EG type test certificate
 				Use of the detectors for the [EX] area up to category 1 (zone 0) 
 				ATEX approval TUEV 02 ATEX 1796 X
@@ -39,10 +39,10 @@
 				Protection contre le trop-plein EX et WHG Z-65.13-405</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>04/04-02-02-E-ee-2122.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>04/04-02-02-E-ee-2122.pdf</path>
@@ -53,10 +53,10 @@
     </french>
   </datasheet>
   <otherdoc>
-    <deutsch>
+    <german>
       <name>ATEX-Zulassung (TUEV 02 ATEX 1796 X)</name>
       <path>TestReport/ATEX_1796_X_EE-20,EE-21.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>ATEX approval(TUEV 02 ATEX 1796 X)</name>
       <path>TestReport/ATEX_1796_X_EE-20,EE-21.pdf</path>
@@ -67,10 +67,10 @@
     </french>
   </otherdoc>
   <otherdoc>
-    <deutsch>
+    <german>
       <name>Zulassung (Z-65.13-405)</name>
       <path>TestReport/Z-65.13-405.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Approval (Z-65.13-405)</name>
       <path>TestReport/Z-65.13-405.pdf</path>

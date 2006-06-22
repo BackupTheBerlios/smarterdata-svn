@@ -5,31 +5,31 @@
   <category>02-01-01</category>
   <position>1</position>
   <icon>
-    <deutsch>mta.small.png</deutsch>
+    <german>mta.small.png</german>
     <english>mta.small.png</english>
     <french>mta.small.png</french>
   </icon>
   <image>
-    <deutsch>mta.png</deutsch>
+    <german>mta.png</german>
     <english>mta.png</english>
     <french>mta.png</french>
   </image>
   <name>
-    <deutsch>MTA</deutsch>
+    <german>MTA</german>
     <english>MTA</english>
     <french>MTA</french>
   </name>
   <headline>
-    <deutsch>Mechanischer Tankinhaltsanzeiger</deutsch>
+    <german>Mechanischer Tankinhaltsanzeiger</german>
     <english>Mechanic display of tank contents</english>
     <french>Témoin de jauge de contenance de réservoir</french>
   </headline>
   <description>
-    <deutsch>Keine seitlichen Behaelteroeffnungen noetig
+    <german>Keine seitlichen Behaelteroeffnungen noetig
 				Verklemmsichere Umlenkrollen
 				Ideal fuer alle Lagerbehaelter
 				Optische &quot;vor Ort&quot;-Anzeige auch bei hohen Lagertanks
-				Grenzkontakte und Geber fuer Fernanzeige als Zubehoer</deutsch>
+				Grenzkontakte und Geber fuer Fernanzeige als Zubehoer</german>
     <english>Clamp-proof deflection pulleys
 				Ideal for all storage tanks
 				Optical ?on site? display also for high storage tanks
@@ -41,10 +41,10 @@
 				Contacts et transmetteur pour le téléaffichage en option</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>02/02-01-01-E-MTA.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>02/02-01-01-E-MTA.pdf</path>

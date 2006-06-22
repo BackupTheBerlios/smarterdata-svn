@@ -5,32 +5,32 @@
   <category>09-01-01</category>
   <position>1</position>
   <icon>
-    <deutsch>nsp-1-e.small.png</deutsch>
+    <german>nsp-1-e.small.png</german>
     <english>nsp-1-e.small.png</english>
     <french>nsp-1-e.small.png</french>
   </icon>
   <image>
-    <deutsch>nsp-1-e.png</deutsch>
+    <german>nsp-1-e.png</german>
     <english>nsp-1-e.png</english>
     <french>nsp-1-e.png</french>
   </image>
   <name>
-    <deutsch>NSP-1-E</deutsch>
+    <german>NSP-1-E</german>
     <english>NSP-1-E</english>
     <french>NSP-1-E</french>
   </name>
   <headline>
-    <deutsch>Vibrationsgrenzwertschalter</deutsch>
+    <german>Vibrationsgrenzwertschalter</german>
     <english>Vibration limit value switch</english>
     <french>Interrupteur de valeurs limites de vibration</french>
   </headline>
   <description>
-    <deutsch>Universelle Ausfuehrung
+    <german>Universelle Ausfuehrung
 				Low-Cost-Version
 				18..30VDC-Version
 				4-Leiter-Technik
 				Schaltfunktion PNP
-				Funktionstest mit Pruefmagnet im eingebauten Zustand</deutsch>
+				Funktionstest mit Pruefmagnet im eingebauten Zustand</german>
     <english>Universal type
 				Low-Cost-Version
 				18..30V DC Version
@@ -45,10 +45,10 @@
 				Test de fonctionnement avec aimant de contrôle en état installé</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>09/09-01-01-E-nsp-1-e.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>09/09-01-01-E-nsp-1-e.pdf</path>
@@ -59,10 +59,10 @@
     </french>
   </datasheet>
   <manual>
-    <deutsch>
+    <german>
       <name>Betriebsanleitung</name>
       <path>M-D-nsp-1.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Operating instruction</name>
       <path>M-D-nsp-1.pdf</path>

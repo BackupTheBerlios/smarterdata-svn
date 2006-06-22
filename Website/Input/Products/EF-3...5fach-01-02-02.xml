@@ -5,35 +5,35 @@
   <category>01-02-02</category>
   <position>1</position>
   <icon>
-    <deutsch>ef-3...5.small.png</deutsch>
+    <german>ef-3...5.small.png</german>
     <english>ef-3...5.small.png</english>
     <french>ef-3...5.small.png</french>
   </icon>
   <image>
-    <deutsch>ef-3...5.png</deutsch>
+    <german>ef-3...5.png</german>
     <english>ef-3...5.png</english>
     <french>ef-3...5.png</french>
   </image>
   <name>
-    <deutsch>EF-3...5</deutsch>
+    <german>EF-3...5</german>
     <english>EF-3...5</english>
     <french>EF-3...5</french>
   </name>
   <headline>
-    <deutsch>Elektroden -mehrfach- vorbereitet fuer Elektronikteil vorbereitet</deutsch>
+    <german>Elektroden -mehrfach- vorbereitet fuer Elektronikteil vorbereitet</german>
     <english>Electrodes -multiple- prepared for electronics part</english>
     <french>Electrodes conductibles -multiples- préparées à recevoir un relais à électrode integré</french>
   </headline>
   <description>
-    <deutsch>-</deutsch>
+    <german>-</german>
     <english>-</english>
     <french>-</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>01/01-02-02-E-ef3-5_et-4.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>01/01-02-02-E-ef3-5_et-4.pdf</path>

@@ -5,32 +5,32 @@
   <category>06-01-03</category>
   <position>1</position>
   <icon>
-    <deutsch>t-205-s.small.png</deutsch>
+    <german>t-205-s.small.png</german>
     <english>t-205-s.small.png</english>
     <french>t-205-s.small.png</french>
   </icon>
   <image>
-    <deutsch>t-205-s.png</deutsch>
+    <german>t-205-s.png</german>
     <english>t-205-s.png</english>
     <french>t-205-s.png</french>
   </image>
   <name>
-    <deutsch>T-205-S</deutsch>
+    <german>T-205-S</german>
     <english>T-205-S</english>
     <french>T-205-S</french>
   </name>
   <headline>
-    <deutsch>T-205 mit Schutzrohr</deutsch>
+    <german>T-205 mit Schutzrohr</german>
     <english>T-205 with protective tube</english>
     <french>T-205 avec tube protecteur</french>
   </headline>
   <description>
-    <deutsch>Geeignet fuer die Erfassung und Steuerung von Fluessigkeiten
+    <german>Geeignet fuer die Erfassung und Steuerung von Fluessigkeiten
 				Preisguenstige Ausfuehrung mit Kabelanschluss
 				Komplett aus PPH bzw. PVC
 				Potentialfreier Schaltkontakt
 				Temperatur-, druck- und medienunabhaengige Fuellstandserfassung
-				Integriertes Fixiergewicht</deutsch>
+				Integriertes Fixiergewicht</german>
     <english>Appropriate for the capturing and control of liquids
 				Price-efficient type with cable connection
 				Completely made of PPH or PVC
@@ -45,10 +45,10 @@
 				Poids de fixage intégré</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>06/06-01-03-E-T205.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>06/06-01-03-E-T205.pdf</path>
@@ -59,10 +59,10 @@
     </french>
   </datasheet>
   <manual>
-    <deutsch>
+    <german>
       <name>Betriebsanleitung Magnettauchsonden allgemein</name>
       <path>M-D-magnettauchsonde.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Operating manual magnetic submerged detectors general</name>
       <path>M-D-magnettauchsonde.pdf</path>

@@ -5,38 +5,38 @@
   <category>14-02-01</category>
   <position>1</position>
   <icon>
-    <deutsch>tk-313.small.png</deutsch>
+    <german>tk-313.small.png</german>
     <english>tk-313.small.png</english>
     <french>tk-313.small.png</french>
   </icon>
   <image>
-    <deutsch>tk-313.png</deutsch>
+    <german>tk-313.png</german>
     <english>tk-313.png</english>
     <french>tk-313.png</french>
   </image>
   <name>
-    <deutsch>TK-313</deutsch>
+    <german>TK-313</german>
     <english>TK-313</english>
     <french>TK-313</french>
   </name>
   <headline>
-    <deutsch>Auswertegeraet</deutsch>
+    <german>Auswertegeraet</german>
     <english>Evaluation device</english>
     <french>Unité d'évaluation</french>
   </headline>
   <description>
-    <deutsch>2 Grenzkontakte in einem Geraet
-				Min-Max-Steuerung oder Grenzwerte</deutsch>
+    <german>2 Grenzkontakte in einem Geraet
+				Min-Max-Steuerung oder Grenzwerte</german>
     <english>2 limit contacts on one device
 				Min-max control or limit values</english>
     <french>2 contacts limites sur une unité
 				Réglage Min-Max ou valeurs limites</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>14/14-02-01-E-tk-313.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>14/14-02-01-E-tk-313.pdf</path>
@@ -47,10 +47,10 @@
     </french>
   </datasheet>
   <manual>
-    <deutsch>
+    <german>
       <name>Betriebsanleitung</name>
       <path>M-D-tk-313.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Operating instruction</name>
       <path>M-D-tk-313.pdf</path>

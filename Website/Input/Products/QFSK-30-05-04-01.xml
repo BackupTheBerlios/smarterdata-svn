@@ -5,30 +5,30 @@
   <category>05-04-01</category>
   <position>1</position>
   <icon>
-    <deutsch>qfsk-30.small.png</deutsch>
+    <german>qfsk-30.small.png</german>
     <english>qfsk-30.small.png</english>
     <french>qfsk-30.small.png</french>
   </icon>
   <image>
-    <deutsch>qfsk-30.png</deutsch>
+    <german>qfsk-30.png</german>
     <english>qfsk-30.png</english>
     <french>qfsk-30.png</french>
   </image>
   <name>
-    <deutsch>QFSK-30</deutsch>
+    <german>QFSK-30</german>
     <english>QFSK-30</english>
     <french>QFSK-30</french>
   </name>
   <headline>
-    <deutsch>Schwimmschalterkombination Kunststoff quecksilberfrei</deutsch>
+    <german>Schwimmschalterkombination Kunststoff quecksilberfrei</german>
     <english>Float type switch combination made of plastic mercury-free</english>
     <french>Combinaison d´interrupteurs à flotteur en plastique sans mercure</french>
   </headline>
   <description>
-    <deutsch>Einfache kostenguenstige Fuellstandsmessung mit ueberzeugendem Preis / Leistungsverhaeltnis
+    <german>Einfache kostenguenstige Fuellstandsmessung mit ueberzeugendem Preis / Leistungsverhaeltnis
 				Schwimmer aus dem Materia: PE, PPH oder PVC
 				Spezialkabel aus: TPK (PVC), Silikon und FEP (Teflon)
-				Mikroschalter (Gold- und Silberkontakt)</deutsch>
+				Mikroschalter (Gold- und Silberkontakt)</german>
     <english>Simple, cost-efficient level measuring with a convincing price / performance ratio
 				Float made of the material: PE, PPH or PVC 
 				Special cable made of: TPK (PVC), silicone and  FEP (Teflon)
@@ -39,10 +39,10 @@
 				Microrupteur (Contact d&apos;argent ou d&apos;or)</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>05/05-04-01-E-qfsk-3_.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>05/05-04-01-E-qfsk-3_.pdf</path>

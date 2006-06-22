@@ -13,33 +13,33 @@
   <linkto>ET-430-04-01-04</linkto>
   <linkto>ET-440-04-01-04</linkto>
   <icon>
-    <deutsch>e-2___5fach.small.png</deutsch>
+    <german>e-2___5fach.small.png</german>
     <english>e-2___5fach.small.png</english>
     <french>e-2___5fach.small.png</french>
   </icon>
   <image>
-    <deutsch>e-2___5fach.png</deutsch>
+    <german>e-2___5fach.png</german>
     <english>e-2___5fach.png</english>
     <french>e-2___5fach.png</french>
   </image>
   <name>
-    <deutsch>E-2...5fach</deutsch>
+    <german>E-2...5fach</german>
     <english>E-2...5fach</english>
     <french>E-2...5fach</french>
   </name>
   <headline>
-    <deutsch>Elektrode mehrfach 24V Direktanschluss</deutsch>
+    <german>Elektrode mehrfach 24V Direktanschluss</german>
     <english>Electrode multiple 24V direct connection</english>
     <french>Electrode multiple 24V raccordement direct</french>
   </headline>
   <description>
-    <deutsch>Geeignet fuer alle leitfaehigen, aggressiven Medien (z.B. Saeuren, Laugen), waessrige Loesungen, 
+    <german>Geeignet fuer alle leitfaehigen, aggressiven Medien (z.B. Saeuren, Laugen), waessrige Loesungen, 
 				Wasser, Abwasser oder andere leitfaehige Fluessigkeiten
 				Gewindeanschluesse und Gehaeuse aus: PE, PPH, PVC, PTFE und PVDF
 				Fuehlerstaebe aus: Edelstahl, Hastelloy B und C, Titan und Tantal
 				Bis zu 4 Schaltpunkte mit einer Elektrode
 				Sonderausfuehrungen und spezielle Elektroden nach Kundenwuenschen
-				Fuer Elektronik im Anschlusskopf vorbereitet</deutsch>
+				Fuer Elektronik im Anschlusskopf vorbereitet</german>
     <english>Appropriate for all conductive, aggressive media (e.g. acids, bases), aqueous solutions, 
 				water, sewage or other conductive liquids
 				Threaded connections and housings made of : PE, PPH, PVC, PTFE and PVDF 
@@ -56,10 +56,10 @@
 				Préparé pour l´électronique dans la tête de connexion</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>04/04-01-04-E-e-2-5_et-4.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>04/04-01-04-E-e-2-5_et-4.pdf</path>

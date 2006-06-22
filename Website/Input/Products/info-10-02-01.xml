@@ -5,35 +5,35 @@
   <category>10-02-01</category>
   <position>1</position>
   <icon>
-    <deutsch>info.mini.png</deutsch>
+    <german>info.mini.png</german>
     <english>info.mini.png</english>
     <french>info.mini.png</french>
   </icon>
   <image>
-    <deutsch />
+    <german />
     <english />
     <french />
   </image>
   <name>
-    <deutsch>Info ER-107/217/145</deutsch>
+    <german>Info ER-107/217/145</german>
     <english>Info ER-107/217/145</english>
     <french>Info ER-107/217/145</french>
   </name>
   <headline>
-    <deutsch>Allgemeine Beschreibung ER-107/217/145</deutsch>
+    <german>Allgemeine Beschreibung ER-107/217/145</german>
     <english>General description ER-107/217/145</english>
     <french>Description générale ER-107/217/145</french>
   </headline>
   <description>
-    <deutsch>-</deutsch>
+    <german>-</german>
     <english>-</english>
     <french>-</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>10/10-02-01-E-elektrodenrelais_whg_er-107b.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>10/10-02-01-E-elektrodenrelais_whg_er-107b.pdf</path>

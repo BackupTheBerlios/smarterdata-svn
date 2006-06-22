@@ -5,29 +5,29 @@
   <category>07-01-02</category>
   <position>1</position>
   <icon>
-    <deutsch>nopic.small.png</deutsch>
+    <german>nopic.small.png</german>
     <english>nopic.small.png</english>
     <french>nopic.small.png</french>
   </icon>
   <image>
-    <deutsch />
+    <german />
     <english />
     <french />
   </image>
   <name>
-    <deutsch>NP-256</deutsch>
+    <german>NP-256</german>
     <english>NP-256</english>
     <french>NP-256</french>
   </name>
   <headline>
-    <deutsch>Niveauschalter -pneumatisch- -mehrfach-</deutsch>
+    <german>Niveauschalter -pneumatisch- -mehrfach-</german>
     <english>Level switch -pneumatic- -multiple-</english>
     <french>Interrupteur de niveau ?pneumatique- -multiple-</french>
   </headline>
   <description>
-    <deutsch>Kombinationen mit bis zu 4 Schaltpunkten ab 2&quot; Gewindeanschluss
+    <german>Kombinationen mit bis zu 4 Schaltpunkten ab 2&quot; Gewindeanschluss
 				Geeignet fuer aggressive Medien durch Verwendung von Viton- oder EPDM-Membranen
-				Feste, starre Rohre oder flexibler, leicht zu reinigender Schlauch</deutsch>
+				Feste, starre Rohre oder flexibler, leicht zu reinigender Schlauch</german>
     <english>Combinations with up to 4 switch points from 2? thread connection
 				Appropriate for aggressive media by using Viton or EPDM membranes
 				Fixed rigid tubes or flexible, easy-to-clean tube</english>
@@ -36,10 +36,10 @@
 				Tubes solides, rigides ou tubes flexibles, simples à nettoyer</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>07/07-01-02-E-np-255.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>07/07-01-02-E-np-255.pdf</path>

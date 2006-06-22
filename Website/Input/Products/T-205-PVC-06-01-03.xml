@@ -5,34 +5,34 @@
   <category>06-01-03</category>
   <position>1</position>
   <icon>
-    <deutsch>t-205_kunststoff.small.png</deutsch>
+    <german>t-205_kunststoff.small.png</german>
     <english>t-205_kunststoff.small.png</english>
     <french>t-205_kunststoff.small.png</french>
   </icon>
   <image>
-    <deutsch>t-205_kunststoff.png</deutsch>
+    <german>t-205_kunststoff.png</german>
     <english>t-205_kunststoff.png</english>
     <french>t-205_kunststoff.png</french>
   </image>
   <name>
-    <deutsch>T-205</deutsch>
+    <german>T-205</german>
     <english>T-205</english>
     <french>T-205</french>
   </name>
   <headline>
-    <deutsch>Magnettauchsonde T-205</deutsch>
+    <german>Magnettauchsonde T-205</german>
     <english>Magnetic submerged detectors T-205</english>
     <french>Sondes plongées magnétique T-205</french>
   </headline>
   <description>
-    <deutsch>Geeignet fuer die Erfassung und Steuerung von Fluessigkeiten
+    <german>Geeignet fuer die Erfassung und Steuerung von Fluessigkeiten
 				Preisguenstige Ausfuehrung mit Kabelanschluss
 				Komplett aus Edelstahl (1.4571), Messing oder PPH
 				Potentialfreie Schaltkontakte
 				Temperatur-, druck- und medienunabhaengige Fuellstandserfassung
 				Miniaturausfuehrung
 				Vielzahl von Schwimmertypen
-				Sonderausfuehrungen nach Kundenspezifikation.</deutsch>
+				Sonderausfuehrungen nach Kundenspezifikation.</german>
     <english>Appropriate for the capturing and control of liquids
 				Price-efficient type with cable connection
 				Completely made of special steel (1.4571), brass of PPH
@@ -51,10 +51,10 @@
 				Modèles spécifiques fabriqués sur mesure pour le client</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>06/06-01-03-E-T205.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>06/06-01-03-E-T205.pdf</path>
@@ -65,10 +65,10 @@
     </french>
   </datasheet>
   <manual>
-    <deutsch>
+    <german>
       <name>Betriebsanleitung Magnettauchsonden allgemein</name>
       <path>M-D-magnettauchsonde.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Operating manual magnetic submerged detectors general</name>
       <path>M-D-magnettauchsonde.pdf</path>

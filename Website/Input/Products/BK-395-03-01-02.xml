@@ -11,35 +11,35 @@
   <linkto>W-352-02-02-01</linkto>
   <linkto>W-353-02-02-01</linkto>
   <icon>
-    <deutsch>nopic.small.png</deutsch>
+    <german>nopic.small.png</german>
     <english>nopic.small.png</english>
     <french>nopic.small.png</french>
   </icon>
   <image>
-    <deutsch>nopic.png</deutsch>
+    <german>nopic.png</german>
     <english>nopic.png</english>
     <french>nopic.png</french>
   </image>
   <name>
-    <deutsch>BK-395</deutsch>
+    <german>BK-395</german>
     <english>BK-395</english>
     <french>BK-395</french>
   </name>
   <headline>
-    <deutsch>Bistabiler Wechselkontakt</deutsch>
+    <german>Bistabiler Wechselkontakt</german>
     <english>Bistable change-over contact</english>
     <french>Contact inverseur à deux positions</french>
   </headline>
   <description>
-    <deutsch>-</deutsch>
+    <german>-</german>
     <english>-</english>
     <french>-</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>03/03-01-02-E-BK-395.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>03/03-01-02-E-BK-395.pdf</path>

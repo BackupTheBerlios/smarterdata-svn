@@ -5,31 +5,31 @@
   <category>04-01-02</category>
   <position>1</position>
   <icon>
-    <deutsch>e-2___7fach.small.png</deutsch>
+    <german>e-2___7fach.small.png</german>
     <english>e-2___7fach.small.png</english>
     <french>e-2___7fach.small.png</french>
   </icon>
   <image>
-    <deutsch>e-2___7fach.png</deutsch>
+    <german>e-2___7fach.png</german>
     <english>e-2___7fach.png</english>
     <french>e-2___7fach.png</french>
   </image>
   <name>
-    <deutsch>E-2...7fach</deutsch>
+    <german>E-2...7fach</german>
     <english>E-2...7fach</english>
     <french>E-2...7fach</french>
   </name>
   <headline>
-    <deutsch>Elektrode -mehrfach-</deutsch>
+    <german>Elektrode -mehrfach-</german>
     <english>Electrode -multiple-</english>
     <french>Electrode -multiple-</french>
   </headline>
   <description>
-    <deutsch>Geeignet fuer alle leitfaehigen, aggressiven Medien (z.B. Saeuren, Laugen), waessrige Loesungen, Wasser, Abwasser oder andere leitfaehige Fluessigkeiten
+    <german>Geeignet fuer alle leitfaehigen, aggressiven Medien (z.B. Saeuren, Laugen), waessrige Loesungen, Wasser, Abwasser oder andere leitfaehige Fluessigkeiten
 				Gewindeanschluesse und Gehaeuse aus: PE, PPH, PVC, PTFE und PVDF
 				Fuehlerstaebe aus: Edelstahl, Hastelloy B und C, Titan und Tantal
 				Bis zu 7 Schaltpunkte mit einer Elektrode
-				Sonderausfuehrungen und spezielle Elektroden nach Kundenwuenschen</deutsch>
+				Sonderausfuehrungen und spezielle Elektroden nach Kundenwuenschen</german>
     <english>Appropriate for all conductive, aggressive media (e.g. acids, bases), aqueous solutions, 
 				water, sewage or other conductive liquids
 				Threaded connections and housings made of : PE, PPH, PVC, PTFE, PVDF 
@@ -44,10 +44,10 @@
 				Construction spéciale et électrodes spéciales sur demande du client</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>04/04-01-02-E-e-2-7fach_es-2-7fach.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>04/04-01-02-E-e-2-7fach_es-2-7fach.pdf</path>

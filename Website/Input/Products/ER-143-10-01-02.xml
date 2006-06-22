@@ -5,27 +5,27 @@
   <category>10-01-02</category>
   <position>1</position>
   <icon>
-    <deutsch>er-143.small.png</deutsch>
+    <german>er-143.small.png</german>
     <english>er-143.small.png</english>
     <french>er-143.small.png</french>
   </icon>
   <image>
-    <deutsch>er-143.png</deutsch>
+    <german>er-143.png</german>
     <english>er-143.png</english>
     <french>er-143.png</french>
   </image>
   <name>
-    <deutsch>ER-143</deutsch>
+    <german>ER-143</german>
     <english>ER-143</english>
     <french>ER-143</french>
   </name>
   <headline>
-    <deutsch>[Ex]i-Elektrodenrelais</deutsch>
+    <german>[Ex]i-Elektrodenrelais</german>
     <english>[Ex]i-Electrode relay</english>
     <french>[Ex]i-Relais d´électrode</french>
   </headline>
   <description>
-    <deutsch>Geeignet zum Aufbau von Steuerungen mit konduktiven Elektroden
+    <german>Geeignet zum Aufbau von Steuerungen mit konduktiven Elektroden
 				Niedrige Leistungsaufnahme (z.B. 5mA bei 230VAC) d.h. Einsparungen in der Leistungsversorgung
 				Ansteuerung der Elektroden mit gleichspannungsfreier Wechselspannung zur Vermeidung von Elektrolyse
 				Busfaehig
@@ -37,7 +37,7 @@
 				EG-baumusterpruefbescheinigung TUEV 02 ATEX 1833
 				Arbeitsstrom/Ruhestrom umschaltbar
 				2 potentialfreie Wechsler
-				Einstellbare Schaltverzoegerung</deutsch>
+				Einstellbare Schaltverzoegerung</german>
     <english>Appropriate for mounting of controls with conductive electrodes
 				Low power consumption (e.g. 5mA at 230VAC) i.e. saving in the power supply
 				Drive of the electrodes with DC-free alternating voltage to prevent from electrolysis
@@ -68,10 +68,10 @@
 				Circuit de commande à sécurité intrinsèque</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>10/10-01-02-E-er-142_er-143.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>10/10-01-02-E-er-142_er-143.pdf</path>
@@ -82,10 +82,10 @@
     </french>
   </datasheet>
   <manual>
-    <deutsch>
+    <german>
       <name>Betriebsanleitung</name>
       <path>M-DE-er-142,143.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Operating instruction</name>
       <path>M-DE-er-142,143.pdf</path>
@@ -96,10 +96,10 @@
     </french>
   </manual>
   <otherdoc>
-    <deutsch>
+    <german>
       <name>ATEX-Zulassung (TUEV 02 ATEX 1833)</name>
       <path>TestReport/ATEX_1833_ER-142,ER-143.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>ATEX approval(TUEV 02 ATEX 1833)</name>
       <path>TestReport/ATEX_1833_ER-142,ER-143.pdf</path>

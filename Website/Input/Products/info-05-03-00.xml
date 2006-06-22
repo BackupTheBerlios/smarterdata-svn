@@ -5,35 +5,35 @@
   <category>05-03-00</category>
   <position>1</position>
   <icon>
-    <deutsch>info-hgfrei.small.png</deutsch>
+    <german>info-hgfrei.small.png</german>
     <english>info-hgfrei.small.png</english>
     <french>info-hgfrei.small.png</french>
   </icon>
   <image>
-    <deutsch />
+    <german />
     <english />
     <french />
   </image>
   <name>
-    <deutsch>Info QFS-xx</deutsch>
+    <german>Info QFS-xx</german>
     <english>Info QFS-xx</english>
     <french>Info QFS-xx</french>
   </name>
   <headline>
-    <deutsch>Schwimmschalter allgemein</deutsch>
+    <german>Schwimmschalter allgemein</german>
     <english>Float switches</english>
     <french>Flotteurs</french>
   </headline>
   <description>
-    <deutsch>-</deutsch>
+    <german>-</german>
     <english>-</english>
     <french>-</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>05/05-03-00-E-hg-frei_schwimmschalter.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name />
       <path />

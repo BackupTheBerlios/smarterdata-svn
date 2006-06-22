@@ -5,32 +5,32 @@
   <category>05-01-01</category>
   <position>1</position>
   <icon>
-    <deutsch>s-11.small.png</deutsch>
+    <german>s-11.small.png</german>
     <english>s-11.small.png</english>
     <french>s-11.small.png</french>
   </icon>
   <image>
-    <deutsch>s-11.png</deutsch>
+    <german>s-11.png</german>
     <english>s-11.png</english>
     <french>s-11.png</french>
   </image>
   <name>
-    <deutsch>S-11</deutsch>
+    <german>S-11</german>
     <english>S-11</english>
     <french>S-11</french>
   </name>
   <headline>
-    <deutsch>Schwimmschalter Kunststoff</deutsch>
+    <german>Schwimmschalter Kunststoff</german>
     <english>Float type switches made of plastic material</english>
     <french>Interrupteur à flotteur en plastique</french>
   </headline>
   <description>
-    <deutsch>Einfache kostenguenstige Fuellstandsmessung mit ueberzeugendem Preis / Leistungsverhaeltnis
+    <german>Einfache kostenguenstige Fuellstandsmessung mit ueberzeugendem Preis / Leistungsverhaeltnis
 				Schwimmer aus den Materialien: PE
 				Spezialkabel aus: TPK (PVC), Silikon und FEP (Teflon)
 				Alle Schaltertypen als Einzelschalter, als Schalterkombination in Haenge- oder Stabausfuehrung
 				Schaltertypen zur 2-Punkt- Regelung mit nur einem einzelnen Schwimmer
-				Alle Schwimmschalter erhalten Sie in allen Groessen auch quecksilberfrei</deutsch>
+				Alle Schwimmschalter erhalten Sie in allen Groessen auch quecksilberfrei</german>
     <english>Simple, cost-efficient level measuring with a convincing price / performance ratio
 				Float made of the materials: PE
 				Special cable made of : TPK (PVC), silicone and  FEP (Teflon)
@@ -45,10 +45,10 @@
 				Tous les types d´interrupteurs sont livrables dans toutes les dimensions, également sans mercure</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>05/05-01-01-E-s-10_s-11_s-12.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>05/05-01-01-E-s-10_s-11_s-12.pdf</path>

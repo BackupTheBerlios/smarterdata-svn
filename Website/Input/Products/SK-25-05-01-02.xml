@@ -5,30 +5,30 @@
   <category>05-01-02</category>
   <position>1</position>
   <icon>
-    <deutsch>sk-25.small.png</deutsch>
+    <german>sk-25.small.png</german>
     <english>sk-25.small.png</english>
     <french>sk-25.small.png</french>
   </icon>
   <image>
-    <deutsch>sk-25.png</deutsch>
+    <german>sk-25.png</german>
     <english>sk-25.png</english>
     <french>sk-25.png</french>
   </image>
   <name>
-    <deutsch>SK-25</deutsch>
+    <german>SK-25</german>
     <english>SK-25</english>
     <french>SK-25</french>
   </name>
   <headline>
-    <deutsch>Schwimmschalterkombination Edelstahl</deutsch>
+    <german>Schwimmschalterkombination Edelstahl</german>
     <english>Float type switch combination made of special steel</english>
     <french>Combinaison d´interrupteurs à flotteur en acier inox</french>
   </headline>
   <description>
-    <deutsch>Einfache kostenguenstige Fuellstandsmessung mit ueberzeugendem Preis / Leistungsverhaeltnis
+    <german>Einfache kostenguenstige Fuellstandsmessung mit ueberzeugendem Preis / Leistungsverhaeltnis
 				Schwimmer aus Edelstahl (1.4571)
 				Spezialkabel aus: Silikon und FEP (Teflon)
-				Alle Schwimmschalter erhalten Sie in allen Groessen auch quecksilberfrei</deutsch>
+				Alle Schwimmschalter erhalten Sie in allen Groessen auch quecksilberfrei</german>
     <english>Simple, cost-efficient level measuring with a convincing price / performance ratio
 				Float made of special steel (1.4571)
 				Special cable made of : silicone and  FEP (Teflon)
@@ -39,10 +39,10 @@
 				Tous les types d´interrupteurs sont livrables dans toutes les dimensions, également sans mercure</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>05/05-01-02-E-edelstahl_teflon_schwimmschalter.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>05/05-01-02-E-edelstahl_teflon_schwimmschalter.pdf</path>

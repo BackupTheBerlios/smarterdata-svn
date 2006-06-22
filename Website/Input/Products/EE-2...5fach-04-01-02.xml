@@ -5,31 +5,31 @@
   <category>04-01-02</category>
   <position>1</position>
   <icon>
-    <deutsch>ee-2___5fach.small.png</deutsch>
+    <german>ee-2___5fach.small.png</german>
     <english>ee-2___5fach.small.png</english>
     <french>ee-2___5fach.small.png</french>
   </icon>
   <image>
-    <deutsch>ee-2___5fach.png</deutsch>
+    <german>ee-2___5fach.png</german>
     <english>ee-2___5fach.png</english>
     <french>ee-2___5fach.png</french>
   </image>
   <name>
-    <deutsch>EE-2...5fach</deutsch>
+    <german>EE-2...5fach</german>
     <english>EE-2...5fach</english>
     <french>EE-2...5fach</french>
   </name>
   <headline>
-    <deutsch>Elektrode -mehrfach-</deutsch>
+    <german>Elektrode -mehrfach-</german>
     <english>Electrode -multiple-</english>
     <french>Electrode -multiple-</french>
   </headline>
   <description>
-    <deutsch>Geeignet fuer alle leitfaehigen, aggressiven Medien (z.B. Saeuren, Laugen), waessrige Loesungen, 
+    <german>Geeignet fuer alle leitfaehigen, aggressiven Medien (z.B. Saeuren, Laugen), waessrige Loesungen, 
 				Wasser, Abwasser oder andere leitfaehige Fluessigkeiten
 				Gewindeanschluesse und Gehaeuse aus: Edelstahl (1.4571)
 				Fuehlerstaebe aus: Edelstahl, Hastelloy B und C, Titan und Tantal
-				Sonderausfuehrungen und spezielle Elektroden nach Kundenwuenschen moeglich</deutsch>
+				Sonderausfuehrungen und spezielle Elektroden nach Kundenwuenschen moeglich</german>
     <english>Appropriate for all conductive, aggressive media (e.g. acids, bases), aqueous solutions, 
 				water, sewage or other conductive liquids
 				Threaded connections and housings made of : special steel (1.4571)
@@ -42,10 +42,10 @@
 				Construction spéciale et électrodes spéciales sur demande du client</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>04/04-01-02-E-e-2-7fach_es-2-7fach.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>04/04-01-02-E-e-2-7fach_es-2-7fach.pdf</path>

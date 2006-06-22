@@ -5,29 +5,29 @@
   <category>05-02-01</category>
   <position>1</position>
   <icon>
-    <deutsch>sk-15.small.png</deutsch>
+    <german>sk-15.small.png</german>
     <english>sk-15.small.png</english>
     <french>sk-15.small.png</french>
   </icon>
   <image>
-    <deutsch>sk-15.png</deutsch>
+    <german>sk-15.png</german>
     <english>sk-15.png</english>
     <french>sk-15.png</french>
   </image>
   <name>
-    <deutsch>SK-16</deutsch>
+    <german>SK-16</german>
     <english>SK-16</english>
     <french>SK-16</french>
   </name>
   <headline>
-    <deutsch>Schwimmschalterkombination Kunststoff Stabausfuehrung</deutsch>
+    <german>Schwimmschalterkombination Kunststoff Stabausfuehrung</german>
     <english>Float type switch combination plastic bar type</english>
     <french>Combinaison d´interrupteurs à flotteur en plastique type baguette</french>
   </headline>
   <description>
-    <deutsch>Einfache kostenguenstige Fuellstandsmessung mit ueberzeugendem Preis / Leistungsverhaeltnis
+    <german>Einfache kostenguenstige Fuellstandsmessung mit ueberzeugendem Preis / Leistungsverhaeltnis
 				Schwimmer aus den Materialien: PE, PPH oder PVC
-				Spezialkabel aus: TPK (PVC), Silikon und FEP (Teflon)</deutsch>
+				Spezialkabel aus: TPK (PVC), Silikon und FEP (Teflon)</german>
     <english>Simple, cost-efficient level measuring with a convincing price / performance ratio
 				Float made of the materials: PE, PPH or PVC
 				Special cable made of : TPK (PVC), silicone and  FEP (Teflon)</english>
@@ -36,10 +36,10 @@
 				Câble spécial en: TPK (PVC), silicone et FEP (téflon)</french>
   </description>
   <datasheet>
-    <deutsch>
+    <german>
       <name>Datenblatt</name>
       <path>05/05-02-01-E-sk-10_sk-15.pdf</path>
-    </deutsch>
+    </german>
     <english>
       <name>Datasheet</name>
       <path>05/05-02-01-E-sk-10_sk-15.pdf</path>
