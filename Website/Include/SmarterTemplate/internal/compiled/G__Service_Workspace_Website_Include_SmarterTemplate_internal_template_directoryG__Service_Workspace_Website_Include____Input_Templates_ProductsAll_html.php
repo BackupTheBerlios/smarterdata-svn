@@ -26,7 +26,7 @@ foreach ( $loop[0]['value']['products'] as $loop[1]['key'] => $loop[1]['value'] 
 	$loop[1]['value']['ALTROW']       = $loop[1]['ROWCNTHUMAN']%2;
 	$loop[1]['value']['CURRENTKEY']   = $loop[1]['key'];
 ?>
-		<td><a href="<?php echo $loop[1]['value']['linkToProduct']; ?>"><?php echo $loop[1]['value']['name']; ?></a> - (<?php echo $loop[1]['value']['category']; ?>)</td>
+		<td class="products_all"><a href="<?php echo $loop[1]['value']['linkToProduct']; ?>"><?php echo $loop[1]['value']['name']; ?></a> - (<?php echo $loop[1]['value']['category']; ?>)</td>
 		<?php echo steresetheader ( $loop[1]['value']['ROWCNT'],"3","</tr><tr class='products_all'>" ); ?>
 		<?php } } ?>
 	</tr>

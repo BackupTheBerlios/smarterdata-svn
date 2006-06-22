@@ -414,6 +414,10 @@ function GenerateProductAll($AllItems)
 		foreach ($AllItems as $Product)
 		{
 			$TempItem= PrepareProductAllArray($Product, $Language);
+			if (preg_match('/^Info/i', $TempItem['name']))
+			{
+				continue;
+			}
 			$NewItems[$TempItem['name']]= $TempItem;
 		}
 		ksort($NewItems);
