@@ -21,12 +21,8 @@ foreach ( $loop[0]['value']['products'] as $loop[1]['key'] => $loop[1]['value'] 
 	$loop[1]['value']['ALTROW']       = $loop[1]['ROWCNTHUMAN']%2;
 	$loop[1]['value']['CURRENTKEY']   = $loop[1]['key'];
 ?> <a href="#<?php echo $loop[1]['value']['hash']; ?>"><?php echo $loop[1]['value']['name']; ?></a> (<?php echo $loop[1]['value']['category']; ?>)<br>
-<?php } } ?> <input
-	type="checkbox"
-	id="lockmenu2"
-	onclick="lockMenu2()"><label for="lockmenu2"><?php echo $loop[0]['value']['langtext']['lockmenu']; ?></label>
-</div>
-<div class="index_content"><script language="javascript">checkLocationMenu2();</script>
+<?php } } ?></div>
+<div class="index_content"><script language="javascript">initMenu('menu2', 121);</script>
 <table
 	class="product"
 	cellspacing="1"

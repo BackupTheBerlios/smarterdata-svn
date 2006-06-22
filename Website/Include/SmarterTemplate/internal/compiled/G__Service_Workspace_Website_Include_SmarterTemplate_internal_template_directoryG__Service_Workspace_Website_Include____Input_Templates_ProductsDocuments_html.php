@@ -3,6 +3,7 @@
 	rel="stylesheet"
 	type="text/css"
 	media="screen, projection, print">
+<div class="index_content">
 <table
 	cellspacing="0"
 	cellpadding="0"
@@ -32,3 +33,4 @@ foreach ( $loop[0]['value']['documents'] as $loop[1]['key'] => $loop[1]['value']
 	</tr>
 	<?php } } ?>
 </table>
+</div>

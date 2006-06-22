@@ -3,7 +3,7 @@
 	rel="stylesheet"
 	type="text/css"
 	media="screen, projection, print">
-<?php
+<div class="index_content"><?php
 if ( is_array ( $loop[0]['value']['aboutus'] ) )
 {
 $loop[1]['ROWCNT'] = -1;
@@ -25,4 +25,4 @@ foreach ( $loop[0]['value']['aboutus'] as $loop[1]['key'] => $loop[1]['value'] )
 	align="<?php echo $loop[1]['value']['imageposition']; ?>"
 	border="0"> <?php echo $loop[1]['value']['content']; ?> <br />
 </p>
-<?php } } ?>
+<?php } } ?></div>

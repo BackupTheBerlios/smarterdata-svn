@@ -3,18 +3,15 @@
 	rel="stylesheet"
 	type="text/css"
 	media="screen, projection, print">
-<div class="index_left" id="index_left">
 <table style="width: 200px;">
 	<!-- ABOUTUS -->
-	<tr class="menu">
-		<td style="width: 10px">&nbsp;</td>
-		<td>&nbsp;</td>
-	</tr>
-	<tr class="menu">
+	<tr class="aboutuslogo">
 		<td
+			class="aboutuslogo"
 			colspan="2"
 			align="center"><a href="_aboutus_<?php echo $loop[0]['value']['language']; ?>.html"><img
 			src="Images/Other/elbefant.small.png"
+			class="aboutuslogo"
 			border="0"></a></td>
 	</tr>
 	<!-- NEWS -->
@@ -28,7 +25,7 @@
 	</tr>
 	<!-- PRODUCTS -->
 	<tr class="menu">
-		<td colspan="2"><?php echo $loop[0]['value']['langtext']['products']; ?></td>
+		<td colspan="2"><a href="_products_all_<?php echo $loop[0]['value']['language']; ?>.html"><?php echo $loop[0]['value']['langtext']['products']; ?></a></td>
 	</tr>
 	<tr class="menu">
 		<td>&nbsp;</td>
@@ -45,14 +42,4 @@
 	<tr class="menu">
 		<td colspan="2"><a href="_products_documents_otherdoc_<?php echo $loop[0]['value']['language']; ?>.html"><?php echo $loop[0]['value']['langtext']['documents_other']; ?></td>
 	</tr>
-	<tr class="menu">
-		<td colspan="2"><input
-			type="checkbox"
-			id="lockmenu1"
-			onclick="lockindex_left()"><label for="lockindex_left"><?php echo $loop[0]['value']['langtext']['lockmenu']; ?></label></td>
-	</tr>
 </table>
-</div>
-<script language="JavaScript">
-checkLocationindex_left();
-</script>

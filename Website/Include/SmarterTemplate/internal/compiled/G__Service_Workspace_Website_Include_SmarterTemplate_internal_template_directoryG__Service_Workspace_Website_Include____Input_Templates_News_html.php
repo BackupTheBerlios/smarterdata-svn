@@ -3,6 +3,7 @@
 	rel="stylesheet"
 	type="text/css"
 	media="screen, projection, print">
+<div class="index_content">
 <table
 	cellspacing="0"
 	cellpadding="0"
@@ -77,3 +78,4 @@ foreach ( $loop[1]['value']['newsdoc'] as $loop[2]['key'] => $loop[2]['value'] )
 	</tr>
 	<?php } } ?>
 </table>
+</div>

@@ -8,7 +8,9 @@
 	type="text/css"
 	media="screen, projection, print">
 <?php echo $loop[0]['value']['index']['header']; ?>
-<?php echo $loop[0]['value']['index']['menu']; ?> <?php
+<div
+	class="index_left"
+	id="index_left"><?php echo $loop[0]['value']['index']['menu']; ?> <?php
 if ( is_array ( $loop[0]['value']['languages'] ) )
 {
 $loop[1]['ROWCNT'] = -1;
@@ -25,5 +27,8 @@ foreach ( $loop[0]['value']['languages'] as $loop[1]['key'] => $loop[1]['value']
 ?> <a
 	href="<?php echo $loop[1]['value']['filename']; ?>"><img
 	src="<?php echo $loop[1]['value']['flag']; ?>"
-	border="0"></a>&nbsp;&nbsp; <?php } } ?>
+	border="0"></a> &nbsp;&nbsp; <?php } } ?></div>
+<script language="JavaScript">
+initMenu('index_left', 0);
+</script>
 <?php echo $loop[0]['value']['index']['content']; ?>

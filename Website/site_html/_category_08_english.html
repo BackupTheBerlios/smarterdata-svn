@@ -19,23 +19,22 @@
 	border="0"> <img src="Images/other/iso9001.en.png"> </a> <a
 	href="documents/Otherdoc/TestReport/ATEX_1172_Q-D-E-.pdf"
 	border="0"> <img src="Images/other/atex.en.png"> </a></div>
-<link
+<div
+	class="index_left"
+	id="index_left"><link
 	href="Stylesheet/Menu.css"
 	rel="stylesheet"
 	type="text/css"
 	media="screen, projection, print">
-<div class="index_left" id="index_left">
 <table style="width: 200px;">
 	<!-- ABOUTUS -->
-	<tr class="menu">
-		<td style="width: 10px">&nbsp;</td>
-		<td>&nbsp;</td>
-	</tr>
-	<tr class="menu">
+	<tr class="aboutuslogo">
 		<td
+			class="aboutuslogo"
 			colspan="2"
 			align="center"><a href="_aboutus_english.html"><img
 			src="Images/Other/elbefant.small.png"
+			class="aboutuslogo"
 			border="0"></a></td>
 	</tr>
 	<!-- NEWS -->
@@ -62,7 +61,7 @@
 	</tr>
 	<!-- PRODUCTS -->
 	<tr class="menu">
-		<td colspan="2">Products</td>
+		<td colspan="2"><a href="_products_all_english.html">Products</a></td>
 	</tr>
 	<tr class="menu">
 		<td>&nbsp;</td>
@@ -131,27 +130,21 @@
 	<tr class="menu">
 		<td colspan="2"><a href="_products_documents_otherdoc_english.html">Other documents</td>
 	</tr>
-	<tr class="menu">
-		<td colspan="2"><input
-			type="checkbox"
-			id="lockmenu1"
-			onclick="lockindex_left()"><label for="lockindex_left"></label></td>
-	</tr>
 </table>
-</div>
-<script language="JavaScript">
-checkLocationindex_left();
-</script>
   <a
 	href="_category_08_deutsch.html"><img
 	src="Images/Other/deutsch.png"
-	border="0"></a>&nbsp;&nbsp;  <a
+	border="0"></a> &nbsp;&nbsp;  <a
 	href="_category_08_english.html"><img
 	src="Images/Other/english.png"
-	border="0"></a>&nbsp;&nbsp;  <a
+	border="0"></a> &nbsp;&nbsp;  <a
 	href="_category_08_français.html"><img
 	src="Images/Other/français.png"
-	border="0"></a>&nbsp;&nbsp; <link
+	border="0"></a> &nbsp;&nbsp; </div>
+<script language="JavaScript">
+initMenu('index_left', 0);
+</script>
+<link
 	href="Stylesheet/ProductOverview.css"
 	rel="stylesheet"
 	type="text/css"
@@ -160,12 +153,8 @@ checkLocationindex_left();
 	class="menu2"
 	id="menu2"><b>Products</b><br>
  <a href="#cf7d9f630d126d5cdda3a906d8a628e44a32f373">KG-2xx</a> (08-01-01)<br>
- <input
-	type="checkbox"
-	id="lockmenu2"
-	onclick="lockMenu2()"><label for="lockmenu2"></label>
 </div>
-<div class="index_content"><script language="javascript">checkLocationMenu2();</script>
+<div class="index_content"><script language="javascript">initMenu('menu2', 121);</script>
 <table
 	class="product"
 	cellspacing="1"

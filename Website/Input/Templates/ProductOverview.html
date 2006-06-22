@@ -7,12 +7,8 @@
 	class="menu2"
 	id="menu2"><b>{products.0.langtext.products}</b><br>
 <!-- BEGIN products --> <a href="#{hash}">{name}</a> ({category})<br>
-<!-- END products --> <input
-	type="checkbox"
-	id="lockmenu2"
-	onclick="lockMenu2()"><label for="lockmenu2">{langtext.lockmenu}</label>
-</div>
-<div class="index_content"><script language="javascript">checkLocationMenu2();</script>
+<!-- END products --></div>
+<div class="index_content"><script language="javascript">initMenu('menu2', 121);</script>
 <table
 	class="product"
 	cellspacing="1"

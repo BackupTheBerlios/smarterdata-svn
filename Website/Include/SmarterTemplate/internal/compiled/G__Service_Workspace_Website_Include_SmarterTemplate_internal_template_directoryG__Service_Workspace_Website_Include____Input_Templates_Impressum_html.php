@@ -6,6 +6,7 @@ require_once "G:/Service/Workspace/Website/Include/SmarterTemplate/internal/exte
 	rel="stylesheet"
 	type="text/css"
 	media="screen, projection, print">
+<div class="index_content">
 <table
 	cellspacing="0"
 	cellpadding="0"
@@ -30,3 +31,4 @@ foreach ( $loop[0]['value']['impressum'] as $loop[1]['key'] => $loop[1]['value']
 		<?php } } ?>
 	</tr>
 </table>
+</div>

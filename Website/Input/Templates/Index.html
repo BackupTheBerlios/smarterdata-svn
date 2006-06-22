@@ -8,8 +8,13 @@
 	type="text/css"
 	media="screen, projection, print">
 {index.header}
-{index.menu} <!-- BEGIN languages --> <a
+<div
+	class="index_left"
+	id="index_left">{index.menu} <!-- BEGIN languages --> <a
 	href="{filename}"><img
 	src="{flag}"
-	border="0"></a>&nbsp;&nbsp; <!-- END languages -->
+	border="0"></a> &nbsp;&nbsp; <!-- END languages --></div>
+<script language="JavaScript">
+initMenu('index_left', 0);
+</script>
 {index.content}

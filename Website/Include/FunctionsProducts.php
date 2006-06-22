@@ -362,6 +362,7 @@ function GetProductsHash($LinkTo, $Language)
 }
 function GenerateProductsites($Products)
 {
+	$AllItems= array ();
 	foreach ($Products as $Category => $CategoriesProducts)
 	{
 		$CatchedItems= array ();
@@ -376,6 +377,7 @@ function GenerateProductsites($Products)
 						foreach ($ProductValues as $Item)
 						{
 							$CatchedItems[]= $Item;
+							$AllItems[]= $Item;
 						}
 					}
 				}
@@ -383,6 +385,7 @@ function GenerateProductsites($Products)
 		}
 		GenerateProductOverview($CatchedItems, $Category);
 	}
+	GenerateProductAll($AllItems);
 }
 function GenerateProductOverview($Items, $Category)
 {
@@ -401,6 +404,44 @@ function GenerateProductOverview($Items, $Category)
 		fputs($Fh, $Pageresult);
 		fclose($Fh);
 	}
+}
+function GenerateProductAll($AllItems)
+{
+	global $UsedLanguages;
+	foreach ($UsedLanguages as $Language)
+	{
+		$NewItems= array ();
+		foreach ($AllItems as $Product)
+		{
+			$TempItem= PrepareProductAllArray($Product, $Language);
+			$NewItems[$TempItem['name']]= $TempItem;
+		}
+		ksort($NewItems);
+		$Tpl= new smartertemplate(dirname(__FILE__) . '/../Input/Templates/ProductsAll.html');
+		$Tpl->Assign('products', $NewItems);
+		$Pageresult= $Tpl->Result();
+		$Fh= fopen(dirname(__FILE__) . '/../Output/Products/_products_all_' . $Language . '.html', 'w');
+		fputs($Fh, $Pageresult);
+		fclose($Fh);
+	}
+}
+function PrepareProductAllArray($Product, $Language)
+{
+	global $Languagetexts;
+	$Tplvar= $Product;
+	$Tplvar['language']= $Language;
+	$Hash= $Product['id'];
+	$Hash .= $Product['category'];
+	$Hash .= $Product['name'][$Language];
+	$Tplvar['hash']= sha1($Hash);
+	$Tplvar['icon']= $Product['icon'][$Language];
+	$Tplvar['image']= $Product['image'][$Language];
+	$Tplvar['name']= $Product['name'][$Language];
+	$Tplvar['headline']= $Product['headline'][$Language];
+	$Tplvar['description']= $Product['description'][$Language];
+	$Tplvar['langtext']= $Languagetexts[$Language];
+	$Tplvar['linkToProduct']= '_category_' . substr($Tplvar['category'], 0, 2) . '_' . $Language . '.html#' . $Tplvar['hash'];
+	return $Tplvar;
 }
 function PrepareProductArray($Product, $Language)
 {
