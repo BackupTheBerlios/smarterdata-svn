@@ -50,9 +50,9 @@ foreach ( $loop[0]['value']['products'] as $loop[1]['key'] => $loop[1]['value'] 
 		&nbsp;&nbsp;&nbsp;&nbsp; <?php echo $loop[1]['value']['name']; ?></td>
 	</tr>
 	<tr valign="top">
-		<td class="product_icon"><img
+		<td class="product_icon"><div  onmouseover="return escape('<img src=\'Images/<?php echo $loop[1]['value']['image']; ?>\'>');"><img
 			src="images/<?php echo $loop[1]['value']['icon']; ?>"
-			align="left"></td>
+			align="left"></div></td>
 		<!-- DESCRIPTION -->
 		<td class="product_description">
 		<div

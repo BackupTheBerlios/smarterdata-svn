@@ -32,3 +32,7 @@ foreach ( $loop[0]['value']['languages'] as $loop[1]['key'] => $loop[1]['value']
 initMenu('index_left', 0);
 </script>
 <?php echo $loop[0]['value']['index']['content']; ?>
+<script
+	type="text/javascript"
+	language="javascript"
+	src="Javascript/wz_tooltip/wz_tooltip.js"></script>

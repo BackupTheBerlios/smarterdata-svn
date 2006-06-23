@@ -22,10 +22,13 @@ $Contentsites= array (
 	'Products',
 	'ProductsDocuments'
 );
+$UnlinkFiles= array ();
 foreach ($UsedLanguages as $Language)
 {
 	$Index['header']= implode('', file(dirname(__FILE__) . '/Output/Header/_header_' . $Language . '.html'));
+	$UnlinkFiles[]= dirname(__FILE__) . '/Output/Header/_header_' . $Language . '.html';
 	$Index['menu']= implode('', file(dirname(__FILE__) . '/Output/Menu/_menu_' . $Language . '.html'));
+	$UnlinkFiles[]= dirname(__FILE__) . '/Output/Menu/_menu_' . $Language . '.html';
 	foreach ($Contentsites as $Section)
 	{
 		$Directory= dirname(__FILE__) . '/Output/' . $Section;
@@ -49,6 +52,7 @@ foreach ($UsedLanguages as $Language)
 				), 'flag' => 'Images/Other/' . $CurrentLanguage . '.png');
 			}
 			$Index['content']= implode('', file($Directory . '/' . $Value));
+			$UnlinkFiles[]= $Directory . '/' . $Value;
 			$Tpl= new smartertemplate(dirname(__FILE__) . '/Input/Templates/Index.html');
 			$Tpl->Assign('language', $Language);
 			$Tpl->Assign('langtext', $Languagetexts[$Language]);
@@ -60,5 +64,28 @@ foreach ($UsedLanguages as $Language)
 			fclose($Fh);
 		}
 	}
+}
+$Languagearray= array ();
+foreach ($UsedLanguages as $CurrentLanguage)
+{
+	$Languagearray[]= array (
+		'name' => $CurrentLanguage,
+		'filename' => urlencode('_aboutus_' . $CurrentLanguage . '.html'
+	), 'flag' => 'Images/Other/' . $CurrentLanguage . '.png', 'langtext' => $Languagetexts[$CurrentLanguage]);
+}
+$Tpl= new smartertemplate(dirname(__FILE__) . '/Input/Templates/Entrance.html');
+$Tpl->Assign('language', $Language);
+$Tpl->Assign('langtext', $Languagetexts[$Language]);
+$Tpl->Assign('languages', $Languagearray);
+$Pageresult= $Tpl->Result();
+$Fh= fopen(dirname(__FILE__) . '/site_html/index.html', 'w');
+fputs($Fh, $Pageresult);
+fclose($Fh);
+/**
+ * Unlink
+ */
+foreach ($UnlinkFiles as $File)
+{
+	@ unlink($File);
 }
 ?>

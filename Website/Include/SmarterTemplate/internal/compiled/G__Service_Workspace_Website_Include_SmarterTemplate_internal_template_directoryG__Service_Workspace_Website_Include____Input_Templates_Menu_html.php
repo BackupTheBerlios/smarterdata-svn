@@ -25,7 +25,7 @@
 	</tr>
 	<!-- PRODUCTS -->
 	<tr class="menu">
-		<td colspan="2"><a href="_products_all_<?php echo $loop[0]['value']['language']; ?>.html"><?php echo $loop[0]['value']['langtext']['products']; ?></a></td>
+		<td colspan="2"><a href="_products_all_<?php echo $loop[0]['value']['language']; ?>.html"><?php echo $loop[0]['value']['langtext']['products_all']; ?></a></td>
 	</tr>
 	<tr class="menu">
 		<td>&nbsp;</td>

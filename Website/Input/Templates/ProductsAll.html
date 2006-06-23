@@ -9,8 +9,10 @@
 <table class="products_all">
 	<tr class="products_all">
 		<!-- BEGIN products -->
-		<td class="products_all"><a href="{linkToProduct}">{name}</a> - ({category})</td>
-		{resetheader:ROWCNT,"3","</tr><tr class='products_all'>"}
+		<td class="products_all">
+			<a href="{linkToProduct}" onmouseover="this.T_WIDTH=1; return escape('<img src=\'Images/{icon}\'>');">{name}</a> - ({category})
+		</td>
+	{resetheader:ROWCNT,"3","</tr><tr class='products_all'>"}
 		<!-- END products -->
 	</tr>
 </table>
