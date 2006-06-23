@@ -3,25 +3,25 @@
 	rel="stylesheet"
 	type="text/css"
 	media="screen, projection, print">
+<div class="index_content">
 <table
 	cellspacing="0"
 	cellpadding="0"
 	border="0">
 	<!-- BEGIN contacts -->
 	<tr class="contactheader">
-		<td
-			colspan="2"
-			align="center">{title}</td>
+		<td colspan="2">{title}</td>
 	</tr>
 	<tr
 		class="contacts"
 		valign="top">
-		<td>{name} <br>
-		{street} <br>
-		{country} - {citycode} {city}</td>
-		<td NOWRAP>{langtext.fon}: {prenumber} {number} <br>
-		{langtext.fax}: {prenumber} {fax} <br>
-		{langtext.email}: {email}</td>
+		<td>{htmlentities:name} <br>
+		{htmlentities:street} <br>
+		{htmlentities:country} - {htmlentities:citycode} {htmlentities:city}</td>
+		<td NOWRAP>{htmlentities:langtext.fon}: {htmlentities:prenumber} {htmlentities:number} <br>
+		{htmlentities:langtext.fax}: {htmlentities:prenumber} {htmlentities:fax} <br>
+		{htmlentities:langtext.email}: <a href="MAILTO:{email}">{htmlentities:email}</a></td>
 	</tr>
 	<!-- END categories -->
 </table>
+</div>

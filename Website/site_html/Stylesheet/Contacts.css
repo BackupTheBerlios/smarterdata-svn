@@ -6,6 +6,7 @@ tr.contactheader {
 	border-collapse: collapse;
 	margin: 0px;
 	padding: 0px;
+	font-weight: bold;
 }
 
 tr.contacts {

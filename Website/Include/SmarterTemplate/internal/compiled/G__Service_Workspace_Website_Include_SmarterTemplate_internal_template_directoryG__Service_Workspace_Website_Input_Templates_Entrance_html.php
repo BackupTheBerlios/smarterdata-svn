@@ -1,4 +1,7 @@
-<?php $TIME_GENERATED = round(microtime (), 4); ?><body bgcolor="#6375bd">
+<?php
+require_once "G:/Service/Workspace/Website/Include/SmarterTemplate/internal/extensions/htmlentities.php";
+
+?><?php $TIME_GENERATED = round(microtime (), 4); ?><body bgcolor="#6375bd">
 <div
 	valign="middle"
 	align="center"
@@ -30,7 +33,7 @@ foreach ( $loop[0]['value']['languages'] as $loop[1]['key'] => $loop[1]['value']
 	<tr class="entrance">
 		<td class="entrance"><a href="<?php echo $loop[1]['value']['filename']; ?>"><img
 			src="<?php echo $loop[1]['value']['flag']; ?>"
-			border="0"> <?php echo $loop[1]['value']['langtext']['safety_and_environmental_technology']; ?></a></td>
+			border="0"> <?php echo stehtmlentities ( $loop[1]['value']['langtext']['safety_and_environmental_technology'] ); ?></a></td>
 	</tr>
 	<?php } } ?>
 </table>

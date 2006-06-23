@@ -10,14 +10,14 @@
 	border="0">
 	<!-- BEGIN news -->
 	<tr class="news">
-		<td>{date}</td>
-		<td>{headline}</td>
+		<td>{htmlentities:date}</td>
+		<td>{htmlentities:headline}</td>
 	</tr>
 	<tr class="news">
 		<td colspan="2">
 		<ul>
 			<!-- BEGIN description -->
-			<li>{value}</li>
+			<li>{htmlentities:value}</li>
 			<!-- END description -->
 		</ul>
 		<!-- IF newsdoc>"" -->
@@ -28,7 +28,7 @@
 				src="Images/Other/pdf.png"
 				width="19"
 				height="18"
-				style="vertical-align:middle"><a href="Documents/News/{path}">{name}</a></li>
+				style="vertical-align:middle"><a href="Documents/News/{path}">{htmlentities:name}</a></li>
 			<!-- END newsdoc -->
 		</ul>
 		</div>

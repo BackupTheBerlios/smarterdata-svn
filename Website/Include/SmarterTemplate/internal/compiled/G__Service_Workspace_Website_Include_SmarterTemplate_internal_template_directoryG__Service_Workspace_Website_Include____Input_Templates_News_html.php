@@ -1,4 +1,7 @@
-<?php $TIME_GENERATED = round(microtime (), 4); ?><link
+<?php
+require_once "G:/Service/Workspace/Website/Include/SmarterTemplate/internal/extensions/htmlentities.php";
+
+?><?php $TIME_GENERATED = round(microtime (), 4); ?><link
 	href="Stylesheet/News.css"
 	rel="stylesheet"
 	type="text/css"
@@ -24,8 +27,8 @@ foreach ( $loop[0]['value']['news'] as $loop[1]['key'] => $loop[1]['value'] )
 	$loop[1]['value']['CURRENTKEY']   = $loop[1]['key'];
 ?>
 	<tr class="news">
-		<td><?php echo $loop[1]['value']['date']; ?></td>
-		<td><?php echo $loop[1]['value']['headline']; ?></td>
+		<td><?php echo stehtmlentities ( $loop[1]['value']['date'] ); ?></td>
+		<td><?php echo stehtmlentities ( $loop[1]['value']['headline'] ); ?></td>
 	</tr>
 	<tr class="news">
 		<td colspan="2">
@@ -45,7 +48,7 @@ foreach ( $loop[1]['value']['description'] as $loop[2]['key'] => $loop[2]['value
 	$loop[2]['value']['ALTROW']       = $loop[2]['ROWCNTHUMAN']%2;
 	$loop[2]['value']['CURRENTKEY']   = $loop[2]['key'];
 ?>
-			<li><?php echo $loop[2]['value']['value']; ?></li>
+			<li><?php echo stehtmlentities ( $loop[2]['value']['value'] ); ?></li>
 			<?php } } ?>
 		</ul>
 		<?php if ( $loop[1]['value']['newsdoc'] > "" ) { ?>
@@ -70,7 +73,7 @@ foreach ( $loop[1]['value']['newsdoc'] as $loop[2]['key'] => $loop[2]['value'] )
 				src="Images/Other/pdf.png"
 				width="19"
 				height="18"
-				style="vertical-align:middle"><a href="Documents/News/<?php echo $loop[2]['value']['path']; ?>"><?php echo $loop[2]['value']['name']; ?></a></li>
+				style="vertical-align:middle"><a href="Documents/News/<?php echo $loop[2]['value']['path']; ?>"><?php echo stehtmlentities ( $loop[2]['value']['name'] ); ?></a></li>
 			<?php } } ?>
 		</ul>
 		</div>

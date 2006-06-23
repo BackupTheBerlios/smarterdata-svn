@@ -1,4 +1,7 @@
-<?php $TIME_GENERATED = round(microtime (), 4); ?><link
+<?php
+require_once "G:/Service/Workspace/Website/Include/SmarterTemplate/internal/extensions/htmlentities.php";
+
+?><?php $TIME_GENERATED = round(microtime (), 4); ?><link
 	href="Stylesheet/Newsmenu.css"
 	rel="stylesheet"
 	type="text/css"
@@ -24,7 +27,7 @@ foreach ( $loop[0]['value']['news'] as $loop[1]['key'] => $loop[1]['value'] )
 ?>
 	<?php if ( $loop[1]['value']['inmenu'] > "" ) { ?>
 	<tr class="newsmenu">
-		<td><a href="_news_<?php echo $loop[0]['value']['language']; ?>.html"><?php echo $loop[1]['value']['menuname']; ?></a></td>
+		<td><a href="_news_<?php echo $loop[0]['value']['language']; ?>.html"><?php echo stehtmlentities ( $loop[1]['value']['menuname'] ); ?></a></td>
 	</tr>
 	<?php } ?>
 	<?php } } ?>

@@ -6,6 +6,8 @@ $UsedLanguages= array (
 );
 $DefaultLanguage= 'german';
 $Languagetexts['german']= array (
+	'contact' => 'Kontakt',
+	'imprint' => 'Impressum',
 	'news' => 'Neues',
 	'siehe_auch' => 'siehe auch',
 	'datasheet' => 'Datenblaetter',
@@ -23,6 +25,8 @@ $Languagetexts['german']= array (
 	'safety_and_environmental_technology' => 'Technik für Sicherheit und Umwelt'
 );
 $Languagetexts['english']= array (
+	'contact' => 'Contact',
+	'imprint' => 'Imprint',
 	'news' => 'News',
 	'siehe_auch' => 'see also',
 	'datasheet' => 'Datasheets',
@@ -40,6 +44,8 @@ $Languagetexts['english']= array (
 	'safety_and_environmental_technology' => 'Safety and environmental technology'
 );
 $Languagetexts['french']= array (
+	'contact' => 'Contact',
+	'imprint' => 'Empreinte',
 	'news' => 'Nouveautés',
 	'siehe_auch' => 'voir aussi',
 	'datasheet' => 'Datasheets',

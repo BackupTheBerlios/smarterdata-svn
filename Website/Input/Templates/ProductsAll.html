@@ -10,7 +10,7 @@
 	<tr class="products_all">
 		<!-- BEGIN products -->
 		<td class="products_all">
-			<a href="{linkToProduct}" onmouseover="this.T_WIDTH=1; return escape('<img src=\'Images/{icon}\'>');">{name}</a> - ({category})
+			<a href="{linkToProduct}" onmouseover="this.T_WIDTH=1; return escape('<img src=\'Images/{icon}\'>');">{htmlentities:name}</a> - ({category})
 		</td>
 	{resetheader:ROWCNT,"3","</tr><tr class='products_all'>"}
 		<!-- END products -->

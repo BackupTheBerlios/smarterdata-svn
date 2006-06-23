@@ -1,4 +1,7 @@
-<?php $TIME_GENERATED = round(microtime (), 4); ?><link
+<?php
+require_once "G:/Service/Workspace/Website/Include/SmarterTemplate/internal/extensions/htmlentities.php";
+
+?><?php $TIME_GENERATED = round(microtime (), 4); ?><link
 	href="Stylesheet/AboutUs.css"
 	rel="stylesheet"
 	type="text/css"
@@ -23,6 +26,6 @@ foreach ( $loop[0]['value']['aboutus'] as $loop[1]['key'] => $loop[1]['value'] )
 	style="width: 500px"><img
 	src="./images/<?php echo $loop[1]['value']['imagepath']; ?>"
 	align="<?php echo $loop[1]['value']['imageposition']; ?>"
-	border="0"> <?php echo $loop[1]['value']['content']; ?> <br />
+	border="0"><?php echo stehtmlentities ( $loop[1]['value']['content'] ); ?><br />
 </p>
 <?php } } ?></div>
