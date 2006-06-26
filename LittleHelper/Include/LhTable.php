@@ -165,6 +165,19 @@ class LhTable extends LhCore
 			{
 				$result[$key]= $value;
 			}
+			switch ($key)
+			{
+				case $this->getCellNameDateCreated() :
+					{
+						$result[$key]= $this->generateTimestampFromDateCreated($value);
+						break;
+					}
+				case $this->getCellNameDateChanged() :
+					{
+						$result[$key]= $this->generateTimestampFromDateChanged($value);
+						break;
+					}
+			}
 		}
 		return $result;
 	}
@@ -352,7 +365,7 @@ class LhTable extends LhCore
 		}
 		if ($this->getCellNameDateChanged() > '')
 		{
-			$rowData[$this->getCellNameDateChanged()]= time();
+			$rowData[$this->getCellNameDateChanged()]= $this->generateDateChangedFromTimestamp(time());
 		}
 		$this->setRow($uniqueId, $rowData);
 	}
@@ -396,6 +409,12 @@ class LhTable extends LhCore
 			throw new exception('can not get last id');
 		}
 		return $result[$this->getCellNameUniqueId()];
+	}
+	public function getNewUniqueId()
+	{
+		$result= $this->getLastUniqueId();
+		$result++;
+		return $result;
 	}
 	public function newRow($rowData, $overrideUniqueId= false, $overrideDateCreated= false, $overrideDateChanged= false)
 	{
@@ -441,35 +460,28 @@ class LhTable extends LhCore
 		}
 		else
 		{
-			$uniqueId= $this->getLastUniqueId();
-			$uniqueId++;
+			$uniqueId= $this->getNewUniqueId();
 			$queryData[]= $uniqueId;
 		}
 		if ($this->getCellNameDateCreated() > '')
 		{
 			$query .= ', `' . $this->getCellNameDateCreated() . '`=? ';
 			$queryCheck .= '&& `' . $this->getCellNameDateCreated() . '`=? ';
-			if ($overrideDateCreated !== false)
+			if ($overrideDateCreated === false)
 			{
-				$queryData[]= $overrideDateCreated;
+				$overrideDateCreated= time();
 			}
-			else
-			{
-				$queryData[]= time();
-			}
+			$queryData[]= $this->generateDateCreatedFromTimestamp($overrideDateCreated);
 		}
 		if ($this->getCellNameDateChanged() > '')
 		{
 			$query .= ', `' . $this->getCellNameDateChanged() . '`=? ';
 			$queryCheck .= '&& `' . $this->getCellNameDateChanged() . '`=? ';
-			if ($overrideDateChanged !== false)
+			if ($overrideDateChanged === false)
 			{
-				$queryData[]= $overrideDateChanged;
+				$overrideDateChanged= time();
 			}
-			else
-			{
-				$queryData[]= time();
-			}
+			$queryData[]= $this->generateDateChangedFromTimestamp($overrideDateChanged);
 		}
 		$query= 'INSERT INTO `' . $this->getTableName() . '` SET ' . substr($query, 2);
 		$pdo= $this->getPdoHandler()->prepare($query);
@@ -489,6 +501,22 @@ class LhTable extends LhCore
 			throw new exception('error while creating a row. A most frequent cause: cell_type wrong');
 		}
 		return $uniqueId;
+	}
+	protected function generateDateCreatedFromTimestamp($timestamp)
+	{
+		return $timestamp;
+	}
+	protected function generateDateChangedFromTimestamp($timestamp)
+	{
+		return $timestamp;
+	}
+	protected function generateTimestampFromDateCreated($date)
+	{
+		return $date;
+	}
+	protected function generateTimestampFromDateChanged($date)
+	{
+		return $date;
 	}
 }
 ?>

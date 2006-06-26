@@ -7,6 +7,7 @@ $databaseName= 'test';
 $databaseUserName= 'test';
 $databaseUserPassword= 'test';
 $pdo= LhPdo :: connect($databaseHost, $databasePort, $databaseName, $databaseUserName, $databaseUserPassword);
+$news= new LhTableNews(& $pdo);
 $translation['tableName']= 'test';
 $translation['cellNameUniqueId']= 'id';
 $translation['cellNameParentId']= 'pid';
@@ -28,8 +29,9 @@ $translation['where']= array (
 		'cell_value' => 4
 	)
 );
-$table= new LhCoreTest(& $pdo, $translation);
-die();
+#$table= new LhCoreTest(& $pdo, $translation);
+#die();
+$table= new LhTable(& $pdo, $translation);
 $result= $table->getRow(1);
 echo '<pre>' . print_r($result, 1) . '</pre>';
 $result= $table->getRowsRecursiveDown(1);
