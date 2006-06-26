@@ -27,11 +27,11 @@ class LhCore
 		$this->setCellNameParentId($translation['cellNameParentId']);
 		if (isset ($translation['cellNameDateCreated']))
 		{
-			$this->setCellDateCreated($translation['cellNameDateCreated']);
+			$this->setCellNameDateCreated($translation['cellNameDateCreated']);
 		}
 		if (isset ($translation['cellNameDateChanged']))
 		{
-			$this->setCellDateChanged($translation['cellNameDateChanged']);
+			$this->setCellNameDateChanged($translation['cellNameDateChanged']);
 		}
 	}
 	public function setPdoHandler(& $pdoHandler)
@@ -66,7 +66,7 @@ class LhCore
 	{
 		return $this->cellNameParentId;
 	}
-	public function setCellDateCreated($cellNameDateCreated)
+	public function setCellNameDateCreated($cellNameDateCreated)
 	{
 		$this->cellNameDateCreated= $cellNameDateCreated;
 	}
@@ -74,7 +74,7 @@ class LhCore
 	{
 		return $this->cellNameDateCreated;
 	}
-	public function setCellDateChanged($cellNameDateChanged)
+	public function setCellNameDateChanged($cellNameDateChanged)
 	{
 		$this->cellNameDateChanged= $cellNameDateChanged;
 	}
