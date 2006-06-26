@@ -1,14 +1,14 @@
 <?php
 class LhTable extends LhCore
 {
-	private $keyForChildren= '/CHILDREN/';
+	private $keyForChildren = '/CHILDREN/';
 	private $order;
 	private $orderRaw;
 	private $where;
 	private $whereRaw;
-	public function __construct(& $pdoHandler, $translation)
+	protected function __construct(& $pdoHandler, $translation)
 	{
-		parent :: __construct(& $pdoHandler, $translation);
+		parent :: __construct($pdoHandler, $translation);
 		if (isset ($translation['order']))
 		{
 			$this->setOrder($translation['order']);
@@ -22,18 +22,18 @@ class LhTable extends LhCore
 			$this->setKeyForChildren($translation['keyForChildren']);
 		}
 	}
-	public function __destruct()
+	protected function __destruct()
 	{
 	}
-	public function setKeyForChildren($keyName)
+	protected function setKeyForChildren($keyName)
 	{
-		$this->keyForChildren= $keyName;
+		$this->keyForChildren = $keyName;
 	}
-	public function getKeyForChildren()
+	protected function getKeyForChildren()
 	{
 		return $this->keyForChildren;
 	}
-	public function setOrder($orderRaw)
+	protected function setOrder($orderRaw)
 	{
 		if (!is_array($orderRaw))
 		{
@@ -43,23 +43,23 @@ class LhTable extends LhCore
 		{
 			$this->setOrderNormal($orderRaw);
 		}
-		$this->orderRaw= $orderRaw;
+		$this->orderRaw = $orderRaw;
 	}
 	private function setOrderNormal($orderArray)
 	{
-		$orderQuery= '';
+		$orderQuery = '';
 		foreach ($orderArray as $order)
 		{
 			$orderQuery .= ', ' . $order['cell_name'] . ' ' . $order['direction'];
 		}
 		if (strlen($orderQuery) > 0)
 		{
-			$this->order= 'ORDER BY ';
+			$this->order = 'ORDER BY ';
 			$this->order .= substr($orderQuery, 2);
 		}
 		else
 		{
-			$this->order= '';
+			$this->order = '';
 		}
 	}
 	private function setOrderComplex($orderString)
@@ -74,22 +74,22 @@ class LhTable extends LhCore
 			{
 				throw new exception('complex order expects a string started with "ORDER BY ..."');
 			}
-			$this->order= $orderString;
+			$this->order = $orderString;
 		}
 		else
 		{
-			$this->order= '';
+			$this->order = '';
 		}
 	}
-	public function getOrder()
+	protected function getOrder()
 	{
 		return $this->orderRaw;
 	}
-	public function getOrderQuery()
+	protected function getOrderQuery()
 	{
 		return $this->order;
 	}
-	public function setWhere($whereRaw)
+	protected function setWhere($whereRaw)
 	{
 		if (!is_array($whereRaw))
 		{
@@ -99,23 +99,23 @@ class LhTable extends LhCore
 		{
 			$this->setWhereNormal($whereRaw);
 		}
-		$this->whereRaw= $whereRaw;
+		$this->whereRaw = $whereRaw;
 	}
 	private function setWhereNormal($whereArray)
 	{
-		$whereQuery= '';
+		$whereQuery = '';
 		foreach ($whereArray as $where)
 		{
 			$whereQuery .= '&& `' . $where['cell_name'] . '`' . $where['cell_op'] . $where['cell_value'];
 		}
 		if (strlen($whereQuery) > 0)
 		{
-			$this->where= 'WHERE ';
+			$this->where = 'WHERE ';
 			$this->where .= substr($whereQuery, 2);
 		}
 		else
 		{
-			$this->where= '';
+			$this->where = '';
 		}
 	}
 	private function setWhereComplex($whereString)
@@ -130,18 +130,18 @@ class LhTable extends LhCore
 			{
 				throw new exception('complex where expects a string started with "WHERE ..."');
 			}
-			$this->where= $whereString;
+			$this->where = $whereString;
 		}
 		else
 		{
-			$this->where= '';
+			$this->where = '';
 		}
 	}
-	public function getWhere()
+	protected function getWhere()
 	{
 		return $this->whereRaw;
 	}
-	public function getWhereQuery()
+	protected function getWhereQuery()
 	{
 		return $this->where;
 	}
@@ -149,7 +149,7 @@ class LhTable extends LhCore
 	{
 		foreach ($results as $key => $result)
 		{
-			$results[$key]= $this->prepareResult($result);
+			$results[$key] = $this->prepareResult($result);
 		}
 		return $results;
 	}
@@ -159,89 +159,93 @@ class LhTable extends LhCore
 		{
 			if (!is_array($value))
 			{
-				$result[$key]= stripslashes($value);
+				$result[$key] = stripslashes($value);
 			}
 			else
 			{
-				$result[$key]= $value;
+				$result[$key] = $value;
 			}
 			switch ($key)
 			{
 				case $this->getCellNameDateCreated() :
 					{
-						$result[$key]= $this->generateTimestampFromDateCreated($value);
+						$result[$key] = $this->generateTimestampFromDateCreated($value);
 						break;
 					}
 				case $this->getCellNameDateChanged() :
 					{
-						$result[$key]= $this->generateTimestampFromDateChanged($value);
+						$result[$key] = $this->generateTimestampFromDateChanged($value);
 						break;
 					}
 			}
 		}
 		return $result;
 	}
-	public function getTotal()
+	protected function getTotal()
 	{
-		$query= 'SELECT COUNT(*) as total FROM `' . $this->getTableName() . '` ';
+		$query = 'SELECT COUNT(*) as total FROM `' . $this->getTableName() . '` ';
 		$query .= $this->getWhereQuery() . ' ';
-		$pdo= $this->getPdoHandler()->prepare($query);
+		$pdo = $this->getPdoHandler()->prepare($query);
 		$pdo->execute();
-		if (!($result= $pdo->fetch()))
+		if (!($result = $pdo->fetch()))
 		{
 			return null;
 		}
-		$pdo= null;
+		$pdo = null;
 		return $result['total'];
 	}
-	public function getRow($uniqueId)
+	protected function getRow($uniqueId)
 	{
-		$query= 'SELECT * FROM `' . $this->getTableName() . '` WHERE ';
+		$query = 'SELECT * FROM `' . $this->getTableName() . '` WHERE ';
 		$query .= ' `' . $this->getCellNameUniqueId() . '`=? ';
-		$queryData[]= $uniqueId;
-		$pdo= $this->getPdoHandler()->prepare($query);
+		$queryData[] = $uniqueId;
+		$pdo = $this->getPdoHandler()->prepare($query);
 		$pdo->execute($queryData);
-		if (!($result= $pdo->fetch()))
+		if (!($result = $pdo->fetch()))
 		{
 			return null;
 		}
-		$pdo= null;
+		$pdo = null;
 		return $this->prepareResult($result);
 	}
-	public function getFirstRow()
+	protected function getFirstRow()
 	{
-		$query= 'SELECT * FROM `' . $this->getTableName() . '` ';
+		$query = 'SELECT * FROM `' . $this->getTableName() . '` ';
 		$query .= $this->getWhereQuery() . ' ';
 		$query .= $this->getOrderQuery() . ' ';
 		$query .= ' LIMIT 0,1';
-		$pdo= $this->getPdoHandler()->prepare($query);
+		$pdo = $this->getPdoHandler()->prepare($query);
 		$pdo->execute();
-		if (!($result= $pdo->fetch()))
+		if (!($result = $pdo->fetch()))
 		{
 			return null;
 		}
-		$result= $this->prepareResult($result);
-		$pdo= null;
+		$result = $this->prepareResult($result);
+		$pdo = null;
 		return $result;
 	}
-	public function getPage($currentPage, $rowsPerPage)
+	protected function getPage($currentPage, $rowsPerPage)
 	{
-		$currentPos= $currentPage * $rowsPerPage;
-		$query= 'SELECT * FROM `' . $this->getTableName() . '` ';
+		$currentPos = $currentPage * $rowsPerPage;
+		$query = 'SELECT * FROM `' . $this->getTableName() . '` ';
 		$query .= $this->getWhereQuery() . ' ';
 		$query .= $this->getOrderQuery() . ' ';
 		$query .= ' LIMIT ' . $currentPos . ',' . $rowsPerPage;
-		$pdo= $this->getPdoHandler()->prepare($query);
+		$pdo = $this->getPdoHandler()->prepare($query);
 		$pdo->execute();
-		if (!($results= $pdo->fetchAll()))
+		if (!($results = $pdo->fetchAll()))
 		{
 			return null;
 		}
-		$results= $this->prepareResults($results);
+		$results = $this->prepareResults($results);
 		return $results;
 	}
-	public function getRowsRecursiveDown($parentId)
+	protected function getRowsRecursiveDown($parentId)
 	{
+		if ($this->getCellNameParentId() == '')
+		{
+			throw new exception('No parentId set. getRowsRecursiveDown disabled!');
+		}
 		/*
 		 * Process
 		 * Call method
@@ -254,13 +258,13 @@ class LhTable extends LhCore
 		 *  getRowRecursiveDown(UNIQUEID);
 		 * End;
 		 */
-		$currentRow= $this->getRow($parentId);
+		$currentRow = $this->getRow($parentId);
 		if ($currentRow === null)
 		{
 			return null;
 		}
-		$return[$currentRow[$this->getCellNameUniqueId()]]= $currentRow;
-		$return[$currentRow[$this->getCellNameUniqueId()]][$this->keyForChildren]= $this->getRowsRecursiveDown_($parentId);
+		$return[$currentRow[$this->getCellNameUniqueId()]] = $currentRow;
+		$return[$currentRow[$this->getCellNameUniqueId()]][$this->keyForChildren] = $this->getRowsRecursiveDown_($parentId);
 		return $return;
 	}
 	private function getRowsRecursiveDown_($parentId)
@@ -277,23 +281,27 @@ class LhTable extends LhCore
 		 *  getRowRecursiveDown(UNIQUEID);
 		 * End;
 		 */
-		$children= $this->getChildren($parentId);
+		$children = $this->getChildren($parentId);
 		if ($children === null)
 		{
 			return null;
 		}
-		$return= array ();
+		$return = array ();
 		foreach ($children as $row)
 		{
-			$row= $this->prepareResult($row);
-			$returnbit= $row;
-			$returnbit[$this->getKeyForChildren()]= $this->getRowsRecursiveDown_($row[$this->getCellNameUniqueId()]);
-			$return[$row[$this->getCellNameUniqueId()]]= $returnbit;
+			$row = $this->prepareResult($row);
+			$returnbit = $row;
+			$returnbit[$this->getKeyForChildren()] = $this->getRowsRecursiveDown_($row[$this->getCellNameUniqueId()]);
+			$return[$row[$this->getCellNameUniqueId()]] = $returnbit;
 		}
 		return $return;
 	}
-	public function getRowsRecursiveUp($uniqueId, $rootUniqueId= 1)
+	protected function getRowsRecursiveUp($uniqueId, $rootUniqueId = 1)
 	{
+		if ($this->getCellNameParentId() == '')
+		{
+			throw new exception('No parentId set. getRowsRecursiveUp disabled!');
+		}
 		/*
 		 * Process
 		 * Call method
@@ -309,52 +317,52 @@ class LhTable extends LhCore
 		 *  SELECT * FROM .. WHERE PARENT
 		 * End;
 		 */
-		$children= array ();
-		$idList= array ();
-		$row= array ();
+		$children = array ();
+		$idList = array ();
+		$row = array ();
 		while ($uniqueId >= $rootUniqueId)
 		{
-			$idList[]= $uniqueId;
-			$currentRow= $this->getRow($uniqueId);
-			$row[$uniqueId]= $currentRow;
-			$uniqueId= $currentRow[$this->getCellNameParentId()];
+			$idList[] = $uniqueId;
+			$currentRow = $this->getRow($uniqueId);
+			$row[$uniqueId] = $currentRow;
+			$uniqueId = $currentRow[$this->getCellNameParentId()];
 		}
 		krsort($idList);
-		$return= array ();
-		$currentReturn= & $return;
-		$uniqueId= $idList[key($idList)];
-		$return[$uniqueId]= $row[$uniqueId];
-		for (krsort($idList); $key= key($idList); next($idList))
+		$return = array ();
+		$currentReturn = & $return;
+		$uniqueId = $idList[key($idList)];
+		$return[$uniqueId] = $row[$uniqueId];
+		for (krsort($idList); $key = key($idList); next($idList))
 		{
-			$uniqueId= $idList[key($idList)];
-			$currentReturn[$uniqueId][$this->keyForChildren]= $this->getChildren($uniqueId);
-			$currentReturn= & $currentReturn[$uniqueId][$this->keyForChildren];
+			$uniqueId = $idList[key($idList)];
+			$currentReturn[$uniqueId][$this->keyForChildren] = $this->getChildren($uniqueId);
+			$currentReturn = & $currentReturn[$uniqueId][$this->keyForChildren];
 		}
 		return $return;
 	}
-	public function getChildren($parentId)
+	protected function getChildren($parentId)
 	{
-		$query= 'SELECT * FROM `' . $this->getTableName() . '` WHERE';
+		$query = 'SELECT * FROM `' . $this->getTableName() . '` WHERE';
 		$query .= ' `' . $this->getCellNameParentId() . '`=?';
 		$query .= $this->getOrderQuery();
-		$queryData[]= $parentId;
-		$pdo= $this->getPdoHandler()->prepare($query);
+		$queryData[] = $parentId;
+		$pdo = $this->getPdoHandler()->prepare($query);
 		$pdo->execute($queryData);
-		if (!($rows= $pdo->fetchAll()))
+		if (!($rows = $pdo->fetchAll()))
 		{
 			return null;
 		}
-		$pdo= null;
-		$return= array ();
+		$pdo = null;
+		$return = array ();
 		foreach ($rows as $row)
 		{
-			$row= $this->prepareResult($row);
-			$returnbit= $row;
-			$return[$row[$this->getCellNameUniqueId()]]= $returnbit;
+			$row = $this->prepareResult($row);
+			$returnbit = $row;
+			$return[$row[$this->getCellNameUniqueId()]] = $returnbit;
 		}
 		return $return;
 	}
-	public function updateRow($uniqueId, $rowData)
+	protected function updateRow($uniqueId, $rowData)
 	{
 		if ($this->getCellNameDateCreated() > '')
 		{
@@ -365,63 +373,63 @@ class LhTable extends LhCore
 		}
 		if ($this->getCellNameDateChanged() > '')
 		{
-			$rowData[$this->getCellNameDateChanged()]= $this->generateDateChangedFromTimestamp(time());
+			$rowData[$this->getCellNameDateChanged()] = $this->generateDateChangedFromTimestamp(time());
 		}
 		$this->setRow($uniqueId, $rowData);
 	}
-	public function setRow($uniqueId, $rowData)
+	protected function setRow($uniqueId, $rowData)
 	{
-		$rowData[$this->getCellNameUniqueId()]= $uniqueId;
-		$querySet= '';
-		$queryData= array ();
-		$queryGet= '';
+		$rowData[$this->getCellNameUniqueId()] = $uniqueId;
+		$querySet = '';
+		$queryData = array ();
+		$queryGet = '';
 		foreach ($rowData as $key => $value)
 		{
 			$querySet .= ', `' . $key . '`=? ';
 			$queryGet .= '&& `' . $key . '`=? ';
-			$queryData[]= $value;
+			$queryData[] = $value;
 		}
-		$query= 'UPDATE `' . $this->getTableName() . '` SET ' . substr($querySet, 2);
+		$query = 'UPDATE `' . $this->getTableName() . '` SET ' . substr($querySet, 2);
 		$query .= ' WHERE `' . $this->getCellNameUniqueId() . '`=?';
-		$queryData[]= $uniqueId;
-		$pdo= $this->getPdoHandler()->prepare($query);
+		$queryData[] = $uniqueId;
+		$pdo = $this->getPdoHandler()->prepare($query);
 		$pdo->execute($queryData);
-		$pdo= null;
-		$query= 'SELECT count(*) as total FROM `' . $this->getTableName() . '` WHERE ' . substr($queryGet, 2);
-		$pdo= $this->getPdoHandler()->prepare($query);
+		$pdo = null;
+		$query = 'SELECT count(*) as total FROM `' . $this->getTableName() . '` WHERE ' . substr($queryGet, 2);
+		$pdo = $this->getPdoHandler()->prepare($query);
 		$pdo->execute($queryData);
-		if (!($result= $pdo->fetch()))
+		if (!($result = $pdo->fetch()))
 		{
 			throw new exception('error while updating');
 		}
 		return true;
 	}
-	public function getLastUniqueId()
+	protected function getLastUniqueId()
 	{
-		$query= 'SELECT ' . $this->getCellNameUniqueId() . ' ';
+		$query = 'SELECT ' . $this->getCellNameUniqueId() . ' ';
 		$query .= 'FROM `' . $this->getTableName() . '` ';
 		$query .= 'ORDER BY ' . $this->getCellNameUniqueId() . ' DESC ';
 		$query .= 'LIMIT 0, 1';
-		$pdo= $this->getPdoHandler()->prepare($query);
+		$pdo = $this->getPdoHandler()->prepare($query);
 		$pdo->execute();
-		if (!($result= $pdo->fetch()))
+		if (!($result = $pdo->fetch()))
 		{
-			throw new exception('can not get last id');
+			return 0;
 		}
 		return $result[$this->getCellNameUniqueId()];
 	}
-	public function getNewUniqueId()
+	protected function getNewUniqueId()
 	{
-		$result= $this->getLastUniqueId();
+		$result = $this->getLastUniqueId();
 		$result++;
 		return $result;
 	}
-	public function newRow($rowData, $overrideUniqueId= false, $overrideDateCreated= false, $overrideDateChanged= false)
+	protected function newRow($rowData, $overrideUniqueId = false, $overrideDateCreated = false, $overrideDateChanged = false)
 	{
-		$uniqueId= false;
-		$query= '';
-		$queryCheck= '';
-		$queryData= array ();
+		$uniqueId = false;
+		$query = '';
+		$queryCheck = '';
+		$queryData = array ();
 		foreach ($rowData as $key => $value)
 		{
 			if ($key == $this->getCellNameUniqueId())
@@ -450,18 +458,18 @@ class LhTable extends LhCore
 			}
 			$query .= ', `' . $key . '`=? ';
 			$queryCheck .= '&& `' . $key . '`=? ';
-			$queryData[]= $value;
+			$queryData[] = $value;
 		}
 		$query .= ', `' . $this->getCellNameUniqueId() . '`=? ';
 		$queryCheck .= '&& `' . $this->getCellNameUniqueId() . '`=? ';
 		if ($overrideUniqueId !== false)
 		{
-			$queryData[]= $overrideUniqueId;
+			$queryData[] = $overrideUniqueId;
 		}
 		else
 		{
-			$uniqueId= $this->getNewUniqueId();
-			$queryData[]= $uniqueId;
+			$uniqueId = $this->getNewUniqueId();
+			$queryData[] = $uniqueId;
 		}
 		if ($this->getCellNameDateCreated() > '')
 		{
@@ -469,9 +477,9 @@ class LhTable extends LhCore
 			$queryCheck .= '&& `' . $this->getCellNameDateCreated() . '`=? ';
 			if ($overrideDateCreated === false)
 			{
-				$overrideDateCreated= time();
+				$overrideDateCreated = time();
 			}
-			$queryData[]= $this->generateDateCreatedFromTimestamp($overrideDateCreated);
+			$queryData[] = $this->generateDateCreatedFromTimestamp($overrideDateCreated);
 		}
 		if ($this->getCellNameDateChanged() > '')
 		{
@@ -479,23 +487,22 @@ class LhTable extends LhCore
 			$queryCheck .= '&& `' . $this->getCellNameDateChanged() . '`=? ';
 			if ($overrideDateChanged === false)
 			{
-				$overrideDateChanged= time();
+				$overrideDateChanged = time();
 			}
-			$queryData[]= $this->generateDateChangedFromTimestamp($overrideDateChanged);
+			$queryData[] = $this->generateDateChangedFromTimestamp($overrideDateChanged);
 		}
-		$query= 'INSERT INTO `' . $this->getTableName() . '` SET ' . substr($query, 2);
-		$pdo= $this->getPdoHandler()->prepare($query);
+		$query = 'INSERT INTO `' . $this->getTableName() . '` SET ' . substr($query, 2);
+		$pdo = $this->getPdoHandler()->prepare($query);
 		$pdo->execute($queryData);
-		echo '<pre>' . print_r($queryData, 1) . '</pre>';
-		$pdo= null;
-		$query= 'SELECT COUNT(*) AS total FROM `' . $this->getTableName() . '` WHERE ' . substr($queryCheck, 2);
-		$pdo= $this->getPdoHandler()->prepare($query);
+		$pdo = null;
+		$query = 'SELECT COUNT(*) AS total FROM `' . $this->getTableName() . '` WHERE ' . substr($queryCheck, 2);
+		$pdo = $this->getPdoHandler()->prepare($query);
 		$pdo->execute($queryData);
-		if (!($value= $pdo->fetch()))
+		if (!($value = $pdo->fetch()))
 		{
 			throw new exception('error while creating a row. A most frequent cause: cell_type wrong');
 		}
-		$pdo= null;
+		$pdo = null;
 		if ($value['total'] != 1)
 		{
 			throw new exception('error while creating a row. A most frequent cause: cell_type wrong');

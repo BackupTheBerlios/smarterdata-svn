@@ -9,7 +9,7 @@ class LhCore
 	private $cellNameDateChanged;
 	protected function __construct(& $pdoHandler, $translation)
 	{
-		$this->setPdoHandler(& $pdoHandler);
+		$this->setPdoHandler($pdoHandler);
 		if (!isset ($translation['tableName']))
 		{
 			throw new exception('tableName not set');
@@ -20,11 +20,10 @@ class LhCore
 			throw new exception('cellNameUniqueId not set');
 		}
 		$this->setCellNameUniqueId($translation['cellNameUniqueId']);
-		if (!isset ($translation['cellNameParentId']))
+		if (isset ($translation['cellNameParentId']))
 		{
-			throw new exception('cellNameParentId not set');
+			$this->setCellNameParentId($translation['cellNameParentId']);
 		}
-		$this->setCellNameParentId($translation['cellNameParentId']);
 		if (isset ($translation['cellNameDateCreated']))
 		{
 			$this->setCellNameDateCreated($translation['cellNameDateCreated']);
@@ -34,51 +33,51 @@ class LhCore
 			$this->setCellNameDateChanged($translation['cellNameDateChanged']);
 		}
 	}
-	public function setPdoHandler(& $pdoHandler)
+	protected function setPdoHandler(& $pdoHandler)
 	{
-		$this->pdoHandler= & $pdoHandler;
+		$this->pdoHandler = $pdoHandler;
 	}
-	public function & getPdoHandler()
+	protected function & getPdoHandler()
 	{
 		return $this->pdoHandler;
 	}
-	public function setTableName($tableName)
+	protected function setTableName($tableName)
 	{
-		$this->tableName= $tableName;
+		$this->tableName = $tableName;
 	}
-	public function getTableName()
+	protected function getTableName()
 	{
 		return $this->tableName;
 	}
-	public function setCellNameUniqueId($cellNameUniqueId)
+	protected function setCellNameUniqueId($cellNameUniqueId)
 	{
-		$this->cellNameUniqueId= $cellNameUniqueId;
+		$this->cellNameUniqueId = $cellNameUniqueId;
 	}
-	public function getCellNameUniqueId()
+	protected function getCellNameUniqueId()
 	{
 		return $this->cellNameUniqueId;
 	}
-	public function setCellNameParentId($cellNameParentId)
+	protected function setCellNameParentId($cellNameParentId)
 	{
-		$this->cellNameParentId= $cellNameParentId;
+		$this->cellNameParentId = $cellNameParentId;
 	}
-	public function getCellNameParentId()
+	protected function getCellNameParentId()
 	{
 		return $this->cellNameParentId;
 	}
-	public function setCellNameDateCreated($cellNameDateCreated)
+	protected function setCellNameDateCreated($cellNameDateCreated)
 	{
-		$this->cellNameDateCreated= $cellNameDateCreated;
+		$this->cellNameDateCreated = $cellNameDateCreated;
 	}
-	public function getCellNameDateCreated()
+	protected function getCellNameDateCreated()
 	{
 		return $this->cellNameDateCreated;
 	}
-	public function setCellNameDateChanged($cellNameDateChanged)
+	protected function setCellNameDateChanged($cellNameDateChanged)
 	{
-		$this->cellNameDateChanged= $cellNameDateChanged;
+		$this->cellNameDateChanged = $cellNameDateChanged;
 	}
-	public function getCellNameDateChanged()
+	protected function getCellNameDateChanged()
 	{
 		return $this->cellNameDateChanged;
 	}
