@@ -206,12 +206,12 @@ class LhCore
 		$orderQuery= '';
 		foreach ($orderArray as $order)
 		{
-			$orderQuery .= ', ' . $order['cell_name'] . ' ' . $order['direction'];
+			$orderQuery .= ', `' . $order['cell_name'] . '` ' . $order['direction'];
 		}
 		if (strlen($orderQuery) > 0)
 		{
 			$this->order= 'ORDER BY ';
-			$this->order .= substr($orderQuery, 2);
+			$this->order .= trim(substr($orderQuery, 2));
 		}
 		else
 		{
@@ -290,12 +290,12 @@ class LhCore
 		$whereQuery= '';
 		foreach ($whereArray as $where)
 		{
-			$whereQuery .= '&& `' . $where['cell_name'] . '`' . $where['cell_op'] . $where['cell_value'];
+			$whereQuery .= '&& `' . $where['cell_name'] . '`' . $where['cell_op'] . '\'' . $where['cell_value'] . '\'';
 		}
 		if (strlen($whereQuery) > 0)
 		{
 			$this->where= 'WHERE ';
-			$this->where .= substr($whereQuery, 2);
+			$this->where .= trim(substr($whereQuery, 2));
 		}
 		else
 		{

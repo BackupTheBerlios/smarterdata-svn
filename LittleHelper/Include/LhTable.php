@@ -152,8 +152,8 @@ class LhTable extends LhCore
 		for (krsort($idList); $key= key($idList); next($idList))
 		{
 			$uniqueId= $idList[key($idList)];
-			$currentReturn[$uniqueId][$this->keyForChildren]= $this->getChildren($uniqueId);
-			$currentReturn= & $currentReturn[$uniqueId][$this->keyForChildren];
+			$currentReturn[$uniqueId][$this->getKeyForChildren()]= $this->getChildren($uniqueId);
+			$currentReturn= & $currentReturn[$uniqueId][$this->getKeyForChildren()];
 		}
 		return $return;
 	}

@@ -1,106 +1,125 @@
 <?php
 class LhCoreTest extends LhCore
 {
-	private $pdoHandler;
-	private $notPdoHandler= '';
-	private $translation= array ();
 	public function __construct(& $pdoHandler, $translation)
 	{
-		$this->pdoHandler= & $pdoHandler;
-		$this->translation= $translation;
-		parent :: __construct(& $this->notPdoHandler, $translation);
-		$this->checkPdoHandler();
-		$this->checkTableName();
-		$this->checkCellNameUniqueId();
-		$this->checkCellNameParentId();
-		$this->checkCellDateCreated();
+		parent :: __construct(& $pdoHandler, $translation);
+		$this->checkRef('setPdoHandler', 'getPdoHandler');
+		$this->checkVal('setTableName', 'getTableName');
+		$this->checkVal('setCellNameUniqueId', 'getCellNameUniqueId');
+		$this->checkVal('setCellNameParentId', 'getCellNameParentId');
+		$this->checkVal('setCellNameDateCreated', 'getCellNameDateCreated');
+		$this->checkVal('setCellNameDateChanged', 'getCellNameDateChanged');
+		$this->checkVal('setKeyForChildren', 'getKeyForChildren');
+		$this->checkWhere();
+		$this->checkOrder();
 	}
-	private function checkPdoHandler()
+	public function __destruct()
 	{
-		$result= $this->getPdoHandler();
-		if (is_object($result))
-		{
-			echo 'BAD: pdoHandler should be null<br>';
-		}
-		if ($result === null)
-		{
-			echo 'BAD: pdoHandler should be null<br>';
-		}
-		$this->setPdoHandler(& $this->pdoHandler);
-		$result= $this->getPdoHandler();
-		if (!is_object($result))
-		{
-			echo 'BAD: pdoHandler should be an object<br>';
-		}
-		if (strtolower(get_class($result)) !== 'pdo')
-		{
-			echo 'BAD: pdoHandler should be class pdo<br>';
-		}
+		parent :: __destruct();
 	}
-	private function checkTableName()
+	public function checkRef($setMethod, $getMethod)
 	{
-		$newValue= '__TEST/';
-		if ($this->getTableName() != $this->translation['tableName'])
+		echo $setMethod . '/' . $getMethod . ' ';
+		$testvalue= time();
+		$test= new LhTest();
+		$test->setThis($testvalue);
+		parent :: $setMethod ($test);
+		if ($test !== parent :: $getMethod ())
 		{
-			echo 'BAD: tableName should be ' . $this->translation['tableName'] . '<br>';
+			echo ' works incorrect';
 		}
-		$this->setTableName($newValue);
-		if ($this->getTableName() != $newValue)
+		else
 		{
-			echo 'BAD: tableName should be ' . $newValue . '<br>';
+			echo ' works correct';
 		}
+		echo '<br>';
 	}
-	private function checkCellNameUniqueId()
+	public function checkVal($setMethod, $getMethod)
 	{
-		$newValue= '__TEST/';
-		if ($this->getCellNameUniqueId() != $this->translation['cellNameUniqueId'])
+		echo $setMethod . '/' . $getMethod . ' ';
+		$testvalue= time();
+		parent :: $setMethod ($testvalue);
+		if ($testvalue !== parent :: $getMethod ())
 		{
-			echo 'BAD: cellNameUniqueId should be ' . $this->translation['cellNameUniqueId'] . '<br>';
+			echo ' works incorrect';
 		}
-		$this->setCellNameUniqueId($newValue);
-		if ($this->getCellNameUniqueId() != $newValue)
+		else
 		{
-			echo 'BAD: cellNameUniqueId should be ' . $newValue . '<br>';
+			echo ' works correct';
 		}
+		echo '<br>';
 	}
-	private function checkCellNameParentId()
+	public function checkWhere()
 	{
-		$newValue= '__TEST/';
-		if ($this->getCellNameParentId() != $this->translation['cellNameParentId'])
+		echo 'where ';
+		$where[]= array (
+			'cell_name' => 'name1',
+			'cell_op' => '>',
+			'cell_value' => 'val1'
+		);
+		$where[]= array (
+			'cell_name' => 'name2',
+			'cell_op' => '<',
+			'cell_value' => 'val2'
+		);
+		$where[]= array (
+			'cell_name' => 'name3',
+			'cell_op' => '<',
+			'cell_value' => 'val3'
+		);
+		$shouldBe= 'WHERE `name1`>\'val1\'&& `name2`<\'val2\'&& `name3`<\'val3\'';
+		parent :: setWhere($where);
+		$error= false;
+		if (parent :: getWhere() !== $where)
 		{
-			echo 'BAD: cellNameParentId should be ' . $this->translation['cellNameParentId'] . '<br>';
+			echo 'where raw incorrect';
+			$error= true;
 		}
-		$this->setCellNameParentId($newValue);
-		if ($this->getCellNameParentId() != $newValue)
+		if (parent :: getWhereQuery() !== $shouldBe)
 		{
-			echo 'BAD: cellNameParentId should be ' . $newValue . '<br>';
+			echo 'where query incorrect';
+			$error= true;
 		}
+		if ($error === false)
+		{
+			echo 'OK';
+		}
+		echo '<br>';
 	}
-	private function checkCellDateCreated()
+	public function checkOrder()
 	{
-		$newValue= '__TEST/';
-		if ($this->getCellNameDateCreated() != $this->translation['cellNameDateCreated'])
+		echo 'order ';
+		$order[]= array (
+			'cell_name' => 'name1',
+			'direction' => 'ASC'
+		);
+		$order[]= array (
+			'cell_name' => 'name2',
+			'direction' => 'DESC'
+		);
+		$order[]= array (
+			'cell_name' => 'name3',
+			'direction' => 'ASC'
+		);
+		$shouldBe= 'ORDER BY `name1` ASC, `name2` DESC, `name3` ASC';
+		parent :: setOrder($order);
+		$error= false;
+		if ($this->getOrder() !== $order)
 		{
-			echo 'BAD: cellNameDateCreated should be ' . $this->translation['cellNameDateCreated'] . '<br>';
+			echo 'order query incorrect';
+			$error= true;
 		}
-		$this->setCellNameDateCreated($newValue);
-		if ($this->getCellNameDateCreated() != $newValue)
+		if ($this->getOrderQuery() !== $shouldBe)
 		{
-			echo 'BAD: cellNameDateCreated should be ' . $newValue . '<br>';
+			echo 'order query incorrect';
+			$error= true;
 		}
-	}
-	private function checkCellDateChanged()
-	{
-		$newValue= '__TEST/';
-		if ($this->getCellNameDateChanged() != $this->translation['cellNameDateChanged'])
+		if ($error === false)
 		{
-			echo 'BAD: cellNameDateChanged should be ' . $this->translation['cellNameDateChanged'] . '<br>';
+			echo 'OK';
 		}
-		$this->setCellNameDateChanged($newValue);
-		if ($this->getCellNameDateChanged() != $newValue)
-		{
-			echo 'BAD: cellNameDateChanged should be ' . $newValue . '<br>';
-		}
+		echo '<br>';
 	}
 }
 ?>
