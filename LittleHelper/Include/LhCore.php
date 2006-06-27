@@ -363,26 +363,29 @@ class LhCore
 	{
 		foreach ($result as $key => $value)
 		{
-			if (!is_array($value))
-			{
-				$result[$key]= stripslashes($value);
-			}
-			else
+			if (is_array($value))
 			{
 				$result[$key]= $value;
 			}
-			switch ($key)
+			else
 			{
-				case $this->getCellNameDateCreated() :
-					{
-						$result[$key]= $this->generateTimestampFromDateCreated($value);
-						break;
-					}
-				case $this->getCellNameDateChanged() :
-					{
-						$result[$key]= $this->generateTimestampFromDateChanged($value);
-						break;
-					}
+				switch ($key)
+				{
+					case $this->getCellNameDateCreated() :
+						{
+							$result[$key]= $this->generateTimestampFromDateCreated($value);
+							break;
+						}
+					case $this->getCellNameDateChanged() :
+						{
+							$result[$key]= $this->generateTimestampFromDateChanged($value);
+							break;
+						}
+					default :
+						{
+							$result[$key]= $value;
+						}
+				}
 			}
 		}
 		return $result;
