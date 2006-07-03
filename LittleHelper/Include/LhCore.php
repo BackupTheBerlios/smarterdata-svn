@@ -1,5 +1,5 @@
 <?php
-class LhCore
+class LhCore extends LhTest
 {
 	private $pdoHandler;
 	private $tableName;
