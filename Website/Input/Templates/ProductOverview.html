@@ -10,13 +10,13 @@
 	cellspacing="1"
 	style="border-width: 0px; width: 600px;">
 	<!-- BEGIN products -->
-	<tr>
+	<tr class="product_tr">
 		<td
 			colspan="2"
 			class="product_headline_name"><a name="{hash}" />&nbsp;</a>{htmlentities:category}
 		&nbsp;&nbsp;&nbsp;&nbsp; {htmlentities:name}</td>
 	</tr>
-	<tr valign="top">
+	<tr class="product_tr" valign="top">
 		<td class="product_icon">
 		<div onmouseover="returnescape('<img
 			src=\'Images/{image}\'>');"><img
@@ -35,7 +35,7 @@
 		</div>
 		</td>
 	</tr>
-	<tr valign="top">
+	<tr class="product_tr" valign="top">
 		<td colspan="2"><!-- DOCS -->
 		<table
 			cellspacing="0"
@@ -85,8 +85,7 @@
 				</ul>
 				</div>
 				<!-- ENDIF manual>"" --></td>
-				<td
-					style="width: 300px; border-left: 1px solid #000000;"><!-- IF otherdoc>"" -->
+				<td style="width: 300px; border-left: 1px solid #000000;"><!-- IF otherdoc>"" -->
 				<div
 					class="seealsosideinside"
 					style="width: 300px;"><i><b>{htmlentities:langtext.otherdoc}:</b></i>
@@ -117,5 +116,8 @@
 		</td>
 	</tr>
 	<!-- END products -->
+	<tr>
+		<td colspan="2" style="height: 400px">&nbsp;</td>
+	</tr>
 </table>
 </div>

@@ -41,13 +41,13 @@ foreach ( $loop[0]['value']['products'] as $loop[1]['key'] => $loop[1]['value'] 
 	$loop[1]['value']['ALTROW']       = $loop[1]['ROWCNTHUMAN']%2;
 	$loop[1]['value']['CURRENTKEY']   = $loop[1]['key'];
 ?>
-	<tr>
+	<tr class="product_tr">
 		<td
 			colspan="2"
 			class="product_headline_name"><a name="<?php echo $loop[1]['value']['hash']; ?>" />&nbsp;</a><?php echo stehtmlentities ( $loop[1]['value']['category'] ); ?>
 		&nbsp;&nbsp;&nbsp;&nbsp; <?php echo stehtmlentities ( $loop[1]['value']['name'] ); ?></td>
 	</tr>
-	<tr valign="top">
+	<tr class="product_tr" valign="top">
 		<td class="product_icon">
 		<div onmouseover="returnescape('<img
 			src=\'Images/<?php echo $loop[1]['value']['image']; ?>\'>');"><img
@@ -80,7 +80,7 @@ foreach ( $loop[1]['value']['description'] as $loop[2]['key'] => $loop[2]['value
 		</div>
 		</td>
 	</tr>
-	<tr valign="top">
+	<tr class="product_tr" valign="top">
 		<td colspan="2"><!-- DOCS -->
 		<table
 			cellspacing="0"
@@ -172,8 +172,7 @@ foreach ( $loop[1]['value']['manual'] as $loop[2]['key'] => $loop[2]['value'] )
 				</ul>
 				</div>
 				<?php } ?></td>
-				<td
-					style="width: 300px; border-left: 1px solid #000000;"><?php if ( $loop[1]['value']['otherdoc'] > "" ) { ?>
+				<td style="width: 300px; border-left: 1px solid #000000;"><?php if ( $loop[1]['value']['otherdoc'] > "" ) { ?>
 				<div
 					class="seealsosideinside"
 					style="width: 300px;"><i><b><?php echo stehtmlentities ( $loop[1]['value']['langtext']['otherdoc'] ); ?>:</b></i>
@@ -232,5 +231,8 @@ foreach ( $loop[1]['value']['linkto'] as $loop[2]['key'] => $loop[2]['value'] )
 		</td>
 	</tr>
 	<?php } } ?>
+	<tr>
+		<td colspan="2" style="height: 400px">&nbsp;</td>
+	</tr>
 </table>
 </div>
