@@ -1,35 +1,32 @@
-<link
-	href="Stylesheet/ProductOverview.css"
-	rel="stylesheet"
-	type="text/css"
-	media="screen, projection, print">
 <div
 	class="menu2"
 	id="menu2"><b>{htmlentities:products.0.langtext.products}</b><br>
-<!-- BEGIN products --> <a href="#{hash}">{htmlentities:name}</a> ({htmlentities:category})<br>
+<!-- BEGIN products --> <a href="#{hash}">{htmlentities:name}</a>
+({htmlentities:category})<br>
 <!-- END products --></div>
-<div class="index_content"><script language="javascript">initMenu('menu2', 121);</script>
+<div class="index_content"><script type="text/javascript">initMenu('menu2', 121);</script>
 <table
 	class="product"
 	cellspacing="1"
-	colspan="1"
-	border="0">
+	style="border-width: 0px; width: 600px;">
 	<!-- BEGIN products -->
 	<tr>
 		<td
 			colspan="2"
-			class="product_headline_name"><a name="{hash}" />{htmlentities:category}
+			class="product_headline_name"><a name="{hash}" />&nbsp;</a>{htmlentities:category}
 		&nbsp;&nbsp;&nbsp;&nbsp; {htmlentities:name}</td>
 	</tr>
 	<tr valign="top">
-		<td class="product_icon"><div  onmouseover="return escape('<img src=\'Images/{image}\'>');"><img
+		<td class="product_icon">
+		<div onmouseover="returnescape('<img
+			src=\'Images/{image}\'>');"><img
 			src="images/{icon}"
-			align="left"></div></td>
+			alt="{icon}"
+			align="left"></div>
+		</td>
 		<!-- DESCRIPTION -->
 		<td class="product_description">
-		<div
-			class="seealsosideinside"
-			width="100%"><b>{htmlentities:headline}:</b>
+		<div class="seealsosideinside"><b>{htmlentities:headline}:</b>
 		<ul>
 			<!-- BEGIN description -->
 			<li>{htmlentities:value}</li>
@@ -41,22 +38,20 @@
 	<tr valign="top">
 		<td colspan="2"><!-- DOCS -->
 		<table
-			width="100%"
 			cellspacing="0"
 			cellpadding="0"
-			border="0">
+			style="width: 600px; border-width: 0px">
 			<tr valign="top">
-				<td width="50%"><!-- IF conformity>"" -->
+				<td style="width: 300px;"><!-- IF conformity>"" -->
 				<div
 					class="seealsosideinside"
-					width="100%"><i><b>{htmlentities:langtext.conformity}:</b></i>
+					style="width: 300px"><i><b>{htmlentities:langtext.conformity}:</b></i>
 				<ul>
 					<!-- BEGIN conformity -->
 					<li><img
 						src="Images/Other/pdf2.png"
-						width="19"
-						height="18"
-						style="vertical-align:middle"><a
+						alt="PDFICON"
+						style="width: 19px; height: 18px; vertical-align:middle"><a
 						href="Documents/Conformity/{path}">{htmlentities:name}</a></li>
 					<!-- END conformity -->
 				</ul>
@@ -64,52 +59,52 @@
 				<!-- ENDIF conformity>"" --> <!-- IF datasheet>"" -->
 				<div
 					class="seealsosideinside"
-					width="100%"><i><b>{htmlentities:langtext.datasheet}:</b></i>
+					style="width: 300px;"><i><b>{htmlentities:langtext.datasheet}:</b></i>
 				<ul>
 					<!-- BEGIN datasheet -->
 					<li><img
 						src="Images/Other/pdf2.png"
-						width="19"
-						height="18"
-						style="vertical-align:middle"><a href="Documents/Datasheet/{path}">{htmlentities:name}</a></li>
+						alt="PDFICON"
+						style="width: 19px; height: 18px; vertical-align: middle;"><a
+						href="Documents/Datasheet/{path}">{htmlentities:name}</a></li>
 					<!-- END datasheet -->
 				</ul>
 				</div>
 				<!-- ENDIF datasheet>"" --> <!-- IF manual>"" -->
 				<div
 					class="seealsosideinside"
-					width="100%"><i><b>{htmlentities:langtext.handbuch}:</b></i>
+					style="width: 300px;"><i><b>{htmlentities:langtext.handbuch}:</b></i>
 				<ul>
 					<!-- BEGIN manual -->
 					<li><img
 						src="Images/Other/pdf2.png"
-						width="19"
-						height="18"
-						style="vertical-align:middle"><a href="Documents/Manual/{path}">{htmlentities:name}</a></li>
+						alt="PDFICON"
+						style="width: 19px; heigth: 18px; vertical-align:middle;"><a
+						href="Documents/Manual/{path}">{htmlentities:name}</a></li>
 					<!-- END manual -->
 				</ul>
 				</div>
 				<!-- ENDIF manual>"" --></td>
 				<td
-					width="50%"
-					style="border-left: 1px solid #000000;"><!-- IF otherdoc>"" -->
+					style="width: 300px; border-left: 1px solid #000000;"><!-- IF otherdoc>"" -->
 				<div
 					class="seealsosideinside"
-					width="100%"><i><b>{htmlentities:langtext.otherdoc}:</b></i>
+					style="width: 300px;"><i><b>{htmlentities:langtext.otherdoc}:</b></i>
 				<ul>
 					<!-- BEGIN otherdoc -->
 					<li><img
 						src="Images/Other/pdf2.png"
-						width="19"
-						height="18"
-						style="vertical-align:middle"><a href="Documents/Otherdoc/{path}">{htmlentities:name}</a></li>
+						alt="PDFICON"
+						style="width: 19px; height: 18px;
+						vertical-align:middle"><a
+						href="Documents/Otherdoc/{path}">{htmlentities:name}</a></li>
 					<!-- END otherdoc -->
 				</ul>
 				</div>
 				<!-- ENDIF otherdoc>"" --> <!-- IF linkto>"" -->
 				<div
 					class="seealsosideinside"
-					width="100%"><i><b>{htmlentities:langtext.siehe_auch}:</b></i>
+					style="width: 300px;"><i><b>{htmlentities:langtext.siehe_auch}:</b></i>
 				<ul>
 					<!-- BEGIN linkto -->
 					<li><a href="{link}">{htmlentities:name}</a></li>

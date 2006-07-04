@@ -1,16 +1,11 @@
 <?php
 require_once "G:/Service/Workspace/Website/Include/SmarterTemplate/internal/extensions/htmlentities.php";
 
-?><?php $TIME_GENERATED = round(microtime (), 4); ?><link
-	href="Stylesheet/Contacts.css"
-	rel="stylesheet"
-	type="text/css"
-	media="screen, projection, print">
-<div class="index_content">
+?><?php $TIME_GENERATED = round(microtime (), 4); ?><div class="index_content">
 <table
 	cellspacing="0"
 	cellpadding="0"
-	border="0">
+	style="border-width: 0px">
 	<?php
 if ( is_array ( $loop[0]['value']['contacts'] ) )
 {

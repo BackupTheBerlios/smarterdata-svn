@@ -1,8 +1,3 @@
-<link
-	href="Stylesheet/ProductsAll.css"
-	rel="stylesheet"
-	type="text/css"
-	media="screen, projection, print">
 <div
 	class="index_content"
 	id="index_content">
@@ -10,9 +5,9 @@
 	<tr class="products_all">
 		<!-- BEGIN products -->
 		<td class="products_all">
-			<a href="{linkToProduct}" onmouseover="this.T_WIDTH=1; return escape('<img src=\'Images/{icon}\'>');">{htmlentities:name}</a> - ({category})
+			<a href="{linkToProduct}">{htmlentities:name}</a> - ({category})
 		</td>
-	{resetheader:ROWCNT,"3","</tr><tr class='products_all'>"}
+		{resetheader:ROWCNT,"3","</tr><tr class='products_all'>"}
 		<!-- END products -->
 	</tr>
 </table>

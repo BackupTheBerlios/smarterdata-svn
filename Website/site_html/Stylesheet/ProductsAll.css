@@ -8,9 +8,11 @@ tr.products_all {
 	text-align: left;
 	border-collapse: collapse;
 	border: 1px solid #000000;
+	font-family: Verdana, sans-serif;
 }
 
 td.products_all {
 	border: 1px solid #000000;
 	padding: 5px;
+	font-family: Verdana, sans-serif;
 }

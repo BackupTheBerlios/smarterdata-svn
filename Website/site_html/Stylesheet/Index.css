@@ -2,45 +2,51 @@ a:link {
 	font-weight: normal;
 	color: #000000;
 	text-decoration: none;
+	font-family: Verdana, sans-serif;
 }
 
 a:visited {
 	font-weight: normal;
 	color: #CCCCCC;
 	text-decoration: none;
+	font-family: Verdana, sans-serif;
 }
 
 a:focus {
 	font-weight: normal;
 	color: #FFFFFF;
 	text-decoration: underline;
+	font-family: Verdana, sans-serif;
 }
 
 a:hover {
 	font-weight: normal;
 	color: #FFFFFF;
 	text-decoration: underline;
+	font-family: Verdana, sans-serif;
 }
 
 a:active {
-	font-weight: bold;
+	font-family: Verdana, sans-serif;
+	font-weight: normal;
 	color: #FFFFFF;
 	text-decoration: underline;
 }
 
 body,table,img {
 	background-color: #6375bd;
-	font-family: verdana;
+	font-family: Verdana, sans-serif;
 	border-collapse: collapse;
 	border: 0px;
 	margin: 1px;
 	padding: 0px;
-	color: rgb(0, 0, 0);
+	color: #000000;
 	border: 0px solid #000000;
 }
+
 td {
 	background-color: #6375bd;
-	font-family: verdana;
+	font-family: Verdana, sans-serif;
 	border-collapse: collapse;
 	border: 0px;
 	margin: 2px;
@@ -50,22 +56,29 @@ td {
 }
 
 td.header {
+	font-family: Verdana, sans-serif;
 	height: 110px;
 	border: 0px solid #000000;
 }
+
 div.index_top {
+	font-family: Verdana, sans-serif;
 	position: absolute;
 	top: 0px;
 	left: 200px;
 	width: 800px;
 }
+
 div.index_left {
+	font-family: Verdana, sans-serif;
 	position: absolute;
 	top: 0px;
 	left: 0px;
 	width: 200px;
 }
+
 div.index_content {
+	font-family: Verdana, sans-serif;
 	position: absolute;
 	top: 120px;
 	left: 200px;

@@ -1,16 +1,11 @@
 <?php
 require_once "G:/Service/Workspace/Website/Include/SmarterTemplate/internal/extensions/htmlentities.php";
 
-?><?php $TIME_GENERATED = round(microtime (), 4); ?><link
-	href="Stylesheet/ProductsDocuments.css"
-	rel="stylesheet"
-	type="text/css"
-	media="screen, projection, print">
-<div class="index_content">
+?><?php $TIME_GENERATED = round(microtime (), 4); ?><div class="index_content">
 <table
 	cellspacing="0"
 	cellpadding="0"
-	border="0">
+	style="border-width: 0px">
 	<?php
 if ( is_array ( $loop[0]['value']['documents'] ) )
 {
@@ -29,8 +24,8 @@ foreach ( $loop[0]['value']['documents'] as $loop[1]['key'] => $loop[1]['value']
 	<tr class="productsdocuments_<?php echo $loop[1]['value']['ROWBIT']; ?>">
 		<td><img
 			src="Images/Other/pdf.png"
-			width="19"
-			height="18"
+			alt="PDFICON"
+			style="width: 19px; height: 18px"
 			style="vertical-align:middle"><a href="<?php echo $loop[1]['value']['path']; ?>"><?php echo stehtmlentities ( $loop[1]['value']['name'] ); ?></a></td>
 		<td><?php echo stehtmlentities ( $loop[1]['value']['description'] ); ?></td>
 	</tr>

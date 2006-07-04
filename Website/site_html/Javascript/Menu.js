@@ -1,3 +1,7 @@
+function addScrollmenu(id, minPosX)
+{
+	initMenu(id, minPosX);
+}
 function initMenu(id, minPos)
 {
 	for (var i = 0; i < menus.length; i++)

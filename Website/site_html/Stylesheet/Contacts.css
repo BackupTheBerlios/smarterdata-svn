@@ -1,7 +1,8 @@
 tr.contactheader {
+	color: #000000;
 	background-color: #BBBBBB;
 	border-bottom: 1px solid #000000;
-	font-family: verdana;
+	font-family: Verdana, sans-serif;
 	font-size: 11px;
 	border-collapse: collapse;
 	margin: 0px;
@@ -10,9 +11,10 @@ tr.contactheader {
 }
 
 tr.contacts {
+	color: #000000;
 	background-color: #CCCCCC;
 	border-bottom: 1px solid #000000;
-	font-family: verdana;
+	font-family: Verdana, sans-serif;
 	font-size: 11px;
 	border-collapse: collapse;
 	margin: 0px;

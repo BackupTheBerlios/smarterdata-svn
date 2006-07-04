@@ -1,11 +1,13 @@
 tr.menu {
-	font-family: verdana;
+	font-family: verdana, sans-serif;
 	font-size: 13px;
 	border-collapse: collapse;
 	margin: 0px;
 	padding: 0px;
 }
+
 tr.aboutuslogo {
+	font-family: Verdana, sans-serif;
 	border-collapse: collapse;
 	margin: 0px;
 	padding: 0px;

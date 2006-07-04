@@ -1,12 +1,7 @@
 <?php
 require_once "G:/Service/Workspace/Website/Include/SmarterTemplate/internal/extensions/htmlentities.php";
 
-?><?php $TIME_GENERATED = round(microtime (), 4); ?><link
-	href="Stylesheet/AboutUs.css"
-	rel="stylesheet"
-	type="text/css"
-	media="screen, projection, print">
-<div class="index_content"><?php
+?><?php $TIME_GENERATED = round(microtime (), 4); ?><div class="index_content"><?php
 if ( is_array ( $loop[0]['value']['aboutus'] ) )
 {
 $loop[1]['ROWCNT'] = -1;
@@ -23,9 +18,10 @@ foreach ( $loop[0]['value']['aboutus'] as $loop[1]['key'] => $loop[1]['value'] )
 ?>
 <p
 	class="aboutus"
-	style="width: 500px"><img
+	style="width: 600px"><img
 	src="./images/<?php echo $loop[1]['value']['imagepath']; ?>"
+	alt="<?php echo $loop[1]['value']['imagepath']; ?>"
 	align="<?php echo $loop[1]['value']['imageposition']; ?>"
-	border="0"><?php echo stehtmlentities ( $loop[1]['value']['content'] ); ?><br />
+	style="border-width: 0px"><?php echo stehtmlentities ( $loop[1]['value']['content'] ); ?><br />
 </p>
 <?php } } ?></div>
