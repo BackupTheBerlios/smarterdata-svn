@@ -1,5 +1,11 @@
 <?php
-$rootDir= str_replace('\\', '/', dirname(__FILE__)) . '/..';
+$rootDir= str_replace('\\', '/', dirname(__FILE__));
+if (!preg_match("|^(.*)/([^/]{1,})$|", $rootDir, $result))
+{
+	echo 'Can not create root directory: ' . $rootDir;
+	exit (1);
+}
+$rootDir= $result[1];
 $dirDownloads= $rootDir . '/MyGames';
 $dh= dir($dirDownloads);
 if (!$dh)
@@ -13,6 +19,7 @@ while ($file= $dh->read())
 	{
 		continue;
 	}
+	echo 'Setup program: ' . $programName . "\n";
 	$curDir= $dirDownloads . '/' . $file;
 	if (!file_exists($curDir . '/setup.conf'))
 	{
@@ -26,7 +33,6 @@ while ($file= $dh->read())
 	}
 	$programName= $result[1];
 	$programConfig= array ();
-	echo 'Check program: ' . $programName . "\n";
 	$fileContent= file($curDir . '/setup.conf');
 	foreach ($fileContent as $line)
 	{
@@ -42,7 +48,6 @@ while ($file= $dh->read())
 			echo 'Can not find name in entry: ' . $name;
 			continue;
 		}
-		echo $type;
 		$programConfig[$type][]= array (
 			'file' => $result2[1],
 			'entry' => $result2[2]
@@ -73,15 +78,15 @@ echo ===================================
 		foreach ($programConfig['confname'] as $entry)
 		{
 			$startbatch .= 'echo ' . chr($currentChar) . '= ' . $entry['entry'] . '
-								';
+																';
 			$middlebatch= 'IF ERRORLEVEL ' . (int) $i . ' GOTO SETUP_' . chr($currentChar) . '
-								' . $middlebatch;
+																' . $middlebatch;
 			$choicebatch .= chr($currentChar);
 			$endbatch .= ':SETUP_' . chr($currentChar) . '
-								cd game
-								call ' . $entry['file'] . '
-								goto start
-								';
+		cd game
+																call ' . $entry['file'] . '
+																goto start
+																';
 			$i++;
 			$currentChar++;
 		}
@@ -92,15 +97,15 @@ echo ===================================
 		foreach ($programConfig['filename'] as $entry)
 		{
 			$startbatch .= 'echo ' . chr($currentChar) . '= ' . $entry['entry'] . '
-								';
+																';
 			$middlebatch= 'IF ERRORLEVEL ' . $i . ' GOTO GAME_' . chr($currentChar) . '
-								' . $middlebatch;
+																' . $middlebatch;
 			$choicebatch .= chr($currentChar);
 			$endbatch .= ':GAME_' . chr($currentChar) . '
-								cd game
-								call ' . $entry['file'] . '
-								goto start
-								';
+																cd game
+																call ' . $entry['file'] . '
+																goto start
+																';
 			$i++;
 			$currentChar++;
 		}
@@ -120,19 +125,26 @@ exit
 	$fh= fopen($curDir . '/zzz.bat', 'w');
 	if (!$fh)
 	{
-		echo 'Can not create zzz.bat';
+		echo 'Can not create zzz.bat' . "\n";
+		continue;
 	}
 	fputs($fh, $fileContent);
 	fclose($fh);
 	$fh= fopen($curDir . '/__START_GAME.bat', 'w');
 	if (!$fh)
 	{
-		echo 'Can not create __START_GAME.bat';
+		echo 'Can not create __START_GAME.bat' . "\n";
+		continue;
 	}
 	fputs($fh, str_replace('/', '\\', '"' . $rootDir . '/program/dosbox.exe" -conf' . ' "' . $rootDir . '/MyGames/' . $file . '/dosbox.conf"'));
 	fclose($fh);
-	
-/*
+	$fh= fopen($curDir . '/dosbox.conf', 'w');
+	if (!$fh)
+	{
+		echo 'Can not create dosbox.conf' . "\n";
+		continue;
+	}
+	$dosboxConf=<<<BLIP
 [sdl]
 fullscreen=false
 fulldouble=false
@@ -214,16 +226,25 @@ serial4=disabled
 xms=true
 ems=true
 umb=true
-\n
-[ipx]\n
-ipx=false\n
-\n[autoexec]";
-mount D "G:\_Workspace\DOSBox\program\keyb" 
-D: 
+
+[ipx]
+ipx=false
+
+BLIP;
+	$dosboxConf .= '[autoexec]
+';
+	$dosboxConf .= 'mount C "' . str_replace('/', '\\', $curDir) . '"
+';
+	$dosboxConf .= 'mount D "' . str_replace('/', '\\', $rootDir . '\program\KEYB') . '"
+';
+	$dosboxConf .= 'D:
+cd \ 
 keyb gr 
-mount C "G:\_Workspace\DOSBox\MyGames\1000 Miglia, Racing" 
-C: 
+C:
+cd \
 zzz.bat
-*/ 
+';
+	fputs($fh, $dosboxConf);
+	fclose($fh);
 }
 ?>
