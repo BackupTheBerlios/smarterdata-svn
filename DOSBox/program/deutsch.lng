@@ -1,0 +1,582 @@
+<04-12-21> Deutsche Sprachdatei für v0.63 von Christian König (krischn@gmx.net)
+<06-04-06> angepasst an/erweitert für v0.65 von Christian Wincziers (chris.true@gmx.de)
+<06-04-20> Qualitätssicherung und "Corporate Design" von Christian König
+
+Sollten Sie Anregungen, Vorschläge und/oder Kritik zu dieser Sprachdatei haben, schicken
+Sie mir bitte eine E-Mail oder äußern Sie Ihre Meinung im entsprechenden Thread im DOSBox-
+Forum unter http://vogons.zetafleet.com/viewforum.php?f=39. Vielen Dank!
+
+**********************************************************************************************
+Anfragen der Form "Wie kriege ich Spiel X zum Laufen?" werden grundsätzlich nicht beantwortet!
+**********************************************************************************************
+
+:SDL_CONFIGFILE_HELP
+fullscreen -- DOSBox im Vollbildmodus starten.
+fulldouble -- Im Vollbildmodus Double Buffering benutzen.
+fullresolution -- Im Vollbildmodus benutzte Auflösung: Original oder feste Größe (z.B. 1024x768).
+windowresolution -- Vergrößert das Fenster auf diese Größe NUR, wenn die Hardware dies unterstützt.
+output -- Als Output benutzen: surface, overlay, opengl, openglnb, ddraw.
+autolock -- Automatisches Einrasten der Maus bei Klick auf Bildschirm.
+sensitiviy -- Mausempfindlichkeit einstellen.
+waitonerror -- Mit dem Schließen der Konsole warten, falls DOSBox einen Fehler ausgibt.
+priority -- Priorität von DOSBox im System: lowest, lower, normal, higher, highest.
+        Der zweite Eintrag hinter dem Komma wird verwendet, wenn DOSBox nicht aktiv oder gerade minimiert ist.
+mapperfile -- Datei, in der Key- und Event-Mappings gespeichert werden.
+usescancodes -- Verhindert die Verwendung von Symboltasten (auf Nicht-US-Keyboards).
+        Funktioniert nicht mit allen Betriebssystemen.
+.
+:DOSBOX_CONFIGFILE_HELP
+language -- Benutzte Sprachdatei.
+memsize -- Größe des für DOSBox verfügbaren Speichers (in MB).
+machine -- Emuliertes Computermodell: hercules, cga, tandy, pcjr, vga.
+captures -- Verzeichnis, in dem aufgenommene Waves, Midis und Screenshots abgelegt werden.
+.
+:RENDER_CONFIGFILE_HELP
+frameskip -- Anzahl der von DOSBox übersprungenen Frames.
+aspect -- Seitenverhältnis korrigieren. Wenn die Ausgabemethode dies nicht unterstützt,
+        ist das Ergebnis eine extrem langsame Bildschirmdarstellung!
+scaler -- Modus zum Strecken/Verbessern niedriger Auflösungen: none, normal2x, normal3x, advmame2x,
+        advmame3x, advinterp2x, advinterp3x, tv2x, tv3x, rgb2x, rgb3x, scan2x, scan3x.
+.
+:CPU_CONFIGFILE_HELP
+core -- für Emulation benutzte Prozessorleistung: simple, normal, full, dynamic.
+cycles -- Von DOSBox emulierte Anzahl von Berechnungen pro Millisekunde
+        Vorsicht: Es ist ungut, diesen Wert höher setzen, als es Ihr Rechner verträgt!
+        Durch Setzen von "auto" kann man DOSBox diese Wert zu bestimmen versuchen lassen. Experimentelles Feature!
+cycleup/cycledown  -- Anzahl der Cycles, die mit Strg-F11/F12 hinzugefügt/abgezogen werden sollen.
+        Wenn diese Zahl niedriger als 100 ist, wird sie als prozentuale Angabe interpretiert.
+.
+:MIXER_CONFIGFILE_HELP
+nosound -- Mixer stummschalten; Sound wird aber trotzdem emuliert.
+rate -- Sampling-Rate des Mixers; werden Geräte auf einen höheren Wert als diesen gesetzt,
+        leidet wahrscheinlich deren Soundqualität.
+blocksize -- Blockgröße des Mixers; größere Blöcke helfen gegen stockenden Sound, dafür kann
+        es zu Verzögerungen kommen.
+prebuffer -- Größe des "Vorpuffers" in Millisekunden.
+.
+:MIDI_CONFIGFILE_HELP
+mpu401 -- MPU-401-Emulation aktivieren: none, uart oder intelligent.
+device -- Gerät, das die MIDI-Daten von MPU-401 empfängt: default, alsa, oss, win32, coreaudio, none.
+config -- spezielle Geräte-Einstellungen. In Windows sollte man die ID des Geräts eintragen.
+        Siehe auch README_DE.txt für Details.
+.
+:SBLASTER_CONFIGFILE_HELP
+sbtype -- zu emulierender SoundBlaster-Typ: none, sb1, sb2, sbpro1, sbpro2, sb16.
+sbbase,irq,dma,hdma -- IO/IRQ/DMA/High DMA-Adressen des SoundBlasters.
+mixer -- Dem SoundBlaster-Mixer erlauben, den DOSBox-Mixer zu ändern: true, false.
+oplmode -- Art der OPL-Emulation: auto, cms, opl2, dualopl2, opl3.
+        Bei "auto" richtet sich der Modus nach dem SoundBlaster-Typ; alle OPL-Modi nach Adlib-Standard, außer für CMS.
+oplrate -- Sampling-Rate der OPL-Musik-Emulation.
+.
+:GUS_CONFIGFILE_HELP
+gus -- Gravis Ultrasound-Emulation aktivieren.
+gusbase, irq1, irq2, dma1, dma2 -- Die IO/IRQ/DMA-Adressen für Gravis Ultrasound (IRQ=DMA möglich)
+gusrate -- Sampling-Rate der Ultrasound-Emulation.
+ultradir -- Pfad zum Ultrasound-Verzeichnis; In diesem Verzeichnis sollte es ein Verzeichnis MIDI geben,
+        in der sich die Patchdateien für die GUS-Wiedergabe befinden. Patches für Timidity müssten funktionieren.
+.
+:SPEAKER_CONFIGFILE_HELP
+pcspeaker -- PC-Lautsprecher-Emulation aktivieren.
+pcrate -- Sampling-Rate der PC-Lautsprecher-Emulation.
+tandy -- Sampling-Rate der Tandy 3-Emulation: off, on, auto.
+        Wenn auto gesetzt ist, dann wird Tandysound-Emulation nur verwendet,wenn die Maschine auf Tandy gesetzt ist.
+tandyrate -- Sampling-Rate der Tandy 3-Stimmen Generation.
+disney -- Disney Sound Source-Emulation aktivieren.
+.
+:BIOS_CONFIGFILE_HELP
+joysticktype -- Typ des zu emulierenden Joysticks: none, 2axis, 4axis, fcs (Thrustmaster), ch (CH Flightstick).
+        None deaktiviert die Emulation. 2axis ist der Ausgangswert und unterstützt zwei Joysticks.
+.
+:SERIAL_CONFIGFILE_HELP
+serial1-4 -- Setzt den Gerätetyp, der mit dem COM-Port verbunden ist: disabled, dummy, modem, directserial.
+        Zusätzliche Parameter müssen sich in derselben Zeile befinden, in der Form von Parameter:Wert.
+        Parameter für alle Typen sind: irq, startbps, bytesize, stopbits, parity (alles optional).
+        Für directserial gilt: realport (benötigt).
+        Für modem gilt: listenport (optional).
+        Beispiel: serial1=modem listenport:5000
+.
+:DOS_CONFIGFILE_HELP
+xms -- XMS-Unterstützung aktivieren.
+ems -- EMS-Unterstützung aktivieren.
+umb -- UMB-Unterstützung aktivieren: false, true, max.
+.
+:IPX_CONFIGFILE_HELP
+ipx -- Aktiviert die "IPX over UDP/IP"-Emulation.
+.
+:AUTOEXEC_CONFIGFILE_HELP
+Zeilen in diesem Abschnitt werden beim Start von DOSBox ausgeführt.
+.
+:PROGRAM_CONFIG_FILE_ERROR
+Kann Datei %s nicht ”ffnen.
+.
+:PROGRAM_CONFIG_USAGE
+DOSBox Konfigurations-Tool:
+CONFIG -writeconf [Datei] speichert die aktuelle Konfiguration in [Datei].
+CONFIG -writelang [Datei] speichert die aktuelle Sprachdatei in [Datei].
+.
+:PROGRAM_CONFIG_SECTION_ERROR
+Abschnitt %s existiert nicht.
+.
+:PROGRAM_CONFIG_PROPERTY_ERROR
+Kein passender Abschnitt oder Objekt
+.
+:PROGRAM_CONFIG_NO_PROPERTY
+Es existiert kein Objekt %s in Abschnitt %s.
+.
+:PROGRAM_CONFIG_GET_SYNTAX
+Korrekte Syntax: config -get "Abschnitt Objekt"
+.
+:PROGRAM_MOUNT_CDROMS_FOUND
+Anzahl gefundener CD-ROM-Laufwerke: %d
+.
+:PROGRAM_MOUNT_STATUS_2
+Laufwerk %c eingebunden von %s
+.
+:PROGRAM_MOUNT_STATUS_1
+Eingebundene Laufwerke:
+.
+:PROGRAM_MOUNT_ERROR_1
+Verzeichnis %s existiert nicht.
+.
+:PROGRAM_MOUNT_ERROR_2
+Verzeichnis %s existiert nicht.
+.
+:PROGRAM_MOUNT_ILL_TYPE
+Typ %s ist nicht vorgesehen.
+.
+:PROGRAM_MOUNT_ALLREADY_MOUNTED
+Laufwerk %c ist schon eingebunden von %s.
+.
+:PROGRAM_MOUNT_USAGE
+Bindet lokale Verzeichnisse als virtuelle Laufwerke in DOSBox ein.
+
+[36mMOUNT [Virtueller Laufwerksbuchstabe] [Lokales Verzeichnis][0m
+
+Der Befehl [36mMOUNT C C:\WINDOWS[0m wrde also das Windows-Verzeichnis als
+virtuelles Laufwerk C: in DOSBox einbinden.
+.
+:PROGRAM_MOUNT_UMOUNT_CURRENT
+Das aktive Laufwerk kann nicht entbunden werden.
+.
+:PROGRAM_MOUNT_UMOUNT_NOT_MOUNTED
+Laufwerk %c ist nicht eingebunden.
+.
+:PROGRAM_MOUNT_UMOUNT_SUCCES
+Laufwerk %c wurde erfolgreich entbunden.
+.
+:PROGRAM_MOUNT_UMOUNT_NO_VIRTUAL
+Virtuelle Laufwerke k”nnen nicht entbunden werden.
+.
+:PROGRAM_MOUNT_WARNING_WIN
+Es wird dringend davon abgeraten, C:\ einzubinden.
+Bitte benutzen Sie ein Unterverzeichnis.
+.
+:PROGRAM_MOUNT_WARNING_OTHER
+Es wird dringend davon abgeraten, das Urverzeichnis einzubinden.
+Bitte benutzen Sie ein Unterverzeichnis.
+.
+:PROGRAM_MEM_CONVEN
+%10d KBytes freier konventioneller Speicher
+.
+:PROGRAM_MEM_EXTEND
+%10d KBytes freier erweiterter Speicher (XMS)
+.
+:PROGRAM_MEM_EXPAND
+%10d KBytes freier hoher Speicher (EMS)
+.
+:PROGRAM_MEM_UPPER
+%10d KB freier hoher Speicher in %d Bl”cken (gr”áter UMB %d KB)
+.
+:PROGRAM_LOADFIX_ALLOC
+%d KBytes wurden zugewiesen.
+.
+:PROGRAM_LOADFIX_DEALLOC
+%d KBytes wurden freigemacht.
+.
+:PROGRAM_LOADFIX_DEALLOCALL
+Benutzter Speicher wurde freigemacht.
+.
+:PROGRAM_LOADFIX_ERROR
+Es gab einen Fehler bei der Speicherzuweisung.
+.
+:MSCDEX_SUCCESS
+MSCDEX wurde installiert.
+.
+:MSCDEX_ERROR_MULTIPLE_CDROMS
+MSCDEX-Fehler: Buchstaben fr CD-Laufwerke mssen direkt aufeinander folgen.
+.
+:MSCDEX_ERROR_NOT_SUPPORTED
+MSCDEX-Fehler: Noch nicht untersttzt
+.
+:MSCDEX_ERROR_PATH
+MSCDEX-Fehler: Ungltiger Pfad
+.
+:MSCDEX_TOO_MANY_DRIVES
+MSCDEX-Fehler: Mehr als 5 CD-ROM-Laufwerke; Installation fehlgeschlagen
+.
+:MSCDEX_LIMITED_SUPPORT
+MSCDEX: Eingebundenes Unterverzeichnis; eingeschr„nkte Untersttzung
+.
+:MSCDEX_UNKNOWN_ERROR
+MSCDEX: Unbekannter Fehler
+.
+:PROGRAM_RESCAN_SUCCESS
+Laufwerks-Cache wurde geleert.
+.
+:PROGRAM_INTRO
+[2J
+[33;1mWillkommen bei DOSBox[0m, einem x86-Emulator mit Grafik und Sound!
+DOSBox funktioniert wie das gute alte DOS und sieht auch so aus.
+
+Hilfe zum Einbinden von Laufwerken erhalten Sie mit [36mINTRO MOUNT[0m.
+Hilfe zur CD-ROM-Untersttzung erhalten Sie mit [36mINTRO CDROM[0m.
+Hilfe zu den Sondertasten erhalten Sie mit [36mINTRO SPECIAL[0m.
+
+Mehr Informationen zu DOSBox finden Sie im DOSBox-Wiki im Internet:
+[32;1mhttp://dosbox.sourceforge.net/wiki[0m
+
+[31;1mIm Falle eines Fehlers kann DOSBox ohne Vorwarnung abstrzen![0m
+.
+:PROGRAM_INTRO_MOUNT_START
+[2J
+[33;1mDOSBox-Schnellstart:[0m
+
+Um mit DOSBox Programme aufrufen zu k”nnen, muss erst ein Ordner
+(Verzeichnis) als virtuelles Laufwerk eingebunden werden:
+
+.
+:PROGRAM_INTRO_MOUNT_WINDOWS
+[46;1mÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+º [36mMOUNT C C:\DOS[37m erstellt ein (virtuelles) DOSBox-Laufwerk C          º
+º mit dem Inhalt des Ordners C:\DOS                                   º
+º                                                                     º
+º C:\DOS ist nur ein Beispiel, zu ersetzen mit Ihrem Spieleordner.[37m    º
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼[0m
+.
+:PROGRAM_INTRO_MOUNT_OTHER
+[46;1mÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+º [36mMOUNT C ~/DOS[37m erstellt ein (virtuelles) DOSBox-Laufwerk C           º
+º mit dem Inhalt des Ordners ~/DOS                                    º
+º                                                                     º
+º ~/DOS ist nur ein Beispiel, zu ersetzen mit Ihrem Spieleordner.[37m     º
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼[0m
+.
+:PROGRAM_INTRO_MOUNT_END
+
+Wenn die Einbindung erfolgreich war, geben Sie [36mC:[0m ein, um zu
+Ihrem gerade erstellten Laufwerk C zu gelangen. Wenn Sie jetzt
+[36mDIR[0m eingeben, sehen Sie dessen Inhalt. Mit [36mCD[0m k”nnen Sie in
+eines der Unterverzeichnisse wechseln.
+
+Programme/Dateien mit den Endungen [36mEXE[0m, [36mBAT[0m und [36mCOM[0m k”nnen durch
+Eingabe des Namens aufgerufen werden.
+.
+:PROGRAM_INTRO_CDROM
+[2J
+[33;1mEin virtuelles/physisches CD-ROM-Laufwerk in DOSBox einbinden:[0m
+
+DOSBox bietet mehrere M”glichkeiten der Emulation von CD-ROM-Laufwerken.
+[33;1mEbene 1[0m funktioniert mit allen CD-ROM-Laufwerken sowie normalen Verzeichnis-
+sen. Es wird MSCDEX geladen und alle Dateien werden als schreibgeschtzt
+markiert. Fr die meisten Spiele gengt das:
+
+[36mMOUNT D D:\ -T CDROM[0m oder [36mMOUNT D C:\ORDNER -T CDROM[0m
+Wenn das nicht funktioniert, mssen Sie vielleicht noch das CD-Label angeben:
+[36mMOUNT D C:\ORDNER -T CDROM -LABEL BEZEICHNUNG[0m
+
+[33;1mEbene 2[0m ist etwas besser, funktioniert aber nur mit echten CD-ROM-Laufwerken:
+
+[36mMOUNT D D:\ -T CDROM -USECD 0
+
+[33;1mEbene 3[0m h„ngt von Ihrem Betriebssystem ab:
+
+[36mMOUNT D D:\ -T CDROM -USECD 0 -IOCTL[0m (Windows NT/2000/XP, Linux)
+[36mMOUNT D D:\ -T CDROM -USECD 0 -ASPI[0m (Windows 98/ME mit ASPI-Layer)
+
+Ersetzen Sie [36mD:\[0m durch die Adresse ihres CD-ROM-Laufwerks.
+Ersetzen Sie die [36m0[0m in [36m-USECD 0[0m durch die Nummer, die sie nach Eingabe von
+[36mMOUNT -CD[0m fr das betreffende CD-ROM-Laufwerk erhalten.
+.
+:PROGRAM_INTRO_SPECIAL
+[2J
+[33;1mSondertasten:[0m
+(Dies sind Standardbelegungen, die Sie im Keymapper „ndern k”nnen.)
+
+Alt-Enter    Vollbildmodus an/aus
+Alt-Pause    Emulation unterbrechen
+Strg-F1      Keymapper starten
+Strg-F4      Disketten-Image wechseln; Verzeichnisstruktur neu lesen
+Strg-F5      Screenshot abspeichern (PNG)
+Strg-Alt-F5  Bildschirmausgabe und Sound als Videoclip speichern an/aus
+Strg-F6      Soundausgabe in WAV-Datei schreiben an/aus
+Strg-Alt-F7  OPL-Befehle aufnehmen an/aus
+Strg-Alt-F8  Raw-MIDI-Befehle aufnehmen an/aus
+Strg-F7      Frames berspringen -1
+Strg-F8      Frames berspringen +1
+Strg-F9      DOSBox abschieáen
+Strg-F10     Maus einrasten/freigeben
+Strg-F11     Emulation verlangsamen (DOSBox-Cycles verringern)
+Strg-F12     Emulation beschleunigen (DOSBox-Cycles erh”hen)
+Alt-F12      Drosselung aufheben (Turbo-Knopf)
+.
+:PROGRAM_BOOT_NOT_EXIST
+Fehler: Bootdisk-Image wurde nicht gefunden.
+.
+:PROGRAM_BOOT_NOT_OPEN
+Fehler: Bootdisk-Image konnte nicht ge”ffnet werden.
+.
+:PROGRAM_BOOT_PRINT_ERROR
+DOSBox mit einem Disketten- oder Festplatten-Image booten:
+
+Fr diesen Befehl kann man eine Abfolge von Disketten-Images angeben, die
+sich mit [36mStrg-F4[0m tauschen lassen. Der Parameter [36m-L[0m gibt das eingebundene
+Laufwerk an, von dem gebootet werden soll. Wird kein Boot-Laufwerk ange-
+geben, versucht DOSBox, von Laufwerk A zu booten. Gltige Boot-Laufwerke
+sind A, C und D. Um von einem Festplatten-Image zu booten, sollte dieses
+mittels des Befehls [36mIMGMOUNT[0m schon eingebunden worden sein.
+
+[36mBOOT [Image-Datei_1.img Image-Datei_2.img] [-L Laufwerksbuchstabe][0m
+.
+:PROGRAM_BOOT_UNABLE
+Kann nicht von Laufwerk %c booten.
+:PROGRAM_BOOT_IMAGE_OPEN
+™ffne Boot-Image %s...
+.
+:PROGRAM_BOOT_IMAGE_NOT_OPEN
+Kann Boot-Image %s nicht ”ffnen.
+:PROGRAM_BOOT_BOOT
+Boot-Vorgang gestartet von Laufwerk %c...
+.
+:PROGRAM_BOOT_CART_WO_PCJR
+PCjr-Steckplatz gefunden, aber System ist nicht PCjr.
+:PROGRAM_IMGMOUNT_SPECIFY_DRIVE
+Sie mssen das Laufwerk angeben, in das die Image-Datei eingebunden
+werden soll.
+.
+:PROGRAM_IMGMOUNT_SPECIFY2
+Sie mssen die Nummer des Laufwerks angeben, in das die Image-Datei
+eingebunden werden soll (0, 1: fda, fdb; 2, 3: hda, hdb).
+.
+:PROGRAM_IMGMOUNT_SPECIFY_GEOMETRY
+Image-Dateien in DOSBox einbinden:
+
+[33;1mCD-ROM[0m-Images: [36mIMGMOUNT [Laufwerksbuchstabe] [Image-Datei] -t iso[0m
+
+Fr [33;1mFestplatten[0m-Images werden genaue Laufwerksspezifikationen ben”tigt:
+Bytes/Sektor, Sektoren/Zylinder, K”pfe/Zylinder, Zylinderanzahl.
+.
+:PROGRAM_IMGMOUNT_TYPE_UNSUPPORTED
+Image-Typ "%s" wird nicht untersttzt. Bitte geben Sie an: "hdd", "floppy" oder "iso".
+.
+:PROGRAM_IMGMOUNT_FORMAT_UNSUPPORTED
+Image-Format "%s" wird nicht untersttzt. Bitte geben Sie an: "fat", "iso" oder "none".
+.
+:PROGRAM_IMGMOUNT_SPECIFY_FILE
+Sie mssen angeben, welche Image-Datei sie einbinden m”chten.
+.
+:PROGRAM_IMGMOUNG_FILE_NOT_FOUND
+Die angegebene Image-Datei wurde nicht gefunden.
+.
+:PROGRAM_IMGMOUNG_MOUNT
+Um Verzeichnisse einzubinden, benutzen Sie bitte den [36mMOUNT[0m-Befehl.
+.
+:PROGRAM_IMGMOUNT_ALLREADY_MOUNTED
+Unter diesem Buchstaben ist schon ein Laufwerk eingebunden.
+.
+:PROGRAM_IMGMOUNT_CANT_CREATE
+Das Laufwerk kann nicht erstellt werden.
+.
+:PROGRAM_IMGMOUNT_MOUNT_NUMBER
+Laufwerk Nummer %d wurde von %s eingebunden.
+.
+:SHELL_ILLEGAL_PATH
+Ungltiger Pfad
+.
+:SHELL_CMD_HELP
+[33;1mFolgende DOS-Befehle sind verfgbar:[0m
+
+.
+:SHELL_CMD_ECHO_ON
+ECHO ist an.
+.
+:SHELL_CMD_ECHO_OFF
+ECHO ist aus.
+.
+:SHELL_ILLEGAL_SWITCH
+Ungltige Option: %s
+.
+:SHELL_CMD_CHDIR_ERROR
+Kann nicht ins Verzeichnis %s wechseln.
+.
+:SHELL_CMD_CHDIR_HINT
+Um zum anderen Laufwerk zu wechseln, bitte [36m%C:[0m eingeben.
+.
+:SHELL_CMD_MKDIR_ERROR
+Kann Verzeichnis %s nicht erstellen.
+.
+:SHELL_CMD_RMDIR_ERROR
+Kann Verzeichnis %s nicht entfernen.
+.
+:SHELL_CMD_DEL_ERROR
+Kann %s nicht l”schen.
+.
+:SHELL_SYNTAXERROR
+Die Befehlssyntax stimmt nicht.
+.
+:SHELL_CMD_SET_NOT_SET
+Umgebungsvariable %s ist nicht definiert.
+.
+:SHELL_CMD_SET_OUT_OF_SPACE
+Es ist nicht gengend Umgebungsspeicher vorhanden.
+.
+:SHELL_CMD_IF_EXIST_MISSING_FILENAME
+IF EXIST: Fehlender Dateiname
+.
+:SHELL_CMD_IF_ERRORLEVEL_MISSING_NUMBER
+IF ERRORLEVEL: Fehlender Wert
+.
+:SHELL_CMD_IF_ERRORLEVEL_INVALID_NUMBER
+IF ERRORLEVEL: Ungltiger Wert
+.
+:SHELL_CMD_GOTO_MISSING_LABEL
+GOTO: Keine Marke angegeben
+.
+:SHELL_CMD_GOTO_LABEL_NOT_FOUND
+GOTO: Marke %s wurde gefunden.
+.
+:SHELL_CMD_FILE_NOT_FOUND
+Datei %s wurde nicht gefunden.
+.
+:SHELL_CMD_FILE_EXISTS
+Datei %s ist bereits vorhanden.
+.
+:SHELL_CMD_DIR_INTRO
+Verzeichnis von %s.
+.
+:SHELL_CMD_DIR_BYTES_USED
+  %5d Datei(en)       %17s Bytes
+.
+:SHELL_CMD_DIR_BYTES_FREE
+  %5d Verzeichnis(se) %17s Bytes frei
+.
+:SHELL_EXECUTE_DRIVE_NOT_FOUND
+Laufwerk %c ist nicht vorhanden.
+Es muss erst ein Laufwerk mit [36mMOUNT[0m eingebunden werden.
+Mehr Informationen mit [36mINTRO[0m oder [36mINTRO MOUNT[0m.
+.
+:SHELL_EXECUTE_ILLEGAL_COMMAND
+Unbekannter Befehl: %s
+.
+:SHELL_CMD_PAUSE
+Bitte drcken Sie eine Taste...
+.
+:SHELL_CMD_PAUSE_HELP
+Fordert den Benutzer auf, eine Taste zu drcken.
+.
+:SHELL_CMD_COPY_FAILURE
+Fehler beim Kopieren: %s
+.
+:SHELL_CMD_COPY_SUCCESS
+  %d Datei(en) wurden kopiert.
+.
+:SHELL_CMD_SUBST_NO_REMOVE
+Das Entfernen von Laufwerken wird nicht untersttzt.
+.
+:SHELL_CMD_SUBST_FAILURE
+SUBST fehlgeschlagen: Entweder war Ihr Befehl nicht vollst„ndig/fehlerhaft,
+oder das Ziellaufwerk wird schon benutzt.
+SUBST funktioniert nur mit lokalen Laufwerken.
+:SHELL_STARTUP_BEGIN
+[44;1mÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+º [33mDOSBox Shell v0.65[37m                                                  º
+º                                                                     º
+º Mit dem Befehl [36mHELP[37m erhalten Sie eine Liste gltiger Befehle.       º
+º Mit dem Befehl [36mINTRO[37m erhalten Sie eine kleine Einfhrung.           º
+º                                                                     º
+º Die Geschwindigkeit l„sst sich mit [36;1mStrg-F8[37m und [36;1mStrg-F12[37m erh”hen.    º
+º Drcken Sie [36;1mStrg-F1[37m, um die Tastenbelegung zu „ndern.               º
+º Eine genaue Anleitung finden Sie in der [36;1mREADME[37m im DOSBox-Ordner.    º
+º                                                                     º
+.
+:SHELL_STARTUP_CGA
+º DOSBox untersttzt den Composite-CGA-Modus.                         º
+º Benutzen Sie [36;1mAlt-F11[37m, um in diesem Modus die Farben zu wechseln.    º
+º                                                                     º
+.
+:SHELL_STARTUP_DEBUG
+º Um den Debugger zu starten, [36;1mAlt-Pause[37m drcken oder [36mDEBUG[37m eingeben.  º
+º                                                                    º
+.
+:SHELL_STARTUP_END
+º Viel Spaá wnscht das DOSBox-Team!                                  º
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼[0m
+.
+:SHELL_CMD_CHDIR_HELP
+(=CD) Verzeichnis wechseln
+.
+:SHELL_CMD_CLS_HELP
+Bildschirminhalt l”schen
+.
+:SHELL_CMD_DIR_HELP
+Verzeichnisinhalt auflisten
+.
+:SHELL_CMD_ECHO_HELP
+Meldung ausgeben bzw. Befehls-Echo aus-/anstellen (OFF/ON)
+.
+:SHELL_CMD_EXIT_HELP
+DOSBox-Shell beenden
+.
+:SHELL_CMD_HELP_HELP
+Diese Hilfe darstellen
+.
+:SHELL_CMD_MKDIR_HELP
+(=MD) Verzeichnis erstellen
+.
+:SHELL_CMD_RMDIR_HELP
+(=RD) Verzeichnis l”schen
+.
+:SHELL_CMD_SET_HELP
+Umgebungsvariable(n) „ndern
+.
+:SHELL_CMD_IF_HELP
+Fhrt in Batchdateien unter angegebenen Bedingungen Befehle aus.
+.
+:SHELL_CMD_GOTO_HELP
+Innerhalb eines Batchdatei in eine bezeichnete Zeile springen
+.
+:SHELL_CMD_TYPE_HELP
+Den Inhalt einer Textdatei auf den Bildschirm ausgeben
+.
+:SHELL_CMD_REM_HELP
+Bezeichnet Kommentarzeilen innerhalb einer Batchdatei.
+.
+:SHELL_CMD_NO_WILD
+Eine vereinfachte Version des Befehls, Platzhalter werden ignoriert!
+.
+:SHELL_CMD_RENAME_HELP
+(=REN) Datei umbenennen
+.
+:SHELL_CMD_DELETE_HELP
+(=DEL, ERASE) Datei(en) l”schen
+.
+:SHELL_CMD_COPY_HELP
+Datei(en) kopieren
+.
+:SHELL_CMD_CALL_HELP
+Innerhalb einer Batchdatei eine andere Batchdatei aufrufen
+.
+:SHELL_CMD_SUBST_HELP
+Ein internes Verzeichnis einem Laufwerksbuchstaben zuordnen
+.
+:SHELL_CMD_LOADHIGH_HELP
+(=LH) Programmstart (nur fr Kompatibilit„t mit Batchdateien)
+.
+:SHELL_CMD_CHOICE_HELP
+Wartet auf Tastendruck und gibt entsprechenden Errorlevel aus.
+.
+:SHELL_CMD_ATTRIB_HELP
+Ohne Funktion (nur fr Kompatibilit„t)
+.
+:SHELL_CMD_PATH_HELP
+Nur fr Kompatibilit„t
+.
