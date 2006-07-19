@@ -1,0 +1,1 @@
+"G:\_Workspace\DOSBox\Scripts\..\program\dosbox.exe" -conf "G:\_Workspace\DOSBox\Scripts\..\MyGames\1000 Miglia, Racing\dosbox.conf"
