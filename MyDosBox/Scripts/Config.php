@@ -11,6 +11,8 @@ $dirMyProgramsWindows= str_replace('/', '\\', $dirMyPrograms);
 $dirMyDownloads= $rootDir . '/MyDownloads';
 $dirMyDownloadsWindows= str_replace('/', '\\', $dirMyDownloads);
 $nameFileConfig= 'setup.conf';
+$dirTools= $rootDir . '/tools';
+$dirToolsWindows= str_replace('/', '\\', $dirTools);
 $nl= "\n";
 if (OS_WINDOWS)
 {

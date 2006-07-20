@@ -1,19 +1,55 @@
-@echo off
-set curdir=%CD%
-cd "%curdir%\MyGames"
-FOR /F "eol=; tokens=1* delims=#" %%a IN ('dir /b /AD "%curdir%\MyGames\"') DO (
-	IF EXIST "%curdir%\MyGames\%%a\zzz.bat" (
-		IF EXIST "%curdir%\MyGames\%%a\dosbox.conf" (
-			IF EXIST "%curdir%\MyGames\%%a\game" (
-				echo Pack %%a
-				IF EXIST "%curdir%\Downloads\%%a.zip" (
-					del "%curdir%\Downloads\%%a.zip"
-				)
-				"%curdir%\tools\zip.exe" -r -9 -qq "%curdir%\Downloads\%%a.zip" "%%a"
-				rmdir /S /Q "%%a"
-			)
-		)
-	)
-)
-cd..
-pause
+<?php
+require_once dirname(__FILE__) . '/Config.php';
+$dh= dir($dirMyPrograms);
+if (!$dh)
+{
+	echo 'Can not read directory: ' . $dirMyDownloads;
+	exit (1);
+}
+$zipExe=$rootDir . '/tools/zip.exe';
+$zipOptions='-r -9 -qq';
+while ($file= $dh->read())
+{
+	if(!file_exists($dirMyPrograms.'/'.$file.'/setup.conf'))
+	{
+		echo 'setup.conf does not exist: '.$file.$nl;
+		continue;
+	}
+	if(!file_exists($dirMyPrograms.'/'.$file.'/zzz.bat'))
+	{
+		echo 'zzz.bat does not exist: '.$file.$nl;
+		continue;
+	}
+	if(!file_exists($dirMyPrograms.'/'.$file.'/__START_GAME.bat'))
+	{
+		echo '__START_GAME.bat does not exist: '.$file.$nl;
+		continue;
+	}
+	if(!file_exists($dirMyPrograms.'/'.$file.'/dosbox.conf'))
+	{
+		echo 'dosbox.conf does not exist: '.$file.$nl;
+		continue;
+	}
+	@unlink($dirMyPrograms.'/'.$file.'/zzz.bat');
+	@unlink($dirMyPrograms.'/'.$file.'/__START_GAME.bat');
+	@unlink($dirMyPrograms.'/'.$file.'/dosbox.conf');
+	if(file_exists($dirMyDownloads.'/'.$file.'.zip'))
+	{
+		for($i = 0; $i < 1000; $i++)
+		{
+			if(!file_exists($dirMyDownloads.'/'.$file.'.'.$i.'.zip'))
+			{
+				rename ($dirMyDownloads.'/'.$file.'.zip',$dirMyDownloads.'/'.$file.'.'.$i.'.zip');
+				break;
+			}
+		}
+	}
+	$returnCode=0;
+	system('"'.$dirToolsWindows.'\\'.$zipExe.' '.$zipOptions.' "'.$dirMyDownloadsWindows.'\\'.$file.'.zip" "'.$dirMyProgramsWindows.'\\'.$file.'"', $returnCode);
+	if($returnCode !== 0 )
+	{
+		echo 'Error while packing: '.$file.$nl;
+		continue;
+	}
+}
+?>
