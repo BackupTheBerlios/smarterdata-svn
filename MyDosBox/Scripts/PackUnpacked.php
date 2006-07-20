@@ -3,13 +3,17 @@ require_once dirname(__FILE__) . '/Config.php';
 $dh= dir($dirMyPrograms);
 if (!$dh)
 {
-	echo 'Can not read directory: ' . $dirMyDownloads;
+	echo 'Can not read directory: ' . $dirMyPrograms;
 	exit (1);
 }
 $zipExe=$rootDir . '/tools/zip.exe';
 $zipOptions='-r -9 -qq';
 while ($file= $dh->read())
 {
+	if ($file == '.' || $file == '..' || !is_dir($dirMyPrograms . '/' . $file))
+	{
+		continue;
+	}
 	if(!file_exists($dirMyPrograms.'/'.$file.'/setup.conf'))
 	{
 		echo 'setup.conf does not exist: '.$file.$nl;
@@ -45,7 +49,10 @@ while ($file= $dh->read())
 		}
 	}
 	$returnCode=0;
-	system('"'.$dirToolsWindows.'\\'.$zipExe.' '.$zipOptions.' "'.$dirMyDownloadsWindows.'\\'.$file.'.zip" "'.$dirMyProgramsWindows.'\\'.$file.'"', $returnCode);
+	$currentDir = getcwd();
+	chdir($dirMyProgramsWindows);
+	system('"'.$zipExe.' '.$zipOptions.' "'.$dirMyDownloadsWindows.'\\'.$file.'.zip" "'.$file.'"', $returnCode);
+	chdir($currentDir);
 	if($returnCode !== 0 )
 	{
 		echo 'Error while packing: '.$file.$nl;
