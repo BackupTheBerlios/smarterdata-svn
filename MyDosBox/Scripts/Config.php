@@ -228,15 +228,16 @@ echo ===================================
 		foreach ($programConfig['confname'] as $entry)
 		{
 			$startbatch .= 'echo ' . chr($currentChar) . '= ' . $entry['entry'] . '
-																												';
+';
 			$middlebatch= 'IF ERRORLEVEL ' . (int) $i . ' GOTO SETUP_' . chr($currentChar) . '
-																												' . $middlebatch;
+' . $middlebatch;
 			$choicebatch .= chr($currentChar);
 			$endbatch .= ':SETUP_' . chr($currentChar) . '
-														cd game
-																												call ' . $entry['file'] . '
-																												goto start
-																												';
+cd game
+call ' . $entry['file'] . '
+cd..
+goto start
+';
 			$i++;
 			$currentChar++;
 		}
@@ -247,15 +248,16 @@ echo ===================================
 		foreach ($programConfig['filename'] as $entry)
 		{
 			$startbatch .= 'echo ' . chr($currentChar) . '= ' . $entry['entry'] . '
-																												';
+';
 			$middlebatch= 'IF ERRORLEVEL ' . $i . ' GOTO GAME_' . chr($currentChar) . '
-																												' . $middlebatch;
+' . $middlebatch;
 			$choicebatch .= chr($currentChar);
 			$endbatch .= ':GAME_' . chr($currentChar) . '
-																												cd game
-																												call ' . $entry['file'] . '
-																												goto start
-																												';
+cd game
+call ' . $entry['file'] . '
+cd..
+goto start
+';
 			$i++;
 			$currentChar++;
 		}
