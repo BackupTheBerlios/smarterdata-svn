@@ -6,11 +6,13 @@ require_once $rootpath . '/include/x4user.php';
 x4core :: init();
 x4core :: connect('mysql', 'localhost', 'test', 'test', 'test');
 $user= new x4user();
-$user->newUser('root', 'root', 'root@localhost');
-$user->login('root', 'root');
-#$user->setUserPassword
-#$user->setUserEmail
-#$user->setUserActivated
-#$user->setUserBaned
-#$user->setUserBanedTo(
+$user->loginForAdmin('root');
+echo $user->getUserId();
+#$user->newUser('root', 'root', 'root@localhost');
+#$user->login('root', 'root');
+#$user->setUserPassword('root');
+#$user->setUserEmail('root2@localhost');
+#$user->setUserActivated(true);
+#$user->setUserBaned(true);
+#$user->setUserBanedTo(true);
 ?>

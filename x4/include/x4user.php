@@ -21,10 +21,6 @@ class x4user extends x4tension
 		{
 			$this->loginInternal($_SESSION['userName'], $_SESSION['userPassword']);
 		}
-		else
-		{
-			$this->login($this->anonymousUserName, $this->anonymousUserPassword);
-		}
 	}
 	public function newUser($userName, $userPassword, $userEmail)
 	{
@@ -41,9 +37,10 @@ class x4user extends x4tension
 		$this->convertUserPassword($userPassword);
 		$this->convertUserEmail($userEmail);
 		$query= 'INSERT INTO `' . $this->tableUser . '` SET ';
-		$query .= ' user_name=\'' . $userName . '\'';
-		$query .= ' && user_password=\'' . $userPassword . '\'';
-		$query .= ' && user_email=\'' . $userEmail . '\'';
+		$query .= ' user_id=\'' . $userId . '\'';
+		$query .= ' ,user_name=\'' . $userName . '\'';
+		$query .= ' ,user_password=\'' . $userPassword . '\'';
+		$query .= ' ,user_email=\'' . $userEmail . '\'';
 		echo $query . '<br>';
 		$result= mysql_query($query, self :: db());
 		if (!$result)
@@ -53,17 +50,35 @@ class x4user extends x4tension
 	}
 	public function login($userName, $userPassword)
 	{
-		$this->unsetUser();
 		$this->convertUserName($userName);
 		$this->convertUserPassword($userPassword);
 		return $this->loginInternal($userName, $userPassword);
 	}
+	public function loginForAdmin($userName)
+	{
+		$this->convertUserName($userName);
+		$query= 'SELECT * FROM `' . $this->tableUser . '` WHERE user_name=\'' . $userName . '\'';
+		echo $query . '<br>';
+		$result= mysql_query($query, self :: db());
+		if (!$result)
+		{
+			throw new exception('SQL: ' . mysql_error(self :: db()));
+		}
+		if (mysql_num_rows($result) == 0)
+		{
+			throw new exception('loginForAdmin can not find username: ' . $userName);
+		}
+		$row= mysql_fetch_array($result);
+		mysql_free_result($result);
+		return $this->loginInternal($userName, stripslashes($row['user_password']));
+	}
 	private function loginInternal(& $userName, & $userPassword)
 	{
+		$this->unsetUser();
 		$query= 'SELECT *';
 		$query .= ' FROM `' . $this->tableUser . '`';
-		$query .= ' WHERE user_name=`' . $userName . '`';
-		$query .= ' && user_password=`' . $userPassword . '`';
+		$query .= ' WHERE user_name=\'' . $userName . '\'';
+		$query .= ' && user_password=\'' . $userPassword . '\'';
 		echo $query . '<br>';
 		$result= mysql_query($query, self :: db());
 		if (!$result)
@@ -100,6 +115,10 @@ class x4user extends x4tension
 		$this->userBanedTo= stripslashes($row['user_baned_to']);
 		return $this->userId;
 	}
+	public function getUserId()
+	{
+		return $this->userId;
+	}
 	public function setUserPassword($userPassword)
 	{
 		if ($this->userId === null)
@@ -107,12 +126,20 @@ class x4user extends x4tension
 			throw new exception('Log in to change your password');
 		}
 	}
+	public function getUserPassword()
+	{
+		return $this->userPassword;
+	}
 	public function setUserEmail($userEmail)
 	{
 		if ($this->userId === null)
 		{
 			throw new exception('Log in to change your email');
 		}
+	}
+	public function getUserEmail()
+	{
+		return $this->userEmail;
 	}
 	public function setUserActivated($userId, $userActivated)
 	{
@@ -130,6 +157,11 @@ class x4user extends x4tension
 		{
 			throw new exception('SQL: ' . mysql_error(self :: db()));
 		}
+		$this->userActivated= $userActivated;
+	}
+	public function getUserActivated()
+	{
+		return $this->userActivated;
 	}
 	public function setUserBaned($userId, $userBaned)
 	{
@@ -148,22 +180,30 @@ class x4user extends x4tension
 			throw new exception('SQL: ' . mysql_error(self :: db()));
 		}
 	}
-	public function setUserBanedTo($userId, $userBanedTo)
+	public function getUserBaned()
 	{
-		if (!$this->checkExistUserId($userId))
+		return $this->userBaned;
+	}
+	public function setUserBanedTo($userBanedTo)
+	{
+		if ($this->userId === null)
 		{
-			throw new exception('User id does not exist to set banTo: ' . $userId . ' : ' . $userBanedTo);
+			throw new exception('Log in to change userBanedTo');
 		}
 		$this->checkSettingUserBanedTo($userBanedTo);
 		$query= 'UPDATE `' . $this->tableUser . '`';
 		$query .= ' SET user_baned_to=\'' . $userBanedTo . '\'';
-		$query .= ' WHERE user_id=\'' . $userId . '\'';
+		$query .= ' WHERE user_id=\'' . $this->userId . '\'';
 		echo $query . '<br>';
 		$result= mysql_query($query, self :: db());
 		if (!$result)
 		{
 			throw new exception('SQL: ' . mysql_error(self :: db()));
 		}
+	}
+	public function getUserBanedTo()
+	{
+		return $this->userBanedTo;
 	}
 	private function checkTable()
 	{
@@ -193,9 +233,9 @@ class x4user extends x4tension
 	private function checkExistUserId($userId)
 	{
 		$this->convertUserId($userId);
-		$query= 'SELECT COUNT(*) AS total';
+		$query= 'SELECT COUNT(user_id) AS total';
 		$query .= ' FROM `' . $this->tableUser . '`';
-		$query .= ' WHERE user_id=`' . $userId . '`';
+		$query .= ' WHERE user_id=\'' . $userId . '\'';
 		echo $query . '<br>';
 		$result= mysql_query($query, self :: db());
 		if (!$result)
@@ -217,9 +257,9 @@ class x4user extends x4tension
 	private function checkExistUserName($userName)
 	{
 		$this->convertUserName($userName);
-		$query= 'SELECT COUNT(*) AS total';
+		$query= 'SELECT COUNT(user_name) AS total';
 		$query .= ' FROM `' . $this->tableUser . '`';
-		$query .= ' WHERE user_name=`' . $userName . '`';
+		$query .= ' WHERE user_name=\'' . $userName . '\'';
 		echo $query . '<br>';
 		$result= mysql_query($query, self :: db());
 		if (!$result)
@@ -243,7 +283,7 @@ class x4user extends x4tension
 		$this->convertUserName($userEmail);
 		$query= 'SELECT COUNT(*) AS total';
 		$query .= ' FROM `' . $this->tableUser . '`';
-		$query .= ' WHERE user_email=`' . $userEmail . '`';
+		$query .= ' WHERE user_email=\'' . $userEmail . '\'';
 		echo $query . '<br>';
 		$result= mysql_query($query, self :: db());
 		if (!$result)
