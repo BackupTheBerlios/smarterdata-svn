@@ -57,7 +57,7 @@ class x4user extends x4tension
 	public function loginForAdmin($userName)
 	{
 		$this->convertUserName($userName);
-		$query= 'SELECT * FROM `' . $this->tableUser . '` WHERE user_name=\'' . $userName . '\'';
+		$query= 'SELECT user_password FROM `' . $this->tableUser . '` WHERE user_name=\'' . $userName . '\'';
 		echo $query . '<br>';
 		$result= mysql_query($query, self :: db());
 		if (!$result)

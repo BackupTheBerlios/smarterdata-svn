@@ -1,7 +1,7 @@
 <?php
 class x4tension extends x4core
 {
-	public function __construct()
+	public final function __construct()
 	{
 		if (self :: isInitialized() !== true)
 		{
@@ -16,15 +16,8 @@ class x4tension extends x4core
 	}
 	public function __destruct()
 	{
-		$this->store();
 	}
-	protected function initPart()
-	{
-	}
-	protected function load()
-	{
-	}
-	protected function store()
+	public function initPart()
 	{
 	}
 }
