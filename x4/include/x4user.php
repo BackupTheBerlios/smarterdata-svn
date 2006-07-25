@@ -141,16 +141,16 @@ class x4user extends x4tension
 	{
 		return $this->userEmail;
 	}
-	public function setUserActivated($userId, $userActivated)
+	public function setUserActivated($userActivated)
 	{
-		if (!$this->checkExistUserId($userId))
+		if (!$this->checkExistUserId($this->userId))
 		{
-			throw new exception('User id does not exist to set banTo: ' . $userId . ' : ' . $userActivated);
+			throw new exception('User id does not exist to set banTo: ' . $this->userId . ' : ' . $userActivated);
 		}
 		$this->checkSettingUserActivated($userActivated);
 		$query= 'UPDATE `' . $this->tableUser . '`';
 		$query .= ' SET user_activated=\'' . $userActivated . '\'';
-		$query .= ' WHERE user_id=\'' . $userId . '\'';
+		$query .= ' WHERE user_id=\'' . $this->userId . '\'';
 		echo $query . '<br>';
 		$result= mysql_query($query, self :: db());
 		if (!$result)
@@ -163,7 +163,7 @@ class x4user extends x4tension
 	{
 		return $this->userActivated;
 	}
-	public function setUserBaned($userId, $userBaned)
+	public function setUserBaned($userBaned)
 	{
 		if (!$this->checkExistUserId($userId))
 		{
@@ -204,6 +204,18 @@ class x4user extends x4tension
 	public function getUserBanedTo()
 	{
 		return $this->userBanedTo;
+	}
+	public function getUserType()
+	{
+		if ($this->userName == $this->anonymousUserName)
+		{
+			return false;
+		}
+		return true;
+	}
+	public function getUserName()
+	{
+		return $this->userName;
 	}
 	private function checkTable()
 	{
@@ -361,14 +373,14 @@ class x4user extends x4tension
 	}
 	private function checkSettingUserActivated(& $userActivated)
 	{
-		if ($userActivated !== 'Y' || $userActivated !== 'N')
+		if ($userActivated !== 'Y' && $userActivated !== 'N')
 		{
 			throw new exception('Setting activated is: ' . $userActivated . ' not (Y/N)');
 		}
 	}
 	private function checkSettingUserBaned(& $userBaned)
 	{
-		if ($userBaned !== 'Y' || $userBaned !== 'N')
+		if ($userBaned !== 'Y' && $userBaned !== 'N')
 		{
 			throw new exception('Setting baned is: ' . $userBaned . ' not (Y/N)');
 		}
