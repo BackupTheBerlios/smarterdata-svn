@@ -1,6 +1,5 @@
 <?php
 require_once str_replace('\\', '/', dirname(__FILE__)) . '/include/userexceptions.php';
-require_once str_replace('\\', '/', dirname(__FILE__)) . '/include/usercore.php';
 require_once str_replace('\\', '/', dirname(__FILE__)) . '/include/user.php';
 $_G['db']= mysql_connect('localhost', 'test', 'test');
 if (!mysql_select_db('test', $_G['db']))
