@@ -1,5 +1,6 @@
 <?php
 require_once str_replace('\\', '/', dirname(__FILE__)) . '/include/UserExceptions.php';
+require_once str_replace('\\', '/', dirname(__FILE__)) . '/include/UserManager.php';
 require_once str_replace('\\', '/', dirname(__FILE__)) . '/include/User.php';
 $_G['db']= mysql_connect('localhost', 'test', 'test');
 if (!mysql_select_db('test', $_G['db']))
@@ -8,26 +9,27 @@ if (!mysql_select_db('test', $_G['db']))
 }
 try
 {
-	if(usercore::checkUserExist('root')==false)
+	$userManager= new UserManager(& $_G['db']);
+	if ($userManager->checkUserExist('root') == false)
 	{
-		usercore::createUser('root', 'rootpw', 'root@localhost');
+		$userManager->createUser('root', 'rootpw', 'root@localhost');
 	}
-	$user= new user(& $_G['db'], 'root', 'rootpw');
+	$user= $userManager->loginAsUser('root', 'rootpw');
 }
-catch( exceptionUserLogin $error)
+catch (exceptionUserLogin $error)
 {
-	echo '<pre>'.print_r($error->getMessage(), 1).'</pre>';;
+	echo '<pre>' . print_r($error->getMessage(), 1) . '</pre>';
 }
-catch( exceptionUserProblem $error)
+catch (exceptionUserProblem $error)
 {
-	echo '<pre>'.print_r($error->getMessage(), 1).'</pre>';;
+	echo '<pre>' . print_r($error->getMessage(), 1) . '</pre>';
 }
-catch( exceptionUserSql $error)
+catch (exceptionUserSql $error)
 {
-	echo '<pre>'.print_r($error->getMessage(), 1).'</pre>';;
+	echo '<pre>' . print_r($error->getMessage(), 1) . '</pre>';
 }
-catch( exceptionUserSet $error)
+catch (exceptionUserSet $error)
 {
-	echo '<pre>'.print_r($error->getMessage(), 1).'</pre>';;
+	echo '<pre>' . print_r($error->getMessage(), 1) . '</pre>';
 }
 ?>
