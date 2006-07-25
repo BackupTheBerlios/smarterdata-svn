@@ -14,10 +14,14 @@ class x4tension extends x4core
 		parent :: setAllowChangeInit(false);
 		$this->initPart();
 	}
-	public function __destruct()
+	public final function __destruct()
 	{
+		$this->deInitPart();
 	}
 	public function initPart()
+	{
+	}
+	public function deInitPart()
 	{
 	}
 }

@@ -1,12 +1,21 @@
 <?php
 require_once str_replace('\\', '/', dirname(__FILE__)) . '/../include.php';
-if ($user->getUserId() === false)
+if ($user->getUserType() === false)
 {
-	try
+	if (isset ($_POST['userName']) && isset ($_POST['userPassword']))
 	{
-		$user->login($_POST['userName'], $_POST['userPassword']);
+		try
+		{
+			$user->login($_POST['userName'], $_POST['userPassword']);
+		}
+		catch (exception $error)
+		{
+			echo $error;
+			require $rootpath . '/admin/templates/login.html';
+			exit (1);
+		}
 	}
-	catch (exception $error)
+	else
 	{
 		echo $error;
 		require $rootpath . '/admin/templates/login.html';

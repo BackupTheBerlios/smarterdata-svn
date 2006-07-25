@@ -17,9 +17,12 @@ class x4user extends x4tension
 		$this->tableUser= 'users_main';
 		$this->checkTable();
 		$this->checkAnonymous();
-		if (isset ($_SESSION['userName']) && isset ($_SESSION['userPassword']))
+	}
+	public function deInitPart()
+	{
+		if ($this->getUserType() === false)
 		{
-			$this->loginInternal($_SESSION['userName'], $_SESSION['userPassword']);
+			$this->unsetUser();
 		}
 	}
 	public function newUser($userName, $userPassword, $userEmail)
@@ -165,14 +168,14 @@ class x4user extends x4tension
 	}
 	public function setUserBaned($userBaned)
 	{
-		if (!$this->checkExistUserId($userId))
+		if (!$this->checkExistUserId($this->userId))
 		{
-			throw new exception('User id does not exist to set ban: ' . $userId . ' : ' . $userBaned);
+			throw new exception('User id does not exist to set ban: ' . $this->userId . ' : ' . $userBaned);
 		}
 		$this->checkSettingUserBaned($userBaned);
 		$query= 'UPDATE `' . $this->tableUser . '`';
 		$query .= ' SET user_baned=\'' . $userBaned . '\'';
-		$query .= ' WHERE user_id=\'' . $userId . '\'';
+		$query .= ' WHERE user_id=\'' . $this->userId . '\'';
 		echo $query . '<br>';
 		$result= mysql_query($query, self :: db());
 		if (!$result)
@@ -346,13 +349,6 @@ class x4user extends x4tension
 		$this->userActivated= null;
 		$this->userBaned= null;
 		$this->userBanedTo= null;
-		$_SESSION['userId']= null;
-		$_SESSION['userName']= null;
-		$_SESSION['userPassword']= null;
-		$_SESSION['userEmail']= null;
-		$_SESSION['userActivated']= null;
-		$_SESSION['userBaned']= null;
-		$_SESSION['userBanedTo']= null;
 	}
 	private function convertUserId(& $userId)
 	{
