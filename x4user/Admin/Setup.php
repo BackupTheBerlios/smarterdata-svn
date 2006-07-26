@@ -49,7 +49,7 @@ if ($currentOk === true)
 }
 if ($currentOk === false)
 {
-	require $directoryRoot . '/Admin/Templates/Setup.01.php';
+	require $directoryRoot . '/Admin/Templates/Setup.html';
 }
 die();
 ?>
