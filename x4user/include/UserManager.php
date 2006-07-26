@@ -172,7 +172,7 @@ class UserManager
 			throw new exceptionUserSql('SQL: ' . mysql_error($this->db));
 		}
 	}
-	public function & loginAsUser($userName= null, $userPassword= null)
+	public function loginAsUser($userName= null, $userPassword= null)
 	{
 		if ($userName === null)
 		{
