@@ -11,7 +11,7 @@ class UserManager
 	private $tablePrefix;
 	public function __construct(& $db, $tablePrefix)
 	{
-		$this->tablePrefix = $tablePrefix;
+		$this->tablePrefix= $tablePrefix;
 		$this->tableUser= $tablePrefix . 'users';
 		$this->db= & $db;
 		$this->checkTable();
@@ -45,6 +45,20 @@ class UserManager
 		$query .= ' ORDER BY user_name ASC';
 		$query .= ' LIMIT ' . (int) ($currentPage * $usersPerPage) . ',' . (int) $usersPerPage;
 		$query= $this->query($query, $queryData);
+		$result= mysql_query($query);
+		if (mysql_num_rows($result) == 0)
+		{
+			return false;
+		}
+		$return= array ();
+		while ($row= mysql_fetch_array($result))
+		{
+			$return[]= array (
+				'userId' => stripslashes($row['user_id']
+			), 'userName' => stripslashes($row['user_name']), 'userEmail' => stripslashes($row['user_email']));
+		}
+		mysql_free_result($result);
+		return $return;
 	}
 	protected function prepareUserPassword($userPassword)
 	{

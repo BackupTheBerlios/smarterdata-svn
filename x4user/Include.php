@@ -6,6 +6,7 @@ $fileClassUserExceptions= $directoryRoot . '/include/UserExceptions.php';
 $fileClassUserManager= $directoryRoot . '/include/UserManager.php';
 $fileClassUser= $directoryRoot . '/include/User.php';
 $fileConfig= $directoryRoot . '/include/Configuration/Config.php';
+$fileSmarterTemplate=$directoryRoot . '/include/SmarterTemplate/class.SmarterTemplate.php';
 $currentRequest= parse_url($_SERVER['REQUEST_URI']);
 $currentRequestFile= basename($currentRequest['path']);
 $userManager= null;
@@ -20,6 +21,7 @@ $databaseTableprefix= null;
 require_once $fileClassUserExceptions;
 require_once $fileClassUserManager;
 require_once $fileClassUser;
+require_once $fileSmarterTemplate;
 if (file_exists($fileConfig))
 {
 	require_once $fileConfig;
