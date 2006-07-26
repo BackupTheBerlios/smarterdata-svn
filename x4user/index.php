@@ -1,10 +1,7 @@
 <?php
-require_once str_replace('\\', '/', dirname(__FILE__)) . '/include/UserExceptions.php';
-require_once str_replace('\\', '/', dirname(__FILE__)) . '/include/UserManager.php';
-require_once str_replace('\\', '/', dirname(__FILE__)) . '/include/User.php';
+require_once str_replace('\\', '/', dirname(__FILE__)) . '/Include.php';
 try
 {
-	$userManager= new UserManager(& $_G['db']);
 	if ($userManager->checkUserExist('root') == false)
 	{
 		$userManager->createUser('root', 'rootpw', 'root@localhost');

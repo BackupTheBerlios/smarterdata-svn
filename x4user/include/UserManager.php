@@ -8,8 +8,11 @@ class UserManager
 	protected $anonUserPassword= 'anonymous';
 	protected $anonUserEmail= 'anonymous@localhost';
 	protected $db;
-	public function __construct(& $db)
+	private $tablePrefix;
+	public function __construct(& $db, $tablePrefix)
 	{
+		$this->tablePrefix = $tablePrefix;
+		$this->tableUser= $tablePrefix . 'users';
 		$this->db= & $db;
 		$this->checkTable();
 		$this->checkUserAnonymous();
@@ -179,7 +182,7 @@ class UserManager
 			$userName= $this->anonUserName;
 			$userPassword= $this->anonUserPassword;
 		}
-		return new User(& $this->db, $userName, $userPassword);
+		return new User(& $this->db, $this->tablePrefix, $userName, $userPassword);
 	}
 }
 ?>

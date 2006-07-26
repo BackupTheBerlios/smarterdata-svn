@@ -1,3 +1,10 @@
+<?php
+foreach ($currentErrors as $error)
+{
+	echo htmlentities($error) . '<br>';
+}
+?>
+<form action="<?php echo $currentRequestFile; ?>" method="post">
 <table>
 	<tr>
 		<td 
@@ -45,3 +52,4 @@
 				value="Create"></td>
 	</tr>
 </table>
+</form>

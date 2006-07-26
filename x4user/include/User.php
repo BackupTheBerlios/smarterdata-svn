@@ -6,9 +6,9 @@ class User extends UserManager
 	protected $userPassword= null;
 	protected $userEmail= null;
 	protected $userLogedIn= false;
-	public function __construct(& $db, $userName, $userPassword)
+	public function __construct(& $db, $tablePrefix, $userName, $userPassword)
 	{
-		$this->db= & $db;
+		parent::__construct($db, $tablePrefix);
 		$this->login($userName, $userPassword);
 	}
 	public function setUserLogedIn($userLogedIn)
