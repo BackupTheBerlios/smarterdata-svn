@@ -1,0 +1,32 @@
+<!-- IF error>"" -->
+	<!-- BEGIN error -->{htmlentities:value}<!-- END error -->
+<!-- ENDIF Error>"" -->
+<form action="{currentRequestFile}" method="POST">
+<input type="hidden" name="action" value="addUser">
+<table>
+	<tr>
+		<td>Username</td>
+		<td><input 
+			type="text" 
+			name="userName" 
+			value="{userName}"></td>
+	</tr>
+	<tr>
+		<td>Password</td>
+		<td><input 
+			type="password" 
+			name="userPassword" 
+			value="{userPassword}"></td>
+	</tr>
+	<tr>
+		<td>eMail</td>
+		<td><input 
+			type="text" 
+			name="userEmail" 
+			value="{userEmail}"></td>
+	</tr>
+	<tr>
+		<td colspan="3"><input type="submit" value="Update"></td>
+	</tr>
+</table>
+</form>

@@ -49,7 +49,16 @@ if ($currentOk === true)
 }
 if ($currentOk === false)
 {
-	require $directoryRoot . '/Admin/Templates/Setup.html';
+	$tplvar['_POST']= $_POST;
+	foreach ($currentErrors as $error)
+	{
+		$tplvar['error'][]['value']= $error;
+	}
+	$tplvar['_POST']= $_POST;
+	$tplvar['currentRequestFile']= 'Setup.php';
+	$tpl= new SmarterTemplate($directoryRoot . '/Admin/Templates/Setup.html');
+	$tpl->assign($tplvar);
+	echo $tpl->result();
 }
 die();
 ?>

@@ -81,7 +81,7 @@ class UserManager
 				}
 				if (!isset ($queryData[$number]))
 				{
-					throw new exceptionProblem('Data not found for ' . ($number) . 'th value: ' . $queryStringOriginal);
+					throw new exceptionUserProblem('Data not found for ' . ($number) . 'th value: ' . $queryStringOriginal);
 				}
 				else
 				{
@@ -163,6 +163,7 @@ class UserManager
 		$queryData[]= $userName;
 		$queryData[]= $userPassword;
 		$queryData[]= $userEmail;
+		echo '<pre>' . print_r($queryData, 1) . '</pre>';
 		$query= $this->query($query, $queryData);
 		$result= mysql_query($query, $this->db);
 		if (!$result)
@@ -197,6 +198,24 @@ class UserManager
 			$userPassword= $this->anonUserPassword;
 		}
 		return new User(& $this->db, $this->tablePrefix, $userName, $userPassword);
+	}
+	public function getUserById($userId)
+	{
+		$query= 'SELECT user_name, user_password FROM `' . $this->tableUser . '` WHERE user_id=:?:';
+		$queryData[]= (int) $userId;
+		$query= $this->query($query, $queryData);
+		$result= mysql_query($query);
+		if (!$result)
+		{
+			throw new exceptionUserSql('Error sql: ' . mysql_error($this->db));
+		}
+		if (mysql_num_rows($result) == 0)
+		{
+			throw new exceptionUserProblem('Error, no result');
+		}
+		$row= mysql_fetch_array($result);
+		mysql_free_result($result);
+		return new User(& $this->db, $this->tablePrefix, stripslashes($row['user_name']), stripslashes($row['user_password']), true);
 	}
 }
 ?>

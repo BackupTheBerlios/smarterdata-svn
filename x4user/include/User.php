@@ -6,10 +6,10 @@ class User extends UserManager
 	protected $userPassword= null;
 	protected $userEmail= null;
 	protected $userLogedIn= false;
-	public function __construct(& $db, $tablePrefix, $userName, $userPassword)
+	public function __construct(& $db, $tablePrefix, $userName, $userPassword, $encodedPassword= false)
 	{
-		parent::__construct($db, $tablePrefix);
-		$this->login($userName, $userPassword);
+		parent :: __construct($db, $tablePrefix);
+		$this->login($userName, $userPassword, $encodedPassword);
 	}
 	public function setUserLogedIn($userLogedIn)
 	{
@@ -81,7 +81,7 @@ class User extends UserManager
 			throw new exceptionNotLogedIn('Please login first to use setUserLogedIn');
 		}
 	}
-	protected function login($userName, $userPassword)
+	protected function login($userName, $userPassword, $encodedPassword)
 	{
 		$query= 'SELECT *';
 		$query .= ' FROM `' . $this->tableUser . '`';
@@ -89,7 +89,14 @@ class User extends UserManager
 		$query .= ' user_name=:?:';
 		$queryData[]= $userName;
 		$query .= ' && user_password=:?:';
-		$queryData[]= $this->prepareUserPassword($userPassword);
+		if ($encodedPassword === false)
+		{
+			$queryData[]= $this->prepareUserPassword($userPassword);
+		}
+		else
+		{
+			$queryData[]= $userPassword;
+		}
 		$query= $this->query($query, $queryData);
 		echo $query;
 		$result= mysql_query($query);
@@ -101,7 +108,13 @@ class User extends UserManager
 		{
 			throw new exceptionUserLogin('Username/Password unknown');
 		}
+		$row= mysql_fetch_array($result);
+		mysql_free_result($result);
 		$this->userLogedIn= true;
+		$this->userId= stripslashes($row['user_id']);
+		$this->userName= stripslashes($row['user_name']);
+		$this->userPassword= stripslashes($row['user_password']);
+		$this->userEmail= stripslashes($row['user_email']);
 	}
 }
 ?>
